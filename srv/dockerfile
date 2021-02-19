@@ -1,0 +1,19 @@
+FROM alpine:latest
+MAINTAINER ole
+
+ENV TIMEZONE="Europe/Berlin"
+
+RUN apk --update add \
+    bash \
+    curl \
+    procps \
+    vim
+
+RUN mkdir -p /caddy
+COPY ./Caddyfile /caddy/
+COPY ./drun.sh /
+
+HEALTHCHECK --interval=60s --timeout=5s --retries=3 \
+    CMD pgrep caddy
+
+CMD ["/bin/bash", "/drun.sh"]

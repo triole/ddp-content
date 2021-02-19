@@ -1,0 +1,58 @@
+**DDP-Bildung**
+
+**Standard III.a):\
+DDI-Standard zur Versionierung**
+
+Versionierungshistorie
+======================
+
+  Version   Typ        Datum                erstellende Person   
+  --------- ---------- -------------------- -------------------- -----
+  1         20200509   Stichpunktsammlung   09.06.2020           sen
+  2         20201105   Ergänzungen          05.11.2020           sen
+  3         20201125   Version für RDMO     25.11.2020           sen
+                                                                 
+                                                                 
+                                                                 
+
+Versionierungsstandard der *Data Documentation Initative* (DDI) z. B.
+*1.0.0*, *2.1.19*, *2.17.20* etc.
+
+der Standard basiert auf einem dreigliedrigen System
+
+-   die erste Stelle *1.* (major) zählt bei großen Veränderungen an den
+    Daten aufwärts, also z :b. wenn neue Fälle oder weitere exogene
+    Informationen hinzugefügt werden,
+
+-   die zweite Stelle *0.* (minor) spiegelt kleine Veränderungen in den
+    Daten wieder, die aus der vorherigen Version der Daten heraus
+    repliziert werden können, wie z. B: die Bildung von Indizes auf
+    Basis von in den Daten enthaltenen Informationen bzw. Variablen,
+
+-   die dritte Stelle *0* (revision) gibt marginale Veränderungen in den
+    Daten wieder, etwa die Verbesserung von Rechtschreibfehlern in
+    Variablen- oder Wertelabels, die keinen Einfluss auf die Daten als
+    solche haben.
+
+Der Versionsstandard nach DDI gibt somit bedingt darüber Auskunft,
+welcher Art die Veränderung im Vergleich zur Vorgängerversion ist. Dabei
+
+-   wird die Ausgangsdatei immer mit der Version *1.0.0* gekennzeichnet,
+
+-   werden bei einer Aufwärtszählung der ersten Stelle (major) die
+    beiden anderen Stellen (minor und revision) wieder auf *0*
+    gesetzt, d. h. auf Version *1.4.18* folgt Version *2.0.*0,
+
+-   kann ggf. die letzte Stelle (revision) weggelassen werden und der
+    Standard auf die beiden ersten Stellen (major und minor) verkürzt
+    werden, also z. B. *1.0*, *2.1*, *2.17*.
+
+a.  Schließlich gibt es spezielle Softwarelösungen zur Versionierung von
+    Daten und Dateien, wie etwa *Bazaar* oder *Git* (siehe hierzu
+    weiterführende Ressourcen im vorliegenden Modul). Analog bieten
+    verschiedene Cloud-Dienst zur Speicherung, wie z. B. *Dropbox*, und
+    Bearbeitung, wie z. B. *Google-Docs* von Dateien
+    Versionierungssysteme an, die es Nutzenden ermöglichen, ältere
+    Versionen ihrer Daten und Dateien wieder herzustellen (siehe hierzu
+    auch das Thema *Back-Ups* in den *Standards* und *Anwendungsfällen*
+    des vorliegenden Moduls).

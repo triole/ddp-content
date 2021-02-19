@@ -1,0 +1,14 @@
+{
+    admin :2021
+    debug
+    http_port 80
+    auto_https disable_redirects
+}
+
+:80 {
+    templates
+    file_server {
+        browse
+        root /vol/content
+    }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <condition dc:uri="https://localhost/rdmo/test/conditions/dataset_links_yesno">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>dataset_links_yesno</key>
+        <dc:comment/>
+        <source dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/links_yesno"/>
+        <relation>eq</relation>
+        <target_text>1</target_text>
+        <target_option/>
+    </condition>
+    <condition dc:uri="https://localhost/rdmo/test/conditions/dataset_reuse_copyrighted_yesno">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>dataset_reuse_copyrighted_yesno</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/reuse_copyrighted_yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+    <condition dc:uri="https://localhost/rdmo/test/conditions/ethics_committee_yesno">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>ethics_committee_yesno</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/ethics_committee_yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+</rdmo>

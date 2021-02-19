@@ -1,0 +1,91 @@
+**DDP-Bildung**
+
+**Anwendungsfall III.a):\
+Die Versionierung von Daten und Dateien**
+
+Versionierungshistorie
+======================
+
+  Version   Typ        Datum                              erstellende Person   
+  --------- ---------- ---------------------------------- -------------------- -----
+  1\.       20200609   Stichpunktsammlung                 09.06.2020           sen
+                       Ergänzungen aus Telko vom 24.06.   25.06.2020           sen
+  2         20200710   Bearbeitung                        10.07.2020           sen
+  3         20201105   Ergänzungen                        05.11.2020           sen
+            20201125   Version für RDMO                   25.11.2020           sen
+                                                                               
+
+Die Versionierung von Daten und Dateien geht mit drei grundlegenden
+Fragen einher:
+
+1.  Wie wird versioniert?
+
+2.  Wo wird versioniert?
+
+3.  Unter welchen Bedingungen (wann) wird eine neue Version erstellt?
+
+Jede dieser drei Fragen muss im jeweiligen Forschungsprojekt im Kontext
+der Erstellung von Versionierungsregeln eindeutig geklärt und
+verschriftlicht werden.
+
+Im Zusammenhang mit der Planung der Dateibenennung sollten die
+Regelungen zur Versionierung der Dateien definiert und schriftlich
+festgehalten werden.
+
+1.  Art der Versionierung (in der Datei, im Dateinamen)
+
+So können Versionsnummern beispielsweise im Dateinamen (siehe *Benennung
+von Daten und Dateien* in diesem Anwendungsfall \[*fiktives Bsp.*\]), in
+der Datei selber, beispielsweise auf dem Deckblatt eines Dokuments
+festgehalten werden oder als Variable (Spalte) in einer Datenmatrix
+enthalten sein.
+
+Die Version selber kann dabei beispielsweise in Form einer fortlaufenden
+Nummerierung vorgenommen werden, der ggf. ein „v" (für Version)
+vorangestellt wird, also beispielsweis v1, v2, v3, ..., v165 usw. Oder
+sie wird in Form des Datums der letzten Bearbeitung vorgenommen werden.
+Schließlich haben sich verschiedene Versionierungsstandards etabliert,
+wie etwa jener der *Data Documentation Initative* (DDI) (siehe
+*Standards* des vorliegenden Moduls). Darüber hinaus existiert spezielle
+Software zur Versionierung von Daten und Dateien, wie z. B. *Bazaar*
+oder *Git* (siehe *weiterführende Ressourcen* im vorliegenden Modul).
+Ebenso bieten eine Reihe von Cloud- und Online-Diensten zum Erstellen
+und Bearbeiten von Daten und Dateien automatische
+Versionierungsservices, wie etwa bei *Dropbox,* oder *Google Docs*.
+
+2.  Ort der Versionierung (in der Datei, im Dateinamen)
+
+Die konkrete Versionsnummer von Daten und Dateien lassen sich an ganz
+unterschiedlichen „Orten" festhalten:
+
+a.  im Dateinamen, z. B. als Suffix der Datei, so dass sich verschiedene
+    Versionen einer Dateien schnell nach ihrer Aktualität sortieren
+    lassen;
+
+b.  in der Datei selber, etwa auf dem Deckblatt oder in der Kopf- bzw.
+    Fußzeile eines Dokuments sowie als Teil der Daten selbst, z. B. in
+    Form einer Variable in einer Datenmatrix,
+
+c.  über die Funktionswiese der Versionierung eines Cloud-Dienstes oder
+
+d.  in Form einer eigenen Dokumentation der Versionierungshistorie, die
+    auch angeben kann, welche Änderungen konkret an den Daten bzw. einer
+    Datei vorgenommen wurden.
+
+```{=html}
+<!-- -->
+```
+3.  Bedingungen (Regeln) zum Erstellen einer neuen Version
+
+Letztendlich muss im Rahmen der Erstellung von Versionierungsregeln
+definiert werden, wann eine neue Version der Daten bzw. einer Datei
+erstellt wurde, z. B. Wann immer die Daten bzw. die Datei
+
+-   bearbeitet wurde, unabhängig von der tatsächlichen Veränderung,
+
+-   derart verändert wurden, dass mit der Bearbeitung ein bestimmtes, im
+    jeweiligen Forschungsprojekt exakt zu definierendes Maß an
+    Aufwendungen einherging,
+
+-   derart verändert wurden, dass sich die neue Fassung der Daten oder
+    der Datei nicht aus ihrer vorherigen Version replizieren lässt.

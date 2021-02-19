@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <view dc:uri="https://localhost/rdmo/test/views/view1">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>view1</key>
+        <dc:comment/>
+        <title lang="en"/>
+        <help lang="en"/>
+        <title lang="de"/>
+        <help lang="de"/>
+        <title lang="fr"/>
+        <help lang="fr"/>
+        <title lang="it"/>
+        <help lang="it"/>
+        <catalogs/>
+        <template>{% load view_tags %}</template>
+    </view>
+    <view dc:uri="https://localhost/rdmo/test/views/view2">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>view2</key>
+        <dc:comment/>
+        <title lang="en"/>
+        <help lang="en"/>
+        <title lang="de"/>
+        <help lang="de"/>
+        <title lang="fr"/>
+        <help lang="fr"/>
+        <title lang="it"/>
+        <help lang="it"/>
+        <catalogs/>
+        <template>{% load view_tags %}</template>
+    </view>
+</rdmo>

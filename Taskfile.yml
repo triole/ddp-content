@@ -1,0 +1,15 @@
+version: '3'
+
+tasks:
+    default:
+        cmds:
+            - task: push
+
+    push:
+        cmds:
+            - cmd: sh/push-xmls.sh
+
+    serve:
+        desc: run local content server
+        cmds:
+            - cmd: cd srv && sudo docker-compose up -d

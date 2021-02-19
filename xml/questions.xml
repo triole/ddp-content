@@ -1,0 +1,1016 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://localhost/rdmo/test/questions/ddp">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>ddp</key>
+		<dc:comment>ddp bildung</dc:comment>
+		<order>0</order>
+		<title lang="en">ddp</title>
+		<title lang="de"/>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</catalog>
+	<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>data_use1</key>
+		<path>ddp/data_use1</path>
+		<dc:comment>einleitung</dc:comment>
+		<catalog dc:uri="https://localhost/rdmo/test/questions/ddp"/>
+		<order>0</order>
+		<title lang="en"/>
+		<title lang="de">Allgemein</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>ddp/data_use1/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Datennutzung</title>
+		<help lang="de">Der folgende Fragenkatalog dient der Spezifizierung des Domain-Data-Protokolls für Ihr individuelles [projekt](https://www.heise.de) und die darin zu erhebenden, verarbeitenden und archivierenden Daten. Bitte beantworten Sie die
+			nachfolgenden X Fragen entsprechend der aktuellen Planung in Ihrem Projekt, um Ihr projekteignes Domain-Data-Protokoll zusammengestellen. Der Fragebogen kann im weiteren Verlauf des Projektes jederzeit überarbeitet und ergänzt werden. Forschende
+			sollten die damit einhergehenden Änderungen schriftlich begründen. Achtung: Änderungen im Fragekatalog im laufenden Projekt führen (ggf.) zu einer Veränderung der Elemente in einzelnen Modulen.</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1/qs1/einleltung">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>einleltung</key>
+		<path>ddp/data_use1/qs1/einleltung</path>
+		<dc:comment>einleitung</dc:comment>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_description"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1/qs1"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">1.a) Werden in ihrem Forschungsprojekt eigene Daten erhoben?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1/qs1/reuse">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>reuse</key>
+		<path>ddp/data_use1/qs1/reuse</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/reuse_copyrighted_yesno"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1/qs1"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext</help>
+		<text lang="de">1.b) Werden in ihrem Forschungsprojekt urheberrechtlich geschützte Daten anderer nachgenutzt?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1/qs2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs2</key>
+		<path>ddp/data_use1/qs2</path>
+		<dc:comment>Der folgende Fragenkatalog dient der Spezifizierung des Domain-Data-Protokolls für Ihr individuelles Forschungsprojekt und die darin zu erhebenden, verarbeitenden und archivierenden Daten. Bitte beantworten Sie die nachfolgenden X Fragen
+			entsprechend der aktuellen Planung in Ihrem Projekt, um Ihr projekteignes Domain-Data-Protokoll zusammengestellen.</dc:comment>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Urheberrecht</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/dataset_reuse_copyrighted_yesno"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1/qs2/datatypes">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>datatypes</key>
+		<path>ddp/data_use1/qs2/datatypes</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/reuse_copyrighted_scenario"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_use1/qs2"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">1.bb) Wenn Sie urheberechtlich geschützte Daten bzw. Materialien anderer nachnutzen, handelt es sich dabei um...</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/data_types1"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/dataset_reuse_copyrighted_yesno"/>
+		</conditions>
+	</question>
+	<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>data_generation1</key>
+		<path>ddp/data_generation1</path>
+		<dc:comment/>
+		<catalog dc:uri="https://localhost/rdmo/test/questions/ddp"/>
+		<order>1</order>
+		<title lang="en"/>
+		<title lang="de">Datenerzeugung</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>ddp/data_generation1/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Datentyp</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1/qs1/">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key/>
+		<path>ddp/data_generation1/qs1/</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/scenario"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1/qs1"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">2) Welche Art von Daten wird in ihrem Forschungsprojekt erhoben bzw. verwendet (Datentyp)? [Mehrfachnennung möglich]</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/data_types2"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1/qs1/link">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>link</key>
+		<path>ddp/data_generation1/qs1/link</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/links_yesno"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1/qs1"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">3.) Werden im Rahmen Ihres Forschungsvorhabens unterschiedlichen Daten miteinander verknüpft?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1/qs2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs2</key>
+		<path>ddp/data_generation1/qs2</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Datenverknüpfung</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/dataset_links_yesno"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1/qs2/link_type">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>link_type</key>
+		<path>ddp/data_generation1/qs2/link_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/links"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1/qs2"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">3.a) Welche Art von Verknüpfung steht bei Ihnen an [Mehrfachauswahl möglich]?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/data_links"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/dataset_links_yesno"/>
+		</conditions>
+	</question>
+	<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>data_collection</key>
+		<path>ddp/data_collection</path>
+		<dc:comment/>
+		<catalog dc:uri="https://localhost/rdmo/test/questions/ddp"/>
+		<order>2</order>
+		<title lang="en"/>
+		<title lang="de">Datenerhebung</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>research_design</key>
+		<path>ddp/data_collection/research_design</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Erhebungsintrument</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design/utility">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>utility</key>
+		<path>ddp/data_collection/research_design/utility</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/utility"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">4.) Mittels welches Erhebungsinstruments werden die Datenerhoben? [Mehrfachnennung möglich] (Filterfrage)</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/utility"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design/">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key/>
+		<path>ddp/data_collection/research_design/</path>
+		<dc:comment>filterfrage, je nach antwort sollte die entsprechende folgefrage erscheinen</dc:comment>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/method"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">4.a) Mittels welcher Methodik werden die Daten erhoben? [Mehrfachnennung möglich]</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/utility_quality"/>
+			<optionset dc:uri="https://localhost/rdmo/test/options/utility_quantity"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design/frequency">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>frequency</key>
+		<path>ddp/data_collection/research_design/frequency</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/frequency"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">5.) Handelt es sich dabei um...</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/frequency"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design/by_whom">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>by_whom</key>
+		<path>ddp/data_collection/research_design/by_whom</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">6.) Durch wen werden die Daten erhoben?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/creator"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design/ethical_aspects_yesno">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>ethical_aspects_yesno</key>
+		<path>ddp/data_collection/research_design/ethical_aspects_yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/ethics_committee_yesno"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/research_design"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">7.) Bestehen im Rahmen Ihrer Datenerhebung Aspekte, die der Überprüfung durch eine Ethikkommission bedürfen?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/ethical_aspects"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/ethical_aspects">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>ethical_aspects</key>
+		<path>ddp/data_collection/ethical_aspects</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Ethische Aspekte</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/ethics_committee_yesno"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/ethical_aspects/ethical_aspects">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>ethical_aspects</key>
+		<path>ddp/data_collection/ethical_aspects/ethical_aspects</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/ethics_committee"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection/ethical_aspects"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">7.a) Worum handelt es sich dabei?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/ethical_aspects"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_content">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>data_content</key>
+		<path>ddp/data_content</path>
+		<dc:comment/>
+		<catalog dc:uri="https://localhost/rdmo/test/questions/ddp"/>
+		<order>3</order>
+		<title lang="en"/>
+		<title lang="de">Dateninhalt</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_content/qs">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs</key>
+		<path>ddp/data_content/qs</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_content"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Datenschutz</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/data_content/qs/data_content">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>data_content</key>
+		<path>ddp/data_content/qs/data_content</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_content/qs"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">8.) Werden in Ihrem Forschungsprojekt sensible bzw. datenschutzrechtlich relevante Daten im Sinne des Art.9 DSGVO verarbeitet?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://localhost/rdmo/test/questions/ddp/method">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>method</key>
+		<path>ddp/method</path>
+		<dc:comment/>
+		<catalog dc:uri="https://localhost/rdmo/test/questions/ddp"/>
+		<order>4</order>
+		<title lang="en"/>
+		<title lang="de">Methode</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/method/procedure">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>procedure</key>
+		<path>ddp/method/procedure</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/ddp/method"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Prozedur</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/method/procedure/study_population">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>study_population</key>
+		<path>ddp/method/procedure/study_population</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/study_population"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/method/procedure"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">9.) Welche der folgenden Personengruppen gehören zu Ihrer Untersuchungspopulation? [Mehrfachauswahl möglich]</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/study_population"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/method/procedure/sampling_procedure">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>sampling_procedure</key>
+		<path>ddp/method/procedure/sampling_procedure</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/sampling_procedure"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/method/procedure"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">10. Welches Stichprobenverfahren nutzen Sie in Ihrem Forschungsprojekt [Mehrfachnennungen möglich]</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/sampling_procedure"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://localhost/rdmo/test/questions/ddp/scope">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>scope</key>
+		<path>ddp/scope</path>
+		<dc:comment/>
+		<catalog dc:uri="https://localhost/rdmo/test/questions/ddp"/>
+		<order>5</order>
+		<title lang="en"/>
+		<title lang="de">Scope</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/scope/place">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>place</key>
+		<path>ddp/scope/place</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/ddp/scope"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Lokalisation</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/scope/place/institution">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>institution</key>
+		<path>ddp/scope/place/institution</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/institution"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/scope/place"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">11.) Wo planen Sie im Rahmen Ihres Forschungsprojekts die Datenerhebung durchzuführen? [Mehrfachauswahl möglich] (Filterfrage)</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/institution"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/scope/place/federal_states">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>federal_states</key>
+		<path>ddp/scope/place/federal_states</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/federal_states"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/scope/place"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">12.) In welchem Bundesland werden in Ihrem Forschungsprojekt Daten erhoben? [Mehrfachauswahl möglich] (Filterfrage)</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/scope/place/federal_state_comparison">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>federal_state_comparison</key>
+		<path>ddp/scope/place/federal_state_comparison</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/federal_state_comparison"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/scope/place"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">12.a) Planen Sie eine Vergleich zwischen den Bundesländern?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/ddp/scope/place/archived_data">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>archived_data</key>
+		<path>ddp/scope/place/archived_data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/archived_data"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/scope/place"/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">13. Bitte zitieren Sie alle archivierten Daten entsprechend der Vorgaben des persistenten Identifikators, Repositoriums, Datenarchives o.ä.</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>

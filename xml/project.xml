@@ -1,0 +1,424 @@
+<?xml version="1.0" ?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <title>DDP Deckblatt</title>
+    <description>Der folgende Fragenkatalog dient der Spezifizierung des Domain-Data-Protokolls für Ihr individuelles Forschungsprojekt und die darin zu erhebenden, verarbeitenden und archivierenden Daten. Bitte beantworten Sie die nachfolgenden X Fragen
+        entsprechend der aktuellen Planung in Ihrem Projekt, um Ihr projekteignes Domain-Data-Protokoll zusammengestellen.</description>
+    <catalog dc:uri="https://localhost/rdmo/test/questions/ddp"/>
+    <tasks>
+        <task dc:uri="http://example.com/terms/tasks/contact_IT_or_data_management_expert"/>
+        <task dc:uri="https://rdmorganiser.github.io/terms/tasks/clarify_consequences_international_law"/>
+        <task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_data_security_officer"/>
+        <task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_IT_department"/>
+        <task dc:uri="https://rdmorganiser.github.io/terms/tasks/contact_rights_owner"/>
+        <task dc:uri="https://rdmorganiser.github.io/terms/tasks/create_data_organisation_policy"/>
+        <task dc:uri="https://rdmorganiser.github.io/terms/tasks/create_naming_policy"/>
+        <task dc:uri="https://rdmorganiser.github.io/terms/tasks/determine_versioning_tool"/>
+        <task dc:uri="https://rdmorganiser.github.io/terms/tasks/finish-first-dmp"/>
+        <task dc:uri="https://rdmorganiser.github.io/terms/tasks/identify_rights_owner"/>
+        <task dc:uri="https://rdmorganiser.github.io/terms/tasks/inform_data_security_officer"/>
+    </tasks>
+    <views>
+        <view dc:uri="https://localhost/rdmo/test/views/ddp_answers"/>
+        <view dc:uri="https://localhost/rdmo/test/views/ddp_dmp"/>
+    </views>
+    <values>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/archived_data"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text>datensatz1</text>
+            <option/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:53.603041+01:00</created>
+            <updated>2020-12-15T12:55:14.237582+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/archived_data"/>
+            <set_index>0</set_index>
+            <collection_index>1</collection_index>
+            <text>datensatz2</text>
+            <option/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T12:55:14.192191+01:00</created>
+            <updated>2020-12-15T12:55:14.192197+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/archived_data"/>
+            <set_index>0</set_index>
+            <collection_index>2</collection_index>
+            <text>datensatz42</text>
+            <option/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T12:55:14.262445+01:00</created>
+            <updated>2020-12-15T12:55:14.262454+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/ethics_committee_yesno"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text>1</text>
+            <option/>
+            <value_type>boolean</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-11-12T22:23:13.170947+01:00</created>
+            <updated>2020-12-15T12:42:45.733571+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/federal_state_comparison"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text/>
+            <option/>
+            <value_type>boolean</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:53.590437+01:00</created>
+            <updated>2020-12-15T12:55:14.224300+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/federal_states"/>
+            <set_index>0</set_index>
+            <collection_index>2</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/federal_state/berlin"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:53.584358+01:00</created>
+            <updated>2020-12-15T12:55:14.211457+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/federal_states"/>
+            <set_index>0</set_index>
+            <collection_index>6</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/federal_state/hessen"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:53.601866+01:00</created>
+            <updated>2020-12-15T12:55:14.239670+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/federal_states"/>
+            <set_index>0</set_index>
+            <collection_index>11</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/federal_state/saarland"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:53.605970+01:00</created>
+            <updated>2020-12-15T12:55:14.202574+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/frequency"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/frequency/single"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:38.046104+01:00</created>
+            <updated>2020-12-15T12:42:45.697535+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/institution"/>
+            <set_index>0</set_index>
+            <collection_index>2</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/institution/authority"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:53.588912+01:00</created>
+            <updated>2020-12-15T12:55:14.182657+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/institution"/>
+            <set_index>0</set_index>
+            <collection_index>3</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/institution/institutions_of_adult_education"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:53.562577+01:00</created>
+            <updated>2020-12-15T12:55:14.230326+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/institution"/>
+            <set_index>0</set_index>
+            <collection_index>4</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/institution/universities"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:53.575884+01:00</created>
+            <updated>2020-12-15T12:55:14.213408+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/links"/>
+            <set_index>0</set_index>
+            <collection_index>2</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/data_links/method"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:26.092519+01:00</created>
+            <updated>2020-12-15T11:16:26.092529+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/links_yesno"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text>0</text>
+            <option/>
+            <value_type>boolean</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-11-12T20:37:30.740977+01:00</created>
+            <updated>2020-12-15T12:28:25.436021+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/method"/>
+            <set_index>0</set_index>
+            <collection_index>2</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/utility_quality/photography"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:38.057716+01:00</created>
+            <updated>2020-12-15T12:42:45.699035+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/reuse_copyrighted_scenario"/>
+            <set_index>0</set_index>
+            <collection_index>1</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/data_types1/items"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:19.800460+01:00</created>
+            <updated>2020-12-15T12:28:20.462527+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/reuse_copyrighted_yesno"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text>1</text>
+            <option/>
+            <value_type>boolean</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-11-12T20:29:24.387290+01:00</created>
+            <updated>2020-12-15T12:28:17.698083+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/sampling_procedure"/>
+            <set_index>0</set_index>
+            <collection_index>1</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/sampling_procedure/systematic"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:45.080493+01:00</created>
+            <updated>2020-12-15T12:54:06.327636+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/sampling_procedure"/>
+            <set_index>0</set_index>
+            <collection_index>2</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/sampling_procedure/layered"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:45.081365+01:00</created>
+            <updated>2020-12-15T12:54:06.331281+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/scenario"/>
+            <set_index>0</set_index>
+            <collection_index>2</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/data_types2/matrix"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:22.387694+01:00</created>
+            <updated>2020-12-15T12:28:25.430706+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/scenario"/>
+            <set_index>0</set_index>
+            <collection_index>3</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/data_types2/text"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:22.391781+01:00</created>
+            <updated>2020-12-15T12:28:25.437604+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/study_population"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/study_population/vulnerable_persons"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:45.077949+01:00</created>
+            <updated>2020-12-15T12:54:06.322264+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/utility"/>
+            <set_index>0</set_index>
+            <collection_index>2</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/utility/questioning"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T09:30:06.046998+01:00</created>
+            <updated>2020-12-15T12:42:45.704144+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text/>
+            <option/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-11-11T22:48:51.352133+01:00</created>
+            <updated>2020-11-11T22:48:51.352141+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator"/>
+            <set_index>0</set_index>
+            <collection_index>1</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/creator/project_members"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:38.052289+01:00</created>
+            <updated>2020-12-15T12:42:45.724524+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/creator"/>
+            <set_index>0</set_index>
+            <collection_index>2</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/creator/project_institution"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T11:16:38.053123+01:00</created>
+            <updated>2020-12-15T12:42:45.732286+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/reuse_scenario"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text/>
+            <option/>
+            <value_type>boolean</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-11-11T22:48:34.130916+01:00</created>
+            <updated>2020-11-11T22:48:34.130925+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sensitive_data"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text>0</text>
+            <option/>
+            <value_type>boolean</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-11-11T22:48:42.870977+01:00</created>
+            <updated>2020-12-15T12:54:04.725588+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_description"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text>0</text>
+            <option/>
+            <value_type>boolean</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-11-12T20:29:24.381691+01:00</created>
+            <updated>2020-12-15T12:28:17.696667+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/usage_yesno"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text/>
+            <option/>
+            <value_type>boolean</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-11-12T20:29:24.379063+01:00</created>
+            <updated>2020-11-12T22:19:25.112516+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/ethics_committee"/>
+            <set_index>0</set_index>
+            <collection_index>0</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/ethical_aspects/deception"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T12:42:52.600768+01:00</created>
+            <updated>2020-12-15T12:42:52.600777+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/ethics_committee"/>
+            <set_index>0</set_index>
+            <collection_index>1</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/ethical_aspects/patients"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T12:42:52.599619+01:00</created>
+            <updated>2020-12-15T12:42:52.599628+01:00</updated>
+        </value>
+        <value>
+            <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/ethics_committee"/>
+            <set_index>0</set_index>
+            <collection_index>3</collection_index>
+            <text/>
+            <option dc:uri="https://localhost/rdmo/test/options/ethical_aspects/psychical_pressure"/>
+            <value_type>text</value_type>
+            <unit/>
+            <external_id/>
+            <created>2020-12-15T12:42:52.601800+01:00</created>
+            <updated>2020-12-15T12:42:52.601809+01:00</updated>
+        </value>
+    </values>
+    <created>2020-11-11T22:48:21.746070+01:00</created>
+    <updated>2020-12-15T13:18:27.651895+01:00</updated>
+</project>

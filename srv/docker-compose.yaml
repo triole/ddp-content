@@ -1,0 +1,30 @@
+version: "3.7"
+
+services:
+    ddp_content:
+        build:
+            context: .
+        container_name: ddp-content
+        restart: always
+        volumes:
+            - shed:/vol/shed:ro
+            - content:/vol/content:ro
+        networks:
+            - "rdmo-dev_default"
+
+volumes:
+    shed:
+        driver_opts:
+            type: none
+            device: /home/ole/tools/shed
+            o: bind
+
+    content:
+        driver_opts:
+            type: none
+            device: /home/ole/rolling/aip/self/ddp-content/content
+            o: bind
+
+networks:
+    rdmo-dev_default:
+        external: true
