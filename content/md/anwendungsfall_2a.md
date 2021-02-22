@@ -5,19 +5,8 @@
 ***Dokumentation der Untersuchungspopulation\
 bei Querschnittsdaten***
 
-Versionierungshistorie
-======================
 
-  Version   Typ        Datum               erstellende Person   
-  --------- ---------- ------------------- -------------------- -----
-  1\.       2021105    Ursprungsdokument   05.11.2020           sen
-  2         20201125   Version für RDMO    25.11.2020           sen
-                                                                
-                                                                
-                                                                
-                                                                
-
-Ausgangsbeispiel: 
+Ausgangsbeispiel:
 =================
 
 Ein Forschungsprojekt untersucht schulische Leistungen während der

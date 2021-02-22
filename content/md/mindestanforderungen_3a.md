@@ -5,30 +5,6 @@ Sichern von (Meta-)Daten**
 
 **III. Themenbereich: Sichern im Projekt**
 
-Versionierungshistorie
-======================
-
-  -------------------------------------------------------------------------------------
-  Version   Typ        Datum                         erstellende Person   
-  --------- ---------- ----------------------------- -------------------- -------------
-  1         20200508   erster Entwurf                08.05.2020           sen
-
-                       Review                        13.05.2020           mk/ ap/ jks
-
-  2         20200515   überarbeitete Version         15.05.2020           sen
-
-                       Kommentiert                   20.05.2020           gf
-
-  3         20200610   MA überarbeitet &\            10.06.2020           sen
-                       Stichpunktsammlung entfernt                        
-
-  4         20200721   Abschnitt D ergänzt           21.07.2020           sen
-
-  5         20201124   MA überarbeitet               24.11.2020           sen
-
-  6         20201125   Version für RDMO              25.11.2020           sen
-  -------------------------------------------------------------------------------------
-
 Mindestanforderung
 ==================
 

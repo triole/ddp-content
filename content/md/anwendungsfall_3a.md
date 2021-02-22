@@ -3,25 +3,11 @@
 **Anwendungsfall III.a):\
 Die Versionierung von Daten und Dateien**
 
-Versionierungshistorie
-======================
-
-  Version   Typ        Datum                              erstellende Person   
-  --------- ---------- ---------------------------------- -------------------- -----
-  1\.       20200609   Stichpunktsammlung                 09.06.2020           sen
-                       Ergänzungen aus Telko vom 24.06.   25.06.2020           sen
-  2         20200710   Bearbeitung                        10.07.2020           sen
-  3         20201105   Ergänzungen                        05.11.2020           sen
-            20201125   Version für RDMO                   25.11.2020           sen
-                                                                               
-
 Die Versionierung von Daten und Dateien geht mit drei grundlegenden
 Fragen einher:
 
 1.  Wie wird versioniert?
-
 2.  Wo wird versioniert?
-
 3.  Unter welchen Bedingungen (wann) wird eine neue Version erstellt?
 
 Jede dieser drei Fragen muss im jeweiligen Forschungsprojekt im Kontext
@@ -72,9 +58,6 @@ d.  in Form einer eigenen Dokumentation der Versionierungshistorie, die
     auch angeben kann, welche Änderungen konkret an den Daten bzw. einer
     Datei vorgenommen wurden.
 
-```{=html}
-<!-- -->
-```
 3.  Bedingungen (Regeln) zum Erstellen einer neuen Version
 
 Letztendlich muss im Rahmen der Erstellung von Versionierungsregeln

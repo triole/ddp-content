@@ -3,18 +3,6 @@
 **Standard III.a):\
 DDI-Standard zur Versionierung**
 
-Versionierungshistorie
-======================
-
-  Version   Typ        Datum                erstellende Person   
-  --------- ---------- -------------------- -------------------- -----
-  1         20200509   Stichpunktsammlung   09.06.2020           sen
-  2         20201105   Ergänzungen          05.11.2020           sen
-  3         20201125   Version für RDMO     25.11.2020           sen
-                                                                 
-                                                                 
-                                                                 
-
 Versionierungsstandard der *Data Documentation Initative* (DDI) z. B.
 *1.0.0*, *2.1.19*, *2.17.20* etc.
 

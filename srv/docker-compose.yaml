@@ -22,7 +22,7 @@ volumes:
     content:
         driver_opts:
             type: none
-            device: /home/ole/rolling/aip/self/ddp-content/content
+            device: /home/ole/rolling/aip/self/ddp/ddp-content/content
             o: bind
 
 networks:
