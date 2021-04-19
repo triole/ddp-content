@@ -13,3 +13,7 @@ tasks:
         desc: run local content server
         cmds:
             - cmd: cd srv && sudo docker-compose up -d
+
+    conv:
+        cmds:
+            - cmd: sh/conv.sh tmp/doc
