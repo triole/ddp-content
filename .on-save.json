@@ -1,8 +1,16 @@
 [{
     "srcDir": ".",
     "destDir": "/tmp/.on-save",
-    "files": "**",
-    "command": "echo coda -t '${srcFile}'",
+    "files": "sh/*",
+    "command": "coda -t '${srcFile}'",
+    "showOutput": false,
+    "showError": false
+},
+{
+    "srcDir": ".",
+    "destDir": "/tmp/.on-save",
+    "files": "content/*",
+    "command": "markdownfmt -w '${srcFile}'",
     "showOutput": false,
     "showError": false
 }]
