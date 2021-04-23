@@ -9,6 +9,8 @@ services:
         volumes:
             - shed:/vol/shed:ro
             - content:/vol/content:ro
+        ports:
+            - 2222:80
         networks:
             - "rdmo-dev_default"
 
