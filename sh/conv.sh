@@ -36,8 +36,16 @@ for fil in "${arr[@]}"; do
     pandoc "${fil}" -t markdown -o /dev/stdout |
         sed '/Versionierungshistorie/,/Mindestanforderung/{//!d}' |
         sed 's/^Versionierungshistorie//g' |
-        sed -e '/KEIN TEIL DER/,+50d' |
-        markdownfmt \
+        sed '/KEIN TEIL DER/,+50d' |
+        sed 's/> /- /g' |
+        markdownfmt |
+        sed 's/>$//g' |
+        sed 's/=html//g' |
+        sed 's/<!--.*-->//g' |
+        sed 's/<!-- --//g' |
+        sed 's/```//g' |
+        sed 's/\t$//g' |
+        uniq \
             >"${target_folder}/${shortname}"
 
 done

@@ -12,17 +12,13 @@ Die Daten (siehe ***Glossar***) und ihre Begleitmaterialen (siehe ***Glossar***)
 
 Diese Mindestanforderung steht in Verbindung zu folgenden weiteren DDP-Modulen:
 
-> Inventarliste des DDP-Deckblatts,
->
-> I.a) Berücksichtigung existierender Daten,
->
-> III.b) Schutz personenbezogener und sensibler Daten im Projekt,
->
-> IV.b) rechtliche Vorgaben des Datenschutzes im Umgang mit personenbezogenen Daten,
->
-> V.b) Langfristsicherung von Daten.
->
-> \[ggf. WEITERE MODULE ERGÄNZEN\]
+-	Inventarliste des DDP-Deckblatts, 
+-	I.a) Berücksichtigung existierender Daten, 
+-	III.b) Schutz personenbezogener und sensibler Daten im Projekt, 
+-	IV.b) rechtliche Vorgaben des Datenschutzes im Umgang mit
+-	personenbezogenen Daten, 
+-	V.b) Langfristsicherung von Daten. 
+-	\[ggf. WEITERE MODULE ERGÄNZEN\]
 
 ## Erörterungen zur Mindestanforderung
 
@@ -30,110 +26,88 @@ Eine adäquate Strategie für die Speicherung der im Projekt verwendeten Daten u
 
 1.	Zur Implementierung einer geeigneten Speicherstrategie definieren
 
-	> Forschende zunächst ihre Bedarfe hinsichtlich der Speichermöglichkeiten und -medien, d. h.
+	-	Forschende zunächst ihre Bedarfe hinsichtlich der
+	-	Speichermöglichkeiten und -medien, d. h.
 
 	a. wie viel Speicherkapazität zur Sicherung der Daten und
 
-	```
-	> Begleitmaterialien (inkl. Back-Ups) (voraussichtlich)
-	> notwendig ist (siehe ***Teil III des DDP-Deckblatt:
-	> Inventarliste***),
-	```
+	- Begleitmaterialien (inkl. Back-Ups) (voraussichtlich)
+	- notwendig ist (siehe ***Teil III des DDP-Deckblatt:
+	- Inventarliste***),
 
 	b. welche Personen an welchen Standorten innerhalb und ggf. auch
 
-	```
-	> außerhalb des Projekts, z. B. bei im Falle der Beauftragung
-	> eines externen Erhebungsinstituts, Zugang zu welchen Daten und
-	> Begleitmaterialien benötigen,
-	```
+	- außerhalb des Projekts, z. B. bei im Falle der Beauftragung
+	- eines externen Erhebungsinstituts, Zugang zu welchen Daten und
+	- Begleitmaterialien benötigen,
 
 	c. welche Maßnahmen zum Schutz der Daten vor versehentlichem
 
-	```
-	> Verlust, Überschreiben etc. erforderlich sind,
-	```
+	- Verlust, Überschreiben etc. erforderlich sind,
 
 	d. welche weiteren Anforderungen an den Schutz personenbezogener
 
-	```
-	> und sensibler Informationen im Projektverlauf gegen
-	> unautorisierten Zugriff bestehen (siehe ***Modul III.b) Schutz
-	> von personenbezogenen und sensiblen Informationen im
-	> Projekt***),
-	```
+	- und sensibler Informationen im Projektverlauf gegen
+	- unautorisierten Zugriff bestehen (siehe ***Modul III.b) Schutz
+	- von personenbezogenen und sensiblen Informationen im
+	- Projekt***),
 
 	e. welche weiteren Anforderungen an die IT-Sicherheit
 
-	```
-	> berücksichtigt werden müssen (siehe ***weiterführende
-	> Ressourcen zur IT-Sicherheit***).
-	```
+	- berücksichtigt werden müssen (siehe ***weiterführende
+	- Ressourcen zur IT-Sicherheit***).
 
 2.	Auf Basis dieser Bedarfe legen die Forschenden fest,
 
 	a. welche unterschiedlichen Speichermöglichkeiten für die Daten und
 
-	```
-	> ihre Begleitmaterialien im Projektverlauf in Betracht kommen
-	> und welche Speichermedien genutzt werden sollen (siehe
-	> ***weiterführende Ressourcen** zu Speichermöglichkeiten und
-	> -medien*),
-	```
+	- ihre Begleitmaterialien im Projektverlauf in Betracht kommen
+	- und welche Speichermedien genutzt werden sollen (siehe
+	- ***weiterführende Ressourcen** zu Speichermöglichkeiten und
+	- -medien*),
 
 	b. welche bestehenden institutionellen Speichermöglichkeiten und
 
-	```
-	> -medien durch das Forschungsprojekt genutzt werden können
-	> (siehe ***Standard 2-a***),
-	```
+	- -medien durch das Forschungsprojekt genutzt werden können
+	- (siehe ***Standard 2-a***),
 
 	c. in welchen Dateiformaten die Daten und Begleitmaterialien
 
-	```
-	> (voraussichtlich) vorliegen und welche Software in welcher
-	> Version zu deren Nutzung notwendig ist (siehe ***Inventarliste
-	> des DDP-Deckblatts***),
-	```
+	- (voraussichtlich) vorliegen und welche Software in welcher
+	- Version zu deren Nutzung notwendig ist (siehe ***Inventarliste
+	- des DDP-Deckblatts***),
 
 	d. welche konkreten Maßnahmen zum Schutz vor unautorisiertem
 
-	```
-	> Zugriff auf personenbezogene und sensible Informationen
-	> beachtet werden müssen (siehe ***Modul III.b) Schutz
-	> personenbezogener und sensibler Informationen***).
-	```
+	- Zugriff auf personenbezogene und sensible Informationen
+	- beachtet werden müssen (siehe ***Modul III.b) Schutz
+	- personenbezogener und sensibler Informationen***).
 
 3.	In Abhängigkeit der Bedarfe sowie der gewählten
 
-	> Speichermöglichkeiten und -medien
+	-	Speichermöglichkeiten und -medien
 
 	a. implementieren die Forschenden eine angemessene Ordnerstruktur
 
-	```
-	> und nutzen diese konsistent im gesamten Projektverlauf (siehe
-	> ***Anwendungsfall*** ***3-a***),
-	```
+	- und nutzen diese konsistent im gesamten Projektverlauf (siehe
+	- ***Anwendungsfall*** ***3-a***),
 
 	b. definieren sie einheitliche und konsistente Vorgaben zur
 
-	```
-	> Benennung von Daten und Begleitmaterialien (siehe
-	> ***Anwendungsfall*** ***3-b***) und
-	```
+	- Benennung von Daten und Begleitmaterialien (siehe
+	- ***Anwendungsfall*** ***3-b***) und
 
 	c. etablieren sie einheitliche und konsistente Versionierungsregeln
 
-	```
-	> für die Daten und Begleitmaterialien (siehe
-	> ***Anwendungsfall*** ***3-c*** sowie ***Standard* *3-c*** bzw.
-	> ***weiterführende** **Ressourcen zu softwarebasierten
-	> Versionierungslösungen***).
-	```
+	- für die Daten und Begleitmaterialien (siehe
+	- ***Anwendungsfall*** ***3-c*** sowie ***Standard* *3-c*** bzw.
+	- ***weiterführende** **Ressourcen zu softwarebasierten
+	- Versionierungslösungen***).
 
 4.	Zum Schutz der Daten und Begleitmaterialien vor versehentlichem
 
-	> Verlust, Überschreiben etc. implementieren die Forschenden ein angemessenes Back-Up-Verfahren.
+	-	Verlust, Überschreiben etc. implementieren die Forschenden ein
+	-	angemessenes Back-Up-Verfahren.
 
 	a. Dies beinhaltet mindestens eine der folgenden Vorgehensweisen:
 
@@ -145,7 +119,8 @@ Eine adäquate Strategie für die Speicherung der im Projekt verwendeten Daten u
 
 	-	die Implementierung eines eigenen Back-Up-Verfahrens und dessen konsistente Umsetzung im Projektverlauf (siehe\***Anwendungsfall** **4-a***).
 
-> Bei der Nutzung institutioneller Back-Up-Systeme, von Cloud-Diensten oder externen Anbietenden stellen die Forschenden sicher, dass
+-	Bei der Nutzung institutioneller Back-Up-Systeme, von Cloud-Diensten
+-	oder externen Anbietenden stellen die Forschenden sicher, dass
 
 -	sie Kenntnis über die entsprechenden Sicherungsprozesse haben und diese Verfahren bei Bedarf Dritten zugänglich machen können, z. B. im Rahmen von Begutachtungen oder im Zusammenhang mit der informierten Einwilligungserklärung (siehe ***Modul IV.a) Rechtliche Vorgaben des Datenschutzes***),
 
@@ -155,9 +130,7 @@ Eine adäquate Strategie für die Speicherung der im Projekt verwendeten Daten u
 
 b. Die Forschenden stellen sicher, dass auch relevante Informationen in
 
-```
-> Papierformat in die Back-Up-Prozesse einfließen, etwa durch
-```
+- Papierformat in die Back-Up-Prozesse einfließen, etwa durch
 
 -	die Digitalisierung der Informationen und die Integration entsprechender Dateien in die Back-Up-Prozesse, z. B. von (handschriftlich) ausgefüllten Fragebögen oder Interviewer\*innen-Notizen,
 
@@ -165,67 +138,50 @@ b. Die Forschenden stellen sicher, dass auch relevante Informationen in
 
 c. Bei der Erstellung und Sicherung der Back-Ups berücksichtigen die
 
-```
-> Forschenden alle rechtlich relevanten Regelungen, insbesondere in
-> Bezug auf den Datenschutz (siehe ***Modul III.b) Schutz
-> personenbezogener oder sensibler Informationen***).
-```
-
-```=html
-<!-- -->
-```
+- Forschenden alle rechtlich relevanten Regelungen, insbesondere in
+- Bezug auf den Datenschutz (siehe ***Modul III.b) Schutz
+- personenbezogener oder sensibler Informationen***).
 
 1.	Die Forschenden implementieren ein Vernichtungsmanagement
 
 	a. für obsolete Daten und Begleitmaterialen, die personenbezogene
 
-	```
-	> oder sensible Informationen beinhalten (siehe
-	> ***weiterführende Ressourcen zur softwarebasierte
-	> Dateivernichtung*** sowie ***Modul III.b) Schutz
-	> personenbezogener oder sensibler Informationen***),
-	```
+	- oder sensible Informationen beinhalten (siehe
+	- ***weiterführende Ressourcen zur softwarebasierte
+	- Dateivernichtung*** sowie ***Modul III.b) Schutz
+	- personenbezogener oder sensibler Informationen***),
 
 	b. für Daten und Dateien Dritter, die aufgrund von rechtlichen
 
-	```
-	> Vorgaben oder Vereinbarungen mit diesen Dritten bzw. auf Basis
-	> der bestehenden Lizenzbedingungen die Löschung der Dateien zu
-	> einem bestimmten Zeitpunkt vorsehen (siehe ***Anwendungsfall**
-	> **5-b***),
-	```
+	- Vorgaben oder Vereinbarungen mit diesen Dritten bzw. auf Basis
+	- der bestehenden Lizenzbedingungen die Löschung der Dateien zu
+	- einem bestimmten Zeitpunkt vorsehen (siehe ***Anwendungsfall**
+	- **5-b***),
 
 	c. und dokumentieren Inhalte und Gründe der Vernichtung
 
-	```
-	> entsprechender Daten und Begleitmaterialien (siehe ***Modul
-	> II.a) Dokumentation der Daten***).
-	```
+	- entsprechender Daten und Begleitmaterialien (siehe ***Modul
+	- II.a) Dokumentation der Daten***).
 
 2.	Werden die Daten durch externe Anbietende erhoben, aufbereitet oder
 
-	> gesichert, gewährleisten die Forschenden, dass
+	-	gesichert, gewährleisten die Forschenden, dass
 
 	a. die Übermittlung der Daten zwischen ihnen und den externen
 
-	```
-	> Anbietenden den rechtlichen Vorgaben des Datenschutzes
-	> entspricht (siehe ***Anwendungsfall***
-	> ***6-a-[7]{.underline}*** sowie ***Modul III.b) Schutz
-	> personenbezogener und sensibler Informationen im Projekt***),
-	```
+	- Anbietenden den rechtlichen Vorgaben des Datenschutzes
+	- entspricht (siehe ***Anwendungsfall***
+	- ***6-a-[7]{.underline}*** sowie ***Modul III.b) Schutz
+	- personenbezogener und sensibler Informationen im Projekt***),
 
 	b. der Zugang zu den Daten und Begleitmaterialien bei den
 
-	```
-	> Anbietenden klar geregelt ist,
-	```
+	- Anbietenden klar geregelt ist,
 
 	c. Vereinbarungen zur (Dauer der) Sicherung der Daten und
 
-	```
-	> Begleitmaterialien (inklusive entsprechender
-	> Back-Up-Verfahren) ebenso wie zu deren Vernichtung mit den
-	> Anbietenden getroffen wurden (siehe ***Anwendungsfall***
-	> ***6-c***).
-	```
+	- Begleitmaterialien (inklusive entsprechender
+	- Back-Up-Verfahren) ebenso wie zu deren Vernichtung mit den
+	- Anbietenden getroffen wurden (siehe ***Anwendungsfall***
+	- ***6-c***).
+
