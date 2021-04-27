@@ -38,15 +38,15 @@ Ggf. kurz anzugeben, worin die Abhängigkeiten zwischen den Modulen bestehen (im
 
 Diese Mindestanforderung steht in Verbindung zu folgenden weiteren DDP-Modulen:
 
--	I.a) Berücksichtigung existierender Daten 
--	I.c) Generierung neuer Daten im Projekt (wie) 
--	II.a) Dokumentation der Daten 
--	II.b) Nachvollziehbarkeit der Daten / Datenqualität 
--	III.a) Speichern der (Meta-)Daten im Projekt 
--	IV.b) Urheberrechte 
--	V.a) Verfügbarmachen der Daten 
--	V.b) Langfristsicherung der Daten 
--	V.c) Datenzugang & -nachnutzung 
+-	I.a) Berücksichtigung existierender Daten
+-	I.c) Generierung neuer Daten im Projekt (wie)
+-	II.a) Dokumentation der Daten
+-	II.b) Nachvollziehbarkeit der Daten / Datenqualität
+-	III.a) Speichern der (Meta-)Daten im Projekt
+-	IV.b) Urheberrechte
+-	V.a) Verfügbarmachen der Daten
+-	V.b) Langfristsicherung der Daten
+-	V.c) Datenzugang & -nachnutzung
 -	\[ggf. WEITERE MODULE ERGÄNZEN\]
 
 ## Erörterungen zur Mindestanforderung
@@ -66,7 +66,7 @@ Die Liste dokumentiert dabei zum einen alle im Forschungsprojekt verwendeten Dat
 -	Testbögen, Leitfragen etc.), Feld- und Methodenberichte, Codebücher,
 -	Interviewer- und Transkriptionsanweisungen, Syntaxdateien etc. (siehe
 -	*Anwendungsfälle* im vorliegenden Modul sowie Modul II.a)
--	*Dokumentation der Daten*). 
+-	*Dokumentation der Daten*).
 -	Die Liste gibt mindestens den Stand der im Feld verwendeten
 -	Erhebungsdokumente und Instrumente wieder. Für die Auswertung werden
 -	nur dann Updates von Dateien gelistet, wenn z.B. analyserelvante
@@ -112,31 +112,128 @@ Siehe Anmerkungen vor der Mindestanforderung bezüglich der Frage, ob es sich hi
 
 Zur Entwicklung weiterer Module, siehe *Abhängigkeiten mit anderen Modulen* in der Mindestanforderung (Abschnitt A).
 
-## Anwendungsfälle
+Anwendungsfälle
+---------------
 
--	Beispiellisten (quali Bsp. ergänzen)
+-   Beispiellisten (quali Bsp. ergänzen)
 
----
+  ----------------------------- ------------- ------------ -------- -------------------- ----------------- ----------------------------------------------------------------------------------------
+  Dateiname                     Dateityp      Version      Format   Software (Version)   Speichervolumen   Herkunft
+  Rohdaten\_v1\_mm              Datenmatrix   V1           .r       R (4.0.2)            XXX               eigene Erhebung
+  Forschungsdaten\_v12\_mm      Datenmatrix   V13          .r       R (4.0.2)            XXX               eigene Erhebung
+  NEPS-Startkohorte5\_mm        Datenmatrix   14.0.0       .por     SPSS (XX)            XXX               [[doi:10.5157/NEPS:SC5:14.0.0]{.underline}](http://dx.doi.org/10.5157/NEPS:SC5:14.0.0)
+  Codboch\_v17\_mm              Textdatei     V17          .txt     Words                XXX               eigene Zusammenstellung
+  NEPS-Data-Manual              pdf           April 2014   .pdf     Adobe-Reader         XXX               Deutsches Zentrum für Hochschul- und Wissenschaftsforschung GmbH
+  Aufbereitungssyntax           Textdatei     V17          txt      ASCII                XXX               Eigenes Dokument
+  Video\_Gruppendiskussion\_1   Videodatei    V\_1         mp.4                          xxx               eigene Datei
+  Transkript\_Interview\_1      Textdatei     V\_1         Doc.x    Word                 xxx               eigene Datei
+  ----------------------------- ------------- ------------ -------- -------------------- ----------------- ----------------------------------------------------------------------------------------
 
-Dateiname Dateityp Version Format Software (Version) Speichervolumen Herkunft Rohdaten\_v1\_mm Datenmatrix V1 .r R (4.0.2) XXX eigene Erhebung Forschungsdaten\_v12\_mm Datenmatrix V13 .r R (4.0.2) XXX eigene Erhebung NEPS-Startkohorte5\_mm Datenmatrix 14.0.0 .por SPSS (XX) XXX [[doi:10.5157/NEPS:SC5:14.0.0]{.underline}](http://dx.doi.org/10.5157/NEPS:SC5:14.0.0) Codboch\_v17\_mm Textdatei V17 .txt Words XXX eigene Zusammenstellung NEPS-Data-Manual pdf April 2014 .pdf Adobe-Reader XXX Deutsches Zentrum für Hochschul- und Wissenschaftsforschung GmbH Aufbereitungssyntax Textdatei V17 txt ASCII XXX Eigenes Dokument Video\_Gruppendiskussion\_1 Videodatei V\_1 mp.4 xxx eigene Datei Transkript\_Interview\_1 Textdatei V\_1 Doc.x Word xxx eigene Datei
+-   Verlust von Informationen bzw. Metadaten bei der
+    Dateitransformation,
 
----
+    Beispiel: Stata / SPSS zu csv gehen Metadaten im Datensatz verloren,
+    wie etwa Variablennamen oder Wertelabel
 
--	Verlust von Informationen bzw. Metadaten bei der Dateitransformation,
+Standards
+---------
 
-	Beispiel: Stata / SPSS zu csv gehen Metadaten im Datensatz verloren, wie etwa Variablennamen oder Wertelabel
+-   Nicht-proprietäre Dateiformate
 
-## Standards
++-------------+----------------------------------------+
+| Datentyp    | Beispiel für nicht-proprietäre Formate |
++-------------+----------------------------------------+
+| Textdateien | -   PDF/A (\*.pdf)                     |
+|             |                                        |
+|             | -   Plain Text-Formate (ASCII)         |
++-------------+----------------------------------------+
+| Datenmatrix | -   R (\*.R)                           |
+|             |                                        |
+|             | -   Plain Text-Formate (ASCII))        |
++-------------+----------------------------------------+
+| Bilder      | -   XXX                                |
+|             |                                        |
+|             | -   PDF/A                              |
++-------------+----------------------------------------+
+| Audio       | -   XXX                                |
++-------------+----------------------------------------+
+| Video       | -   XXX                                |
++-------------+----------------------------------------+
 
--	Nicht-proprietäre Dateiformate
+-   Dateiformate im VFDB
 
-+-------------+----------------------------------------+ | Datentyp | Beispiel für nicht-proprietäre Formate | +-------------+----------------------------------------+ | Textdateien | - PDF/A (\*.pdf) | | | | | | - Plain Text-Formate (ASCII) | +-------------+----------------------------------------+ | Datenmatrix | - R (\*.R) | | | | | | - Plain Text-Formate (ASCII)) | +-------------+----------------------------------------+ | Bilder | - XXX | | | | | | - PDF/A | +-------------+----------------------------------------+ | Audio | - XXX | +-------------+----------------------------------------+ | Video | - XXX | +-------------+----------------------------------------+
-
--	Dateiformate im VFDB
-
-+----------------------+----------------------+----------------------+ | Datentyp | bevorzugte Formate | akzeptierte Formate | +----------------------+----------------------+----------------------+ | Textdateien | - PDF/A (\*.pdf) | - OpenDocument | | | | Text (\*.odt) | | | - Plain | | | | Text-Formate | - PDF (\*.pdf) | | | (ASCII) | | | | | - MS Word (\*.doc, | | | | \*.docx) | | | | | | | | - RichTextFormat | | | | (\*.rtf) | | | | | | | | - HTML (\*.htm, | | | | \*.html) | +----------------------+----------------------+----------------------+ | Datenmatrix | - SPSS Portable | - OpenDocum | | | (\*.por) | ent-Tabellendokument | | | | (\*.ods), MS | | | - STATA (\*.dta) | Excel (\*.xls, | | | | \*.xlsx), MS | | | - R (\*.R) | Access (\*.mdb, | | | | \*.accdb) | | | - SAS Transport | | | | (\*.sas) | - CSV-Formate ohne | | | | zusätzliche | | | | Dat | | | | endefinitionsdateien | | | | (Setup, Syntax, | | | | Command file) | | | | | | | | - Column | | | | Binary-Format | | | | (column binary | | | | ist ein Standard | | | | um Daten als | | | | Abbilder von | | | | Lochkarten zu | | | | repräsentieren) | | | | oder Card-Image | | | | Format. | +----------------------+----------------------+----------------------+ | Bilder | - TIFF Version 6 | - JPEG (\*.jpg, | | | unkomprimiert | \*jpeg), PNG | | | (\*.tif) | (\*.png), GIF | | | | (\*.gif), BMP | | | | (\*.bmp) | | | | | | | | - PDF/A, PDF | | | | (\*.pdf) | +----------------------+----------------------+----------------------+ | Audio | - MPEG-1 Audio | - Wave Audio | | | Layer 3 (\*.mp3) | Format WAV | | | | (\*.wav) | +----------------------+----------------------+----------------------+ | Video | - MPEG-4 (\*.mp4), | - Audio Video | | | MPEG-2 (\*.mpg) | Interleave AVI | | | | (\*.avi) | | | | | | | | - Windows Media | | | | Video WMV | | | | (\*.wmv) | +----------------------+----------------------+----------------------+ | [[ | Stand letzte | | | https://www.forschun | Aktualisierung: | | | gsdaten-bildung.de/f | 07.07.2017 | | | ormate?la=de]{.under | | | | line}](https://www.f |                      |                      |
++----------------------+----------------------+----------------------+
+| Datentyp             | bevorzugte Formate   | akzeptierte Formate  |
++----------------------+----------------------+----------------------+
+| Textdateien          | -   PDF/A (\*.pdf)   | -   OpenDocument     |
+|                      |                      |     Text (\*.odt)    |
+|                      | -   Plain            |                      |
+|                      |     Text-Formate     | -   PDF (\*.pdf)     |
+|                      |     (ASCII)          |                      |
+|                      |                      | -   MS Word (\*.doc, |
+|                      |                      |     \*.docx)         |
+|                      |                      |                      |
+|                      |                      | -   RichTextFormat   |
+|                      |                      |     (\*.rtf)         |
+|                      |                      |                      |
+|                      |                      | -   HTML (\*.htm,    |
+|                      |                      |     \*.html)         |
++----------------------+----------------------+----------------------+
+| Datenmatrix          | -   SPSS Portable    | -   OpenDocum        |
+|                      |     (\*.por)         | ent-Tabellendokument |
+|                      |                      |     (\*.ods), MS     |
+|                      | -   STATA (\*.dta)   |     Excel (\*.xls,   |
+|                      |                      |     \*.xlsx), MS     |
+|                      | -   R (\*.R)         |     Access (\*.mdb,  |
+|                      |                      |     \*.accdb)        |
+|                      | -   SAS Transport    |                      |
+|                      |     (\*.sas)         | -   CSV-Formate ohne |
+|                      |                      |     zusätzliche      |
+|                      |                      |     Dat              |
+|                      |                      | endefinitionsdateien |
+|                      |                      |     (Setup, Syntax,  |
+|                      |                      |     Command file)    |
+|                      |                      |                      |
+|                      |                      | -   Column           |
+|                      |                      |     Binary-Format    |
+|                      |                      |     (column binary   |
+|                      |                      |     ist ein Standard |
+|                      |                      |     um Daten als     |
+|                      |                      |     Abbilder von     |
+|                      |                      |     Lochkarten zu    |
+|                      |                      |     repräsentieren)  |
+|                      |                      |     oder Card-Image  |
+|                      |                      |     Format.          |
++----------------------+----------------------+----------------------+
+| Bilder               | -   TIFF Version 6   | -   JPEG (\*.jpg,    |
+|                      |     unkomprimiert    |     \*jpeg), PNG     |
+|                      |     (\*.tif)         |     (\*.png), GIF    |
+|                      |                      |     (\*.gif), BMP    |
+|                      |                      |     (\*.bmp)         |
+|                      |                      |                      |
+|                      |                      | -   PDF/A, PDF       |
+|                      |                      |     (\*.pdf)         |
++----------------------+----------------------+----------------------+
+| Audio                | -   MPEG-1 Audio     | -   Wave Audio       |
+|                      |     Layer 3 (\*.mp3) |     Format WAV       |
+|                      |                      |     (\*.wav)         |
++----------------------+----------------------+----------------------+
+| Video                | -   MPEG-4 (\*.mp4), | -   Audio Video      |
+|                      |     MPEG-2 (\*.mpg)  |     Interleave AVI   |
+|                      |                      |     (\*.avi)         |
+|                      |                      |                      |
+|                      |                      | -   Windows Media    |
+|                      |                      |     Video WMV        |
+|                      |                      |     (\*.wmv)         |
++----------------------+----------------------+----------------------+
+| [[                   | Stand letzte         |                      |
+| https://www.forschun | Aktualisierung:      |                      |
+| gsdaten-bildung.de/f | 07.07.2017           |                      |
+| ormate?la=de]{.under |                      |                      |
+| line}](https://www.f |                      |                      |
 | orschungsdaten-bildu |                      |                      |
-| ng.de/formate?la=de) | | | +----------------------+----------------------+----------------------+
+| ng.de/formate?la=de) |                      |                      |
++----------------------+----------------------+----------------------+
 
 ## Gesetzesvorgaben
 
@@ -158,7 +255,7 @@ Es geht in diesem Modul weder um den Inhalt der Daten (personenbezogene und sens
 
 # Vorlagen {#vorlagen .list-paragraph}
 
--	~~1.2 Welche Daten werden im Projekt generiert?~~ 
+-	~~1.2 Welche Daten werden im Projekt generiert?~~
 -	~~1.c) What data (for example the kinds, formats, and volumes) will be
 -	collected or produced?~~
 
