@@ -15,5 +15,9 @@ tasks:
             - cmd: cd srv && sudo docker-compose up -d
 
     conv:
+        sources:
+            - sh/*
+        method: timestamp
+        desc: convert office documents to markdown
         cmds:
             - cmd: sh/conv.sh tmp/doc

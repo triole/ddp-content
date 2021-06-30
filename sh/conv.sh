@@ -19,6 +19,7 @@ arr=($(
 ))
 
 for fil in "${arr[@]}"; do
+    echo "Convert $(echo "${fil}" | sed "s|$(pwd)/||g")"
     target_folder=$(
         echo "${fil}" |
             grep -Po ".*(?=\/)" |
@@ -33,19 +34,19 @@ for fil in "${arr[@]}"; do
             tr '[:upper:]' '[:lower:]'
     )
     mkdir -p "${target_folder}"
-    pandoc "${fil}" -t markdown -o /dev/stdout |
-        sed '/Versionierungshistorie/,/Mindestanforderung/{//!d}' |
-        sed 's/^Versionierungshistorie//g' |
-        sed '/KEIN TEIL DER/,+50d' |
-        sed 's/> /- /g' |
-        markdownfmt |
-        sed 's/>$//g' |
-        sed 's/=html//g' |
-        sed 's/<!--.*-->//g' |
-        sed 's/<!-- --//g' |
-        sed 's/```//g' |
-        sed 's/\t$//g' |
-        uniq \
-            >"${target_folder}/${shortname}"
+    pandoc "${fil}" -t markdown -o /dev/stdout \
+        >"${target_folder}/${shortname}"
+    #     sed '/Versionierungshistorie/,/Mindestanforderung/{//!d}' |
+    #     sed 's/^Versionierungshistorie//g' |
+    #     sed '/KEIN TEIL DER/,+50d' |
+    #     sed 's/> /- /g' |
+    #     markdownfmt |
+    #     sed 's/>$//g' |
+    #     sed 's/=html//g' |
+    #     sed 's/<!--.*-->//g' |
+    #     sed 's/<!-- --//g' |
+    #     sed 's/```//g' |
+    #     sed 's/\t$//g' |
+    #     uniq \
 
 done
