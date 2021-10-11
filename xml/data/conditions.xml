@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-09-29T21:08:39.464847+02:00">
+	<condition dc:uri="https://ddp-bildung.org/terms/conditions/dataset_links_yesno">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>dataset_links_yesno</key>
+		<dc:comment/>
+		<source/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://ddp-bildung.org/terms/conditions/dataset_reuse_copyrighted_yesno">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>dataset_reuse_copyrighted_yesno</key>
+		<dc:comment/>
+		<source/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://ddp-bildung.org/terms/conditions/ethics_committee_yesno">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>ethics_committee_yesno</key>
+		<dc:comment/>
+		<source/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://localhost/rdmo/test/conditions/2b1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2b1</key>
+		<dc:comment/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/1"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://localhost/rdmo/test/conditions/3_1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3_1</key>
+		<dc:comment/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/1"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://localhost/rdmo/test/conditions/3a_2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3a_2</key>
+		<dc:comment/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/2"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+</rdmo>

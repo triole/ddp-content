@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "uri": "https://ddp-bildung.org/terms/questions/ddp",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "ddp",
+    "comment": "ddp bildung",
+    "locked": false,
+    "order": 0,
+    "available": true,
+    "sites": [
+      1
+    ],
+    "groups": [],
+    "projects_count": 1,
+    "title_en": "ddp",
+    "help_en": "",
+    "title_de": "",
+    "help_de": "",
+    "title_fr": "",
+    "help_fr": "",
+    "title_it": "",
+    "help_it": ""
+  }
+]

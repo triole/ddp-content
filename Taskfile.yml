@@ -1,0 +1,32 @@
+version: '3'
+
+vars:
+    CURDIR:
+        sh: pwd
+    ARG:
+        sh: echo {{.t}}
+
+tasks:
+    default:
+        cmds:
+            - task: token
+
+    token:
+        cmds:
+            - cmd: docker exec -it rdmo /home/rdmo/sh/pg_add-api-key.sh
+              ignore_error: true
+
+    push:
+        desc: push latest data into rdmo
+        cmds:
+            - cmd: sh/push.sh
+
+    pull:
+        desc: pull data from rdmo and save to json and xml
+        cmds:
+            - cmd: sh/push.sh
+
+    sync:
+        desc: sync to ddp rdmo vm
+        cmds:
+            - cmd: rsync -av --delete {{.CURDIR}}/ rdmoddp.vm:/srv/ddp/

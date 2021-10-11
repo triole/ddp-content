@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-09-07T14:30:22.872692+02:00">
+	<title>DDP Deckblatt</title>
+	<description>Der folgende Fragenkatalog dient der Spezifizierung des Domain-Data-Protokolls für Ihr individuelles Forschungsprojekt und die darin zu erhebenden, verarbeitenden und archivierenden Daten. Bitte beantworten Sie die nachfolgenden X Fragen
+        entsprechend der aktuellen Planung in Ihrem Projekt, um Ihr projekteignes Domain-Data-Protokoll zusammengestellen.</description>
+	<catalog dc:uri="https://ddp-bildung.org/terms/questions/ddp"/>
+	<created>2020-11-11T22:48:21.746070+01:00</created>
+	<updated>2021-09-07T11:53:23.981069+02:00</updated>
+</project>

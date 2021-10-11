@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "uri": "https://ddp-bildung.org/terms/conditions/dataset_links_yesno",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "dataset_links_yesno",
+    "comment": "",
+    "locked": false,
+    "source": null,
+    "relation": "eq",
+    "target_text": "1",
+    "target_option": null,
+    "optionsets": [],
+    "questionsets": [
+      {
+        "id": 2,
+        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_link"
+      }
+    ],
+    "questions": [
+      {
+        "id": 2,
+        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_link/link_type"
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "id": 2,
+    "uri": "https://ddp-bildung.org/terms/conditions/dataset_reuse_copyrighted_yesno",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "dataset_reuse_copyrighted_yesno",
+    "comment": "",
+    "locked": false,
+    "source": null,
+    "relation": "eq",
+    "target_text": "1",
+    "target_option": null,
+    "optionsets": [],
+    "questionsets": [
+      {
+        "id": 1,
+        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/copyright"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/copyright/datatypes"
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "id": 3,
+    "uri": "https://ddp-bildung.org/terms/conditions/ethics_committee_yesno",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "ethics_committee_yesno",
+    "comment": "",
+    "locked": false,
+    "source": null,
+    "relation": "eq",
+    "target_text": "1",
+    "target_option": null,
+    "optionsets": [],
+    "questionsets": [
+      {
+        "id": 4,
+        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/ethical_aspects"
+      }
+    ],
+    "questions": [],
+    "tasks": []
+  },
+  {
+    "id": 4,
+    "uri": "https://localhost/rdmo/test/conditions/2b1",
+    "uri_prefix": "https://localhost/rdmo/test",
+    "key": "2b1",
+    "comment": "",
+    "locked": false,
+    "source": 48,
+    "relation": "eq",
+    "target_text": "1",
+    "target_option": null,
+    "optionsets": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 46,
+        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement/2"
+      },
+      {
+        "id": 47,
+        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement/3"
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "id": 5,
+    "uri": "https://localhost/rdmo/test/conditions/3_1",
+    "uri_prefix": "https://localhost/rdmo/test",
+    "key": "3_1",
+    "comment": "",
+    "locked": false,
+    "source": 54,
+    "relation": "eq",
+    "target_text": "1",
+    "target_option": null,
+    "optionsets": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 21,
+        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz/2"
+      },
+      {
+        "id": 22,
+        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz/3"
+      }
+    ],
+    "tasks": []
+  },
+  {
+    "id": 6,
+    "uri": "https://localhost/rdmo/test/conditions/3a_2",
+    "uri_prefix": "https://localhost/rdmo/test",
+    "key": "3a_2",
+    "comment": "",
+    "locked": false,
+    "source": 60,
+    "relation": "eq",
+    "target_text": "1",
+    "target_option": null,
+    "optionsets": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 26,
+        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/3"
+      }
+    ],
+    "tasks": []
+  }
+]

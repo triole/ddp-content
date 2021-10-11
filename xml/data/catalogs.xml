@@ -1,0 +1,2764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-09-29T21:08:40.347883+02:00">
+	<catalog dc:uri="https://ddp-bildung.org/terms/questions/ddp">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>ddp</key>
+		<dc:comment>ddp bildung</dc:comment>
+		<order>0</order>
+		<title lang="en">ddp</title>
+		<help lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+	</catalog>
+	<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>deckblatt</key>
+		<path>ddp/deckblatt</path>
+		<dc:comment>einleitung</dc:comment>
+		<catalog dc:uri="https://ddp-bildung.org/terms/questions/ddp"/>
+		<order>0</order>
+		<title lang="en"/>
+		<title lang="de">Deckblatt</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/introduction">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>introduction</key>
+		<path>ddp/deckblatt/introduction</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_use/introduction"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Datennutzung</title>
+		<help lang="de">Der folgende Fragenkatalog dient der Spezifizierung des Domain-Data-Protokolls für Ihr individuelles [projekt](https://www.heise.de) und die darin zu erhebenden, verarbeitenden und archivierenden Daten. Bitte beantworten Sie die
+			nachfolgenden X Fragen entsprechend der aktuellen Planung in Ihrem Projekt, um Ihr projekteignes Domain-Data-Protokoll zusammengestellen. Der Fragebogen kann im weiteren Verlauf des Projektes jederzeit überarbeitet und ergänzt werden. Forschende
+			sollten die damit einhergehenden Änderungen schriftlich begründen. Achtung: Änderungen im Fragekatalog im laufenden Projekt führen (ggf.) zu einer Veränderung der Elemente in einzelnen Modulen.</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/introduction/data_collection">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>data_collection</key>
+		<path>ddp/deckblatt/introduction/data_collection</path>
+		<dc:comment>introduction</dc:comment>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_use/introduction/data_collection_yesno"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/introduction"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">1.a) Werden in ihrem Forschungsprojekt eigene Daten erhoben?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/introduction/reuse">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>reuse</key>
+		<path>ddp/deckblatt/introduction/reuse</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_use/introduction/reuse"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/introduction"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext hilfetext</help>
+		<text lang="de">1.b) Werden in ihrem Forschungsprojekt urheberrechtlich geschützte Daten anderer nachgenutzt?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_type">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>data_type</key>
+		<path>ddp/deckblatt/data_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_type"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Datentyp</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_type/scenario">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>scenario</key>
+		<path>ddp/deckblatt/data_type/scenario</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_type/scenario"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_type"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">2) Welche Art von Daten wird in ihrem Forschungsprojekt erhoben bzw. verwendet (Datentyp)? [Mehrfachnennung möglich]</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/data_types2"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_type/link">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>link</key>
+		<path>ddp/deckblatt/data_type/link</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_type/link_yesno"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_type"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">3.) Werden im Rahmen Ihres Forschungsvorhabens unterschiedlichen Daten miteinander verknüpft?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/copyright">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>copyright</key>
+		<path>ddp/deckblatt/copyright</path>
+		<dc:comment>Der folgende Fragenkatalog dient der Spezifizierung des Domain-Data-Protokolls für Ihr individuelles Forschungsprojekt und die darin zu erhebenden, verarbeitenden und archivierenden Daten. Bitte beantworten Sie die nachfolgenden X Fragen
+			entsprechend der aktuellen Planung in Ihrem Projekt, um Ihr projekteignes Domain-Data-Protokoll zusammengestellen.</dc:comment>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_use/copyright"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Urheberrecht</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/dataset_reuse_copyrighted_yesno"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/copyright/datatypes">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>datatypes</key>
+		<path>ddp/deckblatt/copyright/datatypes</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_use/copyright/datatypes"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/copyright"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">1.bb) Wenn Sie urheberechtlich geschützte Daten bzw. Materialien anderer nachnutzen, handelt es sich dabei um...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/data_types1"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/dataset_reuse_copyrighted_yesno"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_link">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>data_link</key>
+		<path>ddp/deckblatt/data_link</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_link"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Datenverknüpfung</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/dataset_links_yesno"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_link/link_type">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>link_type</key>
+		<path>ddp/deckblatt/data_link/link_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_link/link_type"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_link"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">3.a) Welche Art von Verknüpfung steht bei Ihnen an [Mehrfachauswahl möglich]?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/data_links"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/dataset_links_yesno"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>research_design</key>
+		<path>ddp/deckblatt/research_design</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Erhebungsintrument</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design/utility">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>utility</key>
+		<path>ddp/deckblatt/research_design/utility</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/utility"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">4.) Mittels welches Erhebungsinstruments werden die Datenerhoben? [Mehrfachnennung möglich] (Filterfrage)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/utility"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design/method">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>method</key>
+		<path>ddp/deckblatt/research_design/method</path>
+		<dc:comment>filterfrage, je nach antwort sollte die entsprechende folgefrage erscheinen</dc:comment>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/method"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">4.a) Mittels welcher Methodik werden die Daten erhoben? [Mehrfachnennung möglich]</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quality"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quantity"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design/frequency">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>frequency</key>
+		<path>ddp/deckblatt/research_design/frequency</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/frequency"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">5.) Handelt es sich dabei um...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/frequency"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design/by_whom">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>by_whom</key>
+		<path>ddp/deckblatt/research_design/by_whom</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/by_whom"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">6.) Durch wen werden die Daten erhoben?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/creator"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design/ethical_aspects_yesno">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>ethical_aspects_yesno</key>
+		<path>ddp/deckblatt/research_design/ethical_aspects_yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/ethical_aspects_yesno"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">7.) Bestehen im Rahmen Ihrer Datenerhebung Aspekte, die der Überprüfung durch eine Ethikkommission bedürfen?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/ethical_aspects"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/ethical_aspects">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>ethical_aspects</key>
+		<path>ddp/deckblatt/ethical_aspects</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_collection/ethical_aspects"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Ethische Aspekte</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/ethics_committee_yesno"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/ethical_aspects/specification">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>specification</key>
+		<path>ddp/deckblatt/ethical_aspects/specification</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_collection/ethical_aspects/specification"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/ethical_aspects"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">7.a) Worum handelt es sich dabei?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/ethical_aspects"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/privacy">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>privacy</key>
+		<path>ddp/deckblatt/privacy</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>6</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Datenschutz</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/privacy/sensitive_data">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>sensitive_data</key>
+		<path>ddp/deckblatt/privacy/sensitive_data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/data_content/privacy/sensitive_data_yesno"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/privacy"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">8.) Werden in Ihrem Forschungsprojekt sensible bzw. datenschutzrechtlich relevante Daten im Sinne des Art.9 DSGVO verarbeitet?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/procedure">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>procedure</key>
+		<path>ddp/deckblatt/procedure</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/method/procedure"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>7</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Prozedur</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/procedure/study_population">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>study_population</key>
+		<path>ddp/deckblatt/procedure/study_population</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/method/procedure/study_population"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/procedure"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">9.) Welche der folgenden Personengruppen gehören zu Ihrer Untersuchungspopulation? [Mehrfachauswahl möglich]</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/study_population"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/procedure/sampling_procedure">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>sampling_procedure</key>
+		<path>ddp/deckblatt/procedure/sampling_procedure</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/method/procedure/sampling_procedure"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/procedure"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">10. Welches Stichprobenverfahren nutzen Sie in Ihrem Forschungsprojekt [Mehrfachnennungen möglich]</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/place">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>place</key>
+		<path>ddp/deckblatt/place</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/scope/place"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>8</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Lokalisation</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/place/institution">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>institution</key>
+		<path>ddp/deckblatt/place/institution</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/scope/place/institution"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/place"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">11.) Wo planen Sie im Rahmen Ihres Forschungsprojekts die Datenerhebung durchzuführen? [Mehrfachauswahl möglich] (Filterfrage)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/institution"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/place/federal_states">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>federal_states</key>
+		<path>ddp/deckblatt/place/federal_states</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/scope/place/federal_states"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/place"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">12.) In welchem Bundesland werden in Ihrem Forschungsprojekt Daten erhoben? [Mehrfachauswahl möglich] (Filterfrage)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/federal_state"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/place/federal_state_comparison">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>federal_state_comparison</key>
+		<path>ddp/deckblatt/place/federal_state_comparison</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/scope/place/federal_state_comparison"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/place"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">12.a) Planen Sie eine Vergleich zwischen den Bundesländern?</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/place/archived_data">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>archived_data</key>
+		<path>ddp/deckblatt/place/archived_data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt/scope/place/archived_data"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/deckblatt/place"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">13. Bitte zitieren Sie alle archivierten Daten entsprechend der Vorgaben des persistenten Identifikators, Repositoriums, Datenarchives o.ä.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>modul4</key>
+		<path>ddp/modul4</path>
+		<dc:comment>ddp bildung</dc:comment>
+		<catalog dc:uri="https://ddp-bildung.org/terms/questions/ddp"/>
+		<order>4</order>
+		<title lang="en"/>
+		<title lang="de">Modul IV.a): Datenschutz</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>datenschutzkonzept</key>
+		<path>ddp/modul4/datenschutzkonzept</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/1"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">1. Datenschutzkonzept</title>
+		<help lang="de">Die Forschenden entwickeln zu Projektbeginn ein Datenschutzkonzept unter Berücksichtigung...</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>0</key>
+		<path>ddp/modul4/datenschutzkonzept/0</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/1/0"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...der datenschutzrechtlichen Regelungen der Institutionen der Forschenden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>ddp/modul4/datenschutzkonzept/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/1/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...der Verantwortlichkeiten einzelner Projektbeteiligter im Rahmen des Datenschutzes, z. B. in Forschungskooperationen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/datenschutzkonzept_verantwortlichkeit"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>ddp/modul4/datenschutzkonzept/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/1/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...der Maßnahmen zum Schutz der (personenbezogenen und sensiblen) Daten, unter Berücksichtigung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/datenschutzkonzept_massnahmen-schutz"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>ddp/modul4/datenschutzkonzept/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/1/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...der Einhaltung der Schutzmaßnahmen bei der Datenverarbeitung durch externe Dienstleistende</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>ddp/modul4/datenschutzkonzept/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/1/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Das Datenschutzkonzept genügt den Anforderungen weiterer Genehmigungsverfahren z. B. im schulischen Kontext (siehe Modul IV.c) Forschungsethik)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>rechtsgrundlage_datenverarbeitung</key>
+		<path>ddp/modul4/rechtsgrundlage_datenverarbeitung</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">2. Rechtsgrundlage der Datenverarbeitung: Die informierte Einwilligung</title>
+		<help lang="de">Zu den Rechtsgrundlagen der informierten Einwilligung siehe
+Gesetzesvorgaben zum Datenschutz: 2. Informierte Einwilligung.
+berücksichtigt*</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>ddp/modul4/rechtsgrundlage_datenverarbeitung/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Einwilligung...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>ddp/modul4/rechtsgrundlage_datenverarbeitung/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...wird im Bedarfsfall nicht nur bei den originär betroffenen Personen eingeholt, sondern auch von zum Beispiel...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>ddp/modul4/rechtsgrundlage_datenverarbeitung/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">nennt weitere mögliche Empfänger*innen (Kategorien) der Daten, wie externe Dienstleistende, Begutachtende etc. (siehe Anwendungsfall IV.a_3-AF_2-6)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>einholen_einwilligung</key>
+		<path>ddp/modul4/einholen_einwilligung</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">2.a) Das Einholen der informierten Einwilligung</title>
+		<help lang="de">Zu den Rechtsgrundlagen der informierten Einwilligung siehe
+Gesetzesvorgaben zum Datenschutz: 2. Informierte Einwilligung.
+berücksichtigt*</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>ddp/modul4/einholen_einwilligung/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Das Einholen der Einwilligungen erfolgt</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>ddp/modul4/einholen_einwilligung/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Beim Einholen der Einwilligung... ...stellen die Forschenden sicher, dass...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_einholen"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>ddp/modul4/einholen_einwilligung/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...die Zwecke der Datenverarbeitung klar definiert sind, wobei diese Zwecke u.a. folgende Aspekte umfassen:</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_zwecke"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>ddp/modul4/einholen_einwilligung/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...der Begriff der “Daten” in der Einwilligung klar definiert ist und u.a. unterschieden wird zwischen den</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>ddp/modul4/einholen_einwilligung/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...durch die Kriterien zur Dauer der Datenspeicherung bzw. zur Löschung der (Kontakt-)Daten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_dauer_datenspeicherung"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>einwilligungsmanagement</key>
+		<path>ddp/modul4/einwilligungsmanagement</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">2.b) Einwilligungsmanagement</title>
+		<help lang="de">Zu den Rechtsgrundlagen der informierten Einwilligung siehe
+Gesetzesvorgaben zum Datenschutz: 2. Informierte Einwilligung.</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>ddp/modul4/einwilligungsmanagement/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Zur Gewährleistung der Rechte der betroffenen Personen (auf Auskunft, Einsichtnahme, Berichtigung, Löschung oder Einschränkung der Verarbeitung sowie Beschwerderechte) wird ein geeignetes Einwilligungsmanagement betrieben (siehe Anwendungsfall IV-a_3-AF_2-b-1)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>ddp/modul4/einwilligungsmanagement/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Dies dokumentiert u.a....</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/2b_einwilligung"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/2b1"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>ddp/modul4/einwilligungsmanagement/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">welche betroffene Person wann wie welche Rechte wahrgenommen hat</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/2b_person_rechte"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/2b1"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3_datenschutz</key>
+		<path>ddp/modul4/3_datenschutz</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">3. Schutz personenbezogener und sensibler Daten</title>
+		<help lang="de">Zu den Grundlagen des Datenschutzes und zentralen Begrifflichkeiten siehe
+Gesetzesvorgaben zum Datenschutz: 3. Schutz personenbezogener Informationen.
+berücksichtigt*</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>ddp/modul4/3_datenschutz/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die Forschenden ergreifen geeignete Maßnahmen zum Schutz personenbezogener und sensibler Daten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>ddp/modul4/3_datenschutz/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Dies betrifft die Verarbeitung...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/3_schutz_was"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/3_1"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>ddp/modul4/3_datenschutz/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Die ergriffenen Schutzmaßnahmen...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/3_1"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3a_schutzmassnahmen</key>
+		<path>ddp/modul4/3a_schutzmassnahmen</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">3.a) Schutzmaßnahmen</title>
+		<help lang="de">Zu den rechtlichen Vorgaben zu Schutzmaßnahmen siehe
+Gesetzesvorgaben zum Datenschutz: 3. Schutz personenbezogener Informationen.</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">...eine Sensibilisierung aller Projektbeteiligten in der Datenverarbeitung in Bezug auf
+datenschutzrechtliche Aspekte</help>
+		<text lang="de">Die Schutzmaßnahmen umfassen u. a.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...eine systematische Zugangskontrolle zu den Daten und Speichermedien, (siehe Standards IV-a_2-ST_3-a-1 und IV-a_2-ST_3-a-2)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">sodass</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_zugangskontrolle"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/3a_2"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...falls zutreffend, verschriftlichte Regelungen zur Übermittlung und Speicherung in Forschungskooperation</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">...die Verschlüsselung der Daten mittels Software, sodass ohne Schlüssel (Passwort) aus den Dateien keine personenbezogenen oder sensiblen Informationen mehr ausgelesen werden können (siehe Standard IV-a_2-ST_3-a-3)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">die Trennung von personenbezogenen Informationen von den übrigen (Forschung- )Daten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/7"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">die Anonymisierung bzw. Pseudonymisierung der Daten zur Verhinderung von Re- Identifikationen der betroffenen Personen (siehe Modul II.b) Nachvollziehbarkeit)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/8</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/8"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>8</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">entweder entfernen aller direkten und ggf. (aller) indirekten Identifikatoren in den Daten (formale Anonymisierung) (siehe Anwendungsfälle IV-c_3-AF_AnoQuanti und IV-c_3-AF_AnoQuali)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>9</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/9</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/9"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>9</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">oder verändern aller direkten und ggf. (aller) indirekten Identifikatoren in den Daten (faktische Anonymisierung bzw. Pseudonymisierung) (siehe Anwendungsfälle IV-c_3-AF_PseudoQuanti und IV-c_3- AF_PseudoQuali)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_10"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>10</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/10</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/10"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>10</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">die Vernichtung personenbezogener bzw. sensibler Daten, wenn diese nicht länger benötigt werden (siehe Modul III.a) Sichern von (Meta-)Daten sowie Anwendungsfall IV-a_3-AF_3-a)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_10"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>11</key>
+		<path>ddp/modul4/3a_schutzmassnahmen/11</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/11"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>11</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">die Vernichtung personenbezogener bzw. sensibler Daten, wenn diese nicht länger benötigt werden (siehe Modul III.a) Sichern von (Meta-)Daten sowie Anwendungsfall IV-a_3-AF_3-a)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/4_schutzverletzungen">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4_schutzverletzungen</key>
+		<path>ddp/modul4/4_schutzverletzungen</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>6</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">4. Schutzverletzungen</title>
+		<help lang="de">Zu den rechtlichen Vorgaben bei Schutzverletzungen siehe
+Gesetzesvorgaben zum Datenschutz: 4. Risikomanagement und Schutzverletzungen.
+berücksichtigt</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/4_schutzverletzungen/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>ddp/modul4/4_schutzverletzungen/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/4/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/4_schutzverletzungen"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Kommt es zu einer Schutzverletzung personenbezogener Daten (z. B. deren unbeabsichtigter Offenlegung), mit der ein erhebliches Risiko für die betroffenen Personen einhergeht, (siehe Anwendungsfall IV-a_3-AF_4)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/4_1"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/5_verarveitung_dritte">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5_verarveitung_dritte</key>
+		<path>ddp/modul4/5_verarveitung_dritte</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>7</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">5. Verarbeitung personenbezogener und sensibler Daten durch Dritte</title>
+		<help lang="de">Zu den rechtlichen Vorgaben bei der Verarbeitung personenbezogener Daten durch Dritte siehe
+Gesetzesvorgaben zum Datenschutz: 5. Auftragsverarbeitung.
+berücksichtigt</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/5_verarveitung_dritte/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>ddp/modul4/5_verarveitung_dritte/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/4/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/ddp/modul4/5_verarveitung_dritte"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Werden personenbezogene oder sensible Daten durch externe Dienstleistende verarbeitet, z. B. ein Erhebungsinstitut, so</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/5_1"/>
+		</optionsets>
+		<conditions/>
+	</question>
+</rdmo>

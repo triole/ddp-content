@@ -1,0 +1,28 @@
+# be aware that the trailing slashes are required
+urls = [
+    "api/v1/domain/attributes/",
+    "api/v1/domain/attributes/export/",
+    "api/v1/conditions/conditions/",
+    "api/v1/conditions/conditions/export/",
+    "api/v1/options/optionsets/",
+    "api/v1/options/optionsets/export/",
+    "api/v1/tasks/tasks/",
+    "api/v1/tasks/tasks/export/",
+    "api/v1/views/views/",
+    "api/v1/views/views/export/",
+    "api/v1/questions/catalogs/",
+    "api/v1/questions/catalogs/export/",
+    "api/v1/projects/projects/"
+]
+
+url_project="projects/1/export/xml/"
+
+[blechkiste]
+host = "http://localhost:8280"
+docker_name="rdmo"
+manage_py = "/home/rdmo/rdmo-app/manage.py"
+
+[rdmoddp_vm]
+host = "http://localhost:9001"
+docker_name="rdmoddp-rdmo"
+manage_py = "/vol/rdmo-app/manage.py"
