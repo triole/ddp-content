@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-11-23T11:22:47.506080+01:00">
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-11-23T14:29:24.813286+01:00">
 	<title>DDP</title>
 	<description/>
+	<catalog dc:uri="https://localhost/rdmo/test/questions/m4"/>
 	<views>
 		<view dc:uri="https://localhost/rdmo/test/views/view1"/>
 		<view dc:uri="https://localhost/rdmo/test/views/view2"/>

@@ -60,7 +60,7 @@ conf_url_projects="${conf_host}/$(gk "url_project")"
 
 latest_dir=$(
     find "${xml_dir}" -mindepth 1 -maxdepth 1 -type d |
-        rg "[0-9]{8}_[0-9]{6}" | sort | tail -n 1
+        grep -E "[0-9]{8}_[0-9]{6}" | sort | tail -n 1
 )
 
 function detect_latest() {

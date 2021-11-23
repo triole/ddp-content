@@ -3,8 +3,6 @@ version: '3'
 vars:
     CURDIR:
         sh: pwd
-    ARG:
-        sh: echo {{.t}}
 
 tasks:
     default:

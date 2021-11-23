@@ -24,5 +24,5 @@ manage_py = "/home/rdmo/rdmo-app/manage.py"
 
 [rdmoddp_vm]
 host = "http://localhost:9001"
-docker_name="rdmoddp-rdmo"
+docker_name="ddp-rdmo"
 manage_py = "/vol/rdmo-app/manage.py"
