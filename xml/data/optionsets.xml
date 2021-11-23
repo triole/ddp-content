@@ -1,73 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-09-29T21:08:39.604232+02:00">
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>2/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">schriftlich bzw. wird im Rahmen des Einwilligungsmanagements dokumentiert (siehe Anwendungsfall IV-a_3-AF_2-2)</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>2/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">vor dem Erheben der Daten bzw. wird im Rahmen des Einwilligungsmanagements schriftlich begründet (siehe Anwendungsfall IV-a_3-AF_2-a-1)</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2a_daten_begriffsdefinition</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>2a_daten_begriffsdefinition/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">Daten zum Forschungsvorhaben (Forschungsdaten)</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>2a_daten_begriffsdefinition/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">weiteren personenbezogenen Daten zur Datengenese (Kontaktdaten)</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-11-23T11:25:02.960562+01:00">
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_dauer_datenspeicherung">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2a_dauer_datenspeicherung</key>
@@ -346,6 +278,186 @@
 		<order>4</order>
 		<text lang="en"/>
 		<text lang="de">der Daten zur Verfügbarmachung (siehe Modul V.a) Verfügbarmachung sowie Anwendungsfall IV-a_3-AF_3-2)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3a_10</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_10/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>3a_10/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_10"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">wobei die Brauchbarkeit der Daten so wenig wie möglich beeinträchtigt wird, für das originäre Forschungsvorhaben</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_10/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>3a_10/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_10"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">wobei die Brauchbarkeit der Daten so wenig wie möglich beeinträchtigt wird, das Nachnutzungspotential der Daten für Dritte (siehe Modul V.a) Verfügbarmachung)</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_10/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>3a_10/3</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_10"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">und alle vorgenommenen Änderungen an den Daten im Rahmen der Anonymisierung bzw. Pseudonymisierung dokumentiert werden (siehe Modul II.a) Datendokumentation)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3a_11</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_11/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>3a_11/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">dies betrifft u. a.... ...die im Projekt verarbeiteten Daten als solche</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_11/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>3a_11/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">...deren Back-Ups</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_11/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>3a_11/3</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
+		<order>3</order>
+		<text lang="en"/>
+		<text lang="de">...weitere Dateien mit personenbezogenen Informationen, z. B. die schriftlichen Einwilligungserklärungen der betroffenen Personen</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_11/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>3a_11/4</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
+		<order>4</order>
+		<text lang="en"/>
+		<text lang="de">ggf. ist die Vernichtung der Daten aufgrund von Auflagen notwendig, z. B. wenn (siehe Standard IV-a_2-ST_3-a-4)... ...entsprechende Angaben (Zusagen) zu Speicherfristen bzw. Löschzusagen in der Einwilligungserklärung gemacht wurden</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_11/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>3a_11/5</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
+		<order>5</order>
+		<text lang="en"/>
+		<text lang="de">...Auflagen zum Löschen durch Dritte existieren, wie z. B. durch Behörden, Lizenzbedingungen etc. (siehe Module IV.b) Urheberrechte und IV.c) Forschungsethik)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3a_8</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_8/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>3a_8/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">entsprechen den datenschutzrechtlichen Vorgaben</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_8/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>3a_8/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">entsprechen dem aktuellen Stand der Technik</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_8/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>3a_8/3</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">werden (regelmäßig) auf ihre Wirksamkeit hin überprüft</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/3a_8/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>3a_8/4</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8"/>
+		<order>4</order>
+		<text lang="en"/>
+		<text lang="de">werden bei Veränderung der Rahmenbedingungen geprüft und angepasst (siehe Anwendungsfall IV-a_3-AF_3-3)</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
@@ -3001,6 +3113,194 @@
 		<text lang="it"/>
 		<additional_input>True</additional_input>
 	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>preservation_repository_options</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/139">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>139</key>
+		<path>preservation_repository_options/139</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
+		<order>1</order>
+		<text lang="en">Own institution</text>
+		<text lang="de">Eigene Institution</text>
+		<text lang="fr">Propre à l'institution</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/140">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>140</key>
+		<path>preservation_repository_options/140</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
+		<order>2</order>
+		<text lang="en">Discipline specific data center</text>
+		<text lang="de">Disziplinspezifisches Datenzentrum</text>
+		<text lang="fr">Centre de données spécifique à la discipline</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/141">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>141</key>
+		<path>preservation_repository_options/141</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
+		<order>3</order>
+		<text lang="en">Generic data center</text>
+		<text lang="de">Generisches Datenzentrum</text>
+		<text lang="fr">Centre générique de données</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/143">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>143</key>
+		<path>preservation_repository_options/143</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
+		<order>4</order>
+		<text lang="en">Has not yet been decided</text>
+		<text lang="de">Wurde noch nicht entschieden</text>
+		<text lang="fr">N'a pas encore été décidé</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/142">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>142</key>
+		<path>preservation_repository_options/142</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
+		<order>5</order>
+		<text lang="en">Other</text>
+		<text lang="de">Sonstiges</text>
+		<text lang="fr">Autre</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2a_daten_begriffsdefinition</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>2a_daten_begriffsdefinition/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Daten zum Forschungsvorhaben (Forschungsdaten)</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>2a_daten_begriffsdefinition/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">weiteren personenbezogenen Daten zur Datengenese (Kontaktdaten)</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>rechtsgrundlage_datenverarbeitung_personen</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>rechtsgrundlage_datenverarbeitung_personen/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Erziehungsberechtigten, wenn die betroffene Person aufgrund von rechtlichen Altersvorgaben bzw. aufgrund mangelnder Einsichtsfähigkeit nicht einwilligen kann (siehe Standard IV-a_2-ST_2-2)</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>rechtsgrundlage_datenverarbeitung_personen/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">Dritten, wenn diese Teil der Datenerhebung werden (können), etwa zur Kontaktakquise, z. B. Schneeballsysteme oder Ankerpersonen (siehe Anwendungsfall IV-a_3-AF_2-4)</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>rechtsgrundlage_datenverarbeitung_personen/3</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">Dritten, wenn diese Teil der Datenerhebung werden (können), etwa auf Audio- oder Videoaufnahmen durch Aussagen der betroffenen Person in der Datenerhebung (siehe Anwendungsfall IV-a_3-AF_2-5)</text>
+		<text lang="fr">Normes d'enregistrement des données</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>2/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">schriftlich bzw. wird im Rahmen des Einwilligungsmanagements dokumentiert (siehe Anwendungsfall IV-a_3-AF_2-2)</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>2/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">vor dem Erheben der Daten bzw. wird im Rahmen des Einwilligungsmanagements schriftlich begründet (siehe Anwendungsfall IV-a_3-AF_2-a-1)</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_motivation_options">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>preservation_motivation_options</key>
@@ -3087,126 +3387,6 @@
 		<text lang="it"/>
 		<additional_input>True</additional_input>
 	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>preservation_repository_options</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/139">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>139</key>
-		<path>preservation_repository_options/139</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
-		<order>1</order>
-		<text lang="en">Own institution</text>
-		<text lang="de">Eigene Institution</text>
-		<text lang="fr">Propre à l'institution</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/140">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>140</key>
-		<path>preservation_repository_options/140</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
-		<order>2</order>
-		<text lang="en">Discipline specific data center</text>
-		<text lang="de">Disziplinspezifisches Datenzentrum</text>
-		<text lang="fr">Centre de données spécifique à la discipline</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/141">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>141</key>
-		<path>preservation_repository_options/141</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
-		<order>3</order>
-		<text lang="en">Generic data center</text>
-		<text lang="de">Generisches Datenzentrum</text>
-		<text lang="fr">Centre générique de données</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/143">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>143</key>
-		<path>preservation_repository_options/143</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
-		<order>4</order>
-		<text lang="en">Has not yet been decided</text>
-		<text lang="de">Wurde noch nicht entschieden</text>
-		<text lang="fr">N'a pas encore été décidé</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/142">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>142</key>
-		<path>preservation_repository_options/142</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
-		<order>5</order>
-		<text lang="en">Other</text>
-		<text lang="de">Sonstiges</text>
-		<text lang="fr">Autre</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_10">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3a_10</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_10/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>3a_10/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_10"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">wobei die Brauchbarkeit der Daten so wenig wie möglich beeinträchtigt wird, für das originäre Forschungsvorhaben</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_10/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>3a_10/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_10"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">wobei die Brauchbarkeit der Daten so wenig wie möglich beeinträchtigt wird, das Nachnutzungspotential der Daten für Dritte (siehe Modul V.a) Verfügbarmachung)</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_10/3">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3</key>
-		<path>3a_10/3</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_10"/>
-		<order>2</order>
-		<text lang="en"/>
-		<text lang="de">und alle vorgenommenen Änderungen an den Daten im Rahmen der Anonymisierung bzw. Pseudonymisierung dokumentiert werden (siehe Modul II.a) Datendokumentation)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>rechtsgrundlage_datenverarbeitung</key>
@@ -3277,53 +3457,6 @@
 		<text lang="en"/>
 		<text lang="de">nennt weitere mögliche Empfänger*innen (Kategorien) der Daten, wie externe Dienstleistende, Begutachtende etc. (siehe Anwendungsfall IV.a_3-AF_2-6)</text>
 		<text lang="fr">Validation de la collecte des données</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>rechtsgrundlage_datenverarbeitung_personen</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>rechtsgrundlage_datenverarbeitung_personen/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">Erziehungsberechtigten, wenn die betroffene Person aufgrund von rechtlichen Altersvorgaben bzw. aufgrund mangelnder Einsichtsfähigkeit nicht einwilligen kann (siehe Standard IV-a_2-ST_2-2)</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>rechtsgrundlage_datenverarbeitung_personen/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">Dritten, wenn diese Teil der Datenerhebung werden (können), etwa zur Kontaktakquise, z. B. Schneeballsysteme oder Ankerpersonen (siehe Anwendungsfall IV-a_3-AF_2-4)</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/3">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3</key>
-		<path>rechtsgrundlage_datenverarbeitung_personen/3</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
-		<order>2</order>
-		<text lang="en"/>
-		<text lang="de">Dritten, wenn diese Teil der Datenerhebung werden (können), etwa auf Audio- oder Videoaufnahmen durch Aussagen der betroffenen Person in der Datenerhebung (siehe Anwendungsfall IV-a_3-AF_2-5)</text>
-		<text lang="fr">Normes d'enregistrement des données</text>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
@@ -4999,135 +5132,62 @@
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3a_11</key>
+	<optionset dc:uri="https://localhost/rdmo/test/options/m3_2_1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>m3_2_1</key>
 		<dc:comment/>
 		<order>0</order>
 		<provider_key/>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_11/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>3a_11/1</path>
+	<option dc:uri="https://localhost/rdmo/test/options/m3_2_1/0">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>0</key>
+		<path>m3_2_1/0</path>
 		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/m3_2_1"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">a) den Rückgriff auf institutionelle Back-Up-Systeme ihrer Forschungseinrichtung(en), oder siehe Anwendungsfall A-III-2-1-a (III-a_3-AF_2-1)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://localhost/rdmo/test/options/m3_2_1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m3_2_1/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/m3_2_1"/>
 		<order>1</order>
 		<text lang="en"/>
-		<text lang="de">dies betrifft u. a.... ...die im Projekt verarbeiteten Daten als solche</text>
-		<text lang="fr">Procédure de calibrage</text>
+		<text lang="de">b) die Nutzung von Cloud-Diensten mit entsprechenden Back-Up-Systemen, oder</text>
+		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_11/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+	<option dc:uri="https://localhost/rdmo/test/options/m3_2_1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>2</key>
-		<path>3a_11/2</path>
+		<path>m3_2_1/2</path>
 		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/m3_2_1"/>
 		<order>2</order>
 		<text lang="en"/>
-		<text lang="de">...deren Back-Ups</text>
-		<text lang="fr">Mesures répétées</text>
+		<text lang="de">c) die Nutzung externer Back-Up-Systeme, wie z. B. durch ein Repositorium, oder</text>
+		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_11/3">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+	<option dc:uri="https://localhost/rdmo/test/options/m3_2_1/3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>3</key>
-		<path>3a_11/3</path>
+		<path>m3_2_1/3</path>
 		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/m3_2_1"/>
 		<order>3</order>
 		<text lang="en"/>
-		<text lang="de">...weitere Dateien mit personenbezogenen Informationen, z. B. die schriftlichen Einwilligungserklärungen der betroffenen Personen</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_11/4">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>4</key>
-		<path>3a_11/4</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
-		<order>4</order>
-		<text lang="en"/>
-		<text lang="de">ggf. ist die Vernichtung der Daten aufgrund von Auflagen notwendig, z. B. wenn (siehe Standard IV-a_2-ST_3-a-4)... ...entsprechende Angaben (Zusagen) zu Speicherfristen bzw. Löschzusagen in der Einwilligungserklärung gemacht wurden</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_11/5">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>5</key>
-		<path>3a_11/5</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_11"/>
-		<order>5</order>
-		<text lang="en"/>
-		<text lang="de">...Auflagen zum Löschen durch Dritte existieren, wie z. B. durch Behörden, Lizenzbedingungen etc. (siehe Module IV.b) Urheberrechte und IV.c) Forschungsethik)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3a_8</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_8/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>3a_8/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">entsprechen den datenschutzrechtlichen Vorgaben</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_8/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>3a_8/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">entsprechen dem aktuellen Stand der Technik</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_8/3">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3</key>
-		<path>3a_8/3</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8"/>
-		<order>2</order>
-		<text lang="en"/>
-		<text lang="de">werden (regelmäßig) auf ihre Wirksamkeit hin überprüft</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/3a_8/4">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>4</key>
-		<path>3a_8/4</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/3a_8"/>
-		<order>4</order>
-		<text lang="en"/>
-		<text lang="de">werden bei Veränderung der Rahmenbedingungen geprüft und angepasst (siehe Anwendungsfall IV-a_3-AF_3-3)</text>
+		<text lang="de">d) die Implementierung eines eigenen Back-Up-Verfahrens und dessen konsistente Umsetzung im Projektverlauf siehe Anwendungsfall A-III-2-1-b (III-a_3-AF_2-2)</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>

@@ -1,6 +1,6 @@
 [
   {
-    "id": 2,
+    "id": 1,
     "uri": "https://ddp-bildung.org/terms/domain/deckblatt",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "deckblatt",
@@ -17,11 +17,74 @@
     "projects_count": 0
   },
   {
-    "id": 3,
+    "id": 2,
     "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "data_collection",
     "path": "deckblatt/data_collection",
+    "comment": "",
+    "locked": false,
+    "parent": 1,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 3,
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/ethical_aspects",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "ethical_aspects",
+    "path": "deckblatt/data_collection/ethical_aspects",
+    "comment": "",
+    "locked": false,
+    "parent": 2,
+    "conditions": [],
+    "questionsets": [
+      {
+        "id": 4,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/ethical_aspects",
+        "path": "db/deckblatt/ethical_aspects"
+      }
+    ],
+    "questions": [],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 4,
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/ethical_aspects/specification",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "specification",
+    "path": "deckblatt/data_collection/ethical_aspects/specification",
+    "comment": "",
+    "locked": false,
+    "parent": 3,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 5,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/ethical_aspects/specification",
+        "path": "db/deckblatt/ethical_aspects/specification"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 5,
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "research_design",
+    "path": "deckblatt/data_collection/research_design",
     "comment": "",
     "locked": false,
     "parent": 2,
@@ -34,63 +97,23 @@
     "projects_count": 0
   },
   {
-    "id": 4,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/ethical_aspects",
+    "id": 6,
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/by_whom",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "ethical_aspects",
-    "path": "deckblatt/data_collection/ethical_aspects",
+    "key": "by_whom",
+    "path": "deckblatt/data_collection/research_design/by_whom",
     "comment": "",
     "locked": false,
-    "parent": 3,
-    "conditions": [],
-    "questionsets": [
-      {
-        "id": 4,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/ethical_aspects",
-        "path": "ddp/deckblatt/ethical_aspects"
-      }
-    ],
-    "questions": [],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 5,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/ethical_aspects/specification",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "specification",
-    "path": "deckblatt/data_collection/ethical_aspects/specification",
-    "comment": "",
-    "locked": false,
-    "parent": 4,
+    "parent": 5,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 5,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/ethical_aspects/specification",
-        "path": "ddp/deckblatt/ethical_aspects/specification"
+        "id": 15,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/research_design/by_whom",
+        "path": "db/deckblatt/research_design/by_whom"
       }
     ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 6,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "research_design",
-    "path": "deckblatt/data_collection/research_design",
-    "comment": "",
-    "locked": false,
-    "parent": 3,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
     "values_count": 0,
@@ -98,20 +121,20 @@
   },
   {
     "id": 7,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/by_whom",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/ethical_aspects_yesno",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "by_whom",
-    "path": "deckblatt/data_collection/research_design/by_whom",
+    "key": "ethical_aspects_yesno",
+    "path": "deckblatt/data_collection/research_design/ethical_aspects_yesno",
     "comment": "",
     "locked": false,
-    "parent": 6,
+    "parent": 5,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 15,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design/by_whom",
-        "path": "ddp/deckblatt/research_design/by_whom"
+        "id": 16,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/research_design/ethical_aspects_yesno",
+        "path": "db/deckblatt/research_design/ethical_aspects_yesno"
       }
     ],
     "tasks_as_start": [],
@@ -121,20 +144,20 @@
   },
   {
     "id": 8,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/ethical_aspects_yesno",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/frequency",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "ethical_aspects_yesno",
-    "path": "deckblatt/data_collection/research_design/ethical_aspects_yesno",
+    "key": "frequency",
+    "path": "deckblatt/data_collection/research_design/frequency",
     "comment": "",
     "locked": false,
-    "parent": 6,
+    "parent": 5,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 16,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design/ethical_aspects_yesno",
-        "path": "ddp/deckblatt/research_design/ethical_aspects_yesno"
+        "id": 17,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/research_design/frequency",
+        "path": "db/deckblatt/research_design/frequency"
       }
     ],
     "tasks_as_start": [],
@@ -144,20 +167,20 @@
   },
   {
     "id": 9,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/frequency",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/method",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "frequency",
-    "path": "deckblatt/data_collection/research_design/frequency",
+    "key": "method",
+    "path": "deckblatt/data_collection/research_design/method",
     "comment": "",
     "locked": false,
-    "parent": 6,
+    "parent": 5,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 17,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design/frequency",
-        "path": "ddp/deckblatt/research_design/frequency"
+        "id": 18,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/research_design/method",
+        "path": "db/deckblatt/research_design/method"
       }
     ],
     "tasks_as_start": [],
@@ -167,20 +190,20 @@
   },
   {
     "id": 10,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/method",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/utility",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "method",
-    "path": "deckblatt/data_collection/research_design/method",
+    "key": "utility",
+    "path": "deckblatt/data_collection/research_design/utility",
     "comment": "",
     "locked": false,
-    "parent": 6,
+    "parent": 5,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 18,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design/method",
-        "path": "ddp/deckblatt/research_design/method"
+        "id": 19,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/research_design/utility",
+        "path": "db/deckblatt/research_design/utility"
       }
     ],
     "tasks_as_start": [],
@@ -190,22 +213,16 @@
   },
   {
     "id": 11,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_collection/research_design/utility",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_content",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "utility",
-    "path": "deckblatt/data_collection/research_design/utility",
+    "key": "data_content",
+    "path": "deckblatt/data_content",
     "comment": "",
     "locked": false,
-    "parent": 6,
+    "parent": 1,
     "conditions": [],
     "questionsets": [],
-    "questions": [
-      {
-        "id": 19,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/research_design/utility",
-        "path": "ddp/deckblatt/research_design/utility"
-      }
-    ],
+    "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
     "values_count": 0,
@@ -213,13 +230,13 @@
   },
   {
     "id": 12,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_content",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_content/privacy",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "data_content",
-    "path": "deckblatt/data_content",
+    "key": "privacy",
+    "path": "deckblatt/data_content/privacy",
     "comment": "",
     "locked": false,
-    "parent": 2,
+    "parent": 11,
     "conditions": [],
     "questionsets": [],
     "questions": [],
@@ -230,13 +247,36 @@
   },
   {
     "id": 13,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_content/privacy",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_content/privacy/sensitive_data_yesno",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "privacy",
-    "path": "deckblatt/data_content/privacy",
+    "key": "sensitive_data_yesno",
+    "path": "deckblatt/data_content/privacy/sensitive_data_yesno",
     "comment": "",
     "locked": false,
     "parent": 12,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 12,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/privacy/sensitive_data",
+        "path": "db/deckblatt/privacy/sensitive_data"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 14,
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_generation",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "data_generation",
+    "path": "deckblatt/data_generation",
+    "comment": "",
+    "locked": false,
+    "parent": 1,
     "conditions": [],
     "questionsets": [],
     "questions": [],
@@ -246,39 +286,22 @@
     "projects_count": 0
   },
   {
-    "id": 14,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_content/privacy/sensitive_data_yesno",
+    "id": 15,
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_link",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "sensitive_data_yesno",
-    "path": "deckblatt/data_content/privacy/sensitive_data_yesno",
+    "key": "data_link",
+    "path": "deckblatt/data_generation/data_link",
     "comment": "",
     "locked": false,
-    "parent": 13,
+    "parent": 14,
     "conditions": [],
-    "questionsets": [],
-    "questions": [
+    "questionsets": [
       {
-        "id": 12,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/privacy/sensitive_data",
-        "path": "ddp/deckblatt/privacy/sensitive_data"
+        "id": 2,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/data_link",
+        "path": "db/deckblatt/data_link"
       }
     ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 15,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_generation",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "data_generation",
-    "path": "deckblatt/data_generation",
-    "comment": "",
-    "locked": false,
-    "parent": 2,
-    "conditions": [],
-    "questionsets": [],
     "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
@@ -287,22 +310,22 @@
   },
   {
     "id": 16,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_link",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_link/link_type",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "data_link",
-    "path": "deckblatt/data_generation/data_link",
+    "key": "link_type",
+    "path": "deckblatt/data_generation/data_link/link_type",
     "comment": "",
     "locked": false,
     "parent": 15,
     "conditions": [],
-    "questionsets": [
+    "questionsets": [],
+    "questions": [
       {
         "id": 2,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_link",
-        "path": "ddp/deckblatt/data_link"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/data_link/link_type",
+        "path": "db/deckblatt/data_link/link_type"
       }
     ],
-    "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
     "values_count": 0,
@@ -310,42 +333,19 @@
   },
   {
     "id": 17,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_link/link_type",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "link_type",
-    "path": "deckblatt/data_generation/data_link/link_type",
-    "comment": "",
-    "locked": false,
-    "parent": 16,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 2,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_link/link_type",
-        "path": "ddp/deckblatt/data_link/link_type"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 18,
     "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_type",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "data_type",
     "path": "deckblatt/data_generation/data_type",
     "comment": "",
     "locked": false,
-    "parent": 15,
+    "parent": 14,
     "conditions": [],
     "questionsets": [
       {
         "id": 3,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_type",
-        "path": "ddp/deckblatt/data_type"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/data_type",
+        "path": "db/deckblatt/data_type"
       }
     ],
     "questions": [],
@@ -355,21 +355,44 @@
     "projects_count": 0
   },
   {
-    "id": 19,
+    "id": 18,
     "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_type/link_yesno",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "link_yesno",
     "path": "deckblatt/data_generation/data_type/link_yesno",
     "comment": "",
     "locked": false,
-    "parent": 18,
+    "parent": 17,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
         "id": 3,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_type/link",
-        "path": "ddp/deckblatt/data_type/link"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/data_type/link",
+        "path": "db/deckblatt/data_type/link"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 19,
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_type/scenario",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "scenario",
+    "path": "deckblatt/data_generation/data_type/scenario",
+    "comment": "",
+    "locked": false,
+    "parent": 17,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 4,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/data_type/scenario",
+        "path": "db/deckblatt/data_type/scenario"
       }
     ],
     "tasks_as_start": [],
@@ -379,22 +402,16 @@
   },
   {
     "id": 20,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_generation/data_type/scenario",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_use",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "scenario",
-    "path": "deckblatt/data_generation/data_type/scenario",
+    "key": "data_use",
+    "path": "deckblatt/data_use",
     "comment": "",
     "locked": false,
-    "parent": 18,
+    "parent": 1,
     "conditions": [],
     "questionsets": [],
-    "questions": [
-      {
-        "id": 4,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_type/scenario",
-        "path": "ddp/deckblatt/data_type/scenario"
-      }
-    ],
+    "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
     "values_count": 0,
@@ -402,15 +419,21 @@
   },
   {
     "id": 21,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_use",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_use/copyright",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "data_use",
-    "path": "deckblatt/data_use",
+    "key": "copyright",
+    "path": "deckblatt/data_use/copyright",
     "comment": "",
     "locked": false,
-    "parent": 2,
+    "parent": 20,
     "conditions": [],
-    "questionsets": [],
+    "questionsets": [
+      {
+        "id": 1,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/copyright",
+        "path": "db/deckblatt/copyright"
+      }
+    ],
     "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
@@ -419,22 +442,22 @@
   },
   {
     "id": 22,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_use/copyright",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_use/copyright/datatypes",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "copyright",
-    "path": "deckblatt/data_use/copyright",
+    "key": "datatypes",
+    "path": "deckblatt/data_use/copyright/datatypes",
     "comment": "",
     "locked": false,
     "parent": 21,
     "conditions": [],
-    "questionsets": [
+    "questionsets": [],
+    "questions": [
       {
         "id": 1,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/copyright",
-        "path": "ddp/deckblatt/copyright"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/copyright/datatypes",
+        "path": "db/deckblatt/copyright/datatypes"
       }
     ],
-    "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
     "values_count": 0,
@@ -442,42 +465,19 @@
   },
   {
     "id": 23,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_use/copyright/datatypes",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "datatypes",
-    "path": "deckblatt/data_use/copyright/datatypes",
-    "comment": "",
-    "locked": false,
-    "parent": 22,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 1,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/copyright/datatypes",
-        "path": "ddp/deckblatt/copyright/datatypes"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 24,
     "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_use/introduction",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "introduction",
     "path": "deckblatt/data_use/introduction",
     "comment": "",
     "locked": false,
-    "parent": 21,
+    "parent": 20,
     "conditions": [],
     "questionsets": [
       {
         "id": 5,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/introduction",
-        "path": "ddp/deckblatt/introduction"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/introduction",
+        "path": "db/deckblatt/introduction"
       }
     ],
     "questions": [],
@@ -487,21 +487,44 @@
     "projects_count": 0
   },
   {
-    "id": 25,
+    "id": 24,
     "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_use/introduction/data_collection_yesno",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "data_collection_yesno",
     "path": "deckblatt/data_use/introduction/data_collection_yesno",
     "comment": "",
     "locked": false,
-    "parent": 24,
+    "parent": 23,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
         "id": 6,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/introduction/data_collection",
-        "path": "ddp/deckblatt/introduction/data_collection"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/introduction/data_collection",
+        "path": "db/deckblatt/introduction/data_collection"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 25,
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_use/introduction/reuse",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "reuse",
+    "path": "deckblatt/data_use/introduction/reuse",
+    "comment": "",
+    "locked": false,
+    "parent": 23,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 7,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/introduction/reuse",
+        "path": "db/deckblatt/introduction/reuse"
       }
     ],
     "tasks_as_start": [],
@@ -511,22 +534,16 @@
   },
   {
     "id": 26,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/data_use/introduction/reuse",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/method",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "reuse",
-    "path": "deckblatt/data_use/introduction/reuse",
+    "key": "method",
+    "path": "deckblatt/method",
     "comment": "",
     "locked": false,
-    "parent": 24,
+    "parent": 1,
     "conditions": [],
     "questionsets": [],
-    "questions": [
-      {
-        "id": 7,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/introduction/reuse",
-        "path": "ddp/deckblatt/introduction/reuse"
-      }
-    ],
+    "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
     "values_count": 0,
@@ -534,15 +551,21 @@
   },
   {
     "id": 27,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/method",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/method/procedure",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "method",
-    "path": "deckblatt/method",
+    "key": "procedure",
+    "path": "deckblatt/method/procedure",
     "comment": "",
     "locked": false,
-    "parent": 2,
+    "parent": 26,
     "conditions": [],
-    "questionsets": [],
+    "questionsets": [
+      {
+        "id": 8,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/procedure",
+        "path": "db/deckblatt/procedure"
+      }
+    ],
     "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
@@ -551,22 +574,22 @@
   },
   {
     "id": 28,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/method/procedure",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/method/procedure/sampling_procedure",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "procedure",
-    "path": "deckblatt/method/procedure",
+    "key": "sampling_procedure",
+    "path": "deckblatt/method/procedure/sampling_procedure",
     "comment": "",
     "locked": false,
     "parent": 27,
     "conditions": [],
-    "questionsets": [
+    "questionsets": [],
+    "questions": [
       {
-        "id": 8,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/procedure",
-        "path": "ddp/deckblatt/procedure"
+        "id": 13,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/procedure/sampling_procedure",
+        "path": "db/deckblatt/procedure/sampling_procedure"
       }
     ],
-    "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
     "values_count": 0,
@@ -574,20 +597,20 @@
   },
   {
     "id": 29,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/method/procedure/sampling_procedure",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/method/procedure/study_population",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "sampling_procedure",
-    "path": "deckblatt/method/procedure/sampling_procedure",
+    "key": "study_population",
+    "path": "deckblatt/method/procedure/study_population",
     "comment": "",
     "locked": false,
-    "parent": 28,
+    "parent": 27,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 13,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/procedure/sampling_procedure",
-        "path": "ddp/deckblatt/procedure/sampling_procedure"
+        "id": 14,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/procedure/study_population",
+        "path": "db/deckblatt/procedure/study_population"
       }
     ],
     "tasks_as_start": [],
@@ -597,22 +620,16 @@
   },
   {
     "id": 30,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/method/procedure/study_population",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "study_population",
-    "path": "deckblatt/method/procedure/study_population",
+    "key": "scope",
+    "path": "deckblatt/scope",
     "comment": "",
     "locked": false,
-    "parent": 28,
+    "parent": 1,
     "conditions": [],
     "questionsets": [],
-    "questions": [
-      {
-        "id": 14,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/procedure/study_population",
-        "path": "ddp/deckblatt/procedure/study_population"
-      }
-    ],
+    "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
     "values_count": 0,
@@ -620,15 +637,21 @@
   },
   {
     "id": 31,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope/place",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "scope",
-    "path": "deckblatt/scope",
+    "key": "place",
+    "path": "deckblatt/scope/place",
     "comment": "",
     "locked": false,
-    "parent": 2,
+    "parent": 30,
     "conditions": [],
-    "questionsets": [],
+    "questionsets": [
+      {
+        "id": 6,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/place",
+        "path": "db/deckblatt/place"
+      }
+    ],
     "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
@@ -637,22 +660,22 @@
   },
   {
     "id": 32,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope/place",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope/place/archived_data",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "place",
-    "path": "deckblatt/scope/place",
+    "key": "archived_data",
+    "path": "deckblatt/scope/place/archived_data",
     "comment": "",
     "locked": false,
     "parent": 31,
     "conditions": [],
-    "questionsets": [
+    "questionsets": [],
+    "questions": [
       {
-        "id": 6,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/place",
-        "path": "ddp/deckblatt/place"
+        "id": 8,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/place/archived_data",
+        "path": "db/deckblatt/place/archived_data"
       }
     ],
-    "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
     "values_count": 0,
@@ -660,20 +683,20 @@
   },
   {
     "id": 33,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope/place/archived_data",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope/place/federal_state_comparison",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "archived_data",
-    "path": "deckblatt/scope/place/archived_data",
+    "key": "federal_state_comparison",
+    "path": "deckblatt/scope/place/federal_state_comparison",
     "comment": "",
     "locked": false,
-    "parent": 32,
+    "parent": 31,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 8,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/place/archived_data",
-        "path": "ddp/deckblatt/place/archived_data"
+        "id": 9,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/place/federal_state_comparison",
+        "path": "db/deckblatt/place/federal_state_comparison"
       }
     ],
     "tasks_as_start": [],
@@ -683,20 +706,20 @@
   },
   {
     "id": 34,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope/place/federal_state_comparison",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope/place/federal_states",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "federal_state_comparison",
-    "path": "deckblatt/scope/place/federal_state_comparison",
+    "key": "federal_states",
+    "path": "deckblatt/scope/place/federal_states",
     "comment": "",
     "locked": false,
-    "parent": 32,
+    "parent": 31,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 9,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/place/federal_state_comparison",
-        "path": "ddp/deckblatt/place/federal_state_comparison"
+        "id": 10,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/place/federal_states",
+        "path": "db/deckblatt/place/federal_states"
       }
     ],
     "tasks_as_start": [],
@@ -706,20 +729,20 @@
   },
   {
     "id": 35,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope/place/federal_states",
+    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope/place/institution",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "federal_states",
-    "path": "deckblatt/scope/place/federal_states",
+    "key": "institution",
+    "path": "deckblatt/scope/place/institution",
     "comment": "",
     "locked": false,
-    "parent": 32,
+    "parent": 31,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 10,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/place/federal_states",
-        "path": "ddp/deckblatt/place/federal_states"
+        "id": 11,
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/place/institution",
+        "path": "db/deckblatt/place/institution"
       }
     ],
     "tasks_as_start": [],
@@ -729,29 +752,6 @@
   },
   {
     "id": 36,
-    "uri": "https://ddp-bildung.org/terms/domain/deckblatt/scope/place/institution",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "institution",
-    "path": "deckblatt/scope/place/institution",
-    "comment": "",
-    "locked": false,
-    "parent": 32,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 11,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/place/institution",
-        "path": "ddp/deckblatt/place/institution"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 76,
     "uri": "https://ddp-bildung.org/terms/domain/modul4",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "modul4",
@@ -775,7 +775,7 @@
     "path": "modul4/modul4",
     "comment": "",
     "locked": false,
-    "parent": 76,
+    "parent": 36,
     "conditions": [],
     "questionsets": [],
     "questions": [],
@@ -785,7 +785,7 @@
     "projects_count": 0
   },
   {
-    "id": 70,
+    "id": 38,
     "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "1",
@@ -796,147 +796,9 @@
     "conditions": [],
     "questionsets": [
       {
-        "id": 14,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept",
-        "path": "ddp/modul4/datenschutzkonzept"
-      }
-    ],
-    "questions": [],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 71,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1/0",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "0",
-    "path": "modul4/modul4/1/0",
-    "comment": "",
-    "locked": false,
-    "parent": 70,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 35,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept/0",
-        "path": "ddp/modul4/datenschutzkonzept/0"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 1,
-    "projects_count": 1
-  },
-  {
-    "id": 72,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1/1",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "1",
-    "path": "modul4/modul4/1/1",
-    "comment": "",
-    "locked": false,
-    "parent": 70,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 36,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept/1",
-        "path": "ddp/modul4/datenschutzkonzept/1"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 73,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1/2",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "2",
-    "path": "modul4/modul4/1/2",
-    "comment": "",
-    "locked": false,
-    "parent": 70,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 37,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept/2",
-        "path": "ddp/modul4/datenschutzkonzept/2"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 74,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1/3",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "3",
-    "path": "modul4/modul4/1/3",
-    "comment": "",
-    "locked": false,
-    "parent": 70,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 38,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept/3",
-        "path": "ddp/modul4/datenschutzkonzept/3"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 75,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1/4",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "4",
-    "path": "modul4/modul4/1/4",
-    "comment": "",
-    "locked": false,
-    "parent": 70,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 39,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/datenschutzkonzept/4",
-        "path": "ddp/modul4/datenschutzkonzept/4"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 38,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "2",
-    "path": "modul4/modul4/2",
-    "comment": "",
-    "locked": false,
-    "parent": 37,
-    "conditions": [],
-    "questionsets": [
-      {
-        "id": 17,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung",
-        "path": "ddp/modul4/rechtsgrundlage_datenverarbeitung"
+        "id": 18,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/1",
+        "path": "m4/a/1"
       }
     ],
     "questions": [],
@@ -947,10 +809,10 @@
   },
   {
     "id": 39,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/1",
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1/0",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "1",
-    "path": "modul4/modul4/2/1",
+    "key": "0",
+    "path": "modul4/modul4/1/0",
     "comment": "",
     "locked": false,
     "parent": 38,
@@ -958,9 +820,9 @@
     "questionsets": [],
     "questions": [
       {
-        "id": 48,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung/1",
-        "path": "ddp/modul4/rechtsgrundlage_datenverarbeitung/1"
+        "id": 52,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/1/0",
+        "path": "m4/a/1/0"
       }
     ],
     "tasks_as_start": [],
@@ -970,10 +832,10 @@
   },
   {
     "id": 40,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2",
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1/1",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "2",
-    "path": "modul4/modul4/2/2",
+    "key": "1",
+    "path": "modul4/modul4/1/1",
     "comment": "",
     "locked": false,
     "parent": 38,
@@ -981,9 +843,9 @@
     "questionsets": [],
     "questions": [
       {
-        "id": 49,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung/2",
-        "path": "ddp/modul4/rechtsgrundlage_datenverarbeitung/2"
+        "id": 53,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/1/1",
+        "path": "m4/a/1/1"
       }
     ],
     "tasks_as_start": [],
@@ -993,16 +855,22 @@
   },
   {
     "id": 41,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a",
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1/2",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "2a",
-    "path": "modul4/modul4/2/2a",
+    "key": "2",
+    "path": "modul4/modul4/1/2",
     "comment": "",
     "locked": false,
     "parent": 38,
     "conditions": [],
     "questionsets": [],
-    "questions": [],
+    "questions": [
+      {
+        "id": 54,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/1/2",
+        "path": "m4/a/1/2"
+      }
+    ],
     "tasks_as_start": [],
     "tasks_as_end": [],
     "values_count": 0,
@@ -1010,20 +878,20 @@
   },
   {
     "id": 42,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/1",
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1/3",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "1",
-    "path": "modul4/modul4/2/2a/1",
+    "key": "3",
+    "path": "modul4/modul4/1/3",
     "comment": "",
     "locked": false,
-    "parent": 41,
+    "parent": 38,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 40,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung/1",
-        "path": "ddp/modul4/einholen_einwilligung/1"
+        "id": 55,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/1/3",
+        "path": "m4/a/1/3"
       }
     ],
     "tasks_as_start": [],
@@ -1033,20 +901,20 @@
   },
   {
     "id": 43,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/2",
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/1/4",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "2",
-    "path": "modul4/modul4/2/2a/2",
+    "key": "4",
+    "path": "modul4/modul4/1/4",
     "comment": "",
     "locked": false,
-    "parent": 41,
+    "parent": 38,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 41,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung/2",
-        "path": "ddp/modul4/einholen_einwilligung/2"
+        "id": 56,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/1/4",
+        "path": "m4/a/1/4"
       }
     ],
     "tasks_as_start": [],
@@ -1056,108 +924,19 @@
   },
   {
     "id": 44,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/3",
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "3",
-    "path": "modul4/modul4/2/2a/3",
+    "key": "2",
+    "path": "modul4/modul4/2",
     "comment": "",
     "locked": false,
-    "parent": 41,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 42,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung/3",
-        "path": "ddp/modul4/einholen_einwilligung/3"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 45,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/4",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "4",
-    "path": "modul4/modul4/2/2a/4",
-    "comment": "",
-    "locked": false,
-    "parent": 41,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 43,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung/4",
-        "path": "ddp/modul4/einholen_einwilligung/4"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 46,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/5",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "5",
-    "path": "modul4/modul4/2/2a/5",
-    "comment": "",
-    "locked": false,
-    "parent": 41,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 44,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einholen_einwilligung/5",
-        "path": "ddp/modul4/einholen_einwilligung/5"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 47,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "2b",
-    "path": "modul4/modul4/2/2b",
-    "comment": "",
-    "locked": false,
-    "parent": 38,
+    "parent": 37,
     "conditions": [],
     "questionsets": [
       {
-        "id": 16,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement",
-        "path": "ddp/modul4/einwilligungsmanagement"
-      },
-      {
-        "id": 10,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz",
-        "path": "ddp/modul4/3_datenschutz"
-      },
-      {
-        "id": 11,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen",
-        "path": "ddp/modul4/3a_schutzmassnahmen"
-      },
-      {
-        "id": 12,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/4_schutzverletzungen",
-        "path": "ddp/modul4/4_schutzverletzungen"
-      },
-      {
-        "id": 13,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/5_verarveitung_dritte",
-        "path": "ddp/modul4/5_verarveitung_dritte"
+        "id": 19,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2",
+        "path": "m4/a/2"
       }
     ],
     "questions": [],
@@ -1167,14 +946,235 @@
     "projects_count": 0
   },
   {
+    "id": 45,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/1",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "1",
+    "path": "modul4/modul4/2/1",
+    "comment": "",
+    "locked": false,
+    "parent": 44,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 57,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2/1",
+        "path": "m4/a/2/1"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 46,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "2",
+    "path": "modul4/modul4/2/2",
+    "comment": "",
+    "locked": false,
+    "parent": 44,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 58,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2/2",
+        "path": "m4/a/2/2"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 47,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "2a",
+    "path": "modul4/modul4/2/2a",
+    "comment": "",
+    "locked": false,
+    "parent": 44,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
     "id": 48,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/1",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "1",
+    "path": "modul4/modul4/2/2a/1",
+    "comment": "",
+    "locked": false,
+    "parent": 47,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 60,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2a/1",
+        "path": "m4/a/2a/1"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 49,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/2",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "2",
+    "path": "modul4/modul4/2/2a/2",
+    "comment": "",
+    "locked": false,
+    "parent": 47,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 61,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2a/2",
+        "path": "m4/a/2a/2"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 50,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/3",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "3",
+    "path": "modul4/modul4/2/2a/3",
+    "comment": "",
+    "locked": false,
+    "parent": 47,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 62,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2a/3",
+        "path": "m4/a/2a/3"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 51,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/4",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "4",
+    "path": "modul4/modul4/2/2a/4",
+    "comment": "",
+    "locked": false,
+    "parent": 47,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 63,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2a/4",
+        "path": "m4/a/2a/4"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 52,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2a/5",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "5",
+    "path": "modul4/modul4/2/2a/5",
+    "comment": "",
+    "locked": false,
+    "parent": 47,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 64,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2a/5",
+        "path": "m4/a/2a/5"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 53,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "2b",
+    "path": "modul4/modul4/2/2b",
+    "comment": "",
+    "locked": false,
+    "parent": 44,
+    "conditions": [],
+    "questionsets": [
+      {
+        "id": 21,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2b",
+        "path": "m4/a/2b"
+      },
+      {
+        "id": 22,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3",
+        "path": "m4/a/3"
+      },
+      {
+        "id": 23,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a",
+        "path": "m4/a/3a"
+      },
+      {
+        "id": 24,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/4",
+        "path": "m4/a/4"
+      },
+      {
+        "id": 25,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/5",
+        "path": "m4/a/5"
+      }
+    ],
+    "questions": [],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 54,
     "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/1",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "1",
     "path": "modul4/modul4/2/2b/1",
     "comment": "",
     "locked": false,
-    "parent": 47,
+    "parent": 53,
     "conditions": [
       {
         "id": 4,
@@ -1185,164 +1185,32 @@
     "questionsets": [],
     "questions": [
       {
-        "id": 45,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement/1",
-        "path": "ddp/modul4/einwilligungsmanagement/1"
+        "id": 65,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2b/1",
+        "path": "m4/a/2b/1"
       }
     ],
     "tasks_as_start": [],
     "tasks_as_end": [],
-    "values_count": 1,
-    "projects_count": 1
+    "values_count": 0,
+    "projects_count": 0
   },
   {
-    "id": 49,
+    "id": 55,
     "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/2",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "2",
     "path": "modul4/modul4/2/2b/2",
     "comment": "",
     "locked": false,
-    "parent": 47,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 46,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement/2",
-        "path": "ddp/modul4/einwilligungsmanagement/2"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 50,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/3",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "3",
-    "path": "modul4/modul4/2/2b/3",
-    "comment": "",
-    "locked": false,
-    "parent": 47,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 47,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement/3",
-        "path": "ddp/modul4/einwilligungsmanagement/3"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 51,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/4",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "4",
-    "path": "modul4/modul4/2/2b/4",
-    "comment": "",
-    "locked": false,
-    "parent": 47,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 52,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/5",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "5",
-    "path": "modul4/modul4/2/2b/5",
-    "comment": "",
-    "locked": false,
-    "parent": 47,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 53,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "3",
-    "path": "modul4/modul4/2/3",
-    "comment": "",
-    "locked": false,
-    "parent": 38,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 50,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/rechtsgrundlage_datenverarbeitung/3",
-        "path": "ddp/modul4/rechtsgrundlage_datenverarbeitung/3"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 54,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/1",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "1",
-    "path": "modul4/modul4/2/3/1",
-    "comment": "",
-    "locked": false,
-    "parent": 53,
-    "conditions": [
-      {
-        "id": 5,
-        "uri": "https://localhost/rdmo/test/conditions/3_1",
-        "key": "3_1"
-      }
-    ],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 20,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz/1",
-        "path": "ddp/modul4/3_datenschutz/1"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 1,
-    "projects_count": 1
-  },
-  {
-    "id": 55,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/2",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "2",
-    "path": "modul4/modul4/2/3/2",
-    "comment": "",
-    "locked": false,
     "parent": 53,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 21,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz/2",
-        "path": "ddp/modul4/3_datenschutz/2"
+        "id": 66,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2b/2",
+        "path": "m4/a/2b/2"
       }
     ],
     "tasks_as_start": [],
@@ -1352,10 +1220,10 @@
   },
   {
     "id": 56,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/3",
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/3",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "3",
-    "path": "modul4/modul4/2/3/3",
+    "path": "modul4/modul4/2/2b/3",
     "comment": "",
     "locked": false,
     "parent": 53,
@@ -1363,9 +1231,9 @@
     "questionsets": [],
     "questions": [
       {
-        "id": 22,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz/3",
-        "path": "ddp/modul4/3_datenschutz/3"
+        "id": 67,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2b/3",
+        "path": "m4/a/2b/3"
       }
     ],
     "tasks_as_start": [],
@@ -1375,13 +1243,13 @@
   },
   {
     "id": 57,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a",
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/4",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "3a",
-    "path": "modul4/modul4/2/3a",
+    "key": "4",
+    "path": "modul4/modul4/2/2b/4",
     "comment": "",
     "locked": false,
-    "parent": 38,
+    "parent": 53,
     "conditions": [],
     "questionsets": [],
     "questions": [],
@@ -1392,66 +1260,37 @@
   },
   {
     "id": 58,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/1",
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/5",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "1",
-    "path": "modul4/modul4/2/3a/1",
+    "key": "5",
+    "path": "modul4/modul4/2/2b/5",
     "comment": "",
     "locked": false,
-    "parent": 57,
+    "parent": 53,
     "conditions": [],
     "questionsets": [],
-    "questions": [
-      {
-        "id": 23,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/1",
-        "path": "ddp/modul4/3a_schutzmassnahmen/1"
-      }
-    ],
+    "questions": [],
     "tasks_as_start": [],
     "tasks_as_end": [],
-    "values_count": 1,
-    "projects_count": 1
+    "values_count": 0,
+    "projects_count": 0
   },
   {
     "id": 59,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/10",
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3",
     "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "10",
-    "path": "modul4/modul4/2/3a/10",
+    "key": "3",
+    "path": "modul4/modul4/2/3",
     "comment": "",
     "locked": false,
-    "parent": 57,
+    "parent": 44,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 32,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/10",
-        "path": "ddp/modul4/3a_schutzmassnahmen/10"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 1,
-    "projects_count": 1
-  },
-  {
-    "id": 77,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/11",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "11",
-    "path": "modul4/modul4/2/3a/11",
-    "comment": "",
-    "locked": false,
-    "parent": 57,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 24,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/11",
-        "path": "ddp/modul4/3a_schutzmassnahmen/11"
+        "id": 59,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2/3",
+        "path": "m4/a/2/3"
       }
     ],
     "tasks_as_start": [],
@@ -1461,13 +1300,174 @@
   },
   {
     "id": 60,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/1",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "1",
+    "path": "modul4/modul4/2/3/1",
+    "comment": "",
+    "locked": false,
+    "parent": 59,
+    "conditions": [
+      {
+        "id": 5,
+        "uri": "https://localhost/rdmo/test/conditions/3_1",
+        "key": "3_1"
+      }
+    ],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 68,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3/1",
+        "path": "m4/a/3/1"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 61,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/2",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "2",
+    "path": "modul4/modul4/2/3/2",
+    "comment": "",
+    "locked": false,
+    "parent": 59,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 69,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3/2",
+        "path": "m4/a/3/2"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 62,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/3",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "3",
+    "path": "modul4/modul4/2/3/3",
+    "comment": "",
+    "locked": false,
+    "parent": 59,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 70,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3/3",
+        "path": "m4/a/3/3"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 63,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "3a",
+    "path": "modul4/modul4/2/3a",
+    "comment": "",
+    "locked": false,
+    "parent": 44,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 64,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/1",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "1",
+    "path": "modul4/modul4/2/3a/1",
+    "comment": "",
+    "locked": false,
+    "parent": 63,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 71,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/1",
+        "path": "m4/a/3a/1"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 65,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/10",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "10",
+    "path": "modul4/modul4/2/3a/10",
+    "comment": "",
+    "locked": false,
+    "parent": 63,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 80,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/10",
+        "path": "m4/a/3a/10"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 66,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/11",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "11",
+    "path": "modul4/modul4/2/3a/11",
+    "comment": "",
+    "locked": false,
+    "parent": 63,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 81,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/11",
+        "path": "m4/a/3a/11"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 67,
     "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/2",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "2",
     "path": "modul4/modul4/2/3a/2",
     "comment": "",
     "locked": false,
-    "parent": 57,
+    "parent": 63,
     "conditions": [
       {
         "id": 6,
@@ -1478,170 +1478,9 @@
     "questionsets": [],
     "questions": [
       {
-        "id": 25,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/2",
-        "path": "ddp/modul4/3a_schutzmassnahmen/2"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 1,
-    "projects_count": 1
-  },
-  {
-    "id": 61,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/3",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "3",
-    "path": "modul4/modul4/2/3a/3",
-    "comment": "",
-    "locked": false,
-    "parent": 57,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 26,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/3",
-        "path": "ddp/modul4/3a_schutzmassnahmen/3"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 62,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/4",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "4",
-    "path": "modul4/modul4/2/3a/4",
-    "comment": "",
-    "locked": false,
-    "parent": 57,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 27,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/4",
-        "path": "ddp/modul4/3a_schutzmassnahmen/4"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 1,
-    "projects_count": 1
-  },
-  {
-    "id": 63,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/5",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "5",
-    "path": "modul4/modul4/2/3a/5",
-    "comment": "",
-    "locked": false,
-    "parent": 57,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 51,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/5",
-        "path": "ddp/modul4/3a_schutzmassnahmen/5"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 64,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/6",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "6",
-    "path": "modul4/modul4/2/3a/6",
-    "comment": "",
-    "locked": false,
-    "parent": 57,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 28,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/6",
-        "path": "ddp/modul4/3a_schutzmassnahmen/6"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 0,
-    "projects_count": 0
-  },
-  {
-    "id": 65,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/7",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "7",
-    "path": "modul4/modul4/2/3a/7",
-    "comment": "",
-    "locked": false,
-    "parent": 57,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 29,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/7",
-        "path": "ddp/modul4/3a_schutzmassnahmen/7"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 1,
-    "projects_count": 1
-  },
-  {
-    "id": 66,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/8",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "8",
-    "path": "modul4/modul4/2/3a/8",
-    "comment": "",
-    "locked": false,
-    "parent": 57,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 30,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/8",
-        "path": "ddp/modul4/3a_schutzmassnahmen/8"
-      }
-    ],
-    "tasks_as_start": [],
-    "tasks_as_end": [],
-    "values_count": 1,
-    "projects_count": 1
-  },
-  {
-    "id": 67,
-    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/9",
-    "uri_prefix": "https://ddp-bildung.org/terms",
-    "key": "9",
-    "path": "modul4/modul4/2/3a/9",
-    "comment": "",
-    "locked": false,
-    "parent": 57,
-    "conditions": [],
-    "questionsets": [],
-    "questions": [
-      {
-        "id": 31,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/9",
-        "path": "ddp/modul4/3a_schutzmassnahmen/9"
+        "id": 72,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/2",
+        "path": "m4/a/3a/2"
       }
     ],
     "tasks_as_start": [],
@@ -1651,13 +1490,174 @@
   },
   {
     "id": 68,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/3",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "3",
+    "path": "modul4/modul4/2/3a/3",
+    "comment": "",
+    "locked": false,
+    "parent": 63,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 73,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/3",
+        "path": "m4/a/3a/3"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 69,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/4",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "4",
+    "path": "modul4/modul4/2/3a/4",
+    "comment": "",
+    "locked": false,
+    "parent": 63,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 74,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/4",
+        "path": "m4/a/3a/4"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 70,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/5",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "5",
+    "path": "modul4/modul4/2/3a/5",
+    "comment": "",
+    "locked": false,
+    "parent": 63,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 75,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/5",
+        "path": "m4/a/3a/5"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 71,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/6",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "6",
+    "path": "modul4/modul4/2/3a/6",
+    "comment": "",
+    "locked": false,
+    "parent": 63,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 76,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/6",
+        "path": "m4/a/3a/6"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 72,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/7",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "7",
+    "path": "modul4/modul4/2/3a/7",
+    "comment": "",
+    "locked": false,
+    "parent": 63,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 77,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/7",
+        "path": "m4/a/3a/7"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 73,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/8",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "8",
+    "path": "modul4/modul4/2/3a/8",
+    "comment": "",
+    "locked": false,
+    "parent": 63,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 78,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/8",
+        "path": "m4/a/3a/8"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 74,
+    "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/9",
+    "uri_prefix": "https://ddp-bildung.org/terms",
+    "key": "9",
+    "path": "modul4/modul4/2/3a/9",
+    "comment": "",
+    "locked": false,
+    "parent": 63,
+    "conditions": [],
+    "questionsets": [],
+    "questions": [
+      {
+        "id": 79,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/9",
+        "path": "m4/a/3a/9"
+      }
+    ],
+    "tasks_as_start": [],
+    "tasks_as_end": [],
+    "values_count": 0,
+    "projects_count": 0
+  },
+  {
+    "id": 75,
     "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/4",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "4",
     "path": "modul4/modul4/2/4",
     "comment": "",
     "locked": false,
-    "parent": 38,
+    "parent": 44,
     "conditions": [],
     "questionsets": [],
     "questions": [],
@@ -1667,26 +1667,26 @@
     "projects_count": 0
   },
   {
-    "id": 69,
+    "id": 76,
     "uri": "https://ddp-bildung.org/terms/domain/modul4/modul4/2/4/1",
     "uri_prefix": "https://ddp-bildung.org/terms",
     "key": "1",
     "path": "modul4/modul4/2/4/1",
     "comment": "",
     "locked": false,
-    "parent": 68,
+    "parent": 75,
     "conditions": [],
     "questionsets": [],
     "questions": [
       {
-        "id": 33,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/4_schutzverletzungen/1",
-        "path": "ddp/modul4/4_schutzverletzungen/1"
+        "id": 82,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/4/1",
+        "path": "m4/a/4/1"
       },
       {
-        "id": 34,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/5_verarveitung_dritte/1",
-        "path": "ddp/modul4/5_verarveitung_dritte/1"
+        "id": 83,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/5/1",
+        "path": "m4/a/5/1"
       }
     ],
     "tasks_as_start": [],

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-11-23T11:22:47.506080+01:00">
+	<title>DDP</title>
+	<description/>
+	<views>
+		<view dc:uri="https://localhost/rdmo/test/views/view1"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view2"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view3"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view4"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view5"/>
+	</views>
+	<created>2021-11-23T08:57:35.698197+01:00</created>
+	<updated>2021-11-23T08:59:29.979799+01:00</updated>
+</project>

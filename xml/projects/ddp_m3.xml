@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-11-23T11:23:41.506078+01:00">
+	<title>DDP Modul 3</title>
+	<description/>
+	<catalog dc:uri="https://localhost/rdmo/test/questions/m3"/>
+	<views>
+		<view dc:uri="https://localhost/rdmo/test/views/view1"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view2"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view3"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view4"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view5"/>
+	</views>
+	<created>2021-11-23T08:58:55.894689+01:00</created>
+	<updated>2021-11-23T08:58:55.894699+01:00</updated>
+</project>

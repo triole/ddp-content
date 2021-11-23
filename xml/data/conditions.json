@@ -14,13 +14,13 @@
     "questionsets": [
       {
         "id": 2,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_link"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/data_link"
       }
     ],
     "questions": [
       {
         "id": 2,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/data_link/link_type"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/data_link/link_type"
       }
     ],
     "tasks": []
@@ -40,13 +40,13 @@
     "questionsets": [
       {
         "id": 1,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/copyright"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/copyright"
       }
     ],
     "questions": [
       {
         "id": 1,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/copyright/datatypes"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/copyright/datatypes"
       }
     ],
     "tasks": []
@@ -66,7 +66,7 @@
     "questionsets": [
       {
         "id": 4,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/deckblatt/ethical_aspects"
+        "uri": "https://ddp-bildung.org/terms/questions/db/deckblatt/ethical_aspects"
       }
     ],
     "questions": [],
@@ -79,7 +79,7 @@
     "key": "2b1",
     "comment": "",
     "locked": false,
-    "source": 48,
+    "source": 54,
     "relation": "eq",
     "target_text": "1",
     "target_option": null,
@@ -87,12 +87,12 @@
     "questionsets": [],
     "questions": [
       {
-        "id": 46,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement/2"
+        "id": 66,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2b/2"
       },
       {
-        "id": 47,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/einwilligungsmanagement/3"
+        "id": 67,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/2b/3"
       }
     ],
     "tasks": []
@@ -104,7 +104,7 @@
     "key": "3_1",
     "comment": "",
     "locked": false,
-    "source": 54,
+    "source": 60,
     "relation": "eq",
     "target_text": "1",
     "target_option": null,
@@ -112,12 +112,12 @@
     "questionsets": [],
     "questions": [
       {
-        "id": 21,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz/2"
+        "id": 69,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3/2"
       },
       {
-        "id": 22,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3_datenschutz/3"
+        "id": 70,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3/3"
       }
     ],
     "tasks": []
@@ -129,7 +129,7 @@
     "key": "3a_2",
     "comment": "",
     "locked": false,
-    "source": 60,
+    "source": 67,
     "relation": "eq",
     "target_text": "1",
     "target_option": null,
@@ -137,8 +137,8 @@
     "questionsets": [],
     "questions": [
       {
-        "id": 26,
-        "uri": "https://ddp-bildung.org/terms/questions/ddp/modul4/3a_schutzmassnahmen/3"
+        "id": 73,
+        "uri": "https://ddp-bildung.org/terms/questions/m4/a/3a/3"
       }
     ],
     "tasks": []

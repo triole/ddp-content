@@ -24,7 +24,12 @@ tasks:
     pull:
         desc: pull data from rdmo and save to json and xml
         cmds:
-            - cmd: sh/push.sh
+            - cmd: sh/pull.sh
+            - task: dump
+
+    dump:
+        cmds:
+            - cmd: sh/dump.sh
 
     sync:
         desc: sync to ddp rdmo vm
