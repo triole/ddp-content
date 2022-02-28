@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-11-23T11:25:02.960562+01:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-02-28T16:39:41.517842+01:00">
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2a_daten_begriffsdefinition</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>2a_daten_begriffsdefinition/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Daten zum Forschungsvorhaben (Forschungsdaten)</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>2a_daten_begriffsdefinition/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">weiteren personenbezogenen Daten zur Datengenese (Kontaktdaten)</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_dauer_datenspeicherung">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2a_dauer_datenspeicherung</key>
@@ -3186,87 +3220,6 @@
 		<text lang="it"/>
 		<additional_input>True</additional_input>
 	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2a_daten_begriffsdefinition</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>2a_daten_begriffsdefinition/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">Daten zum Forschungsvorhaben (Forschungsdaten)</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>2a_daten_begriffsdefinition/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">weiteren personenbezogenen Daten zur Datengenese (Kontaktdaten)</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>rechtsgrundlage_datenverarbeitung_personen</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>rechtsgrundlage_datenverarbeitung_personen/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">Erziehungsberechtigten, wenn die betroffene Person aufgrund von rechtlichen Altersvorgaben bzw. aufgrund mangelnder Einsichtsfähigkeit nicht einwilligen kann (siehe Standard IV-a_2-ST_2-2)</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>rechtsgrundlage_datenverarbeitung_personen/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">Dritten, wenn diese Teil der Datenerhebung werden (können), etwa zur Kontaktakquise, z. B. Schneeballsysteme oder Ankerpersonen (siehe Anwendungsfall IV-a_3-AF_2-4)</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/3">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3</key>
-		<path>rechtsgrundlage_datenverarbeitung_personen/3</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
-		<order>2</order>
-		<text lang="en"/>
-		<text lang="de">Dritten, wenn diese Teil der Datenerhebung werden (können), etwa auf Audio- oder Videoaufnahmen durch Aussagen der betroffenen Person in der Datenerhebung (siehe Anwendungsfall IV-a_3-AF_2-5)</text>
-		<text lang="fr">Normes d'enregistrement des données</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
@@ -3457,6 +3410,53 @@
 		<text lang="en"/>
 		<text lang="de">nennt weitere mögliche Empfänger*innen (Kategorien) der Daten, wie externe Dienstleistende, Begutachtende etc. (siehe Anwendungsfall IV.a_3-AF_2-6)</text>
 		<text lang="fr">Validation de la collecte des données</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>rechtsgrundlage_datenverarbeitung_personen</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>rechtsgrundlage_datenverarbeitung_personen/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Erziehungsberechtigten, wenn die betroffene Person aufgrund von rechtlichen Altersvorgaben bzw. aufgrund mangelnder Einsichtsfähigkeit nicht einwilligen kann (siehe Standard IV-a_2-ST_2-2)</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>rechtsgrundlage_datenverarbeitung_personen/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">Dritten, wenn diese Teil der Datenerhebung werden (können), etwa zur Kontaktakquise, z. B. Schneeballsysteme oder Ankerpersonen (siehe Anwendungsfall IV-a_3-AF_2-4)</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>rechtsgrundlage_datenverarbeitung_personen/3</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">Dritten, wenn diese Teil der Datenerhebung werden (können), etwa auf Audio- oder Videoaufnahmen durch Aussagen der betroffenen Person in der Datenerhebung (siehe Anwendungsfall IV-a_3-AF_2-5)</text>
+		<text lang="fr">Normes d'enregistrement des données</text>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
@@ -5132,62 +5132,117 @@
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
-	<optionset dc:uri="https://localhost/rdmo/test/options/m3_2_1">
+	<optionset dc:uri="https://localhost/rdmo/test/options/m4_ba_1">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>m3_2_1</key>
+		<key>m4_ba_1</key>
 		<dc:comment/>
 		<order>0</order>
 		<provider_key/>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://localhost/rdmo/test/options/m3_2_1/0">
+	<option dc:uri="https://localhost/rdmo/test/options/m4_ba_1/0">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>0</key>
-		<path>m3_2_1/0</path>
+		<path>m4_ba_1/0</path>
 		<dc:comment/>
-		<optionset dc:uri="https://localhost/rdmo/test/options/m3_2_1"/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/m4_ba_1"/>
 		<order>0</order>
 		<text lang="en"/>
-		<text lang="de">a) den Rückgriff auf institutionelle Back-Up-Systeme ihrer Forschungseinrichtung(en), oder siehe Anwendungsfall A-III-2-1-a (III-a_3-AF_2-1)</text>
+		<text lang="de">A) den Rückgriff auf Back-Up-Systeme ihrer Einrichtung(en),  siehe Fallbeispiel zu institutionelle Back-Up-Verfahren (IV.Ba.1.Fb)</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
-	<option dc:uri="https://localhost/rdmo/test/options/m3_2_1/1">
+	<option dc:uri="https://localhost/rdmo/test/options/m4_ba_1/1">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>1</key>
-		<path>m3_2_1/1</path>
+		<path>m4_ba_1/1</path>
 		<dc:comment/>
-		<optionset dc:uri="https://localhost/rdmo/test/options/m3_2_1"/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/m4_ba_1"/>
 		<order>1</order>
 		<text lang="en"/>
-		<text lang="de">b) die Nutzung von Cloud-Diensten mit entsprechenden Back-Up-Systemen, oder</text>
+		<text lang="de">B) die Nutzung von Cloud-Diensten mit entsprechenden Back-Up-Systemen</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
-	<option dc:uri="https://localhost/rdmo/test/options/m3_2_1/2">
+	<option dc:uri="https://localhost/rdmo/test/options/m4_ba_1/2">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>2</key>
-		<path>m3_2_1/2</path>
+		<path>m4_ba_1/2</path>
 		<dc:comment/>
-		<optionset dc:uri="https://localhost/rdmo/test/options/m3_2_1"/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/m4_ba_1"/>
 		<order>2</order>
 		<text lang="en"/>
-		<text lang="de">c) die Nutzung externer Back-Up-Systeme, wie z. B. durch ein Repositorium, oder</text>
+		<text lang="de">C) die Nutzung externer Back-Up-Systeme, wie z. B. durch ein Repositorium</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
-	<option dc:uri="https://localhost/rdmo/test/options/m3_2_1/3">
+	<option dc:uri="https://localhost/rdmo/test/options/m4_ba_1/3">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>3</key>
-		<path>m3_2_1/3</path>
+		<path>m4_ba_1/3</path>
 		<dc:comment/>
-		<optionset dc:uri="https://localhost/rdmo/test/options/m3_2_1"/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/m4_ba_1"/>
 		<order>3</order>
 		<text lang="en"/>
-		<text lang="de">d) die Implementierung eines eigenen Back-Up-Verfahrens und dessen konsistente Umsetzung im Projektverlauf siehe Anwendungsfall A-III-2-1-b (III-a_3-AF_2-2)</text>
+		<text lang="de">D) die Implementierung eines eigenen Back-Up-Verfahrens und dessen konsistente Umsetzung im Projektverlauf  siehe Fallbeispiel zu Implementierung einer eigenen Back-Up-Strategie (IV.Ba.1.Fb)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>beruecksichtigt_yes</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes/yes">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>yes</key>
+		<path>beruecksichtigt_yes/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">berücksichtigt</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>beruecksichtigt_yesno</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno/yes">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>yes</key>
+		<path>beruecksichtigt_yesno/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">berücksichtigt</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno/no">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>no</key>
+		<path>beruecksichtigt_yesno/no</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">nicht berücksichtigt</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>

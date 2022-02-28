@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-11-23T11:25:02.813269+01:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-02-28T16:39:41.356882+01:00">
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/dataset_links_yesno">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>dataset_links_yesno</key>
@@ -31,7 +31,7 @@
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>2b1</key>
 		<dc:comment/>
-		<source dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/2b/1"/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/2/2b/1"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -40,7 +40,7 @@
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>3_1</key>
 		<dc:comment/>
-		<source dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3/1"/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/2/3/1"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
@@ -49,7 +49,7 @@
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>3a_2</key>
 		<dc:comment/>
-		<source dc:uri="https://ddp-bildung.org/terms/domain/modul4/modul4/2/3a/2"/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/2/3a/2"/>
 		<relation>eq</relation>
 		<target_text>1</target_text>
 		<target_option/>
