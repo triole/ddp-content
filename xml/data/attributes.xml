@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-02-28T16:39:41.243281+01:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-03-01T10:19:20.315285+01:00">
 	<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>deckblatt</key>
