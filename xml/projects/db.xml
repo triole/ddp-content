@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-03-01T14:47:16.441080+01:00">
+	<title>Deckblatt</title>
+	<description/>
+	<catalog dc:uri="https://ddp-bildung.org/terms/questions/db"/>
+	<views>
+		<view dc:uri="https://localhost/rdmo/test/views/view1"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view2"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view3"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view4"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view5"/>
+	</views>
+	<created>2022-02-24T13:20:20.365367+01:00</created>
+	<updated>2022-02-24T13:20:20.365380+01:00</updated>
+</project>
