@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-03-01T14:45:31.258571+01:00">
+	<title>Modul 7 - Langfristsicherung</title>
+	<description/>
+	<catalog dc:uri="https://localhost/rdmo/test/questions/m4"/>
+	<views>
+		<view dc:uri="https://localhost/rdmo/test/views/view1"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view2"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view3"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view4"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view5"/>
+	</views>
+	<created>2022-03-01T14:37:31.535179+01:00</created>
+	<updated>2022-03-01T14:37:31.535186+01:00</updated>
+</project>

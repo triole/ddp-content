@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-03-01T14:45:14.456399+01:00">
+	<title>Modul 6 - Verfügbarkeit</title>
+	<description/>
+	<catalog dc:uri="https://localhost/rdmo/test/questions/m6"/>
+	<views>
+		<view dc:uri="https://localhost/rdmo/test/views/view1"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view2"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view3"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view4"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view5"/>
+	</views>
+	<created>2022-03-01T14:37:12.869717+01:00</created>
+	<updated>2022-03-01T14:37:12.869734+01:00</updated>
+</project>

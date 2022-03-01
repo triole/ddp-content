@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-03-01T14:43:29.122422+01:00">
+	<title>Modul 2 - Datenschutz</title>
+	<description/>
+	<catalog dc:uri="https://localhost/rdmo/test/questions/m2"/>
+	<views>
+		<view dc:uri="https://localhost/rdmo/test/views/view1"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view2"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view3"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view4"/>
+		<view dc:uri="https://localhost/rdmo/test/views/view5"/>
+	</views>
+	<created>2022-02-24T13:21:05.401142+01:00</created>
+	<updated>2022-02-28T13:29:17.216604+01:00</updated>
+</project>

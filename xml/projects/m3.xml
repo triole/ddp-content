@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2021-11-23T14:29:24.813286+01:00">
-	<title>DDP</title>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-03-01T14:43:57.113893+01:00">
+	<title>Modul 3 - Urheberrecht</title>
 	<description/>
-	<catalog dc:uri="https://localhost/rdmo/test/questions/m4"/>
+	<catalog dc:uri="https://localhost/rdmo/test/questions/m3"/>
 	<views>
 		<view dc:uri="https://localhost/rdmo/test/views/view1"/>
 		<view dc:uri="https://localhost/rdmo/test/views/view2"/>
@@ -10,6 +10,6 @@
 		<view dc:uri="https://localhost/rdmo/test/views/view4"/>
 		<view dc:uri="https://localhost/rdmo/test/views/view5"/>
 	</views>
-	<created>2021-11-23T08:57:35.698197+01:00</created>
-	<updated>2021-11-23T08:59:29.979799+01:00</updated>
+	<created>2022-02-28T13:29:52.540236+01:00</created>
+	<updated>2022-02-28T13:29:52.540242+01:00</updated>
 </project>
