@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-03-04T11:38:17.519798+01:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-03-22T10:44:56.292861+01:00">
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>2/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">schriftlich bzw. wird im Rahmen des Einwilligungsmanagements dokumentiert (siehe Anwendungsfall IV-a_3-AF_2-2)</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>2/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">vor dem Erheben der Daten bzw. wird im Rahmen des Einwilligungsmanagements schriftlich begründet (siehe Anwendungsfall IV-a_3-AF_2-a-1)</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2a_daten_begriffsdefinition</key>
@@ -3147,113 +3181,6 @@
 		<text lang="it"/>
 		<additional_input>True</additional_input>
 	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>preservation_repository_options</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/139">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>139</key>
-		<path>preservation_repository_options/139</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
-		<order>1</order>
-		<text lang="en">Own institution</text>
-		<text lang="de">Eigene Institution</text>
-		<text lang="fr">Propre à l'institution</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/140">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>140</key>
-		<path>preservation_repository_options/140</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
-		<order>2</order>
-		<text lang="en">Discipline specific data center</text>
-		<text lang="de">Disziplinspezifisches Datenzentrum</text>
-		<text lang="fr">Centre de données spécifique à la discipline</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/141">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>141</key>
-		<path>preservation_repository_options/141</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
-		<order>3</order>
-		<text lang="en">Generic data center</text>
-		<text lang="de">Generisches Datenzentrum</text>
-		<text lang="fr">Centre générique de données</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/143">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>143</key>
-		<path>preservation_repository_options/143</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
-		<order>4</order>
-		<text lang="en">Has not yet been decided</text>
-		<text lang="de">Wurde noch nicht entschieden</text>
-		<text lang="fr">N'a pas encore été décidé</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/142">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>142</key>
-		<path>preservation_repository_options/142</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
-		<order>5</order>
-		<text lang="en">Other</text>
-		<text lang="de">Sonstiges</text>
-		<text lang="fr">Autre</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>2/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">schriftlich bzw. wird im Rahmen des Einwilligungsmanagements dokumentiert (siehe Anwendungsfall IV-a_3-AF_2-2)</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>2/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">vor dem Erheben der Daten bzw. wird im Rahmen des Einwilligungsmanagements schriftlich begründet (siehe Anwendungsfall IV-a_3-AF_2-a-1)</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_motivation_options">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>preservation_motivation_options</key>
@@ -3336,6 +3263,79 @@
 		<order>6</order>
 		<text lang="en">Other</text>
 		<text lang="de">Andere</text>
+		<text lang="fr">Autre</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>preservation_repository_options</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/139">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>139</key>
+		<path>preservation_repository_options/139</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
+		<order>1</order>
+		<text lang="en">Own institution</text>
+		<text lang="de">Eigene Institution</text>
+		<text lang="fr">Propre à l'institution</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/140">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>140</key>
+		<path>preservation_repository_options/140</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
+		<order>2</order>
+		<text lang="en">Discipline specific data center</text>
+		<text lang="de">Disziplinspezifisches Datenzentrum</text>
+		<text lang="fr">Centre de données spécifique à la discipline</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/141">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>141</key>
+		<path>preservation_repository_options/141</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
+		<order>3</order>
+		<text lang="en">Generic data center</text>
+		<text lang="de">Generisches Datenzentrum</text>
+		<text lang="fr">Centre générique de données</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/143">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>143</key>
+		<path>preservation_repository_options/143</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
+		<order>4</order>
+		<text lang="en">Has not yet been decided</text>
+		<text lang="de">Wurde noch nicht entschieden</text>
+		<text lang="fr">N'a pas encore été décidé</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options/142">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>142</key>
+		<path>preservation_repository_options/142</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/preservation_repository_options"/>
+		<order>5</order>
+		<text lang="en">Other</text>
+		<text lang="de">Sonstiges</text>
 		<text lang="fr">Autre</text>
 		<text lang="it"/>
 		<additional_input>True</additional_input>
@@ -5025,6 +5025,61 @@
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
+	<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>beruecksichtigt_yes</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes/yes">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>yes</key>
+		<path>beruecksichtigt_yes/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">berücksichtigt</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>beruecksichtigt_yesno</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno/yes">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>yes</key>
+		<path>beruecksichtigt_yesno/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">berücksichtigt</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno/no">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>no</key>
+		<path>beruecksichtigt_yesno/no</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">trifft nicht zu</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
 	<optionset dc:uri="https://localhost/rdmo/test/options/datenschutzkonzept_massnahmen-schutz">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>datenschutzkonzept_massnahmen-schutz</key>
@@ -5188,61 +5243,6 @@
 		<order>3</order>
 		<text lang="en"/>
 		<text lang="de">D) die Implementierung eines eigenen Back-Up-Verfahrens und dessen konsistente Umsetzung im Projektverlauf  siehe Fallbeispiel zu Implementierung einer eigenen Back-Up-Strategie (IV.Ba.1.Fb)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>beruecksichtigt_yes</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes/yes">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>yes</key>
-		<path>beruecksichtigt_yes/yes</path>
-		<dc:comment/>
-		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">berücksichtigt</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>beruecksichtigt_yesno</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno/yes">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>yes</key>
-		<path>beruecksichtigt_yesno/yes</path>
-		<dc:comment/>
-		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">berücksichtigt</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno/no">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>no</key>
-		<path>beruecksichtigt_yesno/no</path>
-		<dc:comment/>
-		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">trifft nicht zu</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
