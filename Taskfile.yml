@@ -6,10 +6,12 @@ vars:
 
 tasks:
     default:
+        desc: default is to add the api token
         cmds:
             - task: token
 
     token:
+        desc: add the api token to rdmo
         cmds:
             - cmd: docker exec -it rdmo /home/rdmo/sh/pg_add-api-key.sh
               ignore_error: true

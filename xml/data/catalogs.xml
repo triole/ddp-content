@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-03-22T11:04:01.442802+01:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-05T12:44:01.889897+02:00">
 	<catalog dc:uri="https://localhost/rdmo/test/questions/m7">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>m7</key>
@@ -1574,7 +1574,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2618,7 +2618,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2662,7 +2662,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2706,7 +2706,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2750,7 +2750,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -2834,7 +2834,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -3098,7 +3098,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -3130,6 +3130,3197 @@
 		<title lang="it"/>
 		<help lang="it"/>
 	</catalog>
+	<section dc:uri="https://localhost/rdmo/test/questions/m1/aa">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>aa</key>
+		<path>m1/aa</path>
+		<dc:comment/>
+		<catalog dc:uri="https://localhost/rdmo/test/questions/m1"/>
+		<order>0</order>
+		<title lang="en"/>
+		<title lang="de">I.Aa Gute wissenschaftliche Praxis</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>m1/aa/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/aa"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Forschungsethische Selbstprüfung</title>
+		<help lang="de">Die Projektbeteiligten führen eine forschungsethische Selbstprüfung des Vorhabens durch, unter Berücksichtigung</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/aa/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/1/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zur guten wissenschaftlichen Praxis (I.Aa.1.1.E)</help>
+		<text lang="de">I.Aa.1.1 der allgemeinen Standards guter wissenschaftlicher Praxis</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/aa/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/1/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu länderspezifischen Besonderheiten bei Befragungen an Schulen (I.Aa.1.2.E)</help>
+		<text lang="de">I.Aa.1.2 von Vorgaben der Einrichtung(en) der Projektbeteiligten, der Forschungsfördernden sowie weiterer Institutionen, z. B. zum Einholen eines Ethikvotums oder einer Genehmigung zum Bundesländervergleich</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1/3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3</key>
+		<path>m1/aa/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/1/3"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu Ethik-Kodizes (I.Aa.1.3.E)</help>
+		<text lang="de">I.Aa.1.3 weiterer relevanter institutioneller sowie forschungs- und berufsethischer Kodizes</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1/4">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>4</key>
+		<path>m1/aa/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/1/4"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Aa.1.4 abweichender Regelungen, z. B. anderer Disziplinen oder anderer Staaten, die im Projekt (ggf.) Anwendung finden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs2</key>
+		<path>m1/aa/qs2</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/aa"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Forschungsdatenmanagement</title>
+		<help lang="de">Die Projektbeteiligten</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>m1/aa/qs2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/aa"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/aa/qs2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/3/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">A.Aa.2.3.1 wahren die Rechte Dritter, wie z. B.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/aa/qs2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/3/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca Urheberrechte Dritter</help>
+		<text lang="de">A.Aa.2.3.2 Urheberrechte bei der Nachnutzung von Materialien sowie ggf. vorliegende Ethikvoten zu diesen Materialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/aa/qs2/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu forschungsethischen Grundsätzen (I.Aa.2.1.E)</help>
+		<text lang="de">legen potenzielle Interessenkonflikte offen, z. B. im Kontext des Vorhabens, der Projektförderung etc.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/trifft_nicht_zu"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/aa/qs2/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Aa.2.2 identifizieren potentielle Risiken des Vorhabens für alle am Projekt beteiligten Personen(-gruppen)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3</key>
+		<path>m1/aa/qs2/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">A.Aa.2.3 wahren die Rechte Dritter, wie z. B.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/4">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>4</key>
+		<path>m1/aa/qs2/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/4"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Aa.2.4 unterlassen Fehlverhalten im Umgang mit den Daten und Begleitmaterialien, wie z. B. das Erfinden, Zurückhalten oder Verfälschen der Daten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/5">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>5</key>
+		<path>m1/aa/qs2/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/5"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu berufsethischen Richtlinien (I.Aa.2.5.E)</help>
+		<text lang="de">I.Aa.2.5 vollziehen nachträgliche Korrektur von Fehlern in den Daten und Begleitmaterialien, wenn diese Fehler von den Projektbeteiligten selbst erkannt oder sie durch die betroffenen Personen bzw. Dritte darüber informiert werden und dokumentieren entsprechende Änderungen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/6">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>6</key>
+		<path>m1/aa/qs2/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/6"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste V.Al Nachvollziehbarkeit von Datenmatrizen bzw.
+Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Artenfakten etc.</help>
+		<text lang="de">I.Aa.2.6 dokumentieren die Eigenschaften der Daten und Begleitmaterialien sowie Auffälligkeiten und Besonderheiten in der Verarbeitung der Daten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/7">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>7</key>
+		<path>m1/aa/qs2/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/7"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>8</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste IV.Aa Organisation von Daten und Begleitmaterialien</help>
+		<text lang="de">I.Aa.2.7 organisieren die (Verarbeitung der) Daten und Begleitmaterialien systematisch im Projekt</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/8">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>8</key>
+		<path>m1/aa/qs2/8</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/8"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>9</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste VI.Aa. Verfügbarkeit</help>
+		<text lang="de">I.Aa.2.8 machen die im Projekt generierten Daten und Begleitmaterialien (so weit als möglich) Dritten zur Nachnutzung verfügbar</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/9">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>9</key>
+		<path>m1/aa/qs2/9</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/9"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>10</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste VII.Aa Langfristsicherung</help>
+		<text lang="de">I.Aa.2.9 sichern Daten und Begleitmaterialien, die nicht verfügbar gemacht werden können, (so weit als möglich) längerfristig über das Projekt hinaus</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/10">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>10</key>
+		<path>m1/aa/qs2/10</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/5"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>11</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Modul VIII. Verantwortlichkeiten und Aufwendungen</help>
+		<text lang="de">I.Aa.2.10 stellen sicher, dass Verantwortlichkeiten für das Managen der Daten und Begleitmaterialien definiert und dafür potentielle Aufwendungen eingeplant sind</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>m1/aa/qs2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/aa"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/aa/qs2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/3/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">A.Aa.2.3.1 wahren die Rechte Dritter, wie z. B.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/aa/qs2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/3/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca Urheberrechte Dritter</help>
+		<text lang="de">A.Aa.2.3.2 Urheberrechte bei der Nachnutzung von Materialien sowie ggf. vorliegende Ethikvoten zu diesen Materialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://localhost/rdmo/test/questions/m1/ba">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>ba</key>
+		<path>m1/ba</path>
+		<dc:comment/>
+		<catalog dc:uri="https://localhost/rdmo/test/questions/m1"/>
+		<order>0</order>
+		<title lang="en"/>
+		<title lang="de">I.Ba Risiken des Vorhabens</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Betroffene Personen(-gruppen)</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>m1/ba/1/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/1/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.1.1 die Projektbeteiligten selbst</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/ba/1/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.1.2 Auftragsverarbeitende</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3</key>
+		<path>m1/ba/1/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/3"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.1.3 weitere (potenzielle) Empfangende der Daten, wie z. B. Begutachtende oder Nachnutzende</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/4">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>4</key>
+		<path>m1/ba/1/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/4"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ba Informierte Einwilligung sowie 
+ Empfehlung Bonner Ethik-Erklärung (I.Ba.1.4.E)</help>
+		<text lang="de">I.Ba.1.4 die betroffenen Personen, über die (personenbezogene) Daten verarbeitet werden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/5">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>5</key>
+		<path>m1/ba/1/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/5"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ba Informierte Einwilligung</help>
+		<text lang="de">I.Ba.1.5 weitere Personen, über die im Rahmen des Vorhabens (personenbezogene) Daten verarbeitet werden, die selbst aber kein Teil der originären Befragung sind</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/6">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>6</key>
+		<path>m1/ba/1/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/6"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.1.6 sonstige Personen, deren Persönlichkeitsrechte evtl. durch das Vorhaben berührt, eingeschränkt oder gar geschädigt werden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu Risiken sozialwissenschaftlicher Forschung (I.Ba.1.E)</help>
+		<text lang="de">I.Ba.1 Die Projektbeteiligten reflektieren etwaige Risiken und Folgen für alle am Vorhaben beteiligten Personen(-gruppen), z. B. für</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>m1/ba/1/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/1/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.1.1 die Projektbeteiligten selbst</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/ba/1/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.1.2 Auftragsverarbeitende</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3</key>
+		<path>m1/ba/1/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/3"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.1.3 weitere (potenzielle) Empfangende der Daten, wie z. B. Begutachtende oder Nachnutzende</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/4">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>4</key>
+		<path>m1/ba/1/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/4"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ba Informierte Einwilligung sowie 
+ Empfehlung Bonner Ethik-Erklärung (I.Ba.1.4.E)</help>
+		<text lang="de">I.Ba.1.4 die betroffenen Personen, über die (personenbezogene) Daten verarbeitet werden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/5">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>5</key>
+		<path>m1/ba/1/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/5"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ba Informierte Einwilligung</help>
+		<text lang="de">I.Ba.1.5 weitere Personen, über die im Rahmen des Vorhabens (personenbezogene) Daten verarbeitet werden, die selbst aber kein Teil der originären Befragung sind</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/6">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>6</key>
+		<path>m1/ba/1/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/6"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.1.6 sonstige Personen, deren Persönlichkeitsrechte evtl. durch das Vorhaben berührt, eingeschränkt oder gar geschädigt werden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>m1/ba/2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Risiken</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.2.1 physische oder psychische Schäden, z. B. aufgrund der Befragung, der Befragungssituation, der verarbeiteten Daten, sonstiger Interventionen oder Abhängigkeitsverhältnisse</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/ba/2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zu sozialen Risiken befragter Personen (I.Ba.2.2.Fb)</help>
+		<text lang="de">I.Ba.2.2 soziale und (beamten-)rechtliche Folgen, wie z. B. Stigmatisierung, Exklusion oder Marginalisierung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3</key>
+		<path>m1/ba/2/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/3"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zu sozialen Risiken befragter Personen (I.Ba.2.2.Fb)</help>
+		<text lang="de">I.Ba.2.3 wirtschaftliche, materielle und immaterielle Folgen, auch in Bezug auf (unverhältnismäßige) Begünstigungen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/4">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>4</key>
+		<path>m1/ba/2/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
+		<text lang="de">I.Ba.2.4 Urheberrechte Dritter an im Projekt nachgenutzten Materialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/5">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>5</key>
+		<path>m1/ba/2/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu länderspezifischen Besonderheiten bei Befragungen an Schulen (I.Aa.1.2.E) sowie 
+ Empfehlungen zu Befragungen an Hochschulen (I.Ba.2.4.E)</help>
+		<text lang="de">I.Ba.2.4.1 Eingriffe in den Schul- bzw. Hochschulbetrieb</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/6">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>6</key>
+		<path>m1/ba/2/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
+		<text lang="de">I.Ba.2.4.2 Urheberrechte Dritter an im Projekt nachgenutzten Materialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/ba/2</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Risiken</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>m1/ba/2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Risiken</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.2.1 physische oder psychische Schäden, z. B. aufgrund der Befragung, der Befragungssituation, der verarbeiteten Daten, sonstiger Interventionen oder Abhängigkeitsverhältnisse</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/ba/2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zu sozialen Risiken befragter Personen (I.Ba.2.2.Fb)</help>
+		<text lang="de">I.Ba.2.2 soziale und (beamten-)rechtliche Folgen, wie z. B. Stigmatisierung, Exklusion oder Marginalisierung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3</key>
+		<path>m1/ba/2/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/3"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zu sozialen Risiken befragter Personen (I.Ba.2.2.Fb)</help>
+		<text lang="de">I.Ba.2.3 wirtschaftliche, materielle und immaterielle Folgen, auch in Bezug auf (unverhältnismäßige) Begünstigungen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/4">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>4</key>
+		<path>m1/ba/2/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
+		<text lang="de">I.Ba.2.4 Urheberrechte Dritter an im Projekt nachgenutzten Materialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/5">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>5</key>
+		<path>m1/ba/2/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu länderspezifischen Besonderheiten bei Befragungen an Schulen (I.Aa.1.2.E) sowie 
+ Empfehlungen zu Befragungen an Hochschulen (I.Ba.2.4.E)</help>
+		<text lang="de">I.Ba.2.4.1 Eingriffe in den Schul- bzw. Hochschulbetrieb</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/6">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>6</key>
+		<path>m1/ba/2/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
+		<text lang="de">I.Ba.2.4.2 Urheberrechte Dritter an im Projekt nachgenutzten Materialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/2/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.2 Die Projektbeteiligten benennen und reflektieren im Projektverlauf etwaige Risiken und Folgen für diese Personen(-gruppen), wie etwa</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3</key>
+		<path>m1/ba/3</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Schutzmaßnahmen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/0">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>0</key>
+		<path>m1/ba/3/0</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
+		<text lang="de">I.Ba.3 Sind derartige Risiken bzw. Konsequenzen erwartbar oder gar unvermeidbar, so implementieren die Projektbeteiligten geeignete Schutzmaßnahmen, wie etwa</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/3/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
+		<text lang="de">I.Ba.3.1 die Dokumentation etwaiger Auffälligkeiten und Vorfälle im Projektverlauf</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/ba/3/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
+		<text lang="de">I.Ba.3.2 eine Sensibilisierung aller Projektbeteiligten sowie etwaiger Auftragsverarbeitender, z. B. durch Schulungen zum Umgang mit betroffenen Personen oder durch die Möglichkeit der Supervision</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3</key>
+		<path>m1/ba/3/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/3"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ba Informierte Einwilligung</help>
+		<text lang="de">I.Ba.3.3 eine umfassende Aufklärung betroffener Personen über potentielle Risiken und Folgen, z. B. im Rahmen der Einwilligungserklärung, sowie die Sicherstellung der Freiwilligkeit</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/m1_ba_3_3"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/4">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>4</key>
+		<path>m1/ba/3/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/4"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.3.4 den Aufbau einer vertrauensvollen Beziehungs- und Kommunikationssituation mit allen beteiligten Personen(-gruppen)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/5">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>5</key>
+		<path>m1/ba/3/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/5"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.3.5 die Bereitstellung allgemeiner Maßnahmen z. B. zur akuten Krisenintervention, wie etwa Notfalltelefonnummern oder Kontaktinformationen zu externen Beratungs- und Unterstützungsangeboten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://localhost/rdmo/test/questions/m1/ca">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>ca</key>
+		<path>m1/ca</path>
+		<dc:comment/>
+		<catalog dc:uri="https://localhost/rdmo/test/questions/m1"/>
+		<order>3</order>
+		<title lang="en"/>
+		<title lang="de">I.Ca Ethikvotum</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>m1/ca/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ca"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Prüfung</title>
+		<help lang="de">Die Projektbeteiligten</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ca/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zum Ethikvotum (I.Ca.1.1.E)</help>
+		<text lang="de">I.Ca.1.1 prüfen, ob ein Ethikvotum zur Durchführung des Vorhabens benötigt wird, z. B. aufgrund von Vorgaben</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/ca/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.1.1.1 prüfen, ob ein Ethikvotum zur Durchführung des Vorhabens benötigt wird, z. B. aufgrund von Vorgaben</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>3</key>
+		<path>m1/ca/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.1.1.2 der Forschungsfördernden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/4">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>4</key>
+		<path>m1/ca/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/3"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.1.1.3 von Fachzeitschriften in denen Forschungsergebnisse publiziert werden sollen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/5">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>5</key>
+		<path>m1/ca/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/4"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.1.1.4 weiterer für das Vorhaben relevanter Institutionen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/6">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>6</key>
+		<path>m1/ca/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>20</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.1.2 dokumentieren das Ergebnis dieser Prüfung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>m1/ca/qs2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ca"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ca/qs2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">bei der Ethikkommission der Einrichtung(en) der Projektbeteiligten oder bei einer externen Ethikkommission
+siehe Empfehlungen zu Ethikkommissionen (I.Ca.2.1.E)</help>
+		<text lang="de">I.Ca.2.1 bei wem dieses Votum eingeholt werden muss, wie z. B.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/ca/qs2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zum Ethikvotum (I.Ca.1.1.E)</help>
+		<text lang="de">I.Ca.2.2 wie das Votum bei der jeweiligen Ethikkommission eingeholt wird (notwendige Unterlagen, Verfahren zum Ethikvotum etc.)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs2</key>
+		<path>m1/ca/qs2</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ca"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Einholen und Umsetzen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>qs1</key>
+		<path>m1/ca/qs2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://localhost/rdmo/test/questions/m1/ca"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ca/qs2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/1"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">bei der Ethikkommission der Einrichtung(en) der Projektbeteiligten oder bei einer externen Ethikkommission
+siehe Empfehlungen zu Ethikkommissionen (I.Ca.2.1.E)</help>
+		<text lang="de">I.Ca.2.1 bei wem dieses Votum eingeholt werden muss, wie z. B.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/ca/qs2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zum Ethikvotum (I.Ca.1.1.E)</help>
+		<text lang="de">I.Ca.2.2 wie das Votum bei der jeweiligen Ethikkommission eingeholt wird (notwendige Unterlagen, Verfahren zum Ethikvotum etc.)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1/ca/qs2/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/2"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.2 Wird ein Ethikvotum eingeholt, prüfen die Projektbeteiligten,</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/trifft_nicht_zu"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1/ca/qs2/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/3"/>
+		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.3 Die Projektbeteiligten stellen im Projektverlauf und darüber hinaus sicher, dass die im Ethikvotum angeratenen Maßnahmen systematisch umgesetzt werden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
 	<catalog dc:uri="https://localhost/rdmo/test/questions/m5">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>m5</key>

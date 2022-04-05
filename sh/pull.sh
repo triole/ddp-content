@@ -29,15 +29,15 @@ function req() {
         fi
     fi
 
-    if [[ "${ext}" == "json" ]]; then
-        if [[ "$(valid_json "${response}")" == "true" ]]; then
-            if [[ "${debug}" == "false" ]]; then
-                save_to_file "${response}" "${target_file}"
-            fi
-        else
-            echo "<red>Invalid json: ${shortname}</red>" | tml
-        fi
-    fi
+    # if [[ "${ext}" == "json" ]]; then
+    #     if [[ "$(valid_json "${response}")" == "true" ]]; then
+    #         if [[ "${debug}" == "false" ]]; then
+    #             save_to_file "${response}" "${target_file}"
+    #         fi
+    #     else
+    #         echo "<red>Invalid json: ${shortname}</red>" | tml
+    #     fi
+    # fi
 }
 
 for url in "${conf_urls[@]}"; do

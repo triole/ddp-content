@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-03-22T11:04:00.685823+01:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-05T12:44:00.622616+02:00">
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
@@ -5025,27 +5025,6 @@
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
-	<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>beruecksichtigt_yes</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes/yes">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>yes</key>
-		<path>beruecksichtigt_yes/yes</path>
-		<dc:comment/>
-		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yes"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">berücksichtigt</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
 	<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt_yesno">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>beruecksichtigt_yesno</key>
@@ -5243,6 +5222,82 @@
 		<order>3</order>
 		<text lang="en"/>
 		<text lang="de">D) die Implementierung eines eigenen Back-Up-Verfahrens und dessen konsistente Umsetzung im Projektverlauf  siehe Fallbeispiel zu Implementierung einer eigenen Back-Up-Strategie (IV.Ba.1.Fb)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://localhost/rdmo/test/options/m1_ba_3_3">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>m1_ba_3_3</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://localhost/rdmo/test/options/m1_ba_3_3/1">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>1</key>
+		<path>m1_ba_3_3/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/m1_ba_3_3"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">A) der Teilnahme und des Rechts auf informationelle Selbstbestimmung (Teilnahmeverweigerung)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://localhost/rdmo/test/options/m1_ba_3_3/2">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>2</key>
+		<path>m1_ba_3_3/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/m1_ba_3_3"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">B) der Beantwortung einzelner Fragen bzw. das Ausklammern bestimmter Themen(-bereiche) (Antwortverweigerung)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://localhost/rdmo/test/options/trifft_nicht_zu">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>trifft_nicht_zu</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://localhost/rdmo/test/options/trifft_nicht_zu/yes">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>yes</key>
+		<path>trifft_nicht_zu/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/trifft_nicht_zu"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">trifft nicht zu</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>beruecksichtigt</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://localhost/rdmo/test/options/beruecksichtigt/yes">
+		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+		<key>yes</key>
+		<path>beruecksichtigt/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://localhost/rdmo/test/options/beruecksichtigt"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">berücksichtigt</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
