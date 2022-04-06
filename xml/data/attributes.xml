@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-05T13:44:48.197214+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-06T15:56:09.170280+02:00">
 	<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>deckblatt</key>
@@ -312,13 +312,6 @@
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/aa/2/1</path>
-		<dc:comment/>
-		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2"/>
-	</attribute>
-	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/10">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>10</key>
-		<path>m1/aa/2/10</path>
 		<dc:comment/>
 		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2"/>
 	</attribute>
