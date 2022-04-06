@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-06T15:56:10.597531+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-06T16:38:38.882739+02:00">
 	<catalog dc:uri="https://localhost/rdmo/test/questions/m7">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>m7</key>
@@ -1160,8 +1160,8 @@
 		<optionsets/>
 		<conditions/>
 	</question>
-	<catalog dc:uri="https://localhost/rdmo/test/questions/m4">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<catalog dc:uri="https://ddp-bildung.org/terms/questions/m4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>m4</key>
 		<dc:comment/>
 		<order>0</order>
@@ -1174,25 +1174,185 @@
 		<title lang="it"/>
 		<help lang="it"/>
 	</catalog>
-	<section dc:uri="https://localhost/rdmo/test/questions/m4/aa">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<section dc:uri="https://ddp-bildung.org/terms/questions/m4/aa">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>aa</key>
 		<path>m4/aa</path>
 		<dc:comment/>
-		<catalog dc:uri="https://localhost/rdmo/test/questions/m4"/>
+		<catalog dc:uri="https://ddp-bildung.org/terms/questions/m4"/>
 		<order>0</order>
 		<title lang="en"/>
 		<title lang="de">IV.Aa Organisation von Daten und Begleitmaterialien</title>
 		<title lang="fr"/>
 		<title lang="it"/>
 	</section>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m4/aa/2/1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/aa"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">IV.Aa.2.1 welche **Speichermöglichkeiten und -medien** für die Daten und Begleitmaterialien</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m4/aa/2/1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2/1/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">IV.Aa.2.1.1 durch die **Einrichtung(en)** der Projektbeteiligten zur Verfügung stehen und genutzt werden können, wie z. B. Server oder eigene Clouddienste</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m4/aa/2/1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2/1/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">IV.Aa.2.1.2 **außerhalb der Einrichtung(en)** der Projektbeteiligten zur Verfügung stehen und genutzt werden können wie z. B. externe Clouddienste</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m4/aa/2/1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2/1/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">IV.Aa.2.1.3 **im Projektverlauf** genutzt werden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>s</key>
 		<path>m4/aa/s</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m4/aa"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/aa"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>1</order>
@@ -1214,14 +1374,14 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>s</key>
 		<path>m4/aa/s/s</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m4/aa"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/aa"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s"/>
 		<is_collection>False</is_collection>
 		<order>2</order>
 		<title lang="en"/>
@@ -1242,13 +1402,13 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m4/aa/s/s/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -1286,13 +1446,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m4/aa/s/s/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -1330,13 +1490,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m4/aa/s/s/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -1374,13 +1534,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m4/aa/s/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -1418,333 +1578,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>1</key>
-		<path>m4/aa/2/1</path>
-		<dc:comment/>
-		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m4/aa"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2"/>
-		<is_collection>False</is_collection>
-		<order>1</order>
-		<title lang="en"/>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<title lang="de">IV.Aa.2.1 welche **Speichermöglichkeiten und -medien** für die Daten und Begleitmaterialien</title>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<title lang="fr"/>
-		<help lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<title lang="it"/>
-		<help lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<conditions/>
-	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>1</key>
-		<path>m4/aa/2/1/1</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2/1/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>1</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">IV.Aa.2.1.1 durch die **Einrichtung(en)** der Projektbeteiligten zur Verfügung stehen und genutzt werden können, wie z. B. Server oder eigene Clouddienste</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>2</key>
-		<path>m4/aa/2/1/2</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2/1/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>2</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">IV.Aa.2.1.2 **außerhalb der Einrichtung(en)** der Projektbeteiligten zur Verfügung stehen und genutzt werden können wie z. B. externe Clouddienste</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>3</key>
-		<path>m4/aa/2/1/3</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2/1/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>3</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">IV.Aa.2.1.3 **im Projektverlauf** genutzt werden</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>s</key>
-		<path>m4/aa/s/s</path>
-		<dc:comment/>
-		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m4/aa"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s"/>
-		<is_collection>False</is_collection>
-		<order>2</order>
-		<title lang="en"/>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<title lang="de"/>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<title lang="fr"/>
-		<help lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<title lang="it"/>
-		<help lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<conditions/>
-	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>1</key>
-		<path>m4/aa/s/s/1</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>1</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Bestandsliste</help>
-		<text lang="de">IV.Aa.1.1 der notwendigen **Speicherkapazität** zur Sicherung der Daten und Begleitmaterialien (inkl. Back-Ups)</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>2</key>
-		<path>m4/aa/s/s/2</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>2</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">IV.Aa.1.2 der Personen(-gruppen), die ggf. an unterschiedlichen Standorten (innerhalb und außerhalb des Projekts) **Zugang** zu den Daten und Begleitmaterialien benötigen</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>3</key>
-		<path>m4/aa/s/s/3</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/s/s"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>3</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Checkliste II.Ca Geschützes Verarbeiten</help>
-		<text lang="de">IV.Aa.1.3 erforderlicher **Maßnahmen zum Schutz** der Daten und Begleitmaterialien</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m4/aa/2</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m4/aa"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/aa"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>2</order>
@@ -1766,14 +1606,14 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m4/aa/2/1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m4/aa"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/aa"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<title lang="en"/>
@@ -1794,13 +1634,13 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m4/aa/2/1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2/1/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -1838,13 +1678,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m4/aa/2/1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2/1/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -1882,13 +1722,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m4/aa/2/1/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2/1/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -1926,13 +1766,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/11111">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>11111</key>
-		<path>m4/aa/2/11111</path>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>0</key>
+		<path>m4/aa/2/0</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -1970,13 +1810,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/2/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m4/aa/2/3</path>
-		<dc:comment>siehe Inventarliste sowie Standard S-III-1-2-3 (III-a_2-ST_1-1)</dc:comment>
+		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -2014,13 +1854,173 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>s</key>
+		<path>m4/aa/s/s</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/aa"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m4/aa/s/s/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Bestandsliste</help>
+		<text lang="de">IV.Aa.1.1 der notwendigen **Speicherkapazität** zur Sicherung der Daten und Begleitmaterialien (inkl. Back-Ups)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m4/aa/s/s/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">IV.Aa.1.2 der Personen(-gruppen), die ggf. an unterschiedlichen Standorten (innerhalb und außerhalb des Projekts) **Zugang** zu den Daten und Begleitmaterialien benötigen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m4/aa/s/s/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/s/s"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ca Geschützes Verarbeiten</help>
+		<text lang="de">IV.Aa.1.3 erforderlicher **Maßnahmen zum Schutz** der Daten und Begleitmaterialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m4/aa/3</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m4/aa"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/aa"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>3</order>
@@ -2042,13 +2042,13 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/3/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/3/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m4/aa/3/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/3/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -2086,13 +2086,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/3/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/3/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m4/aa/3/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/3/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -2130,13 +2130,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/aa/3/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/3/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m4/aa/3/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/3/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/aa/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/aa/3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -2174,25 +2174,25 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<section dc:uri="https://localhost/rdmo/test/questions/m4/ba">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<section dc:uri="https://ddp-bildung.org/terms/questions/m4/ba">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>ba</key>
 		<path>m4/ba</path>
 		<dc:comment/>
-		<catalog dc:uri="https://localhost/rdmo/test/questions/m4"/>
+		<catalog dc:uri="https://ddp-bildung.org/terms/questions/m4"/>
 		<order>1</order>
 		<title lang="en"/>
 		<title lang="de">IV.Ba Back-Up-Verfahren</title>
 		<title lang="fr"/>
 		<title lang="it"/>
 	</section>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
 		<path>m4/ba/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m4/ba"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/ba"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>20</order>
@@ -2214,13 +2214,13 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m4/ba/qs1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ba/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -2258,13 +2258,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m4/ba/qs1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ba/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -2302,13 +2302,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m4/ba/qs1/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ba/2/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -2346,13 +2346,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1/4">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
 		<path>m4/ba/qs1/4</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ba/2/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -2390,13 +2390,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1/5">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
 		<path>m4/ba/qs1/5</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ba/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ba/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ba/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -2434,25 +2434,25 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<section dc:uri="https://localhost/rdmo/test/questions/m4/ca">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<section dc:uri="https://ddp-bildung.org/terms/questions/m4/ca">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>ca</key>
 		<path>m4/ca</path>
 		<dc:comment/>
-		<catalog dc:uri="https://localhost/rdmo/test/questions/m4"/>
+		<catalog dc:uri="https://ddp-bildung.org/terms/questions/m4"/>
 		<order>2</order>
 		<title lang="en"/>
 		<title lang="de">IV.Ca Vernichtungsmanagement</title>
 		<title lang="fr"/>
 		<title lang="it"/>
 	</section>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs</key>
 		<path>m4/ca/qs</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m4/ca"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/ca"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>0</order>
@@ -2474,13 +2474,13 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs/0">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>0</key>
 		<path>m4/ca/qs/0</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -2518,13 +2518,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs/11">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>11</key>
 		<path>m4/ca/qs/11</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -2562,13 +2562,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs/12">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/12">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>12</key>
 		<path>m4/ca/qs/12</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -2606,13 +2606,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs/121">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/121">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>121</key>
 		<path>m4/ca/qs/121</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/2/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -2650,13 +2650,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs/122">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/122">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>122</key>
 		<path>m4/ca/qs/122</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/2/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -2694,13 +2694,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs/13">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/13">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>13</key>
 		<path>m4/ca/qs/13</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/3/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>6</order>
@@ -2738,13 +2738,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs/7">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>7</key>
 		<path>m4/ca/qs/7</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>7</order>
@@ -2796,8 +2796,8 @@
 		<title lang="it"/>
 		<help lang="it"/>
 	</catalog>
-	<catalog dc:uri="https://localhost/rdmo/test/questions/m1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<catalog dc:uri="https://ddp-bildung.org/terms/questions/m1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>m1</key>
 		<dc:comment/>
 		<order>0</order>
@@ -2810,25 +2810,25 @@
 		<title lang="it"/>
 		<help lang="it"/>
 	</catalog>
-	<section dc:uri="https://localhost/rdmo/test/questions/m1/aa">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<section dc:uri="https://ddp-bildung.org/terms/questions/m1/aa">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>aa</key>
 		<path>m1/aa</path>
 		<dc:comment/>
-		<catalog dc:uri="https://localhost/rdmo/test/questions/m1"/>
+		<catalog dc:uri="https://ddp-bildung.org/terms/questions/m1"/>
 		<order>0</order>
 		<title lang="en"/>
 		<title lang="de">I.Aa Gute wissenschaftliche Praxis</title>
 		<title lang="fr"/>
 		<title lang="it"/>
 	</section>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
 		<path>m1/aa/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/aa"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/aa"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>1</order>
@@ -2850,13 +2850,13 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/aa/qs1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/1/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -2894,13 +2894,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/aa/qs1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/1/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -2938,13 +2938,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m1/aa/qs1/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/1/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -2982,13 +2982,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1/4">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
 		<path>m1/aa/qs1/4</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/1/4"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -3026,13 +3026,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs2</key>
 		<path>m1/aa/qs2</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/aa"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/aa"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>2</order>
@@ -3041,7 +3041,7 @@
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<title lang="de">Forschungsdatenmanagement</title>
-		<help lang="de">Die Projektbeteiligten</help>
+		<help lang="de">I.Aa.2 Die Projektbeteiligten</help>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
 		<title lang="fr"/>
@@ -3054,14 +3054,14 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
 		<path>m1/aa/qs2/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/aa"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/aa"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<order>4</order>
 		<title lang="en"/>
@@ -3082,13 +3082,13 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/aa/qs2/qs1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/3/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -3126,13 +3126,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/aa/qs2/qs1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/3/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -3170,13 +3170,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/aa/qs2/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -3186,7 +3186,7 @@
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Empfehlungen zu forschungsethischen Grundsätzen (I.Aa.2.1.E)</help>
-		<text lang="de">legen potenzielle **Interessenkonflikte** offen, z. B. im Kontext des Vorhabens, der Projektförderung etc.</text>
+		<text lang="de">I.Aa.2.1 legen potenzielle **Interessenkonflikte** offen, z. B. im Kontext des Vorhabens, der Projektförderung etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -3214,13 +3214,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/aa/qs2/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -3258,13 +3258,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m1/aa/qs2/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -3302,13 +3302,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/4">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
 		<path>m1/aa/qs2/4</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/4"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -3346,13 +3346,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/5">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
 		<path>m1/aa/qs2/5</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/5"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>6</order>
@@ -3390,13 +3390,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/6">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>6</key>
 		<path>m1/aa/qs2/6</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/6"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>7</order>
@@ -3435,13 +3435,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/7">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>7</key>
 		<path>m1/aa/qs2/7</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/7"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>8</order>
@@ -3479,13 +3479,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/8">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>8</key>
 		<path>m1/aa/qs2/8</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/8"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>9</order>
@@ -3523,13 +3523,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/9">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>9</key>
 		<path>m1/aa/qs2/9</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/9"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>10</order>
@@ -3567,13 +3567,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/10">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>10</key>
 		<path>m1/aa/qs2/10</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/5"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>11</order>
@@ -3611,14 +3611,14 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
 		<path>m1/aa/qs2/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/aa"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/aa"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2"/>
 		<is_collection>False</is_collection>
 		<order>4</order>
 		<title lang="en"/>
@@ -3639,13 +3639,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/aa/qs2/qs1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/3/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -3683,13 +3683,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/aa/qs2/qs1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/3/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/aa/qs2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -3727,25 +3727,25 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<section dc:uri="https://localhost/rdmo/test/questions/m1/ba">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>ba</key>
 		<path>m1/ba</path>
 		<dc:comment/>
-		<catalog dc:uri="https://localhost/rdmo/test/questions/m1"/>
+		<catalog dc:uri="https://ddp-bildung.org/terms/questions/m1"/>
 		<order>0</order>
 		<title lang="en"/>
 		<title lang="de">I.Ba Risiken des Vorhabens</title>
 		<title lang="fr"/>
 		<title lang="it"/>
 	</section>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ba/1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>0</order>
@@ -3767,14 +3767,14 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
 		<path>m1/ba/1/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<title lang="en"/>
@@ -3793,15 +3793,17 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<help lang="it"/>
 		<verbose_name lang="it"/>
 		<verbose_name_plural lang="it"/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ba_1"/>
+		</conditions>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ba/1/qs1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -3839,13 +3841,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/ba/1/qs1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -3883,13 +3885,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m1/ba/1/qs1/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -3927,13 +3929,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/4">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
 		<path>m1/ba/1/qs1/4</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/4"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -3971,13 +3973,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/5">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
 		<path>m1/ba/1/qs1/5</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/5"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -4015,13 +4017,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/6">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>6</key>
 		<path>m1/ba/1/qs1/6</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/6"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>6</order>
@@ -4059,13 +4061,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ba/1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -4103,14 +4105,14 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
 		<path>m1/ba/1/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<title lang="en"/>
@@ -4129,15 +4131,17 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<help lang="it"/>
 		<verbose_name lang="it"/>
 		<verbose_name_plural lang="it"/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ba_1"/>
+		</conditions>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ba/1/qs1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -4175,13 +4179,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/ba/1/qs1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -4219,13 +4223,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m1/ba/1/qs1/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -4263,13 +4267,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/4">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
 		<path>m1/ba/1/qs1/4</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/4"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -4307,13 +4311,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/5">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
 		<path>m1/ba/1/qs1/5</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/5"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -4351,13 +4355,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1/6">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>6</key>
 		<path>m1/ba/1/qs1/6</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1/6"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/1/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>6</order>
@@ -4395,42 +4399,14 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>2</key>
-		<path>m1/ba/2</path>
-		<dc:comment/>
-		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
-		<questionset/>
-		<is_collection>False</is_collection>
-		<order>2</order>
-		<title lang="en"/>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<title lang="de"/>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<title lang="fr"/>
-		<help lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<title lang="it"/>
-		<help lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<conditions/>
-	</questionset>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
 		<path>m1/ba/2/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2"/>
 		<is_collection>False</is_collection>
 		<order>2</order>
 		<title lang="en"/>
@@ -4451,13 +4427,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ba/2/qs1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -4495,13 +4471,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/ba/2/qs1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -4539,13 +4515,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m1/ba/2/qs1/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -4583,13 +4559,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/4">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
 		<path>m1/ba/2/qs1/4</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -4627,13 +4603,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/5">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
 		<path>m1/ba/2/qs1/5</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -4671,13 +4647,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/6">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>6</key>
 		<path>m1/ba/2/qs1/6</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>6</order>
@@ -4715,13 +4691,333 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1/ba/2</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m1/ba/2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.2.1 **physische oder psychische Schäden**, z. B. aufgrund der Befragung, der Befragungssituation, der verarbeiteten Daten, sonstiger Interventionen oder Abhängigkeitsverhältnisse</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1/ba/2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zu sozialen Risiken befragter Personen (I.Ba.2.2.Fb)</help>
+		<text lang="de">I.Ba.2.2 **soziale und (beamten-)rechtliche Folgen**, wie z. B. Stigmatisierung, Exklusion oder Marginalisierung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m1/ba/2/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.2.3 **wirtschaftliche, materielle und immaterielle Folgen**, auch in Bezug auf (unverhältnismäßige) Begünstigungen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m1/ba/2/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.2.4 **Einschränkungen von Rechten Dritter**, wie etwa</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m1/ba/2/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu länderspezifischen Besonderheiten bei Befragungen an Schulen (I.Aa.1.2.E) sowie Empfehlungen zu Befragungen an Hochschulen (I.Ba.2.4.E)</help>
+		<text lang="de">I.Ba.2.4.1 Eingriffe in den **Schul- bzw. Hochschulbetrieb**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m1/ba/2/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
+		<text lang="de">I.Ba.2.4.2 **Urheberrechte** Dritter an im Projekt nachgenutzten Materialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ba/2/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -4759,305 +5055,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>qs1</key>
-		<path>m1/ba/2/qs1</path>
-		<dc:comment/>
-		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2"/>
-		<is_collection>False</is_collection>
-		<order>2</order>
-		<title lang="en"/>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<title lang="de"/>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<title lang="fr"/>
-		<help lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<title lang="it"/>
-		<help lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<conditions/>
-	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>1</key>
-		<path>m1/ba/2/qs1/1</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>1</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">I.Ba.2.1 **physische oder psychische Schäden**, z. B. aufgrund der Befragung, der Befragungssituation, der verarbeiteten Daten, sonstiger Interventionen oder Abhängigkeitsverhältnisse</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>2</key>
-		<path>m1/ba/2/qs1/2</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>2</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Fallbeispiel zu sozialen Risiken befragter Personen (I.Ba.2.2.Fb)</help>
-		<text lang="de">I.Ba.2.2 **soziale und (beamten-)rechtliche Folgen**, wie z. B. Stigmatisierung, Exklusion oder Marginalisierung</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>3</key>
-		<path>m1/ba/2/qs1/3</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>3</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">I.Ba.2.3 **wirtschaftliche, materielle und immaterielle Folgen**, auch in Bezug auf (unverhältnismäßige) Begünstigungen</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/4">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>4</key>
-		<path>m1/ba/2/qs1/4</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>4</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">I.Ba.2.4 **Einschränkungen von Rechten Dritter**, wie etwa</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/5">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>5</key>
-		<path>m1/ba/2/qs1/5</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>5</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Empfehlungen zu länderspezifischen Besonderheiten bei Befragungen an Schulen (I.Aa.1.2.E) sowie Empfehlungen zu Befragungen an Hochschulen (I.Ba.2.4.E)</help>
-		<text lang="de">I.Ba.2.4.1 Eingriffe in den **Schul- bzw. Hochschulbetrieb**</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1/6">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>6</key>
-		<path>m1/ba/2/qs1/6</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/2/qs1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>6</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
-		<text lang="de">I.Ba.2.4.2 **Urheberrechte** Dritter an im Projekt nachgenutzten Materialien</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m1/ba/3</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ba"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>3</order>
@@ -5079,13 +5083,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/0">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>0</key>
 		<path>m1/ba/3/0</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -5123,13 +5127,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ba/3/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -5167,13 +5171,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/ba/3/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -5211,13 +5215,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m1/ba/3/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -5255,13 +5259,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/4">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
 		<path>m1/ba/3/4</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/4"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -5299,13 +5303,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ba/3/5">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
 		<path>m1/ba/3/5</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/5"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -5343,25 +5347,141 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<section dc:uri="https://localhost/rdmo/test/questions/m1/ca">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ca">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>ca</key>
 		<path>m1/ca</path>
 		<dc:comment/>
-		<catalog dc:uri="https://localhost/rdmo/test/questions/m1"/>
+		<catalog dc:uri="https://ddp-bildung.org/terms/questions/m1"/>
 		<order>3</order>
 		<title lang="en"/>
 		<title lang="de">I.Ca Ethikvotum</title>
 		<title lang="fr"/>
 		<title lang="it"/>
 	</section>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m1/ca/qs2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ca"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m1/ca/qs2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu Ethikkommissionen (I.Ca.2.1.E)</help>
+		<text lang="de">I.Ca.2.1 **bei wem** dieses Votum eingeholt werden muss, wie z. B. bei der Ethikkommission der Einrichtung(en) der Projektbeteiligten oder bei einer externen Ethikkommission</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1/ca/qs2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zum Ethikvotum (I.Ca.1.1.E)</help>
+		<text lang="de">I.Ca.2.2 **wie** das Votum bei der jeweiligen Ethikkommission eingeholt wird (notwendige Unterlagen, Verfahren zum Ethikvotum etc.)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
 		<path>m1/ca/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ca"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ca"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>1</order>
@@ -5383,13 +5503,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ca/qs1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -5427,13 +5547,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/ca/qs1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -5471,13 +5591,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/3">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
 		<path>m1/ca/qs1/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -5515,13 +5635,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/4">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
 		<path>m1/ca/qs1/4</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -5559,13 +5679,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/5">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
 		<path>m1/ca/qs1/5</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/4"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -5603,13 +5723,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1/6">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>6</key>
 		<path>m1/ca/qs1/6</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>20</order>
@@ -5647,129 +5767,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>qs1</key>
-		<path>m1/ca/qs2/qs1</path>
-		<dc:comment/>
-		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ca"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2"/>
-		<is_collection>False</is_collection>
-		<order>1</order>
-		<title lang="en"/>
-		<help lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<title lang="de"/>
-		<help lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<title lang="fr"/>
-		<help lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<title lang="it"/>
-		<help lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<conditions/>
-	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>1</key>
-		<path>m1/ca/qs2/qs1/1</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>0</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Empfehlungen zu Ethikkommissionen (I.Ca.2.1.E)</help>
-		<text lang="de">I.Ca.2.1 **bei wem** dieses Votum eingeholt werden muss, wie z. B. bei der Ethikkommission der Einrichtung(en) der Projektbeteiligten oder bei einer externen Ethikkommission</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
-		<key>2</key>
-		<path>m1/ca/qs2/qs1/2</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>1</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Empfehlungen zum Ethikvotum (I.Ca.1.1.E)</help>
-		<text lang="de">I.Ca.2.2 **wie** das Votum bei der jeweiligen Ethikkommission eingeholt wird (notwendige Unterlagen, Verfahren zum Ethikvotum etc.)</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs2</key>
 		<path>m1/ca/qs2</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ca"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ca"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>2</order>
@@ -5791,14 +5795,14 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
 		<path>m1/ca/qs2/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://localhost/rdmo/test/questions/m1/ca"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ca"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2"/>
 		<is_collection>False</is_collection>
 		<order>1</order>
 		<title lang="en"/>
@@ -5819,13 +5823,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ca/qs2/qs1/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/1"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -5863,13 +5867,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/ca/qs2/qs1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -5907,13 +5911,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/1">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ca/qs2/1</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/2"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -5951,13 +5955,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2/2">
-		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/ca/qs2/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/3"/>
-		<questionset dc:uri="https://localhost/rdmo/test/questions/m1/ca/qs2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
