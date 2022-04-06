@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-06T16:38:38.882739+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-06T21:12:48.727213+02:00">
 	<catalog dc:uri="https://localhost/rdmo/test/questions/m7">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>m7</key>
@@ -1334,7 +1334,7 @@
 		<verbose_name_plural lang="it"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>radio</widget_type>
+		<widget_type>checkbox</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1754,7 +1754,7 @@
 		<verbose_name_plural lang="it"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>radio</widget_type>
+		<widget_type>checkbox</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1842,7 +1842,7 @@
 		<verbose_name_plural lang="it"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>radio</widget_type>
+		<widget_type>checkbox</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -2201,7 +2201,7 @@
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<title lang="de">Back-Up-Verfahren</title>
-		<help lang="de">* Werden zutreffende Maßnahmen dieser Checkliste nicht berücksichtigt, so sind in einem Datenmanagementplan die alternativ berücksichtigten Maßnahmen zur Gewährleistung der Anforderung dieses Moduls kurz zu beschreiben.</help>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
 		<title lang="fr"/>
@@ -2446,10 +2446,10 @@
 		<title lang="fr"/>
 		<title lang="it"/>
 	</section>
-	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>qs</key>
-		<path>m4/ca/qs</path>
+		<key>qs1</key>
+		<path>m4/ca/qs1</path>
 		<dc:comment/>
 		<attribute/>
 		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/ca"/>
@@ -2461,7 +2461,7 @@
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<title lang="de">Vernichtungsdatenmanagement</title>
-		<help lang="de">* Werden zutreffende Maßnahmen dieser Checkliste nicht berücksichtigt, so sind in einem Datenmanagementplan die alternativ berücksichtigten Maßnahmen zur Gewährleistung der Anforderung dieses Moduls kurz zu beschreiben.</help>
+		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
 		<title lang="fr"/>
@@ -2474,60 +2474,46 @@
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/0">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>0</key>
-		<path>m4/ca/qs/0</path>
+		<key>qs1</key>
+		<path>m4/ca/qs1/qs1</path>
 		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/ca"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m4_ca_1"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m4/ca/qs1/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">IV.Ca.1 Die Projektbeteiligten implementieren ein **Vernichtungsmanagement**</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>checkbox</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/11">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>11</key>
-		<path>m4/ca/qs/11</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/1"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>2</order>
 		<help lang="en"/>
 		<text lang="en"/>
 		<default_text lang="en"/>
@@ -2562,57 +2548,43 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/12">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>12</key>
-		<path>m4/ca/qs/12</path>
+		<key>qs2</key>
+		<path>m4/ca/qs1/qs2</path>
 		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/2"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/ca"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1"/>
 		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>3</order>
+		<order>4</order>
+		<title lang="en"/>
 		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
 		<help lang="de"/>
-		<text lang="de">IV.Ca.1.2 für **Materialien Dritter**, die aufgrund von</text>
-		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
 		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
 		<verbose_name lang="fr"/>
 		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
 		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/121">
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m4_ca_1_2"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs2/121">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>121</key>
-		<path>m4/ca/qs/121</path>
+		<path>m4/ca/qs1/qs2/121</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/2/1"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -2650,13 +2622,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/122">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs2/122">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>122</key>
-		<path>m4/ca/qs/122</path>
+		<path>m4/ca/qs1/qs2/122</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/2/2"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -2694,13 +2666,101 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/13">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>0</key>
+		<path>m4/ca/qs1/0</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">IV.Ca.1 Die Projektbeteiligten implementieren ein **Vernichtungsmanagement**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/12">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>12</key>
+		<path>m4/ca/qs1/12</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">IV.Ca.1.2 für **Materialien Dritter**, die aufgrund von</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/13">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>13</key>
-		<path>m4/ca/qs/13</path>
+		<path>m4/ca/qs1/13</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/3/1"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>6</order>
@@ -2738,13 +2798,13 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs/7">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/7">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>7</key>
-		<path>m4/ca/qs/7</path>
+		<path>m4/ca/qs1/7</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2/1"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>7</order>
@@ -2755,6 +2815,198 @@
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
 		<text lang="de">IV.Ca.2 Die Projektbeteiligten dokumentieren **Inhalte und Gründe der Vernichtung** entsprechender Daten und Begleitmaterialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m4/ca/qs1/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/ca"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m4_ca_1"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m4/ca/qs1/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Bestandsliste sowie Empfehlungen zur Vernichtung von Dateien (IV.Ca.1.1.E)</help>
+		<text lang="de">IV.Ca.1.1 für **obsolete Daten und Begleitmaterialien**, die personenbezogene Daten beinhalten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs2</key>
+		<path>m4/ca/qs1/qs2</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m4/ca"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m4_ca_1_2"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs2/121">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>121</key>
+		<path>m4/ca/qs1/qs2/121</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/2/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ca Geschützes Verarbeiten</help>
+		<text lang="de">IV.Ca.1.2.1 **rechtlichen Vorgaben** vernichtet werden müssen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs2/122">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>122</key>
+		<path>m4/ca/qs1/qs2/122</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/2/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m4/ca/qs1/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca Urheberrechte Dritter sowie Fallbeispiel zum Löschen von Daten aufgrund von Auflagen Dritter (IV.Ca.1.2.2.F)</help>
+		<text lang="de">IV.Ca.1.2.2 Vereinbarungen bzw. bestehender Lizenzbedingungen vernichtet werden müssen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -3080,7 +3332,9 @@
 		<help lang="it"/>
 		<verbose_name lang="it"/>
 		<verbose_name_plural lang="it"/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_aa_2_3"/>
+		</conditions>
 	</questionset>
 	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -3637,7 +3891,9 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<help lang="it"/>
 		<verbose_name lang="it"/>
 		<verbose_name_plural lang="it"/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_aa_2_3"/>
+		</conditions>
 	</questionset>
 	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/aa/qs2/qs1/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -4399,16 +4655,16 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>qs1</key>
-		<path>m1/ba/2/qs1</path>
+		<key>1</key>
+		<path>m1/ba/3/1</path>
 		<dc:comment/>
 		<attribute/>
 		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
 		<is_collection>False</is_collection>
-		<order>2</order>
+		<order>1</order>
 		<title lang="en"/>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
@@ -4425,15 +4681,17 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<help lang="it"/>
 		<verbose_name lang="it"/>
 		<verbose_name_plural lang="it"/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ba_3"/>
+		</conditions>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/1">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
-		<path>m1/ba/2/qs1/1</path>
+		<path>m1/ba/3/1/1</path>
 		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/1"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -4443,7 +4701,7 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">I.Ba.2.1 **physische oder psychische Schäden**, z. B. aufgrund der Befragung, der Befragungssituation, der verarbeiteten Daten, sonstiger Interventionen oder Abhängigkeitsverhältnisse</text>
+		<text lang="de">I.Ba.3.1 die **Dokumentation** etwaiger **Auffälligkeiten und Vorfälle** im Projektverlauf</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -4471,13 +4729,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/2">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
-		<path>m1/ba/2/qs1/2</path>
+		<path>m1/ba/3/1/2</path>
 		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/2"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -4486,8 +4744,8 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Fallbeispiel zu sozialen Risiken befragter Personen (I.Ba.2.2.Fb)</help>
-		<text lang="de">I.Ba.2.2 **soziale und (beamten-)rechtliche Folgen**, wie z. B. Stigmatisierung, Exklusion oder Marginalisierung</text>
+		<help lang="de"/>
+		<text lang="de">I.Ba.3.2 eine **Sensibilisierung aller Projektbeteiligten** sowie etwaiger Auftragsverarbeitender, z. B. durch Schulungen zum Umgang mit betroffenen Personen oder durch die Möglichkeit der Supervision</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -4515,13 +4773,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/3">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1/3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
-		<path>m1/ba/2/qs1/3</path>
+		<path>m1/ba/3/1/3</path>
 		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/3"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -4530,8 +4788,8 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">I.Ba.2.3 **wirtschaftliche, materielle und immaterielle Folgen**, auch in Bezug auf (unverhältnismäßige) Begünstigungen</text>
+		<help lang="de">siehe Checkliste II.Ba Informierte Einwilligung</help>
+		<text lang="de">I.Ba.3.3 eine **umfassende Aufklärung betroffener Personen** über potentielle Risiken und Folgen, z. B. im Rahmen der Einwilligungserklärung, sowie die Sicherstellung der Freiwilligkeit</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -4555,17 +4813,17 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/4">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1/4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
-		<path>m1/ba/2/qs1/4</path>
+		<path>m1/ba/3/1/4</path>
 		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -4575,7 +4833,7 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">I.Ba.2.4 **Einschränkungen von Rechten Dritter**, wie etwa</text>
+		<text lang="de">I.Ba.3.4 den Aufbau einer **vertrauensvollen Beziehungs- und Kommunikationssituation** mit allen beteiligten Personen(-gruppen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -4603,13 +4861,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/5">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1/5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
-		<path>m1/ba/2/qs1/5</path>
+		<path>m1/ba/3/1/5</path>
 		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/1"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -4618,52 +4876,8 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Empfehlungen zu länderspezifischen Besonderheiten bei Befragungen an Schulen (I.Aa.1.2.E) sowie Empfehlungen zu Befragungen an Hochschulen (I.Ba.2.4.E)</help>
-		<text lang="de">I.Ba.2.4.1 Eingriffe in den **Schul- bzw. Hochschulbetrieb**</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/6">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>6</key>
-		<path>m1/ba/2/qs1/6</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/2"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>6</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
-		<text lang="de">I.Ba.2.4.2 **Urheberrechte** Dritter an im Projekt nachgenutzten Materialien</text>
+		<help lang="de"/>
+		<text lang="de">I.Ba.3.5 die **Bereitstellung allgemeiner Maßnahmen** z. B. zur akuten Krisenintervention, wie etwa Notfalltelefonnummern oder Kontaktinformationen zu externen Beratungs- und Unterstützungsangeboten</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -4705,7 +4919,7 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<title lang="de"/>
+		<title lang="de">Risiken</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -4745,7 +4959,9 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<help lang="it"/>
 		<verbose_name lang="it"/>
 		<verbose_name_plural lang="it"/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ba_2"/>
+		</conditions>
 	</questionset>
 	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -5055,6 +5271,300 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m1/ba/2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ba_2"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.2.1 **physische oder psychische Schäden**, z. B. aufgrund der Befragung, der Befragungssituation, der verarbeiteten Daten, sonstiger Interventionen oder Abhängigkeitsverhältnisse</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1/ba/2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zu sozialen Risiken befragter Personen (I.Ba.2.2.Fb)</help>
+		<text lang="de">I.Ba.2.2 **soziale und (beamten-)rechtliche Folgen**, wie z. B. Stigmatisierung, Exklusion oder Marginalisierung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m1/ba/2/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.2.3 **wirtschaftliche, materielle und immaterielle Folgen**, auch in Bezug auf (unverhältnismäßige) Begünstigungen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m1/ba/2/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.2.4 **Einschränkungen von Rechten Dritter**, wie etwa</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m1/ba/2/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu länderspezifischen Besonderheiten bei Befragungen an Schulen (I.Aa.1.2.E) sowie Empfehlungen zu Befragungen an Hochschulen (I.Ba.2.4.E)</help>
+		<text lang="de">I.Ba.2.4.1 Eingriffe in den **Schul- bzw. Hochschulbetrieb**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m1/ba/2/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2/4/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste III.Ca. Urheberrechte Dritter</help>
+		<text lang="de">I.Ba.2.4.2 **Urheberrechte** Dritter an im Projekt nachgenutzten Materialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
 	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
@@ -5083,57 +5593,43 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/0">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>0</key>
-		<path>m1/ba/3/0</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>0</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de"/>
-		<text lang="de">I.Ba.3 Sind derartige Risiken bzw. Konsequenzen erwartbar oder gar unvermeidbar, so implementieren die Projektbeteiligten **geeignete Schutzmaßnahmen**, wie etwa</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
 		<path>m1/ba/3/1</path>
 		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/1"/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ba"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ba_3"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m1/ba/3/1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -5171,13 +5667,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/2">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
-		<path>m1/ba/3/2</path>
+		<path>m1/ba/3/1/2</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/2"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -5215,13 +5711,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/3">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1/3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
-		<path>m1/ba/3/3</path>
+		<path>m1/ba/3/1/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/3"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -5259,13 +5755,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/4">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1/4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
-		<path>m1/ba/3/4</path>
+		<path>m1/ba/3/1/4</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/4"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -5303,13 +5799,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/5">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1/5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
-		<path>m1/ba/3/5</path>
+		<path>m1/ba/3/1/5</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3/5"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -5320,6 +5816,50 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
 		<text lang="de">I.Ba.3.5 die **Bereitstellung allgemeiner Maßnahmen** z. B. zur akuten Krisenintervention, wie etwa Notfalltelefonnummern oder Kontaktinformationen zu externen Beratungs- und Unterstützungsangeboten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>0</key>
+		<path>m1/ba/3/0</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ba/3"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ba.3 Sind derartige Risiken bzw. Konsequenzen erwartbar oder gar unvermeidbar, so implementieren die Projektbeteiligten **geeignete Schutzmaßnahmen**, wie etwa</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -5503,57 +6043,43 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>m1/ca/qs1/1</path>
-		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<order>1</order>
-		<help lang="en"/>
-		<text lang="en"/>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Empfehlungen zum Ethikvotum (I.Ca.1.1.E)</help>
-		<text lang="de">I.Ca.1.1 **prüfen**, ob ein **Ethikvotum** zur Durchführung des Vorhabens benötigt wird, z. B. aufgrund von Vorgaben</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<verbose_name_plural lang="de"/>
-		<help lang="fr"/>
-		<text lang="fr"/>
-		<default_text lang="fr"/>
-		<verbose_name lang="fr"/>
-		<verbose_name_plural lang="fr"/>
-		<help lang="it"/>
-		<text lang="it"/>
-		<default_text lang="it"/>
-		<verbose_name lang="it"/>
-		<verbose_name_plural lang="it"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m1/ca/qs1/2</path>
 		<dc:comment/>
-		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/1"/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ca"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ca_1_1"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1/ca/qs1/2/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -5591,13 +6117,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/3">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2/3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
-		<path>m1/ca/qs1/3</path>
+		<path>m1/ca/qs1/2/3</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/2"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -5635,13 +6161,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/4">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2/4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
-		<path>m1/ca/qs1/4</path>
+		<path>m1/ca/qs1/2/4</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/3"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -5679,13 +6205,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/5">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2/5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
-		<path>m1/ca/qs1/5</path>
+		<path>m1/ca/qs1/2/5</path>
 		<dc:comment/>
 		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/4"/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -5696,6 +6222,50 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
 		<text lang="de">I.Ca.1.1.4 **weiterer** für das Vorhaben relevanter **Institutionen**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m1/ca/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zum Ethikvotum (I.Ca.1.1.E)</help>
+		<text lang="de">I.Ca.1.1 **prüfen**, ob ein **Ethikvotum** zur Durchführung des Vorhabens benötigt wird, z. B. aufgrund von Vorgaben</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -5953,7 +6523,9 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets>
 			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu"/>
 		</optionsets>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ca_2"/>
+		</conditions>
 	</question>
 	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs2/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -5972,6 +6544,212 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
 		<text lang="de">I.Ca.3 Die Projektbeteiligten stellen im Projektverlauf und darüber hinaus sicher, dass die im Ethikvotum **angeratenen Maßnahmen systematisch umgesetzt** werden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1/ca/qs1/2</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m1/ca"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ca_1_1"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1/ca/qs1/2/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.1.1.1 der **Einrichtung(en)** der Projektbeteiligten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m1/ca/qs1/2/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.1.1.2 der **Forschungsfördernden**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m1/ca/qs1/2/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.1.1.3 von **Fachzeitschriften** in denen Forschungsergebnisse publiziert werden sollen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m1/ca/qs1/2/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m1/ca/qs1/2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">I.Ca.1.1.4 **weiterer** für das Vorhaben relevanter **Institutionen**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
