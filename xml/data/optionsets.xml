@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-06T21:12:47.328599+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-08T17:11:30.270582+02:00">
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
@@ -3455,4 +3455,1851 @@
 		<optionset dc:uri="https://ddp-bildung.org/terms/options/rechtsgrundlage_datenverarbeitung_personen"/>
 		<order>2</order>
 		<text lang="en"/>
-		<text lang="de">Dritten, wenn diese Teil der Datenerhebung werden (kà
+		<text lang="de">Dritten, wenn diese Teil der Datenerhebung werden (können), etwa auf Audio- oder Videoaufnahmen durch Aussagen der betroffenen Person in der Datenerhebung (siehe Anwendungsfall IV-a_3-AF_2-5)</text>
+		<text lang="fr">Normes d'enregistrement des données</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>research_fields</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/169">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>169</key>
+		<path>research_fields/169</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>101</order>
+		<text lang="en">Humanities and Social Sciences / Ancient Cultures</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Alte Kulturen</text>
+		<text lang="fr">Sciences Humaines et Société / Cultures Anciennes</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/174">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>174</key>
+		<path>research_fields/174</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>102</order>
+		<text lang="en">Humanities and Social Sciences / History</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Geschichtswissenschaften</text>
+		<text lang="fr">Sciences Humaines et Société / Histoire
+		</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/171">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>171</key>
+		<path>research_fields/171</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>103</order>
+		<text lang="en">Humanities and Social Sciences / Fine Arts, Music, Theatre and Media Studies</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Kunst-, Musik-, Theater- und Medienwissenschaften</text>
+		<text lang="fr">Sciences Humaines et Société / Beaux-arts, Musique, Théâtre et Études Médiatiques</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/173">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>173</key>
+		<path>research_fields/173</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>104</order>
+		<text lang="en">Humanities and Social Sciences / Linguistics</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Sprachwissenschaften</text>
+		<text lang="fr">Sciences Humaines et Société / Linguistique</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/170">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>170</key>
+		<path>research_fields/170</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>105</order>
+		<text lang="en">Humanities and Social Sciences / Literary Studies</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Literaturwissenschaft</text>
+		<text lang="fr">Sciences Humaines et Société / Études Littéraires</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/172">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>172</key>
+		<path>research_fields/172</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>106</order>
+		<text lang="en">Humanities and Social Sciences / Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Außereuropäische Sprachen und Kulturen, Sozial- und Kulturanthropologie, Judaistik und Religionswissenschaft</text>
+		<text lang="fr">Sciences Humaines et Société / Langues et Cultures non Européennes, Anthropologie Sociale et Culturelle, Études Juives et Études Religieuses</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/175">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>175</key>
+		<path>research_fields/175</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>107</order>
+		<text lang="en">Humanities and Social Sciences / Theology</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Theologie</text>
+		<text lang="fr">Sciences Humaines et Société / Théologie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/176">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>176</key>
+		<path>research_fields/176</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>108</order>
+		<text lang="en">Humanities and Social Sciences / Philosophy</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Philosophie</text>
+		<text lang="fr">Sciences Humaines et Société / Philosophie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/178">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>178</key>
+		<path>research_fields/178</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>109</order>
+		<text lang="en">Humanities and Social Sciences / Education Sciences</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Erziehungswissenschaft</text>
+		<text lang="fr">Sciences Humaines et Société / Sciences de l'Éducation</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/177">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>177</key>
+		<path>research_fields/177</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>110</order>
+		<text lang="en">Humanities and Social Sciences / Psychology</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Psychologie</text>
+		<text lang="fr">Sciences Humaines et Société / Psychologie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/179">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>179</key>
+		<path>research_fields/179</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>111</order>
+		<text lang="en">Humanities and Social Sciences / Social Sciences</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Sozialwissenschaften</text>
+		<text lang="fr">Sciences Humaines et Société / Sciences Sociales</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/180">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>180</key>
+		<path>research_fields/180</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>112</order>
+		<text lang="en">Humanities and Social Sciences / Economics</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Wirtschaftswissenschaften</text>
+		<text lang="fr">Sciences Humaines et Société / Économie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/181">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>181</key>
+		<path>research_fields/181</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>113</order>
+		<text lang="en">Humanities and Social Sciences / Jurisprudence</text>
+		<text lang="de">Geistes- und Sozialwissenschaften / Rechtswissenschaften</text>
+		<text lang="fr">Sciences Humaines et Société / Jurisprudence</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/182">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>182</key>
+		<path>research_fields/182</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>201</order>
+		<text lang="en">Life Sciences / Basic Biological and Medical Research</text>
+		<text lang="de">Lebenswissenschaften / Grundlagen der Biologie und Medizin</text>
+		<text lang="fr">Sciences de la Vie / Recherche Biologique et Médicale Fondamentale</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/183">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>183</key>
+		<path>research_fields/183</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>202</order>
+		<text lang="en">Life Sciences / Plant Sciences</text>
+		<text lang="de">Lebenswissenschaften / Pflanzenwissenschaften</text>
+		<text lang="fr">Sciences de la Vie / Sciences Végétales</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/186">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>186</key>
+		<path>research_fields/186</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>203</order>
+		<text lang="en">Life Sciences / Zoology</text>
+		<text lang="de">Lebenswissenschaften / Zoologie</text>
+		<text lang="fr">Sciences de la Vie / Zoologie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/184">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>184</key>
+		<path>research_fields/184</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>204</order>
+		<text lang="en">Life Sciences / Microbiology, Virology and Immunology</text>
+		<text lang="de">Lebenswissenschaften / Mikrobiologie, Virologie und Immunologie</text>
+		<text lang="fr">Sciences de la Vie / Microbiologie, Virologie et Immunologie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/185">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>185</key>
+		<path>research_fields/185</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>205</order>
+		<text lang="en">Life Sciences / Medicine</text>
+		<text lang="de">Lebenswissenschaften / Medizin</text>
+		<text lang="fr">Sciences de la Vie / Médecine</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/187">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>187</key>
+		<path>research_fields/187</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>206</order>
+		<text lang="en">Life Sciences / Neurosciences</text>
+		<text lang="de">Lebenswissenschaften / Neurowissenschaft</text>
+		<text lang="fr">Sciences de la Vie / Neurosciences</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/188">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>188</key>
+		<path>research_fields/188</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>207</order>
+		<text lang="en">Life Sciences / Agriculture, Forestry, Horticulture and Veterinary Medicine</text>
+		<text lang="de">Lebenswissenschaften / Agrar-, Forstwissenschaften, Gartenbau und Tiermedizin</text>
+		<text lang="fr">Sciences de la Vie / Agriculture, Foresterie, Horticulture et Médecine Vétérinaire</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/189">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>189</key>
+		<path>research_fields/189</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>301</order>
+		<text lang="en">Natural Sciences / Molecular Chemistry</text>
+		<text lang="de">Naturwissenschaften / Molekülchemie</text>
+		<text lang="fr">Sciences Naturelles / Chimie Moléculaire</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/192">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>192</key>
+		<path>research_fields/192</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>302</order>
+		<text lang="en">Natural Sciences / Chemical Solid State and Surface Research</text>
+		<text lang="de">Naturwissenschaften / Chemische Festkörper- und Oberflächenforschung</text>
+		<text lang="fr">Sciences Naturelles / Recherche Chimique sur l'État Solide et Surface</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/190">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>190</key>
+		<path>research_fields/190</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>303</order>
+		<text lang="en">Natural Sciences / Physical and Theoretical Chemistry</text>
+		<text lang="de">Naturwissenschaften / Physikalische und Theoretische Chemie</text>
+		<text lang="fr">Sciences Naturelles / Chimie Physique et Théorique</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/191">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>191</key>
+		<path>research_fields/191</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>304</order>
+		<text lang="en">Natural Sciences / Analytical Chemistry, Method Development (Chemistry)</text>
+		<text lang="de">Naturwissenschaften / Analytik, Methodenentwicklung (Chemie)</text>
+		<text lang="fr">Sciences Naturelles / Chimie analytique, Développement de Méthodes(Chemie)</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/193">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>193</key>
+		<path>research_fields/193</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>305</order>
+		<text lang="en">Natural Sciences / Biological Chemistry and Food Chemistry</text>
+		<text lang="de">Naturwissenschaften / Biologische Chemie und Lebensmittelchemie</text>
+		<text lang="fr">Sciences Naturelles / Chimie Biologique et Chimie Alimentaire</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/194">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>194</key>
+		<path>research_fields/194</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>306</order>
+		<text lang="en">Natural Sciences / Polymer Research</text>
+		<text lang="de">Naturwissenschaften / Polymerforschung</text>
+		<text lang="fr">Sciences Naturelles / Recherche sur les Polymères</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/195">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>195</key>
+		<path>research_fields/195</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>307</order>
+		<text lang="en">Natural Sciences / Condensed Matter Physics</text>
+		<text lang="de">Naturwissenschaften / Physik der kondensierten Materie</text>
+		<text lang="fr">Sciences Naturelles / Physique de la Matière Condensée</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/196">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>196</key>
+		<path>research_fields/196</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>308</order>
+		<text lang="en">Natural Sciences / Optics, Quantum Optics and Physics of Atoms, Molecules and Plasmas</text>
+		<text lang="de">Naturwissenschaften / Optik, Quantenoptik und Physik der Atome, Moleküle und Plasmen</text>
+		<text lang="fr">Sciences naturelles / Optique, Optique Quantique et Physique des Atomes, des Molécules et des Plasmas</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/198">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>198</key>
+		<path>research_fields/198</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>309</order>
+		<text lang="en">Natural Sciences / Particles, Nuclei and Fields</text>
+		<text lang="de">Naturwissenschaften / Teilchen, Kerne und Felder</text>
+		<text lang="fr">Sciences Naturelles / Particules, Noyaux et Champs</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/197">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>197</key>
+		<path>research_fields/197</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>310</order>
+		<text lang="en">Natural Sciences / Statistical Physics, Soft Matter, Biological Physics, Nonlinear Dynamics</text>
+		<text lang="de">Naturwissenschaften / Statistische Physik, Weiche Materie, Biologische Physik, Nichtlineare Dynamik</text>
+		<text lang="fr">Sciences Naturelles / Physique Statistique, Matière Molle, Physique Biologique, Dynamique Non-Linéaire
+		</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/199">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>199</key>
+		<path>research_fields/199</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>311</order>
+		<text lang="en">Natural Sciences / Astrophysics and Astronomy</text>
+		<text lang="de">Naturwissenschaften / Astrophysik und Astronomie</text>
+		<text lang="fr">Sciences Naturelles / Astrophysique et Astronomie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/200">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>200</key>
+		<path>research_fields/200</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>312</order>
+		<text lang="en">Natural Sciences / Mathematics</text>
+		<text lang="de">Naturwissenschaften / Mathematik</text>
+		<text lang="fr">Sciences Naturelles / Mathématiques</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/201">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>201</key>
+		<path>research_fields/201</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>313</order>
+		<text lang="en">Natural Sciences / Atmospheric Science and Oceanography</text>
+		<text lang="de">Naturwissenschaften / Atmosphären- und Meeresforschung</text>
+		<text lang="fr">Sciences Naturelles / Science Atmosphérique et Océanographie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/202">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>202</key>
+		<path>research_fields/202</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>314</order>
+		<text lang="en">Natural Sciences / Geology and Palaeontology</text>
+		<text lang="de">Naturwissenschaften / Geologie und Paläontologie</text>
+		<text lang="fr">Sciences Naturelles / Géologie et Paléontologie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/203">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>203</key>
+		<path>research_fields/203</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>315</order>
+		<text lang="en">Natural Sciences / Geophysics and Geodesy</text>
+		<text lang="de">Naturwissenschaften / Geophysik und Geodäsie</text>
+		<text lang="fr">Sciences Naturelles / Géophysique et Géodésie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/204">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>204</key>
+		<path>research_fields/204</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>316</order>
+		<text lang="en">Natural Sciences / Geochemistry, Mineralogy and Crystallography</text>
+		<text lang="de">Naturwissenschaften / Geochemie, Mineralogie und Kristallographie</text>
+		<text lang="fr">Sciences Naturelles / Géochimie, Minéralogie et Cristallographie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/206">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>206</key>
+		<path>research_fields/206</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>317</order>
+		<text lang="en">Natural Sciences / Geography</text>
+		<text lang="de">Naturwissenschaften / Geographie</text>
+		<text lang="fr">Sciences Naturelles / Géographie</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/205">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>205</key>
+		<path>research_fields/205</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>318</order>
+		<text lang="en">Natural Sciences / Water Research</text>
+		<text lang="de">Naturwissenschaften / Wasserforschung</text>
+		<text lang="fr">Sciences Naturelles / Recherche sur l'Eau</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/207">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>207</key>
+		<path>research_fields/207</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>401</order>
+		<text lang="en">Engineering Sciences / Production Technology</text>
+		<text lang="de">Ingenieurwissenschaften / Produktionstechnik</text>
+		<text lang="fr">Sciences de l'Ingénierie / Technologie de Production</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/208">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>208</key>
+		<path>research_fields/208</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>402</order>
+		<text lang="en">Engineering Sciences / Mechanics and Constructive Mechanical Engineering</text>
+		<text lang="de">Ingenieurwissenschaften / Mechanik und Konstruktiver Maschinenbau</text>
+		<text lang="fr">Sciences de l'Ingénierie / Génie Mécanique et Mécanique des Structures</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/209">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>209</key>
+		<path>research_fields/209</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>403</order>
+		<text lang="en">Engineering Sciences / Process Engineering, Technical Chemistry</text>
+		<text lang="de">Ingenieurwissenschaften / Verfahrenstechnik, Technische Chemie</text>
+		<text lang="fr">Sciences de l'Ingénierie / Génie des Procédés, Chimie Technique</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/210">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>210</key>
+		<path>research_fields/210</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>404</order>
+		<text lang="en">Engineering Sciences / Heat Energy Technology, Thermal Machines, Fluid Mechanics</text>
+		<text lang="de">Ingenieurwissenschaften / Wärmeenergietechnik, Thermische Maschinen, Strömungsmechanik</text>
+		<text lang="fr">Sciences de l'Ingénierie / Technologie de l'Énergie Calorifique, Machines Thermiques, Mécanique des Fluides</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/211">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>211</key>
+		<path>research_fields/211</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>405</order>
+		<text lang="en">Engineering Sciences / Materials Engineering</text>
+		<text lang="de">Ingenieurwissenschaften / Werkstofftechnik</text>
+		<text lang="fr">Sciences de l'Ingénierie / Génie des Matériaux</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/212">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>212</key>
+		<path>research_fields/212</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>406</order>
+		<text lang="en">Engineering Sciences / Materials Science</text>
+		<text lang="de">Ingenieurwissenschaften / Materialwissenschaft</text>
+		<text lang="fr">Sciences de l'Ingénierie / Science des Matériaux</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/213">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>213</key>
+		<path>research_fields/213</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>407</order>
+		<text lang="en">Engineering Sciences / Systems Engineering</text>
+		<text lang="de">Ingenieurwissenschaften / Systemtechnik</text>
+		<text lang="fr">Sciences de l'Ingénierie / Ingénierie des Systèmes</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/214">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>214</key>
+		<path>research_fields/214</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>408</order>
+		<text lang="en">Engineering Sciences / Electrical Engineering</text>
+		<text lang="de">Ingenieurwissenschaften / Elektrotechnik</text>
+		<text lang="fr">Sciences de l'Ingénierie / Ingénierie Électrique</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/215">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>215</key>
+		<path>research_fields/215</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>409</order>
+		<text lang="en">Engineering Sciences / Computer Science</text>
+		<text lang="de">Ingenieurwissenschaften / Informatik</text>
+		<text lang="fr">Sciences de l'Ingénierie / Informatique</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/research_fields/216">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>216</key>
+		<path>research_fields/216</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/research_fields"/>
+		<order>410</order>
+		<text lang="en">Engineering Sciences / Construction Engineering and Architecture</text>
+		<text lang="de">Ingenieurwissenschaften / Bauwesen und Architektur</text>
+		<text lang="fr">Sciences de l'Ingénierie / Génie de la Construction et Architecture</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>sampling_procedure</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure/simple">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>simple</key>
+		<path>sampling_procedure/simple</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">einfache Zufallsstichprobe</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure/systematic">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>systematic</key>
+		<path>sampling_procedure/systematic</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">systematische Zufallsstichprobe</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure/layered">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>layered</key>
+		<path>sampling_procedure/layered</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">geschichtete Zufalssstichprobe</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure/cluster">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>cluster</key>
+		<path>sampling_procedure/cluster</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure"/>
+		<order>3</order>
+		<text lang="en"/>
+		<text lang="de">Cluster- oder Klumpenstichprobe</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure/multi_stage">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>multi_stage</key>
+		<path>sampling_procedure/multi_stage</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure"/>
+		<order>4</order>
+		<text lang="en"/>
+		<text lang="de">zwei- und mehrstufige Stichprobenverfahren</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure/opportunity_sample">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>opportunity_sample</key>
+		<path>sampling_procedure/opportunity_sample</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure"/>
+		<order>5</order>
+		<text lang="en"/>
+		<text lang="de">Gelegenheitsstichprobe</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure/quota_sample">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>quota_sample</key>
+		<path>sampling_procedure/quota_sample</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/sampling_procedure"/>
+		<order>6</order>
+		<text lang="en"/>
+		<text lang="de">Quotenstichprobe</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>software_copyright_laws</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws/84">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>84</key>
+		<path>software_copyright_laws/84</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws"/>
+		<order>1</order>
+		<text lang="en">Law</text>
+		<text lang="de">Recht des Herstellers eines Tonträgers</text>
+		<text lang="fr">Loi</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws/85">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>85</key>
+		<path>software_copyright_laws/85</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws"/>
+		<order>2</order>
+		<text lang="en">Law: &quot;Recht des Verfassers sichtender wissenschaftlicher Ausgaben&quot;</text>
+		<text lang="de">Recht des Verfassers sichtender wissenschaftlicher Ausgaben</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws/86">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>86</key>
+		<path>software_copyright_laws/86</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws"/>
+		<order>3</order>
+		<text lang="en">Law: &quot;Recht des Sendeunternehmers&quot;</text>
+		<text lang="de">Recht des Sendeunternehmers</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws/87">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>87</key>
+		<path>software_copyright_laws/87</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws"/>
+		<order>4</order>
+		<text lang="en">Law: &quot;Recht des Datenbankherstellers&quot;</text>
+		<text lang="de">Recht des Datenbankherstellers</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws/88">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>88</key>
+		<path>software_copyright_laws/88</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws"/>
+		<order>6</order>
+		<text lang="en">Other copyright laws</text>
+		<text lang="de">Andere Urheberrechte</text>
+		<text lang="fr">Autres lois sur le droit d'auteur</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws/89">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>89</key>
+		<path>software_copyright_laws/89</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_copyright_laws"/>
+		<order>7</order>
+		<text lang="en">No</text>
+		<text lang="de">Nein</text>
+		<text lang="fr">Non</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/software_license_options">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>software_license_options</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_license_options/236">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>236</key>
+		<path>software_license_options/236</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_license_options"/>
+		<order>0</order>
+		<text lang="en">The code will be published under the following license</text>
+		<text lang="de">Der Code wird unter folgender Lizenz veröffentlicht</text>
+		<text lang="fr">Le code sera publié sous la licence suivante</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_license_options/237">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>237</key>
+		<path>software_license_options/237</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_license_options"/>
+		<order>1</order>
+		<text lang="en">Yet to be decided</text>
+		<text lang="de">Noch zu klären</text>
+		<text lang="fr">Reste à décider</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/software_license_types">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>software_license_types</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_license_types/81">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>81</key>
+		<path>software_license_types/81</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_license_types"/>
+		<order>1</order>
+		<text lang="en">Attribution</text>
+		<text lang="de">Namensnennung</text>
+		<text lang="fr">Attribution</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_license_types/82">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>82</key>
+		<path>software_license_types/82</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_license_types"/>
+		<order>2</order>
+		<text lang="en">Non-commercial</text>
+		<text lang="de">keine kommerzielle Nutzung</text>
+		<text lang="fr">Pas d'utilisation commerciale</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_license_types/80">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>80</key>
+		<path>software_license_types/80</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_license_types"/>
+		<order>3</order>
+		<text lang="en">No derivative work</text>
+		<text lang="de">keine Bearbeitung</text>
+		<text lang="fr">Pas de modification</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_license_types/83">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>83</key>
+		<path>software_license_types/83</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_license_types"/>
+		<order>4</order>
+		<text lang="en">Share-alike</text>
+		<text lang="de">Weitergabe unter gleichen Bedingungen</text>
+		<text lang="fr">Partage dans les mêmes conditions</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_license_types/234">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>234</key>
+		<path>software_license_types/234</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_license_types"/>
+		<order>5</order>
+		<text lang="en">Other</text>
+		<text lang="de">Andere</text>
+		<text lang="fr">Autre</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/software_origin_options">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>software_origin_options</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_origin_options/150">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>150</key>
+		<path>software_origin_options/150</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_origin_options"/>
+		<order>0</order>
+		<text lang="en">Created</text>
+		<text lang="de">Erzeugt</text>
+		<text lang="fr">Créé</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_origin_options/149">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>149</key>
+		<path>software_origin_options/149</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_origin_options"/>
+		<order>1</order>
+		<text lang="en">Re-used</text>
+		<text lang="de">Nachgenutzt</text>
+		<text lang="fr">Réutilisé</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>software_other_rights</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_other_rights/90">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>90</key>
+		<path>software_other_rights/90</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights"/>
+		<order>1</order>
+		<text lang="en">Business names (company names and work titles)</text>
+		<text lang="de">geschäftliche Bezeichnungen (Unternehmenskennzeichen und Werktitel)</text>
+		<text lang="fr">Noms commerciaux (noms d'entreprises et titres de travail)</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_other_rights/93">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>93</key>
+		<path>software_other_rights/93</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights"/>
+		<order>3</order>
+		<text lang="en">Geographical indications</text>
+		<text lang="de">geografische Herkunftsangaben</text>
+		<text lang="fr">Indications géographiques</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_other_rights/94">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>94</key>
+		<path>software_other_rights/94</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights"/>
+		<order>4</order>
+		<text lang="en">Plant Variety Protection (Plant Varieties)</text>
+		<text lang="de">Sortenschutz (Pflanzenzüchtungen)</text>
+		<text lang="fr">Protection des obtentions végétales (variétés végétales)</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_other_rights/95">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>95</key>
+		<path>software_other_rights/95</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights"/>
+		<order>5</order>
+		<text lang="en">Patents</text>
+		<text lang="de">Patente</text>
+		<text lang="fr">Brevets</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_other_rights/96">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>96</key>
+		<path>software_other_rights/96</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights"/>
+		<order>6</order>
+		<text lang="en">Semiconductor protection or protection of topographies</text>
+		<text lang="de">Halbleiterschutz bzw. Schutz von Topografien</text>
+		<text lang="fr">Protection semiconductor ou protection des topographies</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_other_rights/97">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>97</key>
+		<path>software_other_rights/97</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights"/>
+		<order>7</order>
+		<text lang="en">Supplementary Protection Certificates</text>
+		<text lang="de">Ergänzende Schutzzertifikate</text>
+		<text lang="fr">Certificats de Protection Supplémentaires</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_other_rights/98">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>98</key>
+		<path>software_other_rights/98</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights"/>
+		<order>8</order>
+		<text lang="en">Utility models</text>
+		<text lang="de">Gebrauchsmuster</text>
+		<text lang="fr">Modèles d'utilité</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_other_rights/99">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>99</key>
+		<path>software_other_rights/99</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights"/>
+		<order>9</order>
+		<text lang="en">Trademark</text>
+		<text lang="de">Markenrecht</text>
+		<text lang="fr">Marque déposée</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_other_rights/91">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>91</key>
+		<path>software_other_rights/91</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights"/>
+		<order>10</order>
+		<text lang="en">Other</text>
+		<text lang="de">Andere</text>
+		<text lang="fr">Autre</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_other_rights/92">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>92</key>
+		<path>software_other_rights/92</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_other_rights"/>
+		<order>10</order>
+		<text lang="en">No</text>
+		<text lang="de">Nein</text>
+		<text lang="fr">Non</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/software_sharing_options">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>software_sharing_options</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_sharing_options/79">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>79</key>
+		<path>software_sharing_options/79</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_sharing_options"/>
+		<order>1</order>
+		<text lang="en">Yes, internally with everyone, as long as they don't pass on the code externally</text>
+		<text lang="de">Ja, intern mit allen, solange sie den Code nicht veröffentlichen oder nach außen weitergeben</text>
+		<text lang="fr">Oui, en interne avec tout le monde, tant qu'ils ne transmettent pas le code en externe</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_sharing_options/76">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>76</key>
+		<path>software_sharing_options/76</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_sharing_options"/>
+		<order>2</order>
+		<text lang="en">Yes, externally limited with individual approval</text>
+		<text lang="de">Ja, extern in begrenztem Umfang mit individueller Freigabe</text>
+		<text lang="fr">Oui, limité en externe avec approbation individuelle</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_sharing_options/78">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>78</key>
+		<path>software_sharing_options/78</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_sharing_options"/>
+		<order>3</order>
+		<text lang="en">Yes, externally for everyone</text>
+		<text lang="de">Ja, extern für alle</text>
+		<text lang="fr">Oui, en externe pour tout le monde</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_sharing_options/77">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>77</key>
+		<path>software_sharing_options/77</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_sharing_options"/>
+		<order>4</order>
+		<text lang="en">No</text>
+		<text lang="de">Nein</text>
+		<text lang="fr">Non</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/software_versioning_technology_options">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>software_versioning_technology_options</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_versioning_technology_options/162">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>162</key>
+		<path>software_versioning_technology_options/162</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_versioning_technology_options"/>
+		<order>1</order>
+		<text lang="en">Simple copying</text>
+		<text lang="de">Einfaches Kopieren</text>
+		<text lang="fr">Copie simple</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_versioning_technology_options/161">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>161</key>
+		<path>software_versioning_technology_options/161</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_versioning_technology_options"/>
+		<order>2</order>
+		<text lang="en">Version control system</text>
+		<text lang="de">Versionskontrollsystem</text>
+		<text lang="fr">Système de contrôle de version</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_versioning_technology_options/163">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>163</key>
+		<path>software_versioning_technology_options/163</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_versioning_technology_options"/>
+		<order>3</order>
+		<text lang="en">Other</text>
+		<text lang="de">Sonstiges</text>
+		<text lang="fr">Autre</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/software_versioning_technology_options/164">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>164</key>
+		<path>software_versioning_technology_options/164</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/software_versioning_technology_options"/>
+		<order>4</order>
+		<text lang="en">Not yet decided</text>
+		<text lang="de">Noch nicht entschieden</text>
+		<text lang="fr">Pas encore décidé</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/study_population">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>study_population</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/study_population/vulnerable_persons">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>vulnerable_persons</key>
+		<path>study_population/vulnerable_persons</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/study_population"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">vulnerable Personen</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/study_population/under_13y">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>under_13y</key>
+		<path>study_population/under_13y</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/study_population"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">Schüler*innen / Kinder unter 13 Jahren</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/study_population/under_16y">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>under_16y</key>
+		<path>study_population/under_16y</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/study_population"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">Schüler*innen / Kinder unter 16 Jahren</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/study_population/over_13y16y">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>over_13y16y</key>
+		<path>study_population/over_13y16y</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/study_population"/>
+		<order>3</order>
+		<text lang="en"/>
+		<text lang="de">Personen über 13/16 Jahren</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/study_population/employees">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>employees</key>
+		<path>study_population/employees</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/study_population"/>
+		<order>4</order>
+		<text lang="en"/>
+		<text lang="de">Beamte*innen und Angestellte im öffentlichen Dienst (z. B. Lehrkräfte)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/utility">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>utility</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility/experiment">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>experiment</key>
+		<path>utility/experiment</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">(quasi-)experimentelles Setting</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility/obervation">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>obervation</key>
+		<path>utility/obervation</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Beobachtungsdokumentation</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility/questioning">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>questioning</key>
+		<path>utility/questioning</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Fragebogen (quantitativ / qualitativ / zur Netzwerkanalyse)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility/sheet">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>sheet</key>
+		<path>utility/sheet</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">(Leistungs-)Testbogen</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quality">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>utility_quality</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility_quality/documents">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>documents</key>
+		<path>utility_quality/documents</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quality"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Sammlung von feldspezifischen Dokumenten und Artefakten (wie z. B. Schulbuchseiten, Seite von Schulheften, Arbeitsblätter, Skizze von Klassenräumen, Sitzpläne etc.)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility_quality/observation">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>observation</key>
+		<path>utility_quality/observation</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quality"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">(teilnehmende) Beobachtung</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility_quality/photography">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>photography</key>
+		<path>utility_quality/photography</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quality"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Fotographien (z.B. von Unterrichtsmaterialien)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility_quality/questioning">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>questioning</key>
+		<path>utility_quality/questioning</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quality"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">qualitative Befragung (Einzel- / Gruppendiskussionen mit Hilfe von z. B. Audio- oder Videoaufnahmen)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility_quality/sociometry">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>sociometry</key>
+		<path>utility_quality/sociometry</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quality"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Soziometrie / Netzwerkanalyse</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quantity">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>utility_quantity</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility_quantity/offline">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>offline</key>
+		<path>utility_quantity/offline</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quantity"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">computerunterstützt (offline)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility_quantity/online">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>online</key>
+		<path>utility_quantity/online</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quantity"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">online</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility_quantity/paper">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>paper</key>
+		<path>utility_quantity/paper</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quantity"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Paper &amp; Pencil</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/utility_quantity/telephone">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>telephone</key>
+		<path>utility_quantity/telephone</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/utility_quantity"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">per Telefon</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/yes_no_not_yet">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>yes_no_not_yet</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/yes_no_not_yet/yes">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>yes</key>
+		<path>yes_no_not_yet/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/yes_no_not_yet"/>
+		<order>1</order>
+		<text lang="en">Yes</text>
+		<text lang="de">Ja</text>
+		<text lang="fr">Oui</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/yes_no_not_yet/no">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>no</key>
+		<path>yes_no_not_yet/no</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/yes_no_not_yet"/>
+		<order>2</order>
+		<text lang="en">No</text>
+		<text lang="de">Nein</text>
+		<text lang="fr">Non</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/yes_no_not_yet/not_yet">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>not_yet</key>
+		<path>yes_no_not_yet/not_yet</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/yes_no_not_yet"/>
+		<order>3</order>
+		<text lang="en">Not yet</text>
+		<text lang="de">Noch nicht</text>
+		<text lang="fr">Pas encore</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/yes_with_text_no">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>yes_with_text_no</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/yes_with_text_no/yes">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>yes</key>
+		<path>yes_with_text_no/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/yes_with_text_no"/>
+		<order>1</order>
+		<text lang="en">Yes</text>
+		<text lang="de">Ja</text>
+		<text lang="fr">Oui</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/yes_with_text_no/no">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>no</key>
+		<path>yes_with_text_no/no</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/yes_with_text_no"/>
+		<order>2</order>
+		<text lang="en">No</text>
+		<text lang="de">Nein</text>
+		<text lang="fr">Non</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>beruecksichtigt</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/yes">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>yes</key>
+		<path>beruecksichtigt/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">berücksichtigt</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>trifft_nicht_zu</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu/yes">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>yes</key>
+		<path>trifft_nicht_zu/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">trifft nicht zu</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m1_ba_3_3</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m1_ba_3_3/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">A) der Teilnahme und des Rechts auf informationelle Selbstbestimmung (Teilnahmeverweigerung)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1_ba_3_3/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">B) der Beantwortung einzelner Fragen bzw. das Ausklammern bestimmter Themen(-bereiche) (Antwortverweigerung)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m4_ba_1</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>0</key>
+		<path>m4_ba_1/0</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">A) den Rückgriff auf Back-Up-Systeme ihrer Einrichtung(en),  siehe Fallbeispiel zu institutionelle Back-Up-Verfahren (IV.Ba.1.Fb)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m4_ba_1/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">B) die Nutzung von Cloud-Diensten mit entsprechenden Back-Up-Systemen</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m4_ba_1/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">C) die Nutzung externer Back-Up-Systeme, wie z. B. durch ein Repositorium</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m4_ba_1/3</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
+		<order>3</order>
+		<text lang="en"/>
+		<text lang="de">D) die Implementierung eines eigenen Back-Up-Verfahrens und dessen konsistente Umsetzung im Projektverlauf  siehe Fallbeispiel zu Implementierung einer eigenen Back-Up-Strategie (IV.Ba.1.Fb)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>datenschutzkonzept_verantwortlichkeit</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>0</key>
+		<path>datenschutzkonzept_verantwortlichkeit/0</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">der Rechtsgrundlage(n) der Datenverarbeitung</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>datenschutzkonzept_verantwortlichkeit/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">der Personengruppen, über die Informationen verarbeitet werden</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>datenschutzkonzept_verantwortlichkeit/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">der Zwecke der Datenverarbeitung</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>datenschutzkonzept_verantwortlichkeit/3</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
+		<order>3</order>
+		<text lang="en"/>
+		<text lang="de">der Kategorien personenbezogener Daten, die verarbeitet werden</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>datenschutzkonzept_verantwortlichkeit/4</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
+		<order>4</order>
+		<text lang="en"/>
+		<text lang="de">sensibler Informationen, die verarbeitet werden (siehe Modul IV.c Forschungsethik sowie Anwendungsfall IV-c_3-AF_Sensible-Daten)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>beruecksichtigt_yesno</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno/yes">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>yes</key>
+		<path>beruecksichtigt_yesno/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">berücksichtigt</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno/no">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>no</key>
+		<path>beruecksichtigt_yesno/no</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">trifft nicht zu</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>datenschutzkonzept_massnahmen-schutz</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>0</key>
+		<path>datenschutzkonzept_massnahmen-schutz/0</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">der Risiken für die betroffenen Personen bei Offenlegung, Manipulation, Missbrauch etc. der Daten</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>datenschutzkonzept_massnahmen-schutz/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">der Maßnahmen bei einer Schutzverletzung</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+</rdmo>
