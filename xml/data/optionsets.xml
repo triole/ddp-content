@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-08T17:11:30.270582+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-25T19:32:34.885385+02:00">
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
@@ -706,6 +706,27 @@
 		<order>4</order>
 		<text lang="en"/>
 		<text lang="de">besteht eine Informationspflicht der Dienstleistenden gegenüber den Forschenden zum Umgang mit den Daten</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>beruecksichtigt</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/yes">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>yes</key>
+		<path>beruecksichtigt/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">berücksichtigt</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
@@ -2102,6 +2123,113 @@
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>datenschutzkonzept_massnahmen-schutz</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>0</key>
+		<path>datenschutzkonzept_massnahmen-schutz/0</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">der Risiken für die betroffenen Personen bei Offenlegung, Manipulation, Missbrauch etc. der Daten</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>datenschutzkonzept_massnahmen-schutz/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">der Maßnahmen bei einer Schutzverletzung</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>datenschutzkonzept_verantwortlichkeit</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>0</key>
+		<path>datenschutzkonzept_verantwortlichkeit/0</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">der Rechtsgrundlage(n) der Datenverarbeitung</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>datenschutzkonzept_verantwortlichkeit/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">der Personengruppen, über die Informationen verarbeitet werden</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>datenschutzkonzept_verantwortlichkeit/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">der Zwecke der Datenverarbeitung</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>datenschutzkonzept_verantwortlichkeit/3</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
+		<order>3</order>
+		<text lang="en"/>
+		<text lang="de">der Kategorien personenbezogener Daten, die verarbeitet werden</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>datenschutzkonzept_verantwortlichkeit/4</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
+		<order>4</order>
+		<text lang="en"/>
+		<text lang="de">sensibler Informationen, die verarbeitet werden (siehe Modul IV.c Forschungsethik sowie Anwendungsfall IV-c_3-AF_Sensible-Daten)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/ethical_aspects">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>ethical_aspects</key>
@@ -2760,6 +2888,100 @@
 		<order>7</order>
 		<text lang="en"/>
 		<text lang="de">privates Umfeld der Befragten</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m1_ba_3_3</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m1_ba_3_3/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">A) der Teilnahme und des Rechts auf informationelle Selbstbestimmung (Teilnahmeverweigerung)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1_ba_3_3/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">B) der Beantwortung einzelner Fragen bzw. das Ausklammern bestimmter Themen(-bereiche) (Antwortverweigerung)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m4_ba_1</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/0">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>0</key>
+		<path>m4_ba_1/0</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">A) den Rückgriff auf Back-Up-Systeme ihrer Einrichtung(en),  siehe Fallbeispiel zu institutionelle Back-Up-Verfahren (IV.Ba.1.Fb)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m4_ba_1/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">B) die Nutzung von Cloud-Diensten mit entsprechenden Back-Up-Systemen</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m4_ba_1/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">C) die Nutzung externer Back-Up-Systeme, wie z. B. durch ein Repositorium</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m4_ba_1/3</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
+		<order>3</order>
+		<text lang="en"/>
+		<text lang="de">D) die Implementierung eines eigenen Back-Up-Verfahrens und dessen konsistente Umsetzung im Projektverlauf  siehe Fallbeispiel zu Implementierung einer eigenen Back-Up-Strategie (IV.Ba.1.Fb)</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
@@ -4751,6 +4973,27 @@
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>trifft_nicht_zu</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu/yes">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>yes</key>
+		<path>trifft_nicht_zu/yes</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">trifft nicht zu</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/utility">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>utility</key>
@@ -5025,20 +5268,20 @@
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt">
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_trifftnichtzu">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>beruecksichtigt</key>
+		<key>beruecksichtigt_trifftnichtzu</key>
 		<dc:comment/>
 		<order>0</order>
 		<provider_key/>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/yes">
+	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_trifftnichtzu/yes">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>yes</key>
-		<path>beruecksichtigt/yes</path>
+		<path>beruecksichtigt_trifftnichtzu/yes</path>
 		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_trifftnichtzu"/>
 		<order>0</order>
 		<text lang="en"/>
 		<text lang="de">berücksichtigt</text>
@@ -5046,258 +5289,15 @@
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>trifft_nicht_zu</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu/yes">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>yes</key>
-		<path>trifft_nicht_zu/yes</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifft_nicht_zu"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">trifft nicht zu</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>m1_ba_3_3</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>m1_ba_3_3/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">A) der Teilnahme und des Rechts auf informationelle Selbstbestimmung (Teilnahmeverweigerung)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>m1_ba_3_3/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3"/>
-		<order>2</order>
-		<text lang="en"/>
-		<text lang="de">B) der Beantwortung einzelner Fragen bzw. das Ausklammern bestimmter Themen(-bereiche) (Antwortverweigerung)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>m4_ba_1</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/0">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>0</key>
-		<path>m4_ba_1/0</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">A) den Rückgriff auf Back-Up-Systeme ihrer Einrichtung(en),  siehe Fallbeispiel zu institutionelle Back-Up-Verfahren (IV.Ba.1.Fb)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>m4_ba_1/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">B) die Nutzung von Cloud-Diensten mit entsprechenden Back-Up-Systemen</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>m4_ba_1/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
-		<order>2</order>
-		<text lang="en"/>
-		<text lang="de">C) die Nutzung externer Back-Up-Systeme, wie z. B. durch ein Repositorium</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1/3">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3</key>
-		<path>m4_ba_1/3</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1"/>
-		<order>3</order>
-		<text lang="en"/>
-		<text lang="de">D) die Implementierung eines eigenen Back-Up-Verfahrens und dessen konsistente Umsetzung im Projektverlauf  siehe Fallbeispiel zu Implementierung einer eigenen Back-Up-Strategie (IV.Ba.1.Fb)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>datenschutzkonzept_verantwortlichkeit</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/0">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>0</key>
-		<path>datenschutzkonzept_verantwortlichkeit/0</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">der Rechtsgrundlage(n) der Datenverarbeitung</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>datenschutzkonzept_verantwortlichkeit/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">der Personengruppen, über die Informationen verarbeitet werden</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>datenschutzkonzept_verantwortlichkeit/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
-		<order>2</order>
-		<text lang="en"/>
-		<text lang="de">der Zwecke der Datenverarbeitung</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/3">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3</key>
-		<path>datenschutzkonzept_verantwortlichkeit/3</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
-		<order>3</order>
-		<text lang="en"/>
-		<text lang="de">der Kategorien personenbezogener Daten, die verarbeitet werden</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit/4">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>4</key>
-		<path>datenschutzkonzept_verantwortlichkeit/4</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_verantwortlichkeit"/>
-		<order>4</order>
-		<text lang="en"/>
-		<text lang="de">sensibler Informationen, die verarbeitet werden (siehe Modul IV.c Forschungsethik sowie Anwendungsfall IV-c_3-AF_Sensible-Daten)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>beruecksichtigt_yesno</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno/yes">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>yes</key>
-		<path>beruecksichtigt_yesno/yes</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">berücksichtigt</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno/no">
+	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_trifftnichtzu/no">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>no</key>
-		<path>beruecksichtigt_yesno/no</path>
+		<path>beruecksichtigt_trifftnichtzu/no</path>
 		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_yesno"/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_trifftnichtzu"/>
 		<order>1</order>
 		<text lang="en"/>
 		<text lang="de">trifft nicht zu</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>datenschutzkonzept_massnahmen-schutz</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz/0">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>0</key>
-		<path>datenschutzkonzept_massnahmen-schutz/0</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">der Risiken für die betroffenen Personen bei Offenlegung, Manipulation, Missbrauch etc. der Daten</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>datenschutzkonzept_massnahmen-schutz/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/datenschutzkonzept_massnahmen-schutz"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">der Maßnahmen bei einer Schutzverletzung</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
