@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-04-26T13:32:58.996556+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-04T13:54:45.742737+02:00">
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
@@ -3038,40 +3038,6 @@
 		<text lang="it"/>
 		<additional_input>True</additional_input>
 	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_trifftnichtzu">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>beruecksichtigt_trifftnichtzu</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_trifftnichtzu/beruecksichtigt">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>beruecksichtigt</key>
-		<path>beruecksichtigt_trifftnichtzu/beruecksichtigt</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_trifftnichtzu"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">berücksichtigt</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_trifftnichtzu/trifftnichtzu">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>trifftnichtzu</key>
-		<path>beruecksichtigt_trifftnichtzu/trifftnichtzu</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt_trifftnichtzu"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">trifft nicht zu</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>control_tools</key>
@@ -5299,6 +5265,40 @@
 		<text lang="en">No</text>
 		<text lang="de">Nein</text>
 		<text lang="fr">Non</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>trifftnichtzu_beruecksichtigt</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>trifftnichtzu</key>
+		<path>trifftnichtzu_beruecksichtigt/trifftnichtzu</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">trifft nicht zu</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>beruecksichtigt</key>
+		<path>trifftnichtzu_beruecksichtigt/beruecksichtigt</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">berücksichtigt</text>
+		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
