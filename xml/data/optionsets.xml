@@ -1,39 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-05T18:56:40.371031+02:00">
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>2/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">schriftlich bzw. wird im Rahmen des Einwilligungsmanagements dokumentiert (siehe Anwendungsfall IV-a_3-AF_2-2)</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>2/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">vor dem Erheben der Daten bzw. wird im Rahmen des Einwilligungsmanagements schriftlich begründet (siehe Anwendungsfall IV-a_3-AF_2-a-1)</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-05T19:37:39.342370+02:00">
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2a_daten_begriffsdefinition</key>
@@ -2827,6 +2793,134 @@
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m2_ba_2_5_2</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2/a">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>a</key>
+		<path>m2_ba_2_5_2/a</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">A) zur Kontaktakquise, z. B. durch Ankerpersonen siehe Fallbeispiel zur Kontaktermittlung durch, siehe Fallbeispiel zur Kontaktermittlung durch Ankerpersonen (II.Ba.2.5.2.Fa)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2/b">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>b</key>
+		<path>m2_ba_2_5_2/b</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">B) auf Audio- oder Videoaufnahmen</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2/c">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>c</key>
+		<path>m2_ba_2_5_2/c</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">C) durch Aussagen der betroffenen Person in der Datenerhebung, siehe Fallbeispiel zur informierten Einwilligung Dritter (II.Ba.2.5.2.Fb)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2/d">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>d</key>
+		<path>m2_ba_2_5_2/d</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">D) durch die Verknüpfung mit weiteren (frei zugänglichen) Daten (Data/Record Linkage)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m2_ca_3_7</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7/a">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>a</key>
+		<path>m2_ca_3_7/a</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">A) das Entfernen (aller) direkter und (aller) indirekter Identifikatoren in den Daten (formal Anonymisierung)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7/b">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>b</key>
+		<path>m2_ca_3_7/b</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">B) das Verändern (aller) direkter und (aller) indirekter Identifikatoren (Pseudonymisierung)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m2_ca_3_8</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8/a">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>a</key>
+		<path>m2_ca_3_8/a</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">A) **nicht länger benötigt** werden, siehe Checkliste IV.Ca Vernichtungsmanagement sowie  Fallbeispiel zur Vernichtung nicht mehr benötigter Kontaktdaten (II.Ca.3.8.F)</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8/b">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>b</key>
+		<path>m2_ca_3_8/b</path>
+		<dc:comment>siehe Checkliste III.Ca Urheberrechte Dritter sowie Empfehlungen zur Vernichtung von Dateien (IV.Ca.1.1)</dc:comment>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">??? B) **aufgrund von Auflagen**, z. B. durch Behörden, bzw. von **Zusagen**, z. B. zur Sicherungsdauer in der Einwilligungserklärung, vernichtet werden müssen</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/m4_ba_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>m4_ba_1</key>
@@ -2886,6 +2980,139 @@
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>2/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">schriftlich bzw. wird im Rahmen des Einwilligungsmanagements dokumentiert (siehe Anwendungsfall IV-a_3-AF_2-2)</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>2/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">vor dem Erheben der Daten bzw. wird im Rahmen des Einwilligungsmanagements schriftlich begründet (siehe Anwendungsfall IV-a_3-AF_2-a-1)</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>control_tools</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>control_tools/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
+		<order>0</order>
+		<text lang="en">Calibration procedure</text>
+		<text lang="de">Kalibrierverfahren</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>control_tools/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
+		<order>1</order>
+		<text lang="en">Repeated measurements</text>
+		<text lang="de">Wiederholte Messungen</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>control_tools/3</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
+		<order>2</order>
+		<text lang="en">Standards for data recording</text>
+		<text lang="de">Datenaufzeichnungsstandards</text>
+		<text lang="fr">Normes d'enregistrement des données</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>control_tools/4</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
+		<order>3</order>
+		<text lang="en">Controlled vocabularies or standard terminology</text>
+		<text lang="de">Kontrollierte Vokabulare oder standardisierte Terminologien</text>
+		<text lang="fr">Vocabulaires contrôlés ou terminologie standard</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>control_tools/5</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
+		<order>4</order>
+		<text lang="en">Validation of the data collection</text>
+		<text lang="de">Validierung der Datenerfassung</text>
+		<text lang="fr">Validation de la collecte des données</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>control_tools/6</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
+		<order>5</order>
+		<text lang="en">Peer reviews of the data</text>
+		<text lang="de">Peer reviews der Daten</text>
+		<text lang="fr">Examen par les pairs des données</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>control_tools/7</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
+		<order>6</order>
+		<text lang="en">Others</text>
+		<text lang="de">Sonstiges</text>
+		<text lang="fr">Autres</text>
+		<text lang="it"/>
+		<additional_input>True</additional_input>
 	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/mandatory_metadata_options">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -3035,105 +3262,6 @@
 		<text lang="en">Other</text>
 		<text lang="de">Andere</text>
 		<text lang="fr">Autre</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>control_tools</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>control_tools/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
-		<order>0</order>
-		<text lang="en">Calibration procedure</text>
-		<text lang="de">Kalibrierverfahren</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>control_tools/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
-		<order>1</order>
-		<text lang="en">Repeated measurements</text>
-		<text lang="de">Wiederholte Messungen</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/3">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3</key>
-		<path>control_tools/3</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
-		<order>2</order>
-		<text lang="en">Standards for data recording</text>
-		<text lang="de">Datenaufzeichnungsstandards</text>
-		<text lang="fr">Normes d'enregistrement des données</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/4">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>4</key>
-		<path>control_tools/4</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
-		<order>3</order>
-		<text lang="en">Controlled vocabularies or standard terminology</text>
-		<text lang="de">Kontrollierte Vokabulare oder standardisierte Terminologien</text>
-		<text lang="fr">Vocabulaires contrôlés ou terminologie standard</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/5">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>5</key>
-		<path>control_tools/5</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
-		<order>4</order>
-		<text lang="en">Validation of the data collection</text>
-		<text lang="de">Validierung der Datenerfassung</text>
-		<text lang="fr">Validation de la collecte des données</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/6">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>6</key>
-		<path>control_tools/6</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
-		<order>5</order>
-		<text lang="en">Peer reviews of the data</text>
-		<text lang="de">Peer reviews der Daten</text>
-		<text lang="fr">Examen par les pairs des données</text>
-		<text lang="it"/>
-		<additional_input>True</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/control_tools/7">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>7</key>
-		<path>control_tools/7</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/control_tools"/>
-		<order>6</order>
-		<text lang="en">Others</text>
-		<text lang="de">Sonstiges</text>
-		<text lang="fr">Autres</text>
 		<text lang="it"/>
 		<additional_input>True</additional_input>
 	</option>
@@ -4973,6 +5101,61 @@
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>trifftnichtzu</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>trifftnichtzu</key>
+		<path>trifftnichtzu/trifftnichtzu</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">trifft nicht zu</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>trifftnichtzu_beruecksichtigt</key>
+		<dc:comment/>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>trifftnichtzu</key>
+		<path>trifftnichtzu_beruecksichtigt/trifftnichtzu</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">trifft nicht zu</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>beruecksichtigt</key>
+		<path>trifftnichtzu_beruecksichtigt/beruecksichtigt</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		<order>2</order>
+		<text lang="en"/>
+		<text lang="de">berücksichtigt</text>
+		<text lang="fr"/>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/utility">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>utility</key>
@@ -5244,189 +5427,6 @@
 		<text lang="en">No</text>
 		<text lang="de">Nein</text>
 		<text lang="fr">Non</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>trifftnichtzu_beruecksichtigt</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>trifftnichtzu</key>
-		<path>trifftnichtzu_beruecksichtigt/trifftnichtzu</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">trifft nicht zu</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>beruecksichtigt</key>
-		<path>trifftnichtzu_beruecksichtigt/beruecksichtigt</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
-		<order>2</order>
-		<text lang="en"/>
-		<text lang="de">berücksichtigt</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>m2_ba_2_5_2</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2/a">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>a</key>
-		<path>m2_ba_2_5_2/a</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">A) zur Kontaktakquise, z. B. durch Ankerpersonen siehe Fallbeispiel zur Kontaktermittlung durch, siehe Fallbeispiel zur Kontaktermittlung durch Ankerpersonen (II.Ba.2.5.2.Fa)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2/b">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>b</key>
-		<path>m2_ba_2_5_2/b</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">B) auf Audio- oder Videoaufnahmen</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2/c">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>c</key>
-		<path>m2_ba_2_5_2/c</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">C) durch Aussagen der betroffenen Person in der Datenerhebung, siehe Fallbeispiel zur informierten Einwilligung Dritter (II.Ba.2.5.2.Fb)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2/d">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>d</key>
-		<path>m2_ba_2_5_2/d</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">D) durch die Verknüpfung mit weiteren (frei zugänglichen) Daten (Data/Record Linkage)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>m2_ca_3_7</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7/a">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>a</key>
-		<path>m2_ca_3_7/a</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">A) das Entfernen (aller) direkter und (aller) indirekter Identifikatoren in den Daten (formal Anonymisierung)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7/b">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>b</key>
-		<path>m2_ca_3_7/b</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">B) das Verändern (aller) direkter und (aller) indirekter Identifikatoren (Pseudonymisierung)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>m2_ca_3_8</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8/a">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>a</key>
-		<path>m2_ca_3_8/a</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">A) **nicht länger benötigt** werden, siehe Checkliste IV.Ca Vernichtungsmanagement sowie  Fallbeispiel zur Vernichtung nicht mehr benötigter Kontaktdaten (II.Ca.3.8.F)</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8/b">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>b</key>
-		<path>m2_ca_3_8/b</path>
-		<dc:comment>siehe Checkliste III.Ca Urheberrechte Dritter sowie Empfehlungen zur Vernichtung von Dateien (IV.Ca.1.1)</dc:comment>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">??? B) **aufgrund von Auflagen**, z. B. durch Behörden, bzw. von **Zusagen**, z. B. zur Sicherungsdauer in der Einwilligungserklärung, vernichtet werden müssen</text>
-		<text lang="fr"/>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>trifftnichtzu</key>
-		<dc:comment/>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>trifftnichtzu</key>
-		<path>trifftnichtzu/trifftnichtzu</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">trifft nicht zu</text>
-		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
 	</option>
