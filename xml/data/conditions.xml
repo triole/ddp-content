@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-05T19:37:39.142051+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-08T18:53:04.125910+02:00">
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/dataset_links_yesno">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>dataset_links_yesno</key>
@@ -476,6 +476,69 @@
 		<relation>neq</relation>
 		<target_text/>
 		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+	</condition>
+	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_aa_1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m7_aa_1</key>
+		<dc:comment/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/aa/1"/>
+		<relation>neq</relation>
+		<target_text/>
+		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+	</condition>
+	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_aa_2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m7_aa_2</key>
+		<dc:comment/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/aa/2"/>
+		<relation>neq</relation>
+		<target_text/>
+		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+	</condition>
+	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_aa_2_1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m7_aa_2_1</key>
+		<dc:comment/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/aa/2/1"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+	</condition>
+	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_ba_1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m7_ba_1</key>
+		<dc:comment/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/ba/1"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+	</condition>
+	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_ba_2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m7_ba_2</key>
+		<dc:comment/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/ba/2"/>
+		<relation>neq</relation>
+		<target_text/>
+		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+	</condition>
+	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_ca_1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m7_ca_1</key>
+		<dc:comment/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/ca/1"/>
+		<relation>neq</relation>
+		<target_text/>
+		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+	</condition>
+	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_ca_2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m7_ca_2</key>
+		<dc:comment/>
+		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/ca/2"/>
+		<relation>neq</relation>
+		<target_text/>
+		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_aa_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
