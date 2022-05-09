@@ -8537,7 +8537,7 @@ Fallbeispiel zu langfristig zu sichernden Daten und Begleitmaterialien (VII.Aa.1
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Bestandsliste sowie 
+		<help lang="de">siehe Bestandsliste sowie
 Checkliste IV.Ca Vernichtungsmanagement</help>
 		<text lang="de">VII.Aa.1.4 zur **Dokumentation von Inhalten** (inklusive Zitation und Quellangabe) **und Gründen der Vernichtung** von nicht langfristig sicherbaren Daten und Begleitmaterialien</text>
 		<default_text lang="de"/>
@@ -8627,7 +8627,7 @@ Fallbeispiel zu Verantwortlichkeiten und Aufwendungen in der Langfristsicherung 
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Modul VIII.Ba Aufwendungen sowie 
+		<help lang="de">siehe Modul VIII.Ba Aufwendungen sowie
 Fallbeispiel zu Verantwortlichkeiten und Ressourcen in der Langfristsicherung (VII.Aa.1.5.F)</help>
 		<text lang="de">VII.Aa.1.6 zur Planung der notwendigen **Aufwendungen** und entsprechender Ressourcen in der Langfristsicherung</text>
 		<default_text lang="de"/>
@@ -8880,7 +8880,7 @@ Fallbeispiel zu langfristig zu sichernden Daten und Begleitmaterialien (VII.Aa.1
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Bestandsliste sowie 
+		<help lang="de">siehe Bestandsliste sowie
 Checkliste IV.Ca Vernichtungsmanagement</help>
 		<text lang="de">VII.Aa.1.4 zur **Dokumentation von Inhalten** (inklusive Zitation und Quellangabe) **und Gründen der Vernichtung** von nicht langfristig sicherbaren Daten und Begleitmaterialien</text>
 		<default_text lang="de"/>
@@ -8970,7 +8970,7 @@ Fallbeispiel zu Verantwortlichkeiten und Aufwendungen in der Langfristsicherung 
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Modul VIII.Ba Aufwendungen sowie 
+		<help lang="de">siehe Modul VIII.Ba Aufwendungen sowie
 Fallbeispiel zu Verantwortlichkeiten und Ressourcen in der Langfristsicherung (VII.Aa.1.5.F)</help>
 		<text lang="de">VII.Aa.1.6 zur Planung der notwendigen **Aufwendungen** und entsprechender Ressourcen in der Langfristsicherung</text>
 		<default_text lang="de"/>
@@ -10215,7 +10215,7 @@ Fallbeispiel zu Verantwortlichkeiten und Ressourcen in der Langfristsicherung (V
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Checkliste V.Al Nachvollziehbarkeit von Datenmatrizen bzw. 
+		<help lang="de">siehe Checkliste V.Al Nachvollziehbarkeit von Datenmatrizen bzw.
 Checkliste VI.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Artefakten etc.</help>
 		<text lang="de">VII.Ba.1.1 die Daten und Begleitmaterialien für die Langfristsicherung **ausreichend aufbereitet und dokumentiert** sind</text>
 		<default_text lang="de"/>
@@ -10378,7 +10378,7 @@ Checkliste VI.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, A
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Checkliste V.Al Nachvollziehbarkeit von Datenmatrizen bzw. 
+		<help lang="de">siehe Checkliste V.Al Nachvollziehbarkeit von Datenmatrizen bzw.
 Checkliste VI.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Artefakten etc.</help>
 		<text lang="de">VII.Ba.1.1 die Daten und Begleitmaterialien für die Langfristsicherung **ausreichend aufbereitet und dokumentiert** sind</text>
 		<default_text lang="de"/>
@@ -16408,7 +16408,7 @@ siehe Fallbeispiel zum Konzept zu Verantwortlichkeiten (VIII.Aa.1.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<title lang="de">Forschungsethik</title>
-		<help lang="de">VIII.Ba.1 Im Rahmen des Projektbudgets stehen alle notwendigen finanziellen und personellen Ressourcen zur Umsetzung dieses Stamps bereit 
+		<help lang="de">VIII.Ba.1 Im Rahmen des Projektbudgets stehen alle notwendigen finanziellen und personellen Ressourcen zur Umsetzung dieses Stamps bereit
 siehe Empfehlung zur Kostenkalkulation des Forschungsdatenmanagements (VIII.Ba.1.E) sowie
 Fallbeispiel zum Konzept zu Aufwendungen (VIII.Ba.1.F)</help>
 		<verbose_name lang="de"/>
@@ -22352,7 +22352,7 @@ Fallbeispiel zum Konzept zu Aufwendungen (VIII.Ba.1.F)</help>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Checklisten II.Ca Geschütztes Verarbeiten sowie 
+		<help lang="de">siehe Checklisten II.Ca Geschütztes Verarbeiten sowie
 III.Ca Urheberrechte Dritter</help>
 		<text lang="de">VI.Aa.1.2.1 eventueller datenschutz- bzw. urheberrechtlicher **Einschränkungen**</text>
 		<default_text lang="de"/>
@@ -23077,7 +23077,7 @@ Fallbeispiel zum Konzept zur Verfügbarmachung (VI.Aa.1.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste III.Ba Urheberechte an den (projekteigenen)
-Daten und Begleitmaterialien sowie 
+Daten und Begleitmaterialien sowie
 Empfehlungen zu Datengebendenvereinbarungen (VI.Aa.2.1.E)</help>
 		<text lang="de">VI.Aa.2.1 des **Archivierungsvertrags** bzw. der **Datengebendenvereinbarung** und der Möglichkeit, einfache Nutzungsrechte (u. a. zum Speichern, Vervielfältigen (Sichern) und Verbreiten) an den Daten und Begleitmaterialien an das Repositorium bzw. Forschungsdatenzentrum übertragen zu können</text>
 		<default_text lang="de"/>
@@ -23242,7 +23242,7 @@ Empfehlungen zu Datengebendenvereinbarungen (VI.Aa.2.1.E)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste III.Ba Urheberechte an den (projekteigenen)
-Daten und Begleitmaterialien sowie 
+Daten und Begleitmaterialien sowie
 Empfehlungen zu Datengebendenvereinbarungen (VI.Aa.2.1.E)</help>
 		<text lang="de">VI.Aa.2.1 des **Archivierungsvertrags** bzw. der **Datengebendenvereinbarung** und der Möglichkeit, einfache Nutzungsrechte (u. a. zum Speichern, Vervielfältigen (Sichern) und Verbreiten) an den Daten und Begleitmaterialien an das Repositorium bzw. Forschungsdatenzentrum übertragen zu können</text>
 		<default_text lang="de"/>
@@ -23918,7 +23918,7 @@ Empfehlungen zu Datengebendenvereinbarungen (VI.Aa.2.1.E)</help>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Checklisten II.Ca Geschütztes Verarbeiten sowie 
+		<help lang="de">siehe Checklisten II.Ca Geschütztes Verarbeiten sowie
 III.Ca Urheberrechte Dritter</help>
 		<text lang="de">VI.Aa.1.2.1 eventueller datenschutz- bzw. urheberrechtlicher **Einschränkungen**</text>
 		<default_text lang="de"/>
@@ -31220,7 +31220,7 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste I.Ba Risiken des Vorhabens und
-Schutzmaßnahmen sowie 
+Schutzmaßnahmen sowie
 Empfehlungen zur Datenschutz-Folgeabschätzung (II.Aa.3.1.E)</help>
 		<text lang="de">II.Aa.3.1 **Risiken** und Folgen für die **betroffenen Personen** bei Offenlegung, Manipulation, Missbrauch etc. der personenbezogenen Daten (Datenschutz-Folgeabschätzung)</text>
 		<default_text lang="de"/>
@@ -31808,7 +31808,7 @@ Empfehlungen zur Datenschutz-Folgeabschätzung (II.Aa.3.1.E)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste I.Ba Risiken des Vorhabens und
-Schutzmaßnahmen sowie 
+Schutzmaßnahmen sowie
 Empfehlungen zur Datenschutz-Folgeabschätzung (II.Aa.3.1.E)</help>
 		<text lang="de">II.Aa.3.1 **Risiken** und Folgen für die **betroffenen Personen** bei Offenlegung, Manipulation, Missbrauch etc. der personenbezogenen Daten (Datenschutz-Folgeabschätzung)</text>
 		<default_text lang="de"/>
@@ -40521,7 +40521,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Bestandsliste</help>
-		<text lang="de">V.AI.1 Die Projektbeteiligten pflegen im gesamten Projektlauf die **Bestandsliste**</text>
+		<text lang="de">V.Al.1 Die Projektbeteiligten pflegen im gesamten Projektlauf die **Bestandsliste**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -40595,7 +40595,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.1 die **technische Nutzbarkeit** der Daten und Begleitmaterialien (Dateiformate, Funktionalität, Virenscan etc.)</text>
+		<text lang="de">V.Al.2.1 die **technische Nutzbarkeit** der Daten und Begleitmaterialien (Dateiformate, Funktionalität, Virenscan etc.)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -40639,7 +40639,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.2 die **Vollständigkeit der Informationen** (alle Variablen, alle (potentiellen) Werte) bzw. systematisch fehlende Angaben (bei einzelnen Variablen)</text>
+		<text lang="de">V.Al.2.2 die **Vollständigkeit der Informationen** (alle Variablen, alle (potentiellen) Werte) bzw. systematisch fehlende Angaben (bei einzelnen Variablen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -40683,7 +40683,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.3 die **Ausschöpfungsquote** bzw. systematische Ausfälle bei Teilpopulationen</text>
+		<text lang="de">V.Al.2.3 die **Ausschöpfungsquote** bzw. systematische Ausfälle bei Teilpopulationen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -40727,7 +40727,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.4 die Kennzeichnung aller Fälle bzw. Beobachtungen in den Daten mit einem **eindeutigen Identifikator** (ID)</text>
+		<text lang="de">V.Al.2.4 die Kennzeichnung aller Fälle bzw. Beobachtungen in den Daten mit einem **eindeutigen Identifikator** (ID)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -40771,7 +40771,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.5 die Möglichkeit, unterschiedliche **(Teil-)Daten** durch eindeutige Identifikatoren **verknüpfen** zu können</text>
+		<text lang="de">V.Al.2.5 die Möglichkeit, unterschiedliche **(Teil-)Daten** durch eindeutige Identifikatoren **verknüpfen** zu können</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -40815,7 +40815,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.6 die Möglichkeit der Integration von **Para-, Log- und Kontextdaten**</text>
+		<text lang="de">V.Al.2.6 die Möglichkeit der Integration von **Para-, Log- und Kontextdaten**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -40859,7 +40859,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste II.Ca Geschütztes Verarbeiten</help>
-		<text lang="de">V.AI.2.7 die Möglichkeit, **personenbezogene Informationen**, wie Kontaktdaten, von den Daten getrennt (geschützt) zu speichern</text>
+		<text lang="de">V.Al.2.7 die Möglichkeit, **personenbezogene Informationen**, wie Kontaktdaten, von den Daten getrennt (geschützt) zu speichern</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -40931,7 +40931,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.1 zur **Bildung abgeleiteter Variablen, Indizes etc.**</text>
+		<text lang="de">V.Al.13.1 zur **Bildung abgeleiteter Variablen, Indizes etc.**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -40975,7 +40975,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.2 zum **Umgang mit fehlenden Werten** bzw. zur **Imputation von Werten** bei einzelnen Variablen</text>
+		<text lang="de">V.Al.13.2 zum **Umgang mit fehlenden Werten** bzw. zur **Imputation von Werten** bei einzelnen Variablen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41019,7 +41019,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.3 zu **Werten außerhalb des vorgesehenen Wertebereichs** (wild codes) bzw. von **unplausiblen** (outlier) **oder inkonsistenten Werte** in einzelnen Variablen</text>
+		<text lang="de">V.Al.13.3 zu **Werten außerhalb des vorgesehenen Wertebereichs** (wild codes) bzw. von **unplausiblen** (outlier) **oder inkonsistenten Werte** in einzelnen Variablen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41063,7 +41063,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.4 zu **unplausiblen Zusammenhängen** von Merkmalsausprägungen unterschiedlicher Variablen</text>
+		<text lang="de">V.Al.13.4 zu **unplausiblen Zusammenhängen** von Merkmalsausprägungen unterschiedlicher Variablen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41107,7 +41107,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.5 zu **Codierungsregeln** für offene Fragen, Items, Indizes etc.</text>
+		<text lang="de">V.Al.13.5 zu **Codierungsregeln** für offene Fragen, Items, Indizes etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41151,7 +41151,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.6 zu **Auffälligkeiten** bei einzelnen Variablen bzw. Testfragen</text>
+		<text lang="de">V.Al.13.6 zu **Auffälligkeiten** bei einzelnen Variablen bzw. Testfragen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41195,7 +41195,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Fallbeispiel zur Dokumentation der Variablen, Fragen und Filterführung (V.Al.13.7.F)</help>
-		<text lang="de">V.AI.13.7 zur **Harmonisierung von Variablen**</text>
+		<text lang="de">V.Al.13.7 zur **Harmonisierung von Variablen**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41239,7 +41239,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.8 zur **Filterführung** in den Daten</text>
+		<text lang="de">V.Al.13.8 zur **Filterführung** in den Daten</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41283,7 +41283,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.9 zur **Kalibrierung von Messinstrumenten**</text>
+		<text lang="de">V.Al.13.9 zur **Kalibrierung von Messinstrumenten**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41357,7 +41357,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.12.1 **Liste aller Variablen** in den Daten</text>
+		<text lang="de">V.Al.12.1 **Liste aller Variablen** in den Daten</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41401,7 +41401,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.12.2 **konsistente und systematische Benennung aller Variablen** mit Bezug zu den originären Fragen, Items, Aufgaben im Messinstrument</text>
+		<text lang="de">V.Al.12.2 **konsistente und systematische Benennung aller Variablen** mit Bezug zu den originären Fragen, Items, Aufgaben im Messinstrument</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41445,7 +41445,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.12.3 **konsistente und systematische Benennung aller Variablenwerte** (auch fehlende Werte) mit Bezug zu den originären Antwortvorgaben im Messinstrument</text>
+		<text lang="de">V.Al.12.3 **konsistente und systematische Benennung aller Variablenwerte** (auch fehlende Werte) mit Bezug zu den originären Antwortvorgaben im Messinstrument</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41519,7 +41519,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.5.1 **Name des Projekts**</text>
+		<text lang="de">V.Al.5.1 **Name des Projekts**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41563,7 +41563,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.5.2 **Informationen zu den Projektbeteiligten**, wie Namen, Kontaktinformationen, Einrichtung etc.</text>
+		<text lang="de">V.Al.5.2 **Informationen zu den Projektbeteiligten**, wie Namen, Kontaktinformationen, Einrichtung etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41607,7 +41607,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.5.3 **Finanzierung** des Projekts, wie Förderinstitution, Fördernummer, Auftraggebende etc.</text>
+		<text lang="de">V.Al.5.3 **Finanzierung** des Projekts, wie Förderinstitution, Fördernummer, Auftraggebende etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41651,7 +41651,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.5.4 **Laufzeit des Projekts**</text>
+		<text lang="de">V.Al.5.4 **Laufzeit des Projekts**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41695,7 +41695,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.5.5 nformationen zum Vorhaben und den **Zwecken der Verarbeitung** der Daten</text>
+		<text lang="de">V.Al.5.5 nformationen zum Vorhaben und den **Zwecken der Verarbeitung** der Daten</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41769,7 +41769,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.14.1 **Interpretationshilfe** der Testmetrik, wie z. B. Kompetenzmodelle, Normwerte</text>
+		<text lang="de">V.Al.14.1 **Interpretationshilfe** der Testmetrik, wie z. B. Kompetenzmodelle, Normwerte</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41813,7 +41813,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.14.2 Dokumentation der **Skalenbildung**, wie z. B. die Zuordnung von Items zu Faktoren</text>
+		<text lang="de">V.Al.14.2 Dokumentation der **Skalenbildung**, wie z. B. die Zuordnung von Items zu Faktoren</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41857,7 +41857,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.14.3 Dokumentation der **Zuordnung von Items zu Testheften**</text>
+		<text lang="de">V.Al.14.3 Dokumentation der **Zuordnung von Items zu Testheften**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41931,7 +41931,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Fallbeispiel zur Dokumentation dynamischer Elemente in Online-Fragebögen (V.Al.15.1.F)</help>
-		<text lang="de">V.AI.15.1 Informationen **zu dynamischen Elementen und eingebundenen Stimuli**, entweder durch die **Beschreibung dynamischer Elemente und ihrer Nutzung im Online-Fragebogen** (z. B. Screenshots), der technischen Umsetzung (genutzte Befragungs- bzw. Datenbanksoftware), der Endgeräte der betroffenen Personen sowie die Gestaltung der Navigation oder die **Einbindung der technischen Repräsentation dynamischer Elemente** (Webprogrammierung) als Teil der Dokumentation</text>
+		<text lang="de">V.Al.15.1 Informationen **zu dynamischen Elementen und eingebundenen Stimuli**, entweder durch die **Beschreibung dynamischer Elemente und ihrer Nutzung im Online-Fragebogen** (z. B. Screenshots), der technischen Umsetzung (genutzte Befragungs- bzw. Datenbanksoftware), der Endgeräte der betroffenen Personen sowie die Gestaltung der Navigation oder die **Einbindung der technischen Repräsentation dynamischer Elemente** (Webprogrammierung) als Teil der Dokumentation</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -41975,7 +41975,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.15.2 Beschreibung der **Formen des adaptiven Testens oder des Experiments** (z. B. Branched Testing, Tailored Testing) sowie von Abbruchkriterien</text>
+		<text lang="de">V.Al.15.2 Beschreibung der **Formen des adaptiven Testens oder des Experiments** (z. B. Branched Testing, Tailored Testing) sowie von Abbruchkriterien</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42077,7 +42077,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.1 die **technische Nutzbarkeit** der Daten und Begleitmaterialien (Dateiformate, Funktionalität, Virenscan etc.)</text>
+		<text lang="de">V.Al.2.1 die **technische Nutzbarkeit** der Daten und Begleitmaterialien (Dateiformate, Funktionalität, Virenscan etc.)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42121,7 +42121,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.2 die **Vollständigkeit der Informationen** (alle Variablen, alle (potentiellen) Werte) bzw. systematisch fehlende Angaben (bei einzelnen Variablen)</text>
+		<text lang="de">V.Al.2.2 die **Vollständigkeit der Informationen** (alle Variablen, alle (potentiellen) Werte) bzw. systematisch fehlende Angaben (bei einzelnen Variablen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42165,7 +42165,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.3 die **Ausschöpfungsquote** bzw. systematische Ausfälle bei Teilpopulationen</text>
+		<text lang="de">V.Al.2.3 die **Ausschöpfungsquote** bzw. systematische Ausfälle bei Teilpopulationen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42209,7 +42209,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.4 die Kennzeichnung aller Fälle bzw. Beobachtungen in den Daten mit einem **eindeutigen Identifikator** (ID)</text>
+		<text lang="de">V.Al.2.4 die Kennzeichnung aller Fälle bzw. Beobachtungen in den Daten mit einem **eindeutigen Identifikator** (ID)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42253,7 +42253,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.5 die Möglichkeit, unterschiedliche **(Teil-)Daten** durch eindeutige Identifikatoren **verknüpfen** zu können</text>
+		<text lang="de">V.Al.2.5 die Möglichkeit, unterschiedliche **(Teil-)Daten** durch eindeutige Identifikatoren **verknüpfen** zu können</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42297,7 +42297,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2.6 die Möglichkeit der Integration von **Para-, Log- und Kontextdaten**</text>
+		<text lang="de">V.Al.2.6 die Möglichkeit der Integration von **Para-, Log- und Kontextdaten**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42341,7 +42341,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste II.Ca Geschütztes Verarbeiten</help>
-		<text lang="de">V.AI.2.7 die Möglichkeit, **personenbezogene Informationen**, wie Kontaktdaten, von den Daten getrennt (geschützt) zu speichern</text>
+		<text lang="de">V.Al.2.7 die Möglichkeit, **personenbezogene Informationen**, wie Kontaktdaten, von den Daten getrennt (geschützt) zu speichern</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42385,7 +42385,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.2 Die Projektbeteiligten überprüfen nach dem **Rohdateneingang**</text>
+		<text lang="de">V.Al.2 Die Projektbeteiligten überprüfen nach dem **Rohdateneingang**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42459,7 +42459,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.3.1 alle Fälle und Variablen auf **Dubletten kontrolliert**</text>
+		<text lang="de">V.Al.3.1 alle Fälle und Variablen auf **Dubletten kontrolliert**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42503,7 +42503,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.3.2 die Variablen (thematisch) **sortiert**</text>
+		<text lang="de">V.Al.3.2 die Variablen (thematisch) **sortiert**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42547,7 +42547,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Empfehlungen zur Benennung von Variablen und Werten (V.Al.3.3.E)</help>
-		<text lang="de">V.AI.3.3 alle Variablen **eindeutig und konsistent gelabelt** (mit Bezug zu den Fragen, Items bzw. Tests im originären Messinstrument)</text>
+		<text lang="de">V.Al.3.3 alle Variablen **eindeutig und konsistent gelabelt** (mit Bezug zu den Fragen, Items bzw. Tests im originären Messinstrument)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42591,7 +42591,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Empfehlungen zur Benennung von Variablen und Werten (V.Al.3.3.E)</help>
-		<text lang="de">V.AI.3.4 allen **Variablenausprägungen** (Werten) **eindeutige nummerische Werte** zugewiesen (mit Bezug zu den Antwortvorgaben im originären Messinstrument)</text>
+		<text lang="de">V.Al.3.4 allen **Variablenausprägungen** (Werten) **eindeutige nummerische Werte** zugewiesen (mit Bezug zu den Antwortvorgaben im originären Messinstrument)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42665,7 +42665,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.1 **fehlende Werte** konsistent codiert und gelabelt siehe Empfehlungen zur Codierung fehlender Werte (V.Al.4.1.E)</text>
+		<text lang="de">V.Al.4.1 **fehlende Werte** konsistent codiert und gelabelt siehe Empfehlungen zur Codierung fehlender Werte (V.Al.4.1.E)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42709,7 +42709,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.2 die **Filterführung** in den Daten mit der Filterführung des Messinstruments abgeglichen und in den Daten korrekt codiert</text>
+		<text lang="de">V.Al.4.2 die **Filterführung** in den Daten mit der Filterführung des Messinstruments abgeglichen und in den Daten korrekt codiert</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42753,7 +42753,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.3 die Werte nach vorher festgelegten **Codierschemata** (nach-)codiert und dokumentiert</text>
+		<text lang="de">V.Al.4.3 die Werte nach vorher festgelegten **Codierschemata** (nach-)codiert und dokumentiert</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42797,7 +42797,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.4 Variablen **harmonisiert** (über einzelne (Teil-)Datensätze, z. B. bei Trend- und Paneldaten)</text>
+		<text lang="de">V.Al.4.4 Variablen **harmonisiert** (über einzelne (Teil-)Datensätze, z. B. bei Trend- und Paneldaten)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42841,7 +42841,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.5 **offene Antwortmöglichkeiten** (so weit möglich) (re-)codiert und mit einem numerischen Wert versehen</text>
+		<text lang="de">V.Al.4.5 **offene Antwortmöglichkeiten** (so weit möglich) (re-)codiert und mit einem numerischen Wert versehen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42885,7 +42885,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.6 **Imputationen** fehlender Werten vorgenommen</text>
+		<text lang="de">V.Al.4.6 **Imputationen** fehlender Werten vorgenommen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42929,7 +42929,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.7 (notwendige) **Gewichte** gebildet und in die Daten integriert</text>
+		<text lang="de">V.Al.4.7 (notwendige) **Gewichte** gebildet und in die Daten integriert</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -42973,7 +42973,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.8 die Bildung **abgeleiteter bzw. recodierter Variablen**, Indizes etc. inkludiert</text>
+		<text lang="de">V.Al.4.8 die Bildung **abgeleiteter bzw. recodierter Variablen**, Indizes etc. inkludiert</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43018,7 +43018,7 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste II.Ca Geschütztes Verarbeiten sowie
 Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.4.9.E)</help>
-		<text lang="de">V.AI.4.9 die Daten und Begleitmaterialien (so weit möglich) **anonymisiert bzw. pseudonymisiert**</text>
+		<text lang="de">V.Al.4.9 die Daten und Begleitmaterialien (so weit möglich) **anonymisiert bzw. pseudonymisiert**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43062,7 +43062,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.10 **Werte außerhalb des vorgesehenen Wertebereichs** (wild codes) sowie **unplausible** (outlier) und **inkonsistente Werte** identifiziert (z. B. über die Auszählung von Häufigkeitsverteilungen)</text>
+		<text lang="de">V.Al.4.10 **Werte außerhalb des vorgesehenen Wertebereichs** (wild codes) sowie **unplausible** (outlier) und **inkonsistente Werte** identifiziert (z. B. über die Auszählung von Häufigkeitsverteilungen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43106,7 +43106,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.11 **unplausible Zusammenhänge** von Merkmalsausprägungen unterschiedlicher Variablen identifiziert (z. B. anhand von Korrelationsanalysen und Kreuztabellen)</text>
+		<text lang="de">V.Al.4.11 **unplausible Zusammenhänge** von Merkmalsausprägungen unterschiedlicher Variablen identifiziert (z. B. anhand von Korrelationsanalysen und Kreuztabellen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43178,7 +43178,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.6.1 Beschreibung der **Grundgesamtheit und des geographischen Raums** (auf Länder- bzw. Bundesländerebene)</text>
+		<text lang="de">V.Al.6.1 Beschreibung der **Grundgesamtheit und des geographischen Raums** (auf Länder- bzw. Bundesländerebene)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43221,9 +43221,9 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Fallbeispiel zur Dokumentation des Stichprobenverfahrens und 
+		<help lang="de">siehe Fallbeispiel zur Dokumentation des Stichprobenverfahrens und
 der Fallauswahl bei mehreren Befragtengruppen (V.Al.6.2.F)</help>
-		<text lang="de">V.AI.6.2 Beschreibung des **Stichprobenverfahren und** der angestrebten **Stichprobengröße**</text>
+		<text lang="de">V.Al.6.2 Beschreibung des **Stichprobenverfahren und** der angestrebten **Stichprobengröße**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43266,9 +43266,9 @@ der Fallauswahl bei mehreren Befragtengruppen (V.Al.6.2.F)</help>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Fallbeispiel zur Dokumentation der Untersuchungspopulation und der 
+		<help lang="de">siehe Fallbeispiel zur Dokumentation der Untersuchungspopulation und der
 Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
-		<text lang="de">V.AI.6.3 Beschreibung der **Ausschöpfungsquote**, Kontaktversuche und Maßnahmen zur Steigerung der Ausschöpfungsquote</text>
+		<text lang="de">V.Al.6.3 Beschreibung der **Ausschöpfungsquote**, Kontaktversuche und Maßnahmen zur Steigerung der Ausschöpfungsquote</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43312,7 +43312,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.6.4 Beschreibung der **vorliegenden Stichprobe**</text>
+		<text lang="de">V.Al.6.4 Beschreibung der **vorliegenden Stichprobe**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43386,7 +43386,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.7.1 Beschreibung von **Pretests** und deren Ergebnissen</text>
+		<text lang="de">V.Al.7.1 Beschreibung von **Pretests** und deren Ergebnissen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43430,7 +43430,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.7.2 **Zeitraum der Erhebung der Daten**</text>
+		<text lang="de">V.Al.7.2 **Zeitraum der Erhebung der Daten**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43474,7 +43474,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste II.Ba Informierte Einwilligung</help>
-		<text lang="de">V.AI.7.3 Dokumentation der (Vorlage der) **Einwilligungserklärung**</text>
+		<text lang="de">V.Al.7.3 Dokumentation der (Vorlage der) **Einwilligungserklärung**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43518,7 +43518,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste I.Ca Ethikvotum</help>
-		<text lang="de">V.AI.7.4 Dokumentation eines **Ethikvotums**</text>
+		<text lang="de">V.Al.7.4 Dokumentation eines **Ethikvotums**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43562,7 +43562,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste I.Ca Ethikvotum</help>
-		<text lang="de">V.AI.7.5 Dokumentation des **Erhebungsmodus**</text>
+		<text lang="de">V.Al.7.5 Dokumentation des **Erhebungsmodus**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43606,7 +43606,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.7.6 Beschreibung genutzter **Incentivierungen** bzw. Anreize zur Studienteilnahme</text>
+		<text lang="de">V.Al.7.6 Beschreibung genutzter **Incentivierungen** bzw. Anreize zur Studienteilnahme</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43650,7 +43650,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Empfehlungen zu Maßnahmen zur Sicherung der Datenqualität (V.Al.7.7.E)</help>
-		<text lang="de">V.AI.7.7 Beschreibung der **Erhebung der Daten** und **Maßnahmen zur Sicherung der Datenqualität** in der Erhebung</text>
+		<text lang="de">V.Al.7.7 Beschreibung der **Erhebung der Daten** und **Maßnahmen zur Sicherung der Datenqualität** in der Erhebung</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43694,7 +43694,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.7.8 Beschreibung von **Besonderheiten**, während der Feldphase (Kontextinformationen)</text>
+		<text lang="de">V.Al.7.8 Beschreibung von **Besonderheiten**, während der Feldphase (Kontextinformationen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43738,7 +43738,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste I.Aa Gute wissenschaftliche Praxis</help>
-		<text lang="de">V.AI.7.9 Beschreibungen etwaiger **Fälschungen, Manipulationen etc.** während der Feldphase</text>
+		<text lang="de">V.Al.7.9 Beschreibungen etwaiger **Fälschungen, Manipulationen etc.** während der Feldphase</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43812,7 +43812,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.8.2 Beschreibung der **Interviewenden**, wie z. B. deren Anzahl, fachlicher Hintergrund, Arbeitsposition, Geschlecht, Alter etc.</text>
+		<text lang="de">V.Al.8.2 Beschreibung der **Interviewenden**, wie z. B. deren Anzahl, fachlicher Hintergrund, Arbeitsposition, Geschlecht, Alter etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43856,7 +43856,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.8.3 Beschreibung von **Schulungen**</text>
+		<text lang="de">V.Al.8.3 Beschreibung von **Schulungen**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43900,7 +43900,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.8.4 Dokumentation der **Anzahl der Interviews** (pro interviewender Person)</text>
+		<text lang="de">V.Al.8.4 Dokumentation der **Anzahl der Interviews** (pro interviewender Person)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -43944,7 +43944,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.8.5 Beschreibung von Maßnahmen zur **Interviewendenkontrolle**</text>
+		<text lang="de">V.Al.8.5 Beschreibung von Maßnahmen zur **Interviewendenkontrolle**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44018,7 +44018,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.9.1 Dokumentation der **Anonymisierung bzw. Pseudonymisierung** der Daten und Begleitmaterialien</text>
+		<text lang="de">V.Al.9.1 Dokumentation der **Anonymisierung bzw. Pseudonymisierung** der Daten und Begleitmaterialien</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44062,7 +44062,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Fallbeispiel zur Dokumentation der Harmonisierung von Variablen bei Trendfiles (V.Al.9.2.F)</help>
-		<text lang="de">V.AI.9.2 Beschreibung der **Harmonisierung** von Datensätzen/ Variablen</text>
+		<text lang="de">V.Al.9.2 Beschreibung der **Harmonisierung** von Datensätzen/ Variablen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44106,7 +44106,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Fallbeispiel zur Dokumentation der Bildung von Gewichten (V.Al.9.3.F)</help>
-		<text lang="de">V.AI.9.3 Dokumentation der Bildung und Nutzung von **Gewichten**</text>
+		<text lang="de">V.Al.9.3 Dokumentation der Bildung und Nutzung von **Gewichten**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44150,7 +44150,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Fallbeispiel zur Dokumentation von Skalen und Indizes (V.Bl.9.4.F)</help>
-		<text lang="de">V.AI.9.4 Dokumentation der Bildung und Nutzung von **Skalen** und **Indizes**</text>
+		<text lang="de">V.Al.9.4 Dokumentation der Bildung und Nutzung von **Skalen** und **Indizes**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44194,7 +44194,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.9.5 Beschreibung der **Codierung, Skalierung und Konzeption von Leistungstests**</text>
+		<text lang="de">V.Al.9.5 Beschreibung der **Codierung, Skalierung und Konzeption von Leistungstests**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44238,7 +44238,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.9.6 Beschreibung der **Interpretation**, z. B. von Skalen oder Indizes</text>
+		<text lang="de">V.Al.9.6 Beschreibung der **Interpretation**, z. B. von Skalen oder Indizes</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44282,7 +44282,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste IV.CA Vernichtungsmanagement</help>
-		<text lang="de">V.AI.9.7 Dokumentation der **Inhalte und Gründe der Vernichtung** einzelner Daten und Begleitmaterialien</text>
+		<text lang="de">V.Al.9.7 Dokumentation der **Inhalte und Gründe der Vernichtung** einzelner Daten und Begleitmaterialien</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44356,7 +44356,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10.1 Beschreibung der **Datenstruktur und zusammengehöriger Dateien**, wie Teildatensätze oder zugehöriger Begleitmaterialien</text>
+		<text lang="de">V.Al.10.1 Beschreibung der **Datenstruktur und zusammengehöriger Dateien**, wie Teildatensätze oder zugehöriger Begleitmaterialien</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44400,7 +44400,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10.2 Dokumentation der **Fallzahlen, Anzahl an Fragen / Items im Erhebungsinstrument und Variablen** in den Daten(-sätzen)</text>
+		<text lang="de">V.Al.10.2 Dokumentation der **Fallzahlen, Anzahl an Fragen / Items im Erhebungsinstrument und Variablen** in den Daten(-sätzen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44444,7 +44444,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10.3 **technische Beschreibung der Daten**, z. B in Bezug auf  verwendete Betriebssysteme, Dateiformate, Datenanalysesysteme etc.</text>
+		<text lang="de">V.Al.10.3 **technische Beschreibung der Daten**, z. B in Bezug auf  verwendete Betriebssysteme, Dateiformate, Datenanalysesysteme etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44488,7 +44488,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10.4 **Zitation** (Quellenangabe und persistenter Identifikator sowie ggf. Zitationsweise) und **Lizenzbedingungen aller im Projekt nachgenutzter Materialien** Dritter, wie z. B. Daten, (Teile der) Messinstrumente, Stimuli etc.</text>
+		<text lang="de">V.Al.10.4 **Zitation** (Quellenangabe und persistenter Identifikator sowie ggf. Zitationsweise) und **Lizenzbedingungen aller im Projekt nachgenutzter Materialien** Dritter, wie z. B. Daten, (Teile der) Messinstrumente, Stimuli etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44532,7 +44532,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10.5 Dokumentation der **Inhalte und Gründe der Vernichtung**, von einzelnen Fällen bzw. Untersuchungsobjekten sowie von Variablen bzw. Informationen in einzelnen Variablen</text>
+		<text lang="de">V.Al.10.5 Dokumentation der **Inhalte und Gründe der Vernichtung**, von einzelnen Fällen bzw. Untersuchungsobjekten sowie von Variablen bzw. Informationen in einzelnen Variablen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44606,7 +44606,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.11.1 (Dokumentation) **originär genutztes** (digitalisiertes) Messinstrument mit allen **Fragen, Items bzw. Aufgaben** sowie allen **Antwortvorgaben** (inklusive der Optionen zur Antwortverweigerung)</text>
+		<text lang="de">V.Al.11.1 (Dokumentation) **originär genutztes** (digitalisiertes) Messinstrument mit allen **Fragen, Items bzw. Aufgaben** sowie allen **Antwortvorgaben** (inklusive der Optionen zur Antwortverweigerung)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44650,7 +44650,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.11.2 (Dokumentation der digitalisierten) **Interviewendeninstruktionen**</text>
+		<text lang="de">V.Al.11.2 (Dokumentation der digitalisierten) **Interviewendeninstruktionen**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44694,7 +44694,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.11.3 (Dokumentation der digitalisierten) **Filterführung** im Messinstrument</text>
+		<text lang="de">V.Al.11.3 (Dokumentation der digitalisierten) **Filterführung** im Messinstrument</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44796,7 +44796,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.3.1 alle Fälle und Variablen auf **Dubletten kontrolliert**</text>
+		<text lang="de">V.Al.3.1 alle Fälle und Variablen auf **Dubletten kontrolliert**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44840,7 +44840,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.3.2 die Variablen (thematisch) **sortiert**</text>
+		<text lang="de">V.Al.3.2 die Variablen (thematisch) **sortiert**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44884,7 +44884,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Empfehlungen zur Benennung von Variablen und Werten (V.Al.3.3.E)</help>
-		<text lang="de">V.AI.3.3 alle Variablen **eindeutig und konsistent gelabelt** (mit Bezug zu den Fragen, Items bzw. Tests im originären Messinstrument)</text>
+		<text lang="de">V.Al.3.3 alle Variablen **eindeutig und konsistent gelabelt** (mit Bezug zu den Fragen, Items bzw. Tests im originären Messinstrument)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44928,7 +44928,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Empfehlungen zur Benennung von Variablen und Werten (V.Al.3.3.E)</help>
-		<text lang="de">V.AI.3.4 allen **Variablenausprägungen** (Werten) **eindeutige nummerische Werte** zugewiesen (mit Bezug zu den Antwortvorgaben im originären Messinstrument)</text>
+		<text lang="de">V.Al.3.4 allen **Variablenausprägungen** (Werten) **eindeutige nummerische Werte** zugewiesen (mit Bezug zu den Antwortvorgaben im originären Messinstrument)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -44972,7 +44972,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.3 In der **Aufbereitung der Daten** werden</text>
+		<text lang="de">V.Al.3 In der **Aufbereitung der Daten** werden</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45074,7 +45074,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.1 **fehlende Werte** konsistent codiert und gelabelt siehe Empfehlungen zur Codierung fehlender Werte (V.Al.4.1.E)</text>
+		<text lang="de">V.Al.4.1 **fehlende Werte** konsistent codiert und gelabelt siehe Empfehlungen zur Codierung fehlender Werte (V.Al.4.1.E)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45118,7 +45118,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.2 die **Filterführung** in den Daten mit der Filterführung des Messinstruments abgeglichen und in den Daten korrekt codiert</text>
+		<text lang="de">V.Al.4.2 die **Filterführung** in den Daten mit der Filterführung des Messinstruments abgeglichen und in den Daten korrekt codiert</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45162,7 +45162,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.3 die Werte nach vorher festgelegten **Codierschemata** (nach-)codiert und dokumentiert</text>
+		<text lang="de">V.Al.4.3 die Werte nach vorher festgelegten **Codierschemata** (nach-)codiert und dokumentiert</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45206,7 +45206,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.4 Variablen **harmonisiert** (über einzelne (Teil-)Datensätze, z. B. bei Trend- und Paneldaten)</text>
+		<text lang="de">V.Al.4.4 Variablen **harmonisiert** (über einzelne (Teil-)Datensätze, z. B. bei Trend- und Paneldaten)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45250,7 +45250,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.5 **offene Antwortmöglichkeiten** (so weit möglich) (re-)codiert und mit einem numerischen Wert versehen</text>
+		<text lang="de">V.Al.4.5 **offene Antwortmöglichkeiten** (so weit möglich) (re-)codiert und mit einem numerischen Wert versehen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45294,7 +45294,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.6 **Imputationen** fehlender Werten vorgenommen</text>
+		<text lang="de">V.Al.4.6 **Imputationen** fehlender Werten vorgenommen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45338,7 +45338,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.7 (notwendige) **Gewichte** gebildet und in die Daten integriert</text>
+		<text lang="de">V.Al.4.7 (notwendige) **Gewichte** gebildet und in die Daten integriert</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45382,7 +45382,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.8 die Bildung **abgeleiteter bzw. recodierter Variablen**, Indizes etc. inkludiert</text>
+		<text lang="de">V.Al.4.8 die Bildung **abgeleiteter bzw. recodierter Variablen**, Indizes etc. inkludiert</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45427,7 +45427,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste II.Ca Geschütztes Verarbeiten sowie
 Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.4.9.E)</help>
-		<text lang="de">V.AI.4.9 die Daten und Begleitmaterialien (so weit möglich) **anonymisiert bzw. pseudonymisiert**</text>
+		<text lang="de">V.Al.4.9 die Daten und Begleitmaterialien (so weit möglich) **anonymisiert bzw. pseudonymisiert**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45471,7 +45471,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.10 **Werte außerhalb des vorgesehenen Wertebereichs** (wild codes) sowie **unplausible** (outlier) und **inkonsistente Werte** identifiziert (z. B. über die Auszählung von Häufigkeitsverteilungen)</text>
+		<text lang="de">V.Al.4.10 **Werte außerhalb des vorgesehenen Wertebereichs** (wild codes) sowie **unplausible** (outlier) und **inkonsistente Werte** identifiziert (z. B. über die Auszählung von Häufigkeitsverteilungen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45515,7 +45515,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4.11 **unplausible Zusammenhänge** von Merkmalsausprägungen unterschiedlicher Variablen identifiziert (z. B. anhand von Korrelationsanalysen und Kreuztabellen)</text>
+		<text lang="de">V.Al.4.11 **unplausible Zusammenhänge** von Merkmalsausprägungen unterschiedlicher Variablen identifiziert (z. B. anhand von Korrelationsanalysen und Kreuztabellen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45559,7 +45559,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.4 In der **Aufbereitung der Variablen** werden</text>
+		<text lang="de">V.Al.4 In der **Aufbereitung der Variablen** werden</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45661,7 +45661,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.5.1 **Name des Projekts**</text>
+		<text lang="de">V.Al.5.1 **Name des Projekts**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45705,7 +45705,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.5.2 **Informationen zu den Projektbeteiligten**, wie Namen, Kontaktinformationen, Einrichtung etc.</text>
+		<text lang="de">V.Al.5.2 **Informationen zu den Projektbeteiligten**, wie Namen, Kontaktinformationen, Einrichtung etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45749,7 +45749,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.5.3 **Finanzierung** des Projekts, wie Förderinstitution, Fördernummer, Auftraggebende etc.</text>
+		<text lang="de">V.Al.5.3 **Finanzierung** des Projekts, wie Förderinstitution, Fördernummer, Auftraggebende etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45793,7 +45793,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.5.4 **Laufzeit des Projekts**</text>
+		<text lang="de">V.Al.5.4 **Laufzeit des Projekts**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45837,7 +45837,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.5.5 nformationen zum Vorhaben und den **Zwecken der Verarbeitung** der Daten</text>
+		<text lang="de">V.Al.5.5 nformationen zum Vorhaben und den **Zwecken der Verarbeitung** der Daten</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45880,9 +45880,9 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Angaben zum Projekt im DDP-Deckblatt sowie 
+		<help lang="de">siehe Angaben zum Projekt im DDP-Deckblatt sowie
 Empfehlungen zum Erstellen eines Methoden- bzw. Feldberichts (V.Al.5.E)</help>
-		<text lang="de">V.AI.5 Die **Dokumentation der Daten und Begleitmaterialien** beinhaltet auf Studienebene, z. B in Form eines Methoden- oder Feldberichts, **Angaben zum Vorhaben**</text>
+		<text lang="de">V.Al.5 Die **Dokumentation der Daten und Begleitmaterialien** beinhaltet auf Studienebene, z. B in Form eines Methoden- oder Feldberichts, **Angaben zum Vorhaben**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -45982,7 +45982,7 @@ Empfehlungen zum Erstellen eines Methoden- bzw. Feldberichts (V.Al.5.E)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.6.1 Beschreibung der **Grundgesamtheit und des geographischen Raums** (auf Länder- bzw. Bundesländerebene)</text>
+		<text lang="de">V.Al.6.1 Beschreibung der **Grundgesamtheit und des geographischen Raums** (auf Länder- bzw. Bundesländerebene)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46025,9 +46025,9 @@ Empfehlungen zum Erstellen eines Methoden- bzw. Feldberichts (V.Al.5.E)</help>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Fallbeispiel zur Dokumentation des Stichprobenverfahrens und 
+		<help lang="de">siehe Fallbeispiel zur Dokumentation des Stichprobenverfahrens und
 der Fallauswahl bei mehreren Befragtengruppen (V.Al.6.2.F)</help>
-		<text lang="de">V.AI.6.2 Beschreibung des **Stichprobenverfahren und** der angestrebten **Stichprobengröße**</text>
+		<text lang="de">V.Al.6.2 Beschreibung des **Stichprobenverfahren und** der angestrebten **Stichprobengröße**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46070,9 +46070,9 @@ der Fallauswahl bei mehreren Befragtengruppen (V.Al.6.2.F)</help>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Fallbeispiel zur Dokumentation der Untersuchungspopulation und der 
+		<help lang="de">siehe Fallbeispiel zur Dokumentation der Untersuchungspopulation und der
 Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
-		<text lang="de">V.AI.6.3 Beschreibung der **Ausschöpfungsquote**, Kontaktversuche und Maßnahmen zur Steigerung der Ausschöpfungsquote</text>
+		<text lang="de">V.Al.6.3 Beschreibung der **Ausschöpfungsquote**, Kontaktversuche und Maßnahmen zur Steigerung der Ausschöpfungsquote</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46116,7 +46116,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.6.4 Beschreibung der **vorliegenden Stichprobe**</text>
+		<text lang="de">V.Al.6.4 Beschreibung der **vorliegenden Stichprobe**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46160,7 +46160,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.6 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zur Grundgesamtheit und Stichprobe**</text>
+		<text lang="de">V.Al.6 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zur Grundgesamtheit und Stichprobe**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46262,7 +46262,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.7.1 Beschreibung von **Pretests** und deren Ergebnissen</text>
+		<text lang="de">V.Al.7.1 Beschreibung von **Pretests** und deren Ergebnissen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46306,7 +46306,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.7.2 **Zeitraum der Erhebung der Daten**</text>
+		<text lang="de">V.Al.7.2 **Zeitraum der Erhebung der Daten**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46350,7 +46350,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste II.Ba Informierte Einwilligung</help>
-		<text lang="de">V.AI.7.3 Dokumentation der (Vorlage der) **Einwilligungserklärung**</text>
+		<text lang="de">V.Al.7.3 Dokumentation der (Vorlage der) **Einwilligungserklärung**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46394,7 +46394,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste I.Ca Ethikvotum</help>
-		<text lang="de">V.AI.7.4 Dokumentation eines **Ethikvotums**</text>
+		<text lang="de">V.Al.7.4 Dokumentation eines **Ethikvotums**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46438,7 +46438,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste I.Ca Ethikvotum</help>
-		<text lang="de">V.AI.7.5 Dokumentation des **Erhebungsmodus**</text>
+		<text lang="de">V.Al.7.5 Dokumentation des **Erhebungsmodus**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46482,7 +46482,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.7.6 Beschreibung genutzter **Incentivierungen** bzw. Anreize zur Studienteilnahme</text>
+		<text lang="de">V.Al.7.6 Beschreibung genutzter **Incentivierungen** bzw. Anreize zur Studienteilnahme</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46526,7 +46526,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Empfehlungen zu Maßnahmen zur Sicherung der Datenqualität (V.Al.7.7.E)</help>
-		<text lang="de">V.AI.7.7 Beschreibung der **Erhebung der Daten** und **Maßnahmen zur Sicherung der Datenqualität** in der Erhebung</text>
+		<text lang="de">V.Al.7.7 Beschreibung der **Erhebung der Daten** und **Maßnahmen zur Sicherung der Datenqualität** in der Erhebung</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46570,7 +46570,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.7.8 Beschreibung von **Besonderheiten**, während der Feldphase (Kontextinformationen)</text>
+		<text lang="de">V.Al.7.8 Beschreibung von **Besonderheiten**, während der Feldphase (Kontextinformationen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46614,7 +46614,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste I.Aa Gute wissenschaftliche Praxis</help>
-		<text lang="de">V.AI.7.9 Beschreibungen etwaiger **Fälschungen, Manipulationen etc.** während der Feldphase</text>
+		<text lang="de">V.Al.7.9 Beschreibungen etwaiger **Fälschungen, Manipulationen etc.** während der Feldphase</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46658,7 +46658,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.7 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zur Feldphase**</text>
+		<text lang="de">V.Al.7 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zur Feldphase**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46760,7 +46760,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.8.2 Beschreibung der **Interviewenden**, wie z. B. deren Anzahl, fachlicher Hintergrund, Arbeitsposition, Geschlecht, Alter etc.</text>
+		<text lang="de">V.Al.8.2 Beschreibung der **Interviewenden**, wie z. B. deren Anzahl, fachlicher Hintergrund, Arbeitsposition, Geschlecht, Alter etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46804,7 +46804,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.8.3 Beschreibung von **Schulungen**</text>
+		<text lang="de">V.Al.8.3 Beschreibung von **Schulungen**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46848,7 +46848,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.8.4 Dokumentation der **Anzahl der Interviews** (pro interviewender Person)</text>
+		<text lang="de">V.Al.8.4 Dokumentation der **Anzahl der Interviews** (pro interviewender Person)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46892,7 +46892,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.8.5 Beschreibung von Maßnahmen zur **Interviewendenkontrolle**</text>
+		<text lang="de">V.Al.8.5 Beschreibung von Maßnahmen zur **Interviewendenkontrolle**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -46936,7 +46936,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.8.1 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zu** den **Interviewenden**</text>
+		<text lang="de">V.Al.8.1 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zu** den **Interviewenden**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47038,7 +47038,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.9.1 Dokumentation der **Anonymisierung bzw. Pseudonymisierung** der Daten und Begleitmaterialien</text>
+		<text lang="de">V.Al.9.1 Dokumentation der **Anonymisierung bzw. Pseudonymisierung** der Daten und Begleitmaterialien</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47082,7 +47082,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Fallbeispiel zur Dokumentation der Harmonisierung von Variablen bei Trendfiles (V.Al.9.2.F)</help>
-		<text lang="de">V.AI.9.2 Beschreibung der **Harmonisierung** von Datensätzen/ Variablen</text>
+		<text lang="de">V.Al.9.2 Beschreibung der **Harmonisierung** von Datensätzen/ Variablen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47126,7 +47126,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Fallbeispiel zur Dokumentation der Bildung von Gewichten (V.Al.9.3.F)</help>
-		<text lang="de">V.AI.9.3 Dokumentation der Bildung und Nutzung von **Gewichten**</text>
+		<text lang="de">V.Al.9.3 Dokumentation der Bildung und Nutzung von **Gewichten**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47170,7 +47170,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Fallbeispiel zur Dokumentation von Skalen und Indizes (V.Bl.9.4.F)</help>
-		<text lang="de">V.AI.9.4 Dokumentation der Bildung und Nutzung von **Skalen** und **Indizes**</text>
+		<text lang="de">V.Al.9.4 Dokumentation der Bildung und Nutzung von **Skalen** und **Indizes**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47214,7 +47214,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.9.5 Beschreibung der **Codierung, Skalierung und Konzeption von Leistungstests**</text>
+		<text lang="de">V.Al.9.5 Beschreibung der **Codierung, Skalierung und Konzeption von Leistungstests**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47258,7 +47258,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.9.6 Beschreibung der **Interpretation**, z. B. von Skalen oder Indizes</text>
+		<text lang="de">V.Al.9.6 Beschreibung der **Interpretation**, z. B. von Skalen oder Indizes</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47302,7 +47302,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Checkliste IV.CA Vernichtungsmanagement</help>
-		<text lang="de">V.AI.9.7 Dokumentation der **Inhalte und Gründe der Vernichtung** einzelner Daten und Begleitmaterialien</text>
+		<text lang="de">V.Al.9.7 Dokumentation der **Inhalte und Gründe der Vernichtung** einzelner Daten und Begleitmaterialien</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47346,7 +47346,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.9 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zu den Maßnahmen der Aufbereitung**, wie</text>
+		<text lang="de">V.Al.9 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zu den Maßnahmen der Aufbereitung**, wie</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47448,7 +47448,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10.1 Beschreibung der **Datenstruktur und zusammengehöriger Dateien**, wie Teildatensätze oder zugehöriger Begleitmaterialien</text>
+		<text lang="de">V.Al.10.1 Beschreibung der **Datenstruktur und zusammengehöriger Dateien**, wie Teildatensätze oder zugehöriger Begleitmaterialien</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47492,7 +47492,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10.2 Dokumentation der **Fallzahlen, Anzahl an Fragen / Items im Erhebungsinstrument und Variablen** in den Daten(-sätzen)</text>
+		<text lang="de">V.Al.10.2 Dokumentation der **Fallzahlen, Anzahl an Fragen / Items im Erhebungsinstrument und Variablen** in den Daten(-sätzen)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47536,7 +47536,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10.3 **technische Beschreibung der Daten**, z. B in Bezug auf  verwendete Betriebssysteme, Dateiformate, Datenanalysesysteme etc.</text>
+		<text lang="de">V.Al.10.3 **technische Beschreibung der Daten**, z. B in Bezug auf  verwendete Betriebssysteme, Dateiformate, Datenanalysesysteme etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47580,7 +47580,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10.4 **Zitation** (Quellenangabe und persistenter Identifikator sowie ggf. Zitationsweise) und **Lizenzbedingungen aller im Projekt nachgenutzter Materialien** Dritter, wie z. B. Daten, (Teile der) Messinstrumente, Stimuli etc.</text>
+		<text lang="de">V.Al.10.4 **Zitation** (Quellenangabe und persistenter Identifikator sowie ggf. Zitationsweise) und **Lizenzbedingungen aller im Projekt nachgenutzter Materialien** Dritter, wie z. B. Daten, (Teile der) Messinstrumente, Stimuli etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47624,7 +47624,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10.5 Dokumentation der **Inhalte und Gründe der Vernichtung**, von einzelnen Fällen bzw. Untersuchungsobjekten sowie von Variablen bzw. Informationen in einzelnen Variablen</text>
+		<text lang="de">V.Al.10.5 Dokumentation der **Inhalte und Gründe der Vernichtung**, von einzelnen Fällen bzw. Untersuchungsobjekten sowie von Variablen bzw. Informationen in einzelnen Variablen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47668,7 +47668,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.10 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zur Datenbank**</text>
+		<text lang="de">V.Al.10 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zur Datenbank**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47770,7 +47770,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.11.1 (Dokumentation) **originär genutztes** (digitalisiertes) Messinstrument mit allen **Fragen, Items bzw. Aufgaben** sowie allen **Antwortvorgaben** (inklusive der Optionen zur Antwortverweigerung)</text>
+		<text lang="de">V.Al.11.1 (Dokumentation) **originär genutztes** (digitalisiertes) Messinstrument mit allen **Fragen, Items bzw. Aufgaben** sowie allen **Antwortvorgaben** (inklusive der Optionen zur Antwortverweigerung)</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47814,7 +47814,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.11.2 (Dokumentation der digitalisierten) **Interviewendeninstruktionen**</text>
+		<text lang="de">V.Al.11.2 (Dokumentation der digitalisierten) **Interviewendeninstruktionen**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47858,7 +47858,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.11.3 (Dokumentation der digitalisierten) **Filterführung** im Messinstrument</text>
+		<text lang="de">V.Al.11.3 (Dokumentation der digitalisierten) **Filterführung** im Messinstrument</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -47902,7 +47902,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.11 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zum Messinstrument**</text>
+		<text lang="de">V.Al.11 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zum Messinstrument**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48004,7 +48004,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.12.1 **Liste aller Variablen** in den Daten</text>
+		<text lang="de">V.Al.12.1 **Liste aller Variablen** in den Daten</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48048,7 +48048,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.12.2 **konsistente und systematische Benennung aller Variablen** mit Bezug zu den originären Fragen, Items, Aufgaben im Messinstrument</text>
+		<text lang="de">V.Al.12.2 **konsistente und systematische Benennung aller Variablen** mit Bezug zu den originären Fragen, Items, Aufgaben im Messinstrument</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48092,7 +48092,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.12.3 **konsistente und systematische Benennung aller Variablenwerte** (auch fehlende Werte) mit Bezug zu den originären Antwortvorgaben im Messinstrument</text>
+		<text lang="de">V.Al.12.3 **konsistente und systematische Benennung aller Variablenwerte** (auch fehlende Werte) mit Bezug zu den originären Antwortvorgaben im Messinstrument</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48136,7 +48136,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.12 Auf **Variablenebene** beinhaltet die **Dokumentation**, z. B. in einem Codebuch, **Angaben zu den Variablen**</text>
+		<text lang="de">V.Al.12 Auf **Variablenebene** beinhaltet die **Dokumentation**, z. B. in einem Codebuch, **Angaben zu den Variablen**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48236,7 +48236,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.1 zur **Bildung abgeleiteter Variablen, Indizes etc.**</text>
+		<text lang="de">V.Al.13.1 zur **Bildung abgeleiteter Variablen, Indizes etc.**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48280,7 +48280,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.2 zum **Umgang mit fehlenden Werten** bzw. zur **Imputation von Werten** bei einzelnen Variablen</text>
+		<text lang="de">V.Al.13.2 zum **Umgang mit fehlenden Werten** bzw. zur **Imputation von Werten** bei einzelnen Variablen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48324,7 +48324,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.3 zu **Werten außerhalb des vorgesehenen Wertebereichs** (wild codes) bzw. von **unplausiblen** (outlier) **oder inkonsistenten Werte** in einzelnen Variablen</text>
+		<text lang="de">V.Al.13.3 zu **Werten außerhalb des vorgesehenen Wertebereichs** (wild codes) bzw. von **unplausiblen** (outlier) **oder inkonsistenten Werte** in einzelnen Variablen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48368,7 +48368,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.4 zu **unplausiblen Zusammenhängen** von Merkmalsausprägungen unterschiedlicher Variablen</text>
+		<text lang="de">V.Al.13.4 zu **unplausiblen Zusammenhängen** von Merkmalsausprägungen unterschiedlicher Variablen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48412,7 +48412,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.5 zu **Codierungsregeln** für offene Fragen, Items, Indizes etc.</text>
+		<text lang="de">V.Al.13.5 zu **Codierungsregeln** für offene Fragen, Items, Indizes etc.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48456,7 +48456,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.6 zu **Auffälligkeiten** bei einzelnen Variablen bzw. Testfragen</text>
+		<text lang="de">V.Al.13.6 zu **Auffälligkeiten** bei einzelnen Variablen bzw. Testfragen</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48500,7 +48500,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Fallbeispiel zur Dokumentation der Variablen, Fragen und Filterführung (V.Al.13.7.F)</help>
-		<text lang="de">V.AI.13.7 zur **Harmonisierung von Variablen**</text>
+		<text lang="de">V.Al.13.7 zur **Harmonisierung von Variablen**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48544,7 +48544,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.8 zur **Filterführung** in den Daten</text>
+		<text lang="de">V.Al.13.8 zur **Filterführung** in den Daten</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48588,7 +48588,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13.9 zur **Kalibrierung von Messinstrumenten**</text>
+		<text lang="de">V.Al.13.9 zur **Kalibrierung von Messinstrumenten**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48632,7 +48632,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.13 Die **Dokumentation** beinhaltet auf Variablenebene **Angaben zu einzelnen Variablen**, etwa</text>
+		<text lang="de">V.Al.13 Die **Dokumentation** beinhaltet auf Variablenebene **Angaben zu einzelnen Variablen**, etwa</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48734,7 +48734,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.14.1 **Interpretationshilfe** der Testmetrik, wie z. B. Kompetenzmodelle, Normwerte</text>
+		<text lang="de">V.Al.14.1 **Interpretationshilfe** der Testmetrik, wie z. B. Kompetenzmodelle, Normwerte</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48778,7 +48778,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.14.2 Dokumentation der **Skalenbildung**, wie z. B. die Zuordnung von Items zu Faktoren</text>
+		<text lang="de">V.Al.14.2 Dokumentation der **Skalenbildung**, wie z. B. die Zuordnung von Items zu Faktoren</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48822,7 +48822,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.14.3 Dokumentation der **Zuordnung von Items zu Testheften**</text>
+		<text lang="de">V.Al.14.3 Dokumentation der **Zuordnung von Items zu Testheften**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48866,7 +48866,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.14 Die **Dokumentation** beinhaltet auf Variablenebene **zusätzliche Angaben bei Leistungstests** zur</text>
+		<text lang="de">V.Al.14 Die **Dokumentation** beinhaltet auf Variablenebene **zusätzliche Angaben bei Leistungstests** zur</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -48968,7 +48968,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de">siehe Fallbeispiel zur Dokumentation dynamischer Elemente in Online-Fragebögen (V.Al.15.1.F)</help>
-		<text lang="de">V.AI.15.1 Informationen **zu dynamischen Elementen und eingebundenen Stimuli**, entweder durch die **Beschreibung dynamischer Elemente und ihrer Nutzung im Online-Fragebogen** (z. B. Screenshots), der technischen Umsetzung (genutzte Befragungs- bzw. Datenbanksoftware), der Endgeräte der betroffenen Personen sowie die Gestaltung der Navigation oder die **Einbindung der technischen Repräsentation dynamischer Elemente** (Webprogrammierung) als Teil der Dokumentation</text>
+		<text lang="de">V.Al.15.1 Informationen **zu dynamischen Elementen und eingebundenen Stimuli**, entweder durch die **Beschreibung dynamischer Elemente und ihrer Nutzung im Online-Fragebogen** (z. B. Screenshots), der technischen Umsetzung (genutzte Befragungs- bzw. Datenbanksoftware), der Endgeräte der betroffenen Personen sowie die Gestaltung der Navigation oder die **Einbindung der technischen Repräsentation dynamischer Elemente** (Webprogrammierung) als Teil der Dokumentation</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -49012,7 +49012,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.15.2 Beschreibung der **Formen des adaptiven Testens oder des Experiments** (z. B. Branched Testing, Tailored Testing) sowie von Abbruchkriterien</text>
+		<text lang="de">V.Al.15.2 Beschreibung der **Formen des adaptiven Testens oder des Experiments** (z. B. Branched Testing, Tailored Testing) sowie von Abbruchkriterien</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -49056,7 +49056,7 @@ Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">V.AI.15 Die **Dokumentation** beinhaltet auf Studienebene zusätzliche **Angaben bei Onlinebefragungen**</text>
+		<text lang="de">V.Al.15 Die **Dokumentation** beinhaltet auf Studienebene zusätzliche **Angaben bei Onlinebefragungen**</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
