@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-08T18:53:03.865665+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-09T14:16:37.553723+02:00">
 	<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>deckblatt</key>
@@ -2043,6 +2043,489 @@
 		<path>m4/ca/2/2</path>
 		<dc:comment/>
 		<parent dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/2"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>m5</key>
+		<path>m5</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>ai</key>
+		<path>m5/ai</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>10</key>
+		<path>m5/ai/10</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>11</key>
+		<path>m5/ai/11</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/12">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>12</key>
+		<path>m5/ai/12</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/13">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>13</key>
+		<path>m5/ai/13</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/14">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>14</key>
+		<path>m5/ai/14</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/15">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>15</key>
+		<path>m5/ai/15</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/2/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/2/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/2/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/2/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/2/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/2/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/2/7</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/3/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/3/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/3/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/3/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/4/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>10</key>
+		<path>m5/ai/4/10</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>11</key>
+		<path>m5/ai/4/11</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/4/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/4/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/4/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/4/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/4/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/4/7</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>m5/ai/4/8</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>9</key>
+		<path>m5/ai/4/9</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/5/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/5/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/5/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/5/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/5/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/6/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/6/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/6/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/6/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/7</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/7/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/7/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/7/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/7/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/7/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/7/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/7/7</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>m5/ai/7/8</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>9</key>
+		<path>m5/ai/7/9</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>m5/ai/8</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/8/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/8/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/8/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/8/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/8/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>9</key>
+		<path>m5/ai/9</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/9/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/9/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/9/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/9/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/9/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/9/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/9/7</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9"/>
 	</attribute>
 	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-08T18:53:11.018838+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-09T14:16:45.572157+02:00">
 	<catalog dc:uri="https://ddp-bildung.org/terms/questions/m1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>m1</key>
@@ -40465,4 +40465,5803 @@ siehe Fallbeispiel zum Vorgehen bei Schutzverletzung (II.Ca.5.F)</help>
 		<title lang="it"/>
 		<help lang="it"/>
 	</catalog>
+	<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>ai</key>
+		<path>m5/ai</path>
+		<dc:comment/>
+		<catalog dc:uri="https://ddp-bildung.org/terms/questions/m5"/>
+		<order>0</order>
+		<title lang="en"/>
+		<title lang="de">V.Al Nachvollziehbarkeit von quantitativen Daten</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Bestandliste</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Bestandsliste</help>
+		<text lang="de">V.AI.1 Die Projektbeteiligten pflegen im gesamten Projektlauf die **Bestandsliste**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs9/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_9"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs9/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.9.1 Dokumentation der **Anonymisierung bzw. Pseudonymisierung** der Daten und Begleitmaterialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs9/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zur Dokumentation der Harmonisierung von Variablen bei Trendfiles (V.Al.9.2.F)</help>
+		<text lang="de">V.AI.9.2 Beschreibung der **Harmonisierung** von Datensätzen/ Variablen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs9/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zur Dokumentation der Bildung von Gewichten (V.Al.9.3.F)</help>
+		<text lang="de">V.AI.9.3 Dokumentation der Bildung und Nutzung von **Gewichten**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs9/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zur Dokumentation von Skalen und Indizes (V.Bl.9.4.F)</help>
+		<text lang="de">V.AI.9.4 Dokumentation der Bildung und Nutzung von **Skalen** und **Indizes**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/qs9/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.9.5 Beschreibung der **Codierung, Skalierung und Konzeption von Leistungstests**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/qs9/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.9.6 Beschreibung der **Interpretation**, z. B. von Skalen oder Indizes</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/qs9/qs1/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste IV.CA Vernichtungsmanagement</help>
+		<text lang="de">V.AI.9.7 Dokumentation der **Inhalte und Gründe der Vernichtung** einzelner Daten und Begleitmaterialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs2</key>
+		<path>m5/ai/qs2</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Rohdaten</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_2"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.1 die **technische Nutzbarkeit** der Daten und Begleitmaterialien (Dateiformate, Funktionalität, Virenscan etc.)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.2 die **Vollständigkeit der Informationen** (alle Variablen, alle (potentiellen) Werte) bzw. systematisch fehlende Angaben (bei einzelnen Variablen)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs2/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.3 die **Ausschöpfungsquote** bzw. systematische Ausfälle bei Teilpopulationen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs2/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.4 die Kennzeichnung aller Fälle bzw. Beobachtungen in den Daten mit einem **eindeutigen Identifikator** (ID)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/qs2/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.5 die Möglichkeit, unterschiedliche **(Teil-)Daten** durch eindeutige Identifikatoren **verknüpfen** zu können</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/qs2/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.6 die Möglichkeit der Integration von **Para-, Log- und Kontextdaten**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/qs2/qs1/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/7"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ca Geschütztes Verarbeiten</help>
+		<text lang="de">V.AI.2.7 die Möglichkeit, **personenbezogene Informationen**, wie Kontaktdaten, von den Daten getrennt (geschützt) zu speichern</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs2/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2 Die Projektbeteiligten überprüfen nach dem **Rohdateneingang**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs2/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_2"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs2/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.1 die **technische Nutzbarkeit** der Daten und Begleitmaterialien (Dateiformate, Funktionalität, Virenscan etc.)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs2/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.2 die **Vollständigkeit der Informationen** (alle Variablen, alle (potentiellen) Werte) bzw. systematisch fehlende Angaben (bei einzelnen Variablen)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs2/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.3 die **Ausschöpfungsquote** bzw. systematische Ausfälle bei Teilpopulationen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs2/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.4 die Kennzeichnung aller Fälle bzw. Beobachtungen in den Daten mit einem **eindeutigen Identifikator** (ID)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/qs2/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.5 die Möglichkeit, unterschiedliche **(Teil-)Daten** durch eindeutige Identifikatoren **verknüpfen** zu können</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/qs2/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.2.6 die Möglichkeit der Integration von **Para-, Log- und Kontextdaten**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/qs2/qs1/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/2/7"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs2/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ca Geschütztes Verarbeiten</help>
+		<text lang="de">V.AI.2.7 die Möglichkeit, **personenbezogene Informationen**, wie Kontaktdaten, von den Daten getrennt (geschützt) zu speichern</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs6/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs6/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.6.1 Beschreibung der **Grundgesamtheit und des geographischen Raums** (auf Länder- bzw. Bundesländerebene)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs6/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zur Dokumentation des Stichprobenverfahrens und 
+der Fallauswahl bei mehreren Befragtengruppen (V.Al.6.2.F)</help>
+		<text lang="de">V.AI.6.2 Beschreibung des **Stichprobenverfahren und** der angestrebten **Stichprobengröße**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs6/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zur Dokumentation der Untersuchungspopulation und der 
+Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
+		<text lang="de">V.AI.6.3 Beschreibung der **Ausschöpfungsquote**, Kontaktversuche und Maßnahmen zur Steigerung der Ausschöpfungsquote</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs6/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.6.4 Beschreibung der **vorliegenden Stichprobe**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs7/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_7"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs7/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.7.1 Beschreibung von **Pretests** und deren Ergebnissen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs7/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.7.2 **Zeitraum der Erhebung der Daten**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs7/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ba Informierte Einwilligung</help>
+		<text lang="de">V.AI.7.3 Dokumentation der (Vorlage der) **Einwilligungserklärung**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs7/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste I.Ca Ethikvotum</help>
+		<text lang="de">V.AI.7.4 Dokumentation eines **Ethikvotums**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/qs7/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste I.Ca Ethikvotum</help>
+		<text lang="de">V.AI.7.5 Dokumentation des **Erhebungsmodus**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/qs7/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.7.6 Beschreibung genutzter **Incentivierungen** bzw. Anreize zur Studienteilnahme</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/qs7/qs1/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/7"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu Maßnahmen zur Sicherung der Datenqualität (V.Al.7.7.E)</help>
+		<text lang="de">V.AI.7.7 Beschreibung der **Erhebung der Daten** und **Maßnahmen zur Sicherung der Datenqualität** in der Erhebung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>m5/ai/qs7/qs1/8</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/8"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.7.8 Beschreibung von **Besonderheiten**, während der Feldphase (Kontextinformationen)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>9</key>
+		<path>m5/ai/qs7/qs1/9</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/9"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>8</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste I.Aa Gute wissenschaftliche Praxis</help>
+		<text lang="de">V.AI.7.9 Beschreibungen etwaiger **Fälschungen, Manipulationen etc.** während der Feldphase</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs5/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_5"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs5/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.5.1 **Name des Projekts**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs5/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.5.2 **Informationen zu den Projektbeteiligten**, wie Namen, Kontaktinformationen, Einrichtung etc.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs5/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.5.3 **Finanzierung** des Projekts, wie Förderinstitution, Fördernummer, Auftraggebende etc.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs5/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.5.4 **Laufzeit des Projekts**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/qs5/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.5.5 nformationen zum Vorhaben und den **Zwecken der Verarbeitung** der Daten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs8/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_8_1"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs8/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.8.2 Beschreibung der **Interviewenden**, wie z. B. deren Anzahl, fachlicher Hintergrund, Arbeitsposition, Geschlecht, Alter etc.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs8/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.8.3 Beschreibung von **Schulungen**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs8/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.8.4 Dokumentation der **Anzahl der Interviews** (pro interviewender Person)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs8/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.8.5 Beschreibung von Maßnahmen zur **Interviewendenkontrolle**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs3/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_3"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs3/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.3.1 alle Fälle und Variablen auf **Dubletten kontrolliert**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs3/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.3.2 die Variablen (thematisch) **sortiert**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs3/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zur Benennung von Variablen und Werten (V.Al.3.3.E)</help>
+		<text lang="de">V.AI.3.3 alle Variablen **eindeutig und konsistent gelabelt** (mit Bezug zu den Fragen, Items bzw. Tests im originären Messinstrument)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs3/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zur Benennung von Variablen und Werten (V.Al.3.3.E)</help>
+		<text lang="de">V.AI.3.4 allen **Variablenausprägungen** (Werten) **eindeutige nummerische Werte** zugewiesen (mit Bezug zu den Antwortvorgaben im originären Messinstrument)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs4/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_4"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs4/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.1 **fehlende Werte** konsistent codiert und gelabelt siehe Empfehlungen zur Codierung fehlender Werte (V.Al.4.1.E)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs4/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.2 die **Filterführung** in den Daten mit der Filterführung des Messinstruments abgeglichen und in den Daten korrekt codiert</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs4/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.3 die Werte nach vorher festgelegten **Codierschemata** (nach-)codiert und dokumentiert</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs4/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.4 Variablen **harmonisiert** (über einzelne (Teil-)Datensätze, z. B. bei Trend- und Paneldaten)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/qs4/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.5 **offene Antwortmöglichkeiten** (so weit möglich) (re-)codiert und mit einem numerischen Wert versehen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/qs4/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.6 **Imputationen** fehlender Werten vorgenommen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/qs4/qs1/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/7"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.7 (notwendige) **Gewichte** gebildet und in die Daten integriert</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>m5/ai/qs4/qs1/8</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/8"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.8 die Bildung **abgeleiteter bzw. recodierter Variablen**, Indizes etc. inkludiert</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>9</key>
+		<path>m5/ai/qs4/qs1/9</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/9"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>8</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ca Geschütztes Verarbeiten sowie
+Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.4.9.E)</help>
+		<text lang="de">V.AI.4.9 die Daten und Begleitmaterialien (so weit möglich) **anonymisiert bzw. pseudonymisiert**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>10</key>
+		<path>m5/ai/qs4/qs1/10</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/10"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>9</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.10 **Werte außerhalb des vorgesehenen Wertebereichs** (wild codes) sowie **unplausible** (outlier) und **inkonsistente Werte** identifiziert (z. B. über die Auszählung von Häufigkeitsverteilungen)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>11</key>
+		<path>m5/ai/qs4/qs1/11</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/11"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>10</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.11 **unplausible Zusammenhänge** von Merkmalsausprägungen unterschiedlicher Variablen identifiziert (z. B. anhand von Korrelationsanalysen und Kreuztabellen)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs3</key>
+		<path>m5/ai/qs3</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Aufbereitung der Daten</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs3/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_3"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs3/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.3.1 alle Fälle und Variablen auf **Dubletten kontrolliert**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs3/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.3.2 die Variablen (thematisch) **sortiert**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs3/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zur Benennung von Variablen und Werten (V.Al.3.3.E)</help>
+		<text lang="de">V.AI.3.3 alle Variablen **eindeutig und konsistent gelabelt** (mit Bezug zu den Fragen, Items bzw. Tests im originären Messinstrument)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs3/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zur Benennung von Variablen und Werten (V.Al.3.3.E)</help>
+		<text lang="de">V.AI.3.4 allen **Variablenausprägungen** (Werten) **eindeutige nummerische Werte** zugewiesen (mit Bezug zu den Antwortvorgaben im originären Messinstrument)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs3/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs3"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.3 In der **Aufbereitung der Daten** werden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs4</key>
+		<path>m5/ai/qs4</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Aufbereitung der Variablen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs4/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_4"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs4/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.1 **fehlende Werte** konsistent codiert und gelabelt siehe Empfehlungen zur Codierung fehlender Werte (V.Al.4.1.E)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs4/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.2 die **Filterführung** in den Daten mit der Filterführung des Messinstruments abgeglichen und in den Daten korrekt codiert</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs4/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.3 die Werte nach vorher festgelegten **Codierschemata** (nach-)codiert und dokumentiert</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs4/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.4 Variablen **harmonisiert** (über einzelne (Teil-)Datensätze, z. B. bei Trend- und Paneldaten)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/qs4/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.5 **offene Antwortmöglichkeiten** (so weit möglich) (re-)codiert und mit einem numerischen Wert versehen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/qs4/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.6 **Imputationen** fehlender Werten vorgenommen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/qs4/qs1/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/7"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.7 (notwendige) **Gewichte** gebildet und in die Daten integriert</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>m5/ai/qs4/qs1/8</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/8"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.8 die Bildung **abgeleiteter bzw. recodierter Variablen**, Indizes etc. inkludiert</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>9</key>
+		<path>m5/ai/qs4/qs1/9</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/9"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>8</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ca Geschütztes Verarbeiten sowie
+Empfehlungen zur Anonymisierung und Pseudonymisierung quantitativer Daten (V.Al.4.9.E)</help>
+		<text lang="de">V.AI.4.9 die Daten und Begleitmaterialien (so weit möglich) **anonymisiert bzw. pseudonymisiert**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>10</key>
+		<path>m5/ai/qs4/qs1/10</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/10"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>9</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.10 **Werte außerhalb des vorgesehenen Wertebereichs** (wild codes) sowie **unplausible** (outlier) und **inkonsistente Werte** identifiziert (z. B. über die Auszählung von Häufigkeitsverteilungen)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1/11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>11</key>
+		<path>m5/ai/qs4/qs1/11</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4/11"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>10</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4.11 **unplausible Zusammenhänge** von Merkmalsausprägungen unterschiedlicher Variablen identifiziert (z. B. anhand von Korrelationsanalysen und Kreuztabellen)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs4/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs4"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.4 In der **Aufbereitung der Variablen** werden</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs5</key>
+		<path>m5/ai/qs5</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Dokumentation des Projekts</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs5/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_5"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs5/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.5.1 **Name des Projekts**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs5/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.5.2 **Informationen zu den Projektbeteiligten**, wie Namen, Kontaktinformationen, Einrichtung etc.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs5/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.5.3 **Finanzierung** des Projekts, wie Förderinstitution, Fördernummer, Auftraggebende etc.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs5/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.5.4 **Laufzeit des Projekts**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/qs5/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.5.5 nformationen zum Vorhaben und den **Zwecken der Verarbeitung** der Daten</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs5/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs5"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Angaben zum Projekt im DDP-Deckblatt sowie 
+Empfehlungen zum Erstellen eines Methoden- bzw. Feldberichts (V.Al.5.E)</help>
+		<text lang="de">V.AI.5 Die **Dokumentation der Daten und Begleitmaterialien** beinhaltet auf Studienebene, z. B in Form eines Methoden- oder Feldberichts, **Angaben zum Vorhaben**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs6</key>
+		<path>m5/ai/qs6</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Dokumentation der Grundgesamtheit und Stichprobe</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs6/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs6/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.6.1 Beschreibung der **Grundgesamtheit und des geographischen Raums** (auf Länder- bzw. Bundesländerebene)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs6/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zur Dokumentation des Stichprobenverfahrens und 
+der Fallauswahl bei mehreren Befragtengruppen (V.Al.6.2.F)</help>
+		<text lang="de">V.AI.6.2 Beschreibung des **Stichprobenverfahren und** der angestrebten **Stichprobengröße**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs6/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zur Dokumentation der Untersuchungspopulation und der 
+Ausschöpfungsquote bei Querschnitts- und Längsschnittdaten (V.Al.6.3.F)</help>
+		<text lang="de">V.AI.6.3 Beschreibung der **Ausschöpfungsquote**, Kontaktversuche und Maßnahmen zur Steigerung der Ausschöpfungsquote</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs6/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.6.4 Beschreibung der **vorliegenden Stichprobe**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs6/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs6"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.6 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zur Grundgesamtheit und Stichprobe**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs7</key>
+		<path>m5/ai/qs7</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>6</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Dokumentation der Feldphase</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs7/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_7"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs7/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.7.1 Beschreibung von **Pretests** und deren Ergebnissen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs7/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.7.2 **Zeitraum der Erhebung der Daten**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs7/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste II.Ba Informierte Einwilligung</help>
+		<text lang="de">V.AI.7.3 Dokumentation der (Vorlage der) **Einwilligungserklärung**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs7/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste I.Ca Ethikvotum</help>
+		<text lang="de">V.AI.7.4 Dokumentation eines **Ethikvotums**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/qs7/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste I.Ca Ethikvotum</help>
+		<text lang="de">V.AI.7.5 Dokumentation des **Erhebungsmodus**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/qs7/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.7.6 Beschreibung genutzter **Incentivierungen** bzw. Anreize zur Studienteilnahme</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/qs7/qs1/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/7"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Empfehlungen zu Maßnahmen zur Sicherung der Datenqualität (V.Al.7.7.E)</help>
+		<text lang="de">V.AI.7.7 Beschreibung der **Erhebung der Daten** und **Maßnahmen zur Sicherung der Datenqualität** in der Erhebung</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>m5/ai/qs7/qs1/8</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/8"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.7.8 Beschreibung von **Besonderheiten**, während der Feldphase (Kontextinformationen)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>9</key>
+		<path>m5/ai/qs7/qs1/9</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7/9"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>8</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste I.Aa Gute wissenschaftliche Praxis</help>
+		<text lang="de">V.AI.7.9 Beschreibungen etwaiger **Fälschungen, Manipulationen etc.** während der Feldphase</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs7/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/7"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs7"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.7 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zur Feldphase**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs8</key>
+		<path>m5/ai/qs8</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>7</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Dokumentation zu den Interviewenden</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs8/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_8_1"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs8/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.8.2 Beschreibung der **Interviewenden**, wie z. B. deren Anzahl, fachlicher Hintergrund, Arbeitsposition, Geschlecht, Alter etc.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs8/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.8.3 Beschreibung von **Schulungen**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs8/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.8.4 Dokumentation der **Anzahl der Interviews** (pro interviewender Person)</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs8/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.8.5 Beschreibung von Maßnahmen zur **Interviewendenkontrolle**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs8/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/8/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs8"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.8.1 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zu** den **Interviewenden**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs9</key>
+		<path>m5/ai/qs9</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>8</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Dokumentation der Aufbereitungsmaßnahmen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>m5/ai/qs9/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de"/>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions>
+			<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_ai_9"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs9/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.9.1 Dokumentation der **Anonymisierung bzw. Pseudonymisierung** der Daten und Begleitmaterialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m5/ai/qs9/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zur Dokumentation der Harmonisierung von Variablen bei Trendfiles (V.Al.9.2.F)</help>
+		<text lang="de">V.AI.9.2 Beschreibung der **Harmonisierung** von Datensätzen/ Variablen</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m5/ai/qs9/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zur Dokumentation der Bildung von Gewichten (V.Al.9.3.F)</help>
+		<text lang="de">V.AI.9.3 Dokumentation der Bildung und Nutzung von **Gewichten**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>m5/ai/qs9/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Fallbeispiel zur Dokumentation von Skalen und Indizes (V.Bl.9.4.F)</help>
+		<text lang="de">V.AI.9.4 Dokumentation der Bildung und Nutzung von **Skalen** und **Indizes**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>m5/ai/qs9/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.9.5 Beschreibung der **Codierung, Skalierung und Konzeption von Leistungstests**</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>m5/ai/qs9/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.9.6 Beschreibung der **Interpretation**, z. B. von Skalen oder Indizes</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>m5/ai/qs9/qs1/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">siehe Checkliste IV.CA Vernichtungsmanagement</help>
+		<text lang="de">V.AI.9.7 Dokumentation der **Inhalte und Gründe der Vernichtung** einzelner Daten und Begleitmaterialien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>m5/ai/qs9/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m5/ai/9"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs9"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">V.AI.9 Die **Dokumentation** beinhaltet auf Studienebene **Angaben zu den Maßnahmen der Aufbereitung**, wie</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs10</key>
+		<path>m5/ai/qs10</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>9</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Dokumentation der Datenbank</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs11</key>
+		<path>m5/ai/qs11</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>10</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Dokumentation des Messinstruments</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs12">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs12</key>
+		<path>m5/ai/qs12</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>11</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Dokumentation der Variablen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs13">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs13</key>
+		<path>m5/ai/qs13</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>12</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Dokumentation einzelner Variablen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs14">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs14</key>
+		<path>m5/ai/qs14</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>13</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Zusätzliche Dokumentation bei Leistungstests</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/m5/ai/qs15">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs15</key>
+		<path>m5/ai/qs15</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/m5/ai"/>
+		<questionset/>
+		<is_collection>False</is_collection>
+		<order>14</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Zusätzliche Dokumentation bei Onlinebefragungen</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
 </rdmo>
