@@ -1,9 +1,17 @@
 #!/bin/bash
 
-imp="/vol/rdmo-app/manage.py import"
+impcmd="/vol/rdmo-app/manage.py import"
+fol="/home/rdmo/ddp-content/xml/data"
 
-find /home/rdmo/ddp-content/xml/data -type f -regex ".*\.xml$" |
-    sort | grep -v "catalogs.xml" |
-    xargs -i ${imp} {}
+function imp() {
+    cmd="${impcmd} ${fol}/${1}.xml"
+    echo "${cmd}"
+    eval "${cmd}"
+}
 
-${imp} /home/rdmo/ddp-content/xml/data/catalogs.xml
+imp attributes
+imp optionsets
+imp conditions
+imp tasks
+imp catalogs
+imp views
