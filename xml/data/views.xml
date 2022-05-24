@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-11T09:51:16.879003+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-24T10:19:13.515753+02:00">
 	<view dc:uri="https://localhost/rdmo/test/views/view1">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
 		<key>view1</key>
