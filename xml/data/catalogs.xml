@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-31T17:15:19.372209+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-31T22:30:00.422345+02:00">
 	<catalog dc:uri="https://ddp-bildung.org/terms/questions/m5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>m5</key>
@@ -22995,7 +22995,7 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_3_2_5"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_32_5"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -23459,7 +23459,7 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_3_4_2"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_34_2"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -23563,10 +23563,10 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<title lang="it"/>
 		<help lang="it"/>
 	</catalog>
-	<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1">
+	<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>qs1</key>
-		<path>basismodul/qs1</path>
+		<key>1</key>
+		<path>basismodul/1</path>
 		<dc:comment/>
 		<catalog dc:uri="https://ddp-bildung.org/terms/questions/basismodul"/>
 		<order>0</order>
@@ -23575,13 +23575,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<title lang="fr"/>
 		<title lang="it"/>
 	</section>
-	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs0">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs0">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs0</key>
-		<path>basismodul/qs1/qs0</path>
+		<path>basismodul/1/qs0</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>0</order>
@@ -23603,13 +23603,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs0/1">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs0/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
-		<path>basismodul/qs1/qs0/1</path>
+		<path>basismodul/1/qs0/1</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs0"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/10/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -23645,13 +23645,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs0/2">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs0/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
-		<path>basismodul/qs1/qs0/2</path>
+		<path>basismodul/1/qs0/2</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs0"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/10/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs0"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -23687,13 +23687,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
-		<path>basismodul/qs1/qs1</path>
+		<path>basismodul/1/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>1</order>
@@ -23715,13 +23715,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1/1">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
-		<path>basismodul/qs1/qs1/1</path>
+		<path>basismodul/1/qs1/1</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -23757,13 +23757,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1/2">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
-		<path>basismodul/qs1/qs1/2</path>
+		<path>basismodul/1/qs1/2</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -23799,13 +23799,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1/3">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1/3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
-		<path>basismodul/qs1/qs1/3</path>
+		<path>basismodul/1/qs1/3</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -23841,13 +23841,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1/4">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1/4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
-		<path>basismodul/qs1/qs1/4</path>
+		<path>basismodul/1/qs1/4</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -23883,13 +23883,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1/5">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1/5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
-		<path>basismodul/qs1/qs1/5</path>
+		<path>basismodul/1/qs1/5</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -23925,13 +23925,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1/6">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1/6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>6</key>
-		<path>basismodul/qs1/qs1/6</path>
+		<path>basismodul/1/qs1/6</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs1/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/1/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -23967,10 +23967,10 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2">
+	<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>qs2</key>
-		<path>basismodul/qs2</path>
+		<key>2</key>
+		<path>basismodul/2</path>
 		<dc:comment/>
 		<catalog dc:uri="https://ddp-bildung.org/terms/questions/basismodul"/>
 		<order>1</order>
@@ -23979,13 +23979,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<title lang="fr"/>
 		<title lang="it"/>
 	</section>
-	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs1</key>
-		<path>basismodul/qs2/qs1</path>
+		<path>basismodul/2/qs1</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>0</order>
@@ -24007,13 +24007,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1/1">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
-		<path>basismodul/qs2/qs1/1</path>
+		<path>basismodul/2/qs1/1</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -24049,13 +24049,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1/2">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
-		<path>basismodul/qs2/qs1/2</path>
+		<path>basismodul/2/qs1/2</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -24091,13 +24091,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1/3">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1/3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
-		<path>basismodul/qs2/qs1/3</path>
+		<path>basismodul/2/qs1/3</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -24133,13 +24133,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1/4">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1/4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
-		<path>basismodul/qs2/qs1/4</path>
+		<path>basismodul/2/qs1/4</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -24175,13 +24175,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1/5">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1/5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
-		<path>basismodul/qs2/qs1/5</path>
+		<path>basismodul/2/qs1/5</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -24217,13 +24217,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1/6">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1/6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>6</key>
-		<path>basismodul/qs2/qs1/6</path>
+		<path>basismodul/2/qs1/6</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs1"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -24259,13 +24259,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs2</key>
-		<path>basismodul/qs2/qs2</path>
+		<path>basismodul/2/qs2</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>1</order>
@@ -24287,13 +24287,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2/1">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
-		<path>basismodul/qs2/qs2/1</path>
+		<path>basismodul/2/qs2/1</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -24329,13 +24329,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2/2">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
-		<path>basismodul/qs2/qs2/2</path>
+		<path>basismodul/2/qs2/2</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -24371,13 +24371,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2/3">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2/3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
-		<path>basismodul/qs2/qs2/3</path>
+		<path>basismodul/2/qs2/3</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -24413,13 +24413,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2/4">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2/4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
-		<path>basismodul/qs2/qs2/4</path>
+		<path>basismodul/2/qs2/4</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -24455,13 +24455,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2/5">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2/5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
-		<path>basismodul/qs2/qs2/5</path>
+		<path>basismodul/2/qs2/5</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -24497,13 +24497,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2/6">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2/6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>6</key>
-		<path>basismodul/qs2/qs2/6</path>
+		<path>basismodul/2/qs2/6</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs2"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -24539,13 +24539,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs3</key>
-		<path>basismodul/qs2/qs3</path>
+		<path>basismodul/2/qs3</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>2</order>
@@ -24567,13 +24567,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3/1">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
-		<path>basismodul/qs2/qs3/1</path>
+		<path>basismodul/2/qs3/1</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -24609,13 +24609,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3/2">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
-		<path>basismodul/qs2/qs3/2</path>
+		<path>basismodul/2/qs3/2</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -24651,13 +24651,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3/3">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3/3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
-		<path>basismodul/qs2/qs3/3</path>
+		<path>basismodul/2/qs3/3</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -24693,13 +24693,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3/4">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3/4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>4</key>
-		<path>basismodul/qs2/qs3/4</path>
+		<path>basismodul/2/qs3/4</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>3</order>
@@ -24735,13 +24735,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3/5">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3/5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>5</key>
-		<path>basismodul/qs2/qs3/5</path>
+		<path>basismodul/2/qs3/5</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>4</order>
@@ -24777,13 +24777,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3/6">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3/6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>6</key>
-		<path>basismodul/qs2/qs3/6</path>
+		<path>basismodul/2/qs3/6</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs3"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>5</order>
@@ -24819,13 +24819,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs4">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs4</key>
-		<path>basismodul/qs2/qs4</path>
+		<path>basismodul/2/qs4</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>3</order>
@@ -24847,13 +24847,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs4/1">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs4/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
-		<path>basismodul/qs2/qs4/1</path>
+		<path>basismodul/2/qs4/1</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs4"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/23/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs4"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -24889,13 +24889,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs4/2">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs4/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
-		<path>basismodul/qs2/qs4/2</path>
+		<path>basismodul/2/qs4/2</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs4"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/23/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs4"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -24931,13 +24931,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs4/3">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs4/3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>3</key>
-		<path>basismodul/qs2/qs4/3</path>
+		<path>basismodul/2/qs4/3</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs4"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/23/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs4"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>2</order>
@@ -24973,13 +24973,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs5">
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>qs5</key>
-		<path>basismodul/qs2/qs5</path>
+		<path>basismodul/2/qs5</path>
 		<dc:comment/>
 		<attribute/>
-		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2"/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2"/>
 		<questionset/>
 		<is_collection>False</is_collection>
 		<order>4</order>
@@ -25001,13 +25001,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<verbose_name_plural lang="it"/>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs5/1">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs5/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
-		<path>basismodul/qs2/qs5/1</path>
+		<path>basismodul/2/qs5/1</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs5"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/24/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs5"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>0</order>
@@ -25043,13 +25043,13 @@ Checkliste V.As Nachvollziehbarkeit von Transkripten, Audio- bzw. Videodaten, Ar
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs5/2">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs5/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
-		<path>basismodul/qs2/qs5/2</path>
+		<path>basismodul/2/qs5/2</path>
 		<dc:comment/>
-		<attribute/>
-		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/qs2/qs5"/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/24/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/2/qs5"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
@@ -25131,7 +25131,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>1</key>
 		<path>basismodul/3/qs1/1</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/1"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25173,7 +25173,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>2</key>
 		<path>basismodul/3/qs1/2</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/2"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25215,7 +25215,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>3</key>
 		<path>basismodul/3/qs1/3</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/3"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25257,7 +25257,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>4</key>
 		<path>basismodul/3/qs1/4</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/4"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25299,7 +25299,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>5</key>
 		<path>basismodul/3/qs1/5</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/5"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25341,7 +25341,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>6</key>
 		<path>basismodul/3/qs1/6</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/6"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25383,7 +25383,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>7</key>
 		<path>basismodul/3/qs1/7</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/7"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25453,7 +25453,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>1</key>
 		<path>basismodul/3/qs2/1</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31/1"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25488,7 +25488,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_3_1_1"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_31_1"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -25497,7 +25497,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>2</key>
 		<path>basismodul/3/qs2/2</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31/2"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25532,7 +25532,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_3_1_2"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_31_2"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -25541,7 +25541,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>3</key>
 		<path>basismodul/3/qs2/3</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31/3"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25583,7 +25583,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>4</key>
 		<path>basismodul/3/qs2/4</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31/4"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs2"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25655,7 +25655,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>1</key>
 		<path>basismodul/3/qs3/1</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/1"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -25690,7 +25690,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_3_2_1"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_32_1"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -25699,11 +25699,53 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>2</key>
 		<path>basismodul/3/qs3/2</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/2"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">überblicksartige Beschreibung des Studiendesigns</help>
+		<text lang="de">Beschreibung des Studiendesigns</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/3/qs3/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
 		<help lang="en"/>
 		<text lang="en"/>
 		<default_text lang="en"/>
@@ -25734,20 +25776,20 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_3_2_2"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_32_2"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/3">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>3</key>
-		<path>basismodul/3/qs3/3</path>
+		<key>4</key>
+		<path>basismodul/3/qs3/4</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/4"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<order>2</order>
+		<order>3</order>
 		<help lang="en"/>
 		<text lang="en"/>
 		<default_text lang="en"/>
@@ -25780,16 +25822,16 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/4">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>4</key>
-		<path>basismodul/3/qs3/4</path>
+		<key>5</key>
+		<path>basismodul/3/qs3/5</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/5"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<order>3</order>
+		<order>4</order>
 		<help lang="en"/>
 		<text lang="en"/>
 		<default_text lang="en"/>
@@ -25820,20 +25862,20 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_3_2_5"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_32_5"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/5">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>5</key>
-		<path>basismodul/3/qs3/5</path>
+		<key>6</key>
+		<path>basismodul/3/qs3/6</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/6"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<order>4</order>
+		<order>5</order>
 		<help lang="en"/>
 		<text lang="en"/>
 		<default_text lang="en"/>
@@ -25866,16 +25908,16 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/6">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/7">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>6</key>
-		<path>basismodul/3/qs3/6</path>
+		<key>7</key>
+		<path>basismodul/3/qs3/7</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/7"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<order>5</order>
+		<order>6</order>
 		<help lang="en"/>
 		<text lang="en"/>
 		<default_text lang="en"/>
@@ -25908,16 +25950,16 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/7">
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3/8">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>7</key>
-		<path>basismodul/3/qs3/7</path>
+		<key>8</key>
+		<path>basismodul/3/qs3/8</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/8"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs3"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<order>6</order>
+		<order>7</order>
 		<help lang="en"/>
 		<text lang="en"/>
 		<default_text lang="en"/>
@@ -25983,7 +26025,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>1</key>
 		<path>basismodul/3/qs4/1</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33/1"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs4"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -26018,7 +26060,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_3_3_1"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_33_1"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -26027,7 +26069,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>2</key>
 		<path>basismodul/3/qs4/2</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33/2"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs4"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -26069,7 +26111,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>3</key>
 		<path>basismodul/3/qs4/3</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33/3"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs4"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -26104,7 +26146,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_3_3_3"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_33_3"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -26113,7 +26155,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>4</key>
 		<path>basismodul/3/qs4/4</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33/4"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs4"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -26183,7 +26225,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>1</key>
 		<path>basismodul/3/qs5/1</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/34/1"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs5"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -26225,7 +26267,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>2</key>
 		<path>basismodul/3/qs5/2</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/34/2"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs5"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -26260,7 +26302,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_3_4_2"/>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_34_2"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -26269,7 +26311,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>3</key>
 		<path>basismodul/3/qs5/3</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/34/3"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs5"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -26339,7 +26381,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>1</key>
 		<path>basismodul/3/qs6/1</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/35/1"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs6"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -26381,7 +26423,7 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<key>2</key>
 		<path>basismodul/3/qs6/2</path>
 		<dc:comment/>
-		<attribute/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/35/2"/>
 		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/3/qs6"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
@@ -26393,6 +26435,510 @@ Struktur und Inhalt folgen dem Dokumentationsstandard des Verbund Forschungsdate
 		<verbose_name_plural lang="en"/>
 		<help lang="de">weitere, ergänzende Informationen zu den Daten / zur Datenbank / zum Datensatz, die nicht anderweitig abgebildet wurden</help>
 		<text lang="de">weitere Anmerkungen zu den Daten#:</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/4</path>
+		<dc:comment/>
+		<catalog dc:uri="https://ddp-bildung.org/terms/questions/basismodul"/>
+		<order>3</order>
+		<title lang="en"/>
+		<title lang="de">Bestandsliste</title>
+		<title lang="fr"/>
+		<title lang="it"/>
+	</section>
+	<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>qs1</key>
+		<path>basismodul/4/qs1</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4"/>
+		<questionset/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<title lang="en"/>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">4. Bestandsliste</title>
+		<help lang="de">Die Bestandsliste ermöglicht ein transparentes und übersichtliches Management relevanter Projektdateien (Daten und Begleitmaterialien). Im Projektverlauf kontinuierlich und detailliert aktualisiert, unterstützt sie das Projekt- und Datenmanagement und dient dem Berichtswesen, z. B. in Begutachtungsprozessen, ebenso wie der Umsetzung ethischer und rechtlicher Vorgaben (z.B. die fristgerechte Löschung) ebenso wie der Transparenz innerhalb des Projekts, z. B. bei Personalwechseln.</help>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<title lang="fr"/>
+		<help lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<title lang="it"/>
+		<help lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/4/qs1/1</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/1"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">(voraussichtlicher) Speichername der Datei im Projekt</help>
+		<text lang="de">Name der Datei</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/4/qs1/2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/2"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">(voraussichtlicher) Typ der jeweiligen Datei, wie z. B. Datenmatrix, Textdatei, Video- bzw. Audiodatei etc.</help>
+		<text lang="de">Dateityp</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/4/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">aktuelle Version der Datei</help>
+		<text lang="de">Version der Datei</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/4/qs1/4</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/4"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Speicherformat der Datei, wie z. B. docx, txt, sav, dta, r, mp3, jpg, mx20 etc.</help>
+		<text lang="de">Speicherformat der Datei</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>basismodul/4/qs1/5</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/5"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Speichervolumen der Datei, wie z B. 500MB, 5GB etc.</help>
+		<text lang="de">Speichervolumen der Datei</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>basismodul/4/qs1/6</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/6"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Software und Version zum Verarbeiten Dateien, wie z. B. R (4.1), MAXQDA2020, Atlas.ti22 oder f4transkript</help>
+		<text lang="de">Software zur Verarbeitung der Datei</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>basismodul/4/qs1/7</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/7"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Kennzeichnung zusammengehöriger Dateien, z. B. durch Nummerierung, d. h. alle mit 1 gekennzeichneten Dateien, wie Datensatz und Methodenbericht oder Transkript und Videodatei, gehören zusammen</help>
+		<text lang="de">Zusammengehörigkeit von Dateien</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>basismodul/4/qs1/8</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/8"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>7</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">kurze inhaltliche Beschreibung der Datei, wie z. B. Angaben zur Anzahl an Untersuchungsobjekten bzw. Fällen und Anzahl an Variablen bzw. Leitfragen etc.</help>
+		<text lang="de">Beschreibung der Datei</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>9</key>
+		<path>basismodul/4/qs1/9</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/9"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>8</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Kennzeichnung für datenschutzrechtlich relevante Informationen in der Datei, z. B. durch X</help>
+		<text lang="de">datenschutzrechtlich relevante Inhalte</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>10</key>
+		<path>basismodul/4/qs1/10</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/10"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>9</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Kennzeichnung zum Umgang mit der Dateien über das Projektende hinaus</help>
+		<text lang="de">Status der Datei nach Projektende</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/b_40_10"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1/11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>11</key>
+		<path>basismodul/4/qs1/11</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/11"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/basismodul/4/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>10</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Quellangabe zur Herkunft der Datei, z. B. eigene Erhebung oder Nennung eines persistenten Identifikator für nachgenutzten Materialien</help>
+		<text lang="de">Herkunft der Datei</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>

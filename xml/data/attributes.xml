@@ -1,5 +1,600 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-31T17:15:08.495785+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-31T22:29:49.780838+02:00">
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>basismodul</key>
+		<path>basismodul</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>10</key>
+		<path>basismodul/10</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/10/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/10/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/10"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/10/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/10/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/10"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>11</key>
+		<path>basismodul/11</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/11/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/11/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/11/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/11/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>basismodul/11/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>basismodul/11/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/11"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>20</key>
+		<path>basismodul/20</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/20/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/20/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/20/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/20/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>basismodul/20/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>basismodul/20/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/20"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>21</key>
+		<path>basismodul/21</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/21/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/21/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/21/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/21/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>basismodul/21/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>basismodul/21/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/21"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>22</key>
+		<path>basismodul/22</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/22/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/22/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/22/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/22/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>basismodul/22/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>basismodul/22/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/22"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/23">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>23</key>
+		<path>basismodul/23</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/23/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/23/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/23"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/23/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/23/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/23"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/23/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/23/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/23"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/24">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>24</key>
+		<path>basismodul/24</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/24/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/24/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/24"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/24/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/24/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/24"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>30</key>
+		<path>basismodul/30</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/30/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/30/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/30/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/30/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>basismodul/30/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>basismodul/30/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>basismodul/30/7</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/30"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>31</key>
+		<path>basismodul/31</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/31/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/31/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/31/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/31/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/31"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>32</key>
+		<path>basismodul/32</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/32/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/32/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/32/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/32/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>basismodul/32/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>basismodul/32/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>basismodul/32/7</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>basismodul/32/8</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/32"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>33</key>
+		<path>basismodul/33</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/33/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/33/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/33/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/33/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/33"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/34">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>34</key>
+		<path>basismodul/34</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/34/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/34/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/34"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/34/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/34/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/34"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/34/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/34/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/34"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/35">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>35</key>
+		<path>basismodul/35</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/35/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/35/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/35"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/35/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/35/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/35"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>40</key>
+		<path>basismodul/40</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>basismodul/40/1</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/10">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>10</key>
+		<path>basismodul/40/10</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/11">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>11</key>
+		<path>basismodul/40/11</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>basismodul/40/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>basismodul/40/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/4">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>4</key>
+		<path>basismodul/40/4</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/5">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>5</key>
+		<path>basismodul/40/5</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/6">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>6</key>
+		<path>basismodul/40/6</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/7">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>7</key>
+		<path>basismodul/40/7</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/8">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>8</key>
+		<path>basismodul/40/8</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40/9">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>9</key>
+		<path>basismodul/40/9</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/basismodul/40"/>
+	</attribute>
 	<attribute dc:uri="https://ddp-bildung.org/terms/domain/deckblatt">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>deckblatt</key>
