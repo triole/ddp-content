@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-05-31T22:29:50.160803+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-07-14T15:48:42.484079+02:00">
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/dataset_links_yesno">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>dataset_links_yesno</key>
@@ -34,7 +34,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/2/3"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ba_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -43,7 +43,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ba_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -52,7 +52,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ba_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -61,7 +61,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3"/>
 		<relation>neq</relation>
 		<target_text>yes</target_text>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ca_1_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -70,7 +70,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/1/1"/>
 		<relation>neq</relation>
 		<target_text>yes</target_text>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m1_ca_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -79,7 +79,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_aa_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -88,7 +88,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/aa/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_aa_1_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -97,7 +97,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/aa/1/3"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_aa_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -106,7 +106,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/aa/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_aa_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -115,7 +115,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/aa/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ba_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -124,7 +124,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ba_2_5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -133,7 +133,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/2/5"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ba_4_3_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -142,7 +142,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/4/3/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ba_4_4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -151,7 +151,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/4/4"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ba_5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -160,7 +160,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/5"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ba_5_4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -169,7 +169,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/5/4"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ca_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -178,7 +178,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ca/1"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ca_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -187,7 +187,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ca/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ca_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -196,7 +196,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ca/3"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ca_3_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -205,7 +205,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ca/3/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_ca_4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -214,7 +214,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/ca/4"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_de_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -223,7 +223,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/de/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m2_de_1_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -232,7 +232,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m2/de/1/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m3_aa_1_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -241,7 +241,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m3/aa/1/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m3_aa_1_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -250,7 +250,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m3/aa/1/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m3_ba_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -259,7 +259,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m3/ba/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m3_ba_1_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -268,7 +268,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m3/ba/1/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m3_ba_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -277,7 +277,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m3/ba/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m3_ba_2_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -286,7 +286,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m3/ba/2/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m3_ca_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -295,7 +295,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m3/ca/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m3_ca_1_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -304,7 +304,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m3/ca/1/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m4_aa_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -313,7 +313,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/1"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m4_aa_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -322,7 +322,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m4/aa/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m4_ca_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -331,7 +331,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m4_ca_1_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -340,7 +340,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m4/ca/1/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_10">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -349,7 +349,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/10"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_11">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -358,7 +358,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/11"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_12">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -367,7 +367,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/12"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_13">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -376,7 +376,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/13"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_14">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -385,7 +385,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/14"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_15">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -394,7 +394,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/15"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -403,7 +403,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -412,7 +412,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/3"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -421,7 +421,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/4"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -430,7 +430,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/5"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -439,7 +439,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/6"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_7">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -448,7 +448,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/7"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_8_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -457,7 +457,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/8/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_al_9">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -466,7 +466,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/al/9"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_as_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -475,7 +475,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/as/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_as_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -484,7 +484,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/as/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_as_4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -493,7 +493,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/as/4"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_as_5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -502,7 +502,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/as/5"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_as_6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -511,7 +511,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/as/6"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_as_6_6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -520,7 +520,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/as/6/6"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_as_7_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -529,7 +529,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/as/7/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_as_8">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -538,7 +538,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/as/8"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_as_8_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -547,7 +547,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/as/8/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_as_8_6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -556,7 +556,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/as/8/6"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_be_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -565,7 +565,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/be/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m5_be_1_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -574,7 +574,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m5/be/1/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_aa_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -583,7 +583,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/aa/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_aa_1_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -592,7 +592,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/aa/1/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_aa_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -601,7 +601,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/aa/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_aa_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -610,7 +610,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/aa/3"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_aa_3_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -619,7 +619,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/aa/3/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_ba_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -628,7 +628,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/ba/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_ba_1_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -637,7 +637,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/ba/1/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_ba_1_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -646,7 +646,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/ba/1/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_ba_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -655,7 +655,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/ba/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_ba_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -664,7 +664,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/ba/3"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_ba_4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -673,7 +673,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/ba/4"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_ca_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -682,7 +682,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/ca/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_ca_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -691,7 +691,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/ca/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_ca_2_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -700,7 +700,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/ca/2/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m6_ca_4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -709,7 +709,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m6/ca/4"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_aa_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -718,7 +718,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/aa/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_aa_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -727,7 +727,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/aa/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_aa_2_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -736,7 +736,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/aa/2/1"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_ba_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -745,7 +745,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/ba/1"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_ba_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -754,7 +754,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/ba/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_ca_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -763,7 +763,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/ca/1"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m7_ca_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -772,7 +772,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m7/ca/2"/>
 		<relation>neq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu/trifftnichtzu"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_aa_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -781,7 +781,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/aa/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_aa_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -790,7 +790,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/aa/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_aa_4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -799,7 +799,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/aa/4"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_aa_5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -808,7 +808,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/aa/5"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_aa_6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -817,7 +817,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/aa/6"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_aa_6_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -826,7 +826,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/aa/6/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_aa_6_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -835,7 +835,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/aa/6/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_aa_7">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -844,7 +844,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/aa/7"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_aa_8">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -853,7 +853,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/aa/8"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -862,7 +862,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -871,7 +871,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_3_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -880,7 +880,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/3/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_4">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -889,7 +889,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/4"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_5">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -898,7 +898,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/5"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_6">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -907,7 +907,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/6"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_6_1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -916,7 +916,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/6/1"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_6_2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -925,7 +925,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/6/2"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_7">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -934,7 +934,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/7"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_8">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -943,7 +943,7 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/8"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 	<condition dc:uri="https://ddp-bildung.org/terms/conditions/m8_ba_8_3">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
@@ -952,6 +952,6 @@
 		<source dc:uri="https://ddp-bildung.org/terms/domain/m8/ba/8/3"/>
 		<relation>eq</relation>
 		<target_text/>
-		<target_option dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt/beruecksichtigt"/>
+		<target_option/>
 	</condition>
 </rdmo>
