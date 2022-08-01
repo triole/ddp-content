@@ -17,6 +17,11 @@ urls = [
 
 url_project="projects/1/export/xml/"
 
+[gavo2]
+host = "http://localhost:8280"
+docker_name="rdmo"
+manage_py = "/home/rdmo/rdmo-app/manage.py"
+
 [rocinante]
 host = "http://localhost:8280"
 docker_name="rdmo"
