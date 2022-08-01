@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-07-14T16:49:59.515789+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-08-01T13:50:54.813991+02:00">
 	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>basismodul</key>
@@ -812,6 +812,27 @@
 		<dc:comment/>
 		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/3"/>
 	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/x">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>x</key>
+		<path>m1/aa/x</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/aa"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/x/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1/aa/x/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/x"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/x/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m1/aa/x/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/aa/x"/>
+	</attribute>
 	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>ba</key>
@@ -959,6 +980,27 @@
 		<dc:comment/>
 		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/3"/>
 	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/x">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>x</key>
+		<path>m1/ba/x</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/ba"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/x/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1/ba/x/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/x"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/x/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m1/ba/x/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/ba/x"/>
+	</attribute>
 	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>ca</key>
@@ -1063,6 +1105,27 @@
 		<path>m1/ca/3</path>
 		<dc:comment/>
 		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/ca"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/x">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>x</key>
+		<path>m1/ca/x</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/ca"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/x/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>m1/ca/x/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/x"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/x/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m1/ca/x/3</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m1/ca/x"/>
 	</attribute>
 	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>

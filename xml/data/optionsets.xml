@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-07-14T16:50:00.058515+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-08-01T13:50:55.414396+02:00">
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
@@ -4844,7 +4844,7 @@
 		<optionset dc:uri="https://ddp-bildung.org/terms/options/m1_ba_3_3"/>
 		<order>1</order>
 		<text lang="en"/>
-		<text lang="de">A) der Teilnahme und des Rechts auf informationelle Selbstbestimmung (Teilnahmeverweigerung)</text>
+		<text lang="de">A) der Teilnahme und des Rechts auf informationelle Selbstbestimmung (**Teilnahmeverweigerung**)</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
@@ -4938,7 +4938,7 @@
 		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7"/>
 		<order>0</order>
 		<text lang="en"/>
-		<text lang="de">A) das Entfernen (aller) direkter und (aller) indirekter Identifikatoren in den Daten (formal Anonymisierung)</text>
+		<text lang="de">A) das Entfernen (aller) direkter und (aller) indirekter Identifikatoren in den Daten (formal **Anonymisierung**)</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
@@ -4951,7 +4951,7 @@
 		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_7"/>
 		<order>0</order>
 		<text lang="en"/>
-		<text lang="de">B) das Verändern (aller) direkter und (aller) indirekter Identifikatoren (Pseudonymisierung)</text>
+		<text lang="de">B) das Verändern (aller) direkter und (aller) indirekter Identifikatoren (**Pseudonymisierung**)</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
@@ -4985,7 +4985,7 @@
 		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8"/>
 		<order>1</order>
 		<text lang="en"/>
-		<text lang="de">??? B) **aufgrund von Auflagen**, z. B. durch Behörden, bzw. von **Zusagen**, z. B. zur Sicherungsdauer in der Einwilligungserklärung, vernichtet werden müssen</text>
+		<text lang="de">B) **aufgrund von Auflagen**, z. B. durch Behörden, bzw. von **Zusagen**, z. B. zur Sicherungsdauer in der Einwilligungserklärung, vernichtet werden müssen</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>
