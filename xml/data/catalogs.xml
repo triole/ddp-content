@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-08-03T09:53:55.857384+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-08-03T10:25:52.594523+02:00">
 	<catalog dc:uri="https://ddp-bildung.org/terms/questions/m7">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>m7</key>
@@ -55462,7 +55462,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung qualitativer Daten (V.As.8
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">!!TEXT NACHTRAGEN!!</text>
+		<text lang="de">II.Aa.1.3.3 !!TEXT NACHTRAGEN!!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -55681,7 +55681,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung qualitativer Daten (V.As.8
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
-		<help lang="de">siehe Fallbeispiel zum Datenschutzkonzept (II.Aa.1)</help>
+		<help lang="de">siehe Fallbeispiel zum Datenschutzkonzept (II.Aa.1F)</help>
 		<text lang="de">II.Aa.1 Die Projektbeteiligten besitzen ein **Datenschutzkonzept**, unter Berücksichtigung u. a.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -55874,7 +55874,7 @@ Empfehlungen zur Anonymisierung und Pseudonymisierung qualitativer Daten (V.As.8
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">!!TEXT NACHTRAGEN!!</text>
+		<text lang="de">II.Aa.1.3.3 !!TEXT NACHTRAGEN!!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -56912,7 +56912,7 @@ Empfehlungen zur Datenschutz-Folgeabschätzung (II.Aa.3.1.E)</help>
 		<verbose_name lang="en"/>
 		<verbose_name_plural lang="en"/>
 		<help lang="de"/>
-		<text lang="de">!!TEXT NACHTRAGEN!!</text>
+		<text lang="de">II.Aa.1.3.3 !!TEXT NACHTRAGEN!!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<verbose_name_plural lang="de"/>
@@ -57768,6 +57768,50 @@ Empfehlungen zur Datenschutz-Folgeabschätzung (II.Aa.3.1.E)</help>
 		</optionsets>
 		<conditions/>
 	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m2/ba/qs2/qs1/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m2/ba/qs2/qs1/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/2/5/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m2/ba/qs2/qs1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">II.Ba.2.5.3 bei Foto- bzw. Videographien auch die Einwilligung zur Verarbeitung (z. B. zur Transkription) der Bilder betroffener Personen umfasst</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
+		</optionsets>
+		<conditions/>
+	</question>
 	<question dc:uri="https://ddp-bildung.org/terms/questions/m2/ba/qs2/qs1/1">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>1</key>
@@ -58131,6 +58175,50 @@ Empfehlungen zur Datenschutz-Folgeabschätzung (II.Aa.3.1.E)</help>
 		<width/>
 		<optionsets>
 			<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m2/ba/qs2/qs1/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m2/ba/qs2/qs1/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/2/5/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m2/ba/qs2/qs1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">II.Ba.2.5.3 bei Foto- bzw. Videographien auch die Einwilligung zur Verarbeitung (z. B. zur Transkription) der Bilder betroffener Personen umfasst</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -60649,6 +60737,50 @@ Empfehlungen zur Datenschutz-Folgeabschätzung (II.Aa.3.1.E)</help>
 		<width/>
 		<optionsets>
 			<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ba_2_5_2"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://ddp-bildung.org/terms/questions/m2/ba/qs2/qs1/qs1/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m2/ba/qs2/qs1/qs1/3</path>
+		<dc:comment/>
+		<attribute dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/2/5/3"/>
+		<questionset dc:uri="https://ddp-bildung.org/terms/questions/m2/ba/qs2/qs1/qs1"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en"/>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de"/>
+		<text lang="de">II.Ba.2.5.3 bei Foto- bzw. Videographien auch die Einwilligung zur Verarbeitung (z. B. zur Transkription) der Bilder betroffener Personen umfasst</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<help lang="fr"/>
+		<text lang="fr"/>
+		<default_text lang="fr"/>
+		<verbose_name lang="fr"/>
+		<verbose_name_plural lang="fr"/>
+		<help lang="it"/>
+		<text lang="it"/>
+		<default_text lang="it"/>
+		<verbose_name lang="it"/>
+		<verbose_name_plural lang="it"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://ddp-bildung.org/terms/options/trifftnichtzu_beruecksichtigt"/>
 		</optionsets>
 		<conditions/>
 	</question>

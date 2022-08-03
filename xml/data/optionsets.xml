@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-08-03T09:53:46.840412+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-08-03T10:25:43.689130+02:00">
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
@@ -4985,7 +4985,7 @@
 		<optionset dc:uri="https://ddp-bildung.org/terms/options/m2_ca_3_8"/>
 		<order>1</order>
 		<text lang="en"/>
-		<text lang="de">B) **aufgrund von Auflagen**, z. B. durch Behörden, bzw. von **Zusagen**, z. B. zur Sicherungsdauer in der Einwilligungserklärung, vernichtet werden müssen</text>
+		<text lang="de">B) **aufgrund von Auflagen**, z. B. durch Behörden, bzw. von **Zusagen**, z. B. zur Sicherungsdauer in der Einwilligungserklärung, vernichtet werden müssen, siehe Checkliste III.Ca Urheberrechte Dritter sowie Empfehlungen Vernichtung von Dateien IV.Ca.1.1</text>
 		<text lang="fr"/>
 		<text lang="it"/>
 		<additional_input>False</additional_input>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-08-03T09:53:46.341262+02:00">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-08-03T10:25:43.166499+02:00">
 	<attribute dc:uri="https://ddp-bildung.org/terms/domain/basismodul">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>basismodul</key>
@@ -1348,6 +1348,13 @@
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2</key>
 		<path>m2/ba/2/5/2</path>
+		<dc:comment/>
+		<parent dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/2/5"/>
+	</attribute>
+	<attribute dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/2/5/3">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>3</key>
+		<path>m2/ba/2/5/3</path>
 		<dc:comment/>
 		<parent dc:uri="https://ddp-bildung.org/terms/domain/m2/ba/2/5"/>
 	</attribute>
