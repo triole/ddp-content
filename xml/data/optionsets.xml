@@ -1,73 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-08-10T11:12:45.585810+02:00">
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>2/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">schriftlich bzw. wird im Rahmen des Einwilligungsmanagements dokumentiert (siehe Anwendungsfall IV-a_3-AF_2-2)</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>2/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">vor dem Erheben der Daten bzw. wird im Rahmen des Einwilligungsmanagements schriftlich begründet (siehe Anwendungsfall IV-a_3-AF_2-a-1)</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2a_daten_begriffsdefinition</key>
-		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
-		<order>0</order>
-		<provider_key/>
-		<conditions/>
-	</optionset>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/1">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>1</key>
-		<path>2a_daten_begriffsdefinition/1</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
-		<order>0</order>
-		<text lang="en"/>
-		<text lang="de">Daten zum Forschungsvorhaben (Forschungsdaten)</text>
-		<text lang="fr">Procédure de calibrage</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
-	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/2">
-		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
-		<key>2</key>
-		<path>2a_daten_begriffsdefinition/2</path>
-		<dc:comment/>
-		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
-		<order>1</order>
-		<text lang="en"/>
-		<text lang="de">weiteren personenbezogenen Daten zur Datengenese (Kontaktdaten)</text>
-		<text lang="fr">Mesures répétées</text>
-		<text lang="it"/>
-		<additional_input>False</additional_input>
-	</option>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2022-08-11T13:10:39.033571+02:00">
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_dauer_datenspeicherung">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
 		<key>2a_dauer_datenspeicherung</key>
@@ -4681,6 +4613,74 @@
 		<text lang="fr">Les ressources d'infrastructure suivantes sont nécessaires</text>
 		<text lang="it"/>
 		<additional_input>True</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>2/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">schriftlich bzw. wird im Rahmen des Einwilligungsmanagements dokumentiert (siehe Anwendungsfall IV-a_3-AF_2-2)</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>2/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">vor dem Erheben der Daten bzw. wird im Rahmen des Einwilligungsmanagements schriftlich begründet (siehe Anwendungsfall IV-a_3-AF_2-a-1)</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2a_daten_begriffsdefinition</key>
+		<dc:comment>Übersicht über Methoden zur Kontrolle und Dokumentation der Konsistenz und Qualität von erhobenen Daten</dc:comment>
+		<order>0</order>
+		<provider_key/>
+		<conditions/>
+	</optionset>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/1">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>1</key>
+		<path>2a_daten_begriffsdefinition/1</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
+		<order>0</order>
+		<text lang="en"/>
+		<text lang="de">Daten zum Forschungsvorhaben (Forschungsdaten)</text>
+		<text lang="fr">Procédure de calibrage</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
+	</option>
+	<option dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition/2">
+		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
+		<key>2</key>
+		<path>2a_daten_begriffsdefinition/2</path>
+		<dc:comment/>
+		<optionset dc:uri="https://ddp-bildung.org/terms/options/2a_daten_begriffsdefinition"/>
+		<order>1</order>
+		<text lang="en"/>
+		<text lang="de">weiteren personenbezogenen Daten zur Datengenese (Kontaktdaten)</text>
+		<text lang="fr">Mesures répétées</text>
+		<text lang="it"/>
+		<additional_input>False</additional_input>
 	</option>
 	<optionset dc:uri="https://ddp-bildung.org/terms/options/institution">
 		<uri_prefix>https://ddp-bildung.org/terms</uri_prefix>
