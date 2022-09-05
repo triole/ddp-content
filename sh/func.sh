@@ -2,9 +2,7 @@
 scriptdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 basedir=$(echo "${scriptdir}" | grep -Po ".*(?=/)")
 conf="${basedir}/conf/conf.toml"
-conf_api_tokens="${basedir}/conf/api_tokens.toml"
-
-arg="$(hostname | sed 's/\./_/g')"
+conf_api_tokens="${basedir}/conf/api.toml"
 
 # ts=$(date +%Y%m%d_%H%M%S)
 xml_dir="${basedir}/xml"
@@ -23,7 +21,7 @@ function gk() {
 }
 
 function get_api_token() {
-    echo "Authorization:Token $(stoml "${conf_api_tokens}" "${arg}")"
+    echo "Authorization:Token $(stoml "${conf_api_tokens}" "token")"
 
 }
 
@@ -45,10 +43,10 @@ function shortname_from_url() {
     echo "${shortname}"
 }
 
-conf_host=$(gk "${arg}.host")
+conf_host=$(gk "host")
 conf_auth=$(get_api_token)
-conf_docker_name=$(gk "${arg}.docker_name")
-conf_manage_py=$(gk "${arg}.manage_py")
+conf_docker_name=$(gk "docker_name")
+conf_manage_py=$(gk "manage_py")
 
 if [[ -z "${conf_host}" ]]; then
     echo -e "\nCheck your conf arg. Key not found."
