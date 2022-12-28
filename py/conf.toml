@@ -1,0 +1,4 @@
+prefix = """
+{% load view_tags %}
+{% get_set 'm1' as m1 %}
+"""
