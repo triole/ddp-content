@@ -1,3 +1,17 @@
+[views]
+[views.is_empty]
+key = "unbeantwortet"
+title_de = "nicht_beantwortete_fragen"
+help_de = "zeigt alle Fragen an, die noch ohne Antwort sind"
+condition = "is_empty"
+
+[views.not_empty]
+key = "beantwortet"
+title_de = "beantwortete_fragen"
+help_de = "zeigt alle Fragen an, die bisher eantwortet worden sind"
+condition = "is_not_empty"
+
+[template]
 prefix = """
 {% load view_tags %}
 {% get_set 'm1' as m1 %}
