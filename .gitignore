@@ -1,3 +1,5 @@
 .pytest_cache/
 tmp/
+
 conf/api_tokens.toml
+xml/data/views.xml
