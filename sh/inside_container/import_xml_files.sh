@@ -5,6 +5,7 @@ basedir=$(echo "${scriptdir}" | grep -Po ".*(?=/sh)")
 appdir="/vol/rdmo-app/"
 datadir="${basedir}/xml"
 
+views_only="false"
 pargs=()
 for val in "$@"; do
     if [[ "${val}" =~ ^xml:.*$ ]]; then
@@ -12,6 +13,9 @@ for val in "$@"; do
     fi
     if [[ "${val}" =~ ^app:.*$ ]]; then
         appdir="$(echo "${val}" | grep -Po "(?<=app:).*")"
+    fi
+    if [[ "${val}" == "--views_only" ]]; then
+        views_only="true"
     fi
 done
 
@@ -36,10 +40,14 @@ function imp() {
 nodir "${appdir}"
 nodir "${datadir}"
 
-imp attributes
-imp optionsets
-imp conditions
-imp tasks
-imp catalogs
-imp views
-imp conditions
+if [[ "${views_only}" == "true" ]]; then
+    imp views
+else
+    imp attributes
+    imp optionsets
+    imp conditions
+    imp tasks
+    imp catalogs
+    imp views
+    imp conditions
+fi

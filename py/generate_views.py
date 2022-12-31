@@ -14,8 +14,7 @@ class ViewGenerator:
     def __init__(self):
         self.conf_toml = pj(dn(__file__), "conf.toml")
         self.domain_xml = pj(dn(__file__), "../xml/data/catalogs.xml")
-        self.output_dir = pj(dn(__file__), "../tmp")
-        self.outfile = pj(self.output_dir, "views.xml")
+        self.outfile = pj(dn(__file__), "../xml/data/views.xml")
         self.conf = self.read_conf_toml()
         self.xml = self.read_xml_file()
         self.generator = self.make_generator()

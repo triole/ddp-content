@@ -1,37 +1,50 @@
+---
 version: '3'
 
 vars:
-    CURDIR:
-        sh: pwd
+  CURDIR:
+    sh: pwd
 
 tasks:
-    default:
-        desc: default is to add the api token
-        cmds:
-            - task: token
+  default:
+    desc: default is to add the api token
+    cmds:
+      - task: token
 
-    token:
-        desc: add the api token to rdmo
-        cmds:
-            - cmd: docker exec -it rdmo /home/rdmo/sh/pg_add-api-key.sh
-              ignore_error: true
+  token:
+    desc: add the api token to rdmo
+    cmds:
+      - cmd: docker exec -it rdmo /home/rdmo/sh/pg_add-api-key.sh
+        ignore_error: true
 
-    push:
-        desc: push latest data into rdmo
-        cmds:
-            - cmd: sh/push.sh
+  push:
+    desc: push latest data into rdmo
+    cmds:
+      - task: genviews
+      - cmd: sh/push.sh
 
-    pull:
-        desc: pull data from rdmo and save to json and xml
-        cmds:
-            - cmd: sh/pull.sh
-            - task: dump
+  pull:
+    desc: pull data from rdmo and save to json and xml
+    cmds:
+      - cmd: sh/pull.sh
+      - task: dump
 
-    dump:
-        cmds:
-            - cmd: sh/dump.sh
+  dump:
+    cmds:
+      - cmd: sh/dump.sh
 
-    sync:
-        desc: sync to ddp rdmo vm
-        cmds:
-            - cmd: rsync -av --delete {{.CURDIR}}/ rdmoddp.vm:/srv/ddp/
+  genviews:
+    desc: generate views.xml
+    cmds:
+      - cmd: python3 py/generate_views.py
+
+  pushviews:
+    desc: generate and push only views into rdmo
+    cmds:
+      - task: genviews
+      - cmd: sh/push.sh --views_only
+
+  sync:
+    desc: sync to ddp rdmo vm
+    cmds:
+      - cmd: rsync -av --delete {{.CURDIR}}/ rdmoddp.vm:/srv/ddp/

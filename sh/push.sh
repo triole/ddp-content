@@ -3,6 +3,8 @@
 scriptdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 . "${scriptdir}/func.sh"
 
+arg="${1}"
+
 basedir=$(echo "${scriptdir}" | grep -Po ".*(?=/)")
 
 docker cp "${basedir}" ${conf_docker_name}:/tmp/
@@ -11,4 +13,4 @@ docker cp "${basedir}" ${conf_docker_name}:/tmp/
 docker exec ${conf_docker_name} \
     /tmp/ddp-content/sh/inside_container/import_xml_files.sh \
     "xml:/tmp/ddp-content/xml/data" \
-    "app:/home/rdmo/rdmo-app"
+    "app:/home/rdmo/rdmo-app" "${1}"
