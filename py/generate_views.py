@@ -100,11 +100,6 @@ class ViewGenerator:
             return True
         return False
 
-    def write_array_to_file(self, data, filename, mode="w"):
-        with open(filename, mode) as fp:
-            for line in data:
-                fp.write(line + "\n")
-
     def fetch_all_output_strings(self, generator):
         arr = []
         for el in generator:
