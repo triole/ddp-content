@@ -19,29 +19,6 @@ class ViewGenerator:
         self.lang_list = ["en", "de", "fr", "it"]
         self.view_uri_prefix = "https://ddp-bildung.org/views"
 
-    def find_ddp_uri(self, s, gr=0):
-        return rxfind("https://ddp-bildung.org.*?(?=')", s, gr)
-
-    def fetch_output_string(self, render_obj, condition=None):
-        constart = ""
-        conend = ""
-        if condition is not None:
-            constart = "{%if val.value == '" + condition + "'%}"
-            conend = "{%endif%}"
-        s = (
-            " {% get_value '"
-            + render_obj["handle"]
-            + "' as val%}"
-            + constart
-            + "<br>"
-            + render_obj["question_text"]
-            + "<br>"
-            + "{{val.value}}"
-            + "<br>"
-            + conend
-        )
-        return s
-
     def make_generator(self):
         gen = []
         for question in self.xml.iterfind("question"):
@@ -72,12 +49,30 @@ class ViewGenerator:
         obj["output"] = self.fetch_output_string(obj, "berücksichtigt")
         return obj
 
-    def fetch_all_output_strings(self, generator):
-        arr = []
-        for el in generator:
-            arr.append(el["output"])
-        return arr
+    def fetch_output_string(self, render_obj, condition=None):
+        constart = ""
+        conend = ""
+        if condition is not None:
+            constart = "{%if val.value == '" + condition + "'%}"
+            conend = "{%endif%}"
+        s = (
+            " {% get_value '"
+            + render_obj["handle"]
+            + "' as val%}"
+            + constart
+            + "<br>"
+            + render_obj["question_text"]
+            + "<br>"
+            + "{{val.value}}"
+            + "<br>"
+            + conend
+        )
+        return s
 
+    def find_ddp_uri(self, s, gr=0):
+        return rxfind("https://ddp-bildung.org.*?(?=')", s, gr)
+
+    # xml output related
     def make_rdmo_xml_root(self):
         root = ett.Element("rdmo")
         root.set("xmlns:dc", "http://purl.org/dc/elements/1.1/")
@@ -113,6 +108,13 @@ class ViewGenerator:
         xml.append(t)
         return xml
 
+    def fetch_all_output_strings(self, generator):
+        arr = []
+        for el in generator:
+            arr.append(el["output"])
+        return arr
+
+    # main public func generator
     def generate(self):
         outstrings = self.fetch_all_output_strings(self.generator)
         root = self.make_rdmo_xml_root()
