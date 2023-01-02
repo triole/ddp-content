@@ -13,8 +13,9 @@ import toml
 class ViewGenerator:
     def __init__(self):
         self.conf_toml = pj(dn(__file__), "conf.toml")
-        self.domain_xml = pj(dn(__file__), "../xml/data/catalogs.xml")
-        self.outfile = pj(dn(__file__), "../xml/data/views.xml")
+        self.xml_folder = pj(dn(__file__), "../xml/data")
+        self.catalogs_xml = pj(self.xml_folder, "catalogs.xml")
+        self.outfile = pj(self.xml_folder, "views.xml")
         self.conf = self.read_conf_toml()
         self.xml = self.read_xml_file()
         self.generator = self.make_generator()
@@ -35,8 +36,10 @@ class ViewGenerator:
             + render_obj["handle"]
             + "' as val%}"
             + constart
-            + "Frage "
-            + render_obj["handle"]
+            + "<br><b>"
+            + render_obj["question_text"]
+            + "</b>"
+            + "<br>"
             + "{{val.value}}"
             + "<br>"
             + conend
@@ -60,18 +63,20 @@ class ViewGenerator:
                 option = self.find_ddp_uri(op.items())
 
             is_collection = self.to_bool(question.find("is_collection").text)
-            ro = self.new_render_obj(uri, option, is_collection)
+            question_text = question.find(".//text[@lang='de']").text
+            ro = self.new_render_obj(uri, option, is_collection, question_text)
             gen.append(ro)
             gen = sorted(gen, key=lambda el: el["handle"])
         return gen
 
-    def new_render_obj(self, uri, option, is_collection):
+    def new_render_obj(self, uri, option, is_collection, question_text):
         obj = {
             "uri": uri,
             "option": self.rxfind("terms/options/(.*)", option, 1),
             "is_collection": is_collection,
             "handle": self.rxfind("terms/domain/(.*)", uri, 1),
             "module": self.rxfind("terms/domain/(.*?)(?=/)", uri, 1),
+            "question_text": question_text,
         }
         obj["output"] = self.fetch_output_string(obj, "berücksichtigt")
         return obj
@@ -84,7 +89,7 @@ class ViewGenerator:
 
     def read_xml_file(self):
         try:
-            return et.parse(self.domain_xml).getroot()
+            return et.parse(self.catalogs_xml).getroot()
         except Exception as e:
             print("Xml parsing error: " + str(e))
 
