@@ -1,14 +1,10 @@
 #!/usr/bin/python3
-import datetime
-import re
 import xml.etree.ElementTree as ett
 from os.path import dirname as dn
 from os.path import join as pj
 
-import defusedxml.ElementTree as et
 import markdown
-import pytz
-import toml
+from util import now, read_toml_file, read_xml_file, rxfind, to_bool
 
 
 class ViewGenerator:
@@ -17,14 +13,14 @@ class ViewGenerator:
         self.xml_folder = pj(dn(__file__), "../xml/data")
         self.catalogs_xml = pj(self.xml_folder, "catalogs.xml")
         self.outfile = pj(self.xml_folder, "views.xml")
-        self.conf = self.read_conf_toml()
-        self.xml = self.read_xml_file()
+        self.conf = read_toml_file(self.conf_toml)
+        self.xml = read_xml_file(self.catalogs_xml)
         self.generator = self.make_generator()
         self.lang_list = ["en", "de", "fr", "it"]
         self.view_uri_prefix = "https://ddp-bildung.org/views"
 
     def find_ddp_uri(self, s, gr=0):
-        return self.rxfind("https://ddp-bildung.org.*?(?=')", s, gr)
+        return rxfind("https://ddp-bildung.org.*?(?=')", s, gr)
 
     def fetch_output_string(self, render_obj, condition=None):
         constart = ""
@@ -46,12 +42,6 @@ class ViewGenerator:
         )
         return s
 
-    def now(self):
-        now = datetime.datetime.now()
-        timezone = pytz.timezone("Europe/Berlin")
-        local_now = timezone.localize(now)
-        return local_now.strftime("%Y-%m-%dT%H:%M:%S.%f%z")
-
     def make_generator(self):
         gen = []
         for question in self.xml.iterfind("question"):
@@ -62,7 +52,7 @@ class ViewGenerator:
             if op is not None:
                 option = self.find_ddp_uri(op.items())
 
-            is_collection = self.to_bool(question.find("is_collection").text)
+            is_collection = to_bool(question.find("is_collection").text)
             question_text = markdown.markdown(question.find(".//text[@lang='de']").text)
             ro = self.new_render_obj(uri, option, is_collection, question_text)
             gen.append(ro)
@@ -72,38 +62,15 @@ class ViewGenerator:
     def new_render_obj(self, uri, option, is_collection, question_text):
         obj = {
             "uri": uri,
-            "option": self.rxfind("terms/options/(.*)", option, 1),
+            "option": rxfind("terms/options/(.*)", option, 1),
             "is_collection": is_collection,
-            "handle": self.rxfind("terms/domain/(.*)", uri, 1),
-            "module": self.rxfind("terms/domain/(.*?)(?=/)", uri, 1),
+            "handle": rxfind("terms/domain/(.*)", uri, 1),
+            "module": rxfind("terms/domain/(.*?)(?=/)", uri, 1),
             "question_text": question_text,
         }
+        print(obj)
         obj["output"] = self.fetch_output_string(obj, "berücksichtigt")
         return obj
-
-    def read_conf_toml(self):
-        with open(self.conf_toml) as filedata:
-            data = filedata.read()
-            d = toml.loads(data)
-            return d
-
-    def read_xml_file(self):
-        try:
-            return et.parse(self.catalogs_xml).getroot()
-        except Exception as e:
-            print("Xml parsing error: " + str(e))
-
-    def rxfind(self, rx, s, gr=0):
-        match = re.search(rx, str(s))
-        if bool(match) is True:
-            return match.group(gr)
-        else:
-            return None
-
-    def to_bool(self, s):
-        if str(s).lower() == "true":
-            return True
-        return False
 
     def fetch_all_output_strings(self, generator):
         arr = []
@@ -114,7 +81,7 @@ class ViewGenerator:
     def make_rdmo_xml_root(self):
         root = ett.Element("rdmo")
         root.set("xmlns:dc", "http://purl.org/dc/elements/1.1/")
-        root.set("created", self.now())
+        root.set("created", now())
         return root
 
     def make_view_xml(self, view, outstrings):
