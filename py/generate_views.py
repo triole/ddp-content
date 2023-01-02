@@ -6,6 +6,7 @@ from os.path import dirname as dn
 from os.path import join as pj
 
 import defusedxml.ElementTree as et
+import markdown
 import pytz
 import toml
 
@@ -36,9 +37,8 @@ class ViewGenerator:
             + render_obj["handle"]
             + "' as val%}"
             + constart
-            + "<br><b>"
+            + "<br>"
             + render_obj["question_text"]
-            + "</b>"
             + "<br>"
             + "{{val.value}}"
             + "<br>"
@@ -63,7 +63,7 @@ class ViewGenerator:
                 option = self.find_ddp_uri(op.items())
 
             is_collection = self.to_bool(question.find("is_collection").text)
-            question_text = question.find(".//text[@lang='de']").text
+            question_text = markdown.markdown(question.find(".//text[@lang='de']").text)
             ro = self.new_render_obj(uri, option, is_collection, question_text)
             gen.append(ro)
             gen = sorted(gen, key=lambda el: el["handle"])
