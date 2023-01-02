@@ -19,6 +19,7 @@ class ViewGenerator:
         self.lang_list = ["en", "de", "fr", "it"]
         self.view_uri_prefix = "https://ddp-bildung.org/views"
 
+    # preparation, generator creation
     def make_generator(self):
         gen = []
         for question in self.xml.iterfind("question"):
@@ -31,12 +32,12 @@ class ViewGenerator:
 
             is_collection = to_bool(question.find("is_collection").text)
             question_text = markdown.markdown(question.find(".//text[@lang='de']").text)
-            ro = self.new_render_obj(uri, option, is_collection, question_text)
+            ro = self.new_generator_entry(uri, option, is_collection, question_text)
             gen.append(ro)
             gen = sorted(gen, key=lambda el: el["handle"])
         return gen
 
-    def new_render_obj(self, uri, option, is_collection, question_text):
+    def new_generator_entry(self, uri, option, is_collection, question_text):
         obj = {
             "uri": uri,
             "option": rxfind("terms/options/(.*)", option, 1),
@@ -45,30 +46,32 @@ class ViewGenerator:
             "module": rxfind("terms/domain/(.*?)(?=/)", uri, 1),
             "question_text": question_text,
         }
-        print(obj)
-        obj["output"] = self.fetch_output_string(obj, "berücksichtigt")
+        # obj["output"] = self.fetch_output_string(obj, "berücksichtigt")
         return obj
 
-    def fetch_output_string(self, render_obj, condition=None):
-        constart = ""
-        conend = ""
-        if condition is not None:
-            constart = "{%if val.value == '" + condition + "'%}"
-            conend = "{%endif%}"
+    # create output string
+    def getval(self, dict, key):
+        try:
+            return dict[key]
+        except KeyError:
+            return ""
+
+    def make_output_string(self, view, generator_entry):
         s = (
             " {% get_value '"
-            + render_obj["handle"]
+            + generator_entry["handle"]
             + "' as val%}"
-            + constart
+            + self.getval(view, "condition_start")
             + "<br>"
-            + render_obj["question_text"]
+            + generator_entry["question_text"]
             + "<br>"
             + "{{val.value}}"
             + "<br>"
-            + conend
+            + self.getval(view, "condition_end")
         )
         return s
 
+    # ddp specific utils
     def find_ddp_uri(self, s, gr=0):
         return rxfind("https://ddp-bildung.org.*?(?=')", s, gr)
 
@@ -108,23 +111,23 @@ class ViewGenerator:
         xml.append(t)
         return xml
 
-    def fetch_all_output_strings(self, generator):
-        arr = []
-        for el in generator:
-            arr.append(el["output"])
-        return arr
-
-    # main public func generator
-    def generate(self):
-        outstrings = self.fetch_all_output_strings(self.generator)
-        root = self.make_rdmo_xml_root()
-        for vt in self.conf["views"]:
-            root.append(self.make_view_xml(self.conf["views"][vt], outstrings))
-
+    def save_view_xml(self, root):
         tree = ett.ElementTree(root)
         with open(self.outfile, "wb") as files:
             tree.write(self.outfile)
 
+    # main public func generator
+    def generate(self):
+        root = self.make_rdmo_xml_root()
+        for vt in self.conf["views"]:
+            outstrings = []
+            view = self.conf["views"][vt]
+            for generator_entry in self.generator:
+                outstrings.append(self.make_output_string(view, generator_entry))
+            root.append(self.make_view_xml(view, outstrings))
+        self.save_view_xml(root)
 
-vg = ViewGenerator()
-vg.generate()
+
+if __name__ == "__main__":
+    vg = ViewGenerator()
+    vg.generate()
