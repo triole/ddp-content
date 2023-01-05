@@ -120,10 +120,11 @@ class ViewGenerator:
     def generate(self):
         root = self.make_rdmo_xml_root()
         for vt in self.conf["views"]:
-            outstrings = []
             view = self.conf["views"][vt]
+            outstrings = [markdown.markdown(self.conf["views"][vt]["header"])]
             for generator_entry in self.generator:
-                outstrings.append(self.make_output_string(view, generator_entry))
+                if not generator_entry["handle"].startswith("basismodul"):
+                    outstrings.append(self.make_output_string(view, generator_entry))
             root.append(self.make_view_xml(view, outstrings))
         self.save_view_xml(root)
 
