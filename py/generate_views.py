@@ -62,13 +62,11 @@ class ViewGenerator:
             + generator_entry["handle"]
             + "' as val%}"
             + self.getval(view, "condition_start")
-            + "<br>"
             + generator_entry["question_text"]
-            + "<br>"
-            + "{{val.value}}"
-            + "<br>"
-            + self.getval(view, "condition_end")
         )
+        if self.getval(view, "display_answer") is True:
+            s += "{{val.value}}<br><br>"
+        s += self.getval(view, "condition_end")
         return s
 
     # ddp specific utils

@@ -6,6 +6,7 @@ title_de = "nicht_beantwortete_fragen"
 help_de = "zeigt alle Fragen an, die noch ohne Antwort sind"
 condition_start = "{% if val is None %}"
 condition_end = "{% endif %}"
+display_answer = false
 
 [views.not_empty]
 key = "beantwortet"
@@ -14,6 +15,7 @@ title_de = "beantwortete_fragen"
 help_de = "zeigt alle Fragen an, die bisher eantwortet worden sind"
 condition_start = "{% if val is not None %}"
 condition_end = "{% endif %}"
+display_answer = true
 
 [template]
 prefix = """
