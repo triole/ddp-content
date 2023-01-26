@@ -12,10 +12,28 @@ display_answer = false
 key = "beantwortet"
 header = "# Beantwortete Fragen"
 title_de = "beantwortete_fragen"
-help_de = "zeigt alle Fragen an, die bisher eantwortet worden sind"
+help_de = "zeigt alle Fragen an, die bisher beantwortet worden sind"
 condition_start = "{% if val is not None %}"
 condition_end = "{% endif %}"
 display_answer = true
+
+[views.beruecksichtigtes]
+key = "beruecksichtigtes"
+header = "# Berücksichtigtes"
+title_de = "beruecksichtigtes"
+help_de = "zeigt alle Fragen an, die mit 'beruecksichtigt' beantwortet worden sind"
+condition_start = "{% if val.value == 'berücksichtigt' %}"
+condition_end = "{% endif %}"
+display_answer = false
+
+[views.trifft_nicht_zu]
+key = "trifft_nicht_zu"
+header = "# Nicht Zutreffendes"
+title_de = "nicht_zutreffendes"
+help_de = "zeigt alle Fragen an, die mit 'trifft nicht zu' beantwortet worden sind"
+condition_start = "{% if val.value == 'trifft nicht zu' %}"
+condition_end = "{% endif %}"
+display_answer = false
 
 [template]
 prefix = """
