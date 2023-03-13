@@ -41,7 +41,7 @@ nodir "${appdir}"
 nodir "${datadir}"
 
 if [[ "${views_only}" == "true" ]]; then
-    /tmp/ddp-content/sh/inside_container/drop_views.sh
+    "${scriptdir}/drop_views.sh"
     imp views
 else
     imp attributes
@@ -49,7 +49,7 @@ else
     imp conditions
     imp tasks
     imp catalogs
-    /tmp/ddp-content/sh/inside_container/drop_views.sh
+    "${scriptdir}/drop_views.sh"
     imp views
     imp conditions
 fi
